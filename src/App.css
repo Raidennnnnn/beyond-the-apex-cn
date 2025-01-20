@@ -1,15 +1,47 @@
 .manual_detail {
   @apply p-6 bg-gray-100 rounded-lg shadow-md;
-}
 
-.content_header {
-  @apply mb-4 border-b-2 border-gray-300 pb-2;
-}
+  .content_header {
+    @apply mb-4 border-b-2 border-gray-300 pb-2 p-4;
+    
+    h1 {
+      @apply text-3xl pb-1;
+    }
 
-.body {
-  @apply text-gray-700 leading-relaxed;
-}
+    h2 {
+      @apply text-sm text-gray-500;
+    }
+  }
 
-.caption {
-  @apply text-gray-500 text-sm mt-2;
+  .body {
+    @apply text-gray-700 leading-relaxed p-4;
+
+    .section-header {
+      @apply text-xl font-bold my-4;
+    }
+    
+    .image {
+      @apply w-3/4 h-auto pt-4;
+    }
+    
+    .caption {
+      @apply text-gray-500 text-sm italic mt-2 mb-4;
+    }
+    
+    .images {
+      @apply grid grid-cols-2 gap-4 py-8;
+    
+      .image_list {
+        @apply flex flex-col;
+    
+        dd img {
+          @apply w-full h-auto;
+        }
+    
+        .caption {
+          @apply text-gray-500 text-sm italic mt-2;
+        }
+      }
+    }
+  }
 }

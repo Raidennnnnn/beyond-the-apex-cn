@@ -1,10 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from "react-router";
-
 import './index.css'
 import App from './App.tsx'
-import { filePaths } from './beyond the apex/filePaths';
+import { filePaths } from './components/filePaths.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -17,7 +16,7 @@ createRoot(document.getElementById('root')!).render(
             ))
           ))}
         </Route>
-        </Routes>
-      </BrowserRouter>
-    </StrictMode>,
+      </Routes>
+    </BrowserRouter>
+  </StrictMode>,
 )

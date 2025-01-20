@@ -1,4 +1,4 @@
-import { filePaths } from "@/beyond the apex/filePaths";
+import { filePaths } from "@/components/filePaths";
 import { Sidebar, SidebarMenu } from "./ui/sidebar";
 import { SidebarContent } from "./ui/sidebar";
 import CollapsibleSidebarMenuItem from "./collapsibleSidebarMenuItem";
