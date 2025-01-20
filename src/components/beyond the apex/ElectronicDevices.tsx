@@ -1,7 +1,6 @@
 import i1R8LQdfEbuQ9cc from "../../assets/images/i1R8LQdfEbuQ9cc.jpg";
 import i1kt3ujAKaphQ7c from "../../assets/images/i1kt3ujAKaphQ7c.jpg";
 import i18TDnTgSreRp from "../../assets/images/i18TDnTgSreRp.jpg";
-
 const ElectronicDevices = () => (
   <>
     <div className="manual_detail">
@@ -35,9 +34,6 @@ const ElectronicDevices = () => (
         <p className="caption">扭矩矢量控制</p>
       </div>
     </div>
-
   </>
 );
-
 export default ElectronicDevices;
-  

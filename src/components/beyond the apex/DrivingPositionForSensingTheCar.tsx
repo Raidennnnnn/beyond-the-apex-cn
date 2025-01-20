@@ -1,6 +1,5 @@
 import i1L2dQmzAoPTEuB from "../../assets/images/i1L2dQmzAoPTEuB.jpg";
 import i156favH6aQGPO from "../../assets/images/i156favH6aQGPO.jpg";
-
 const DrivingPositionForSensingTheCar = () => (
   <>
     <div className="manual_detail">
@@ -28,9 +27,6 @@ const DrivingPositionForSensingTheCar = () => (
 驾驶信息在赛道上的运动驾驶中至关重要。每天都要注意正确的驾驶姿势，你将与汽车建立更密切的关系。</p>
       </div>
     </div>
-
   </>
 );
-
 export default DrivingPositionForSensingTheCar;
-  

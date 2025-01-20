@@ -2,7 +2,6 @@ import i124lVMo6naH3RB from "../../assets/images/i124lVMo6naH3RB.jpg";
 import i1KTi6BRz29QHO from "../../assets/images/i1KTi6BRz29QHO.jpg";
 import i1HAkzH24Kv6LcE from "../../assets/images/i1HAkzH24Kv6LcE.jpg";
 import i19gJiA9DJDahz from "../../assets/images/i19gJiA9DJDahz.jpg";
-
 const UsingDriverAssistanceCarControl = () => (
   <>
     <div className="manual_detail">
@@ -53,9 +52,6 @@ Gran Turismo 7中的所有车辆都配备了ABS，并提供三种不同的设置
 感觉更有信心了吗？希望你喜欢我为Gran Turismo初学者提供的建议。请记住，即使是世界上最好的玩家也曾像你们一样是初学者。因此，我期待有一天在FIA Gran Turismo锦标赛上见到你们。祝你们比赛愉快！</p>
       </div>
     </div>
-
   </>
 );
-
 export default UsingDriverAssistanceCarControl;
-  

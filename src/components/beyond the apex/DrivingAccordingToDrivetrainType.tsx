@@ -3,7 +3,6 @@ import i1awHe3DEOJAU from "../../assets/images/i1awHe3DEOJAU.jpg";
 import i1Jy7aV5EvxEmTH from "../../assets/images/i1Jy7aV5EvxEmTH.jpg";
 import i17tqULPpxdvEC from "../../assets/images/i17tqULPpxdvEC.jpg";
 import i1vPhi7qlf1qLEE from "../../assets/images/i1vPhi7qlf1qLEE.jpg";
-
 const DrivingAccordingToDrivetrainType = () => (
   <>
     <div className="manual_detail">
@@ -42,9 +41,6 @@ FR车辆具有一种最佳特性，即刹车时在前部产生负载，有助于
         <p className="caption">MR</p>
       </div>
     </div>
-
   </>
 );
-
 export default DrivingAccordingToDrivetrainType;
-  

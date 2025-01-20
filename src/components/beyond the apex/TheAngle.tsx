@@ -2,7 +2,6 @@ import i1az50JcXKMCPb from "../../assets/images/i1az50JcXKMCPb.jpg";
 import i1d4EE6OSwVCL from "../../assets/images/i1d4EE6OSwVCL.jpg";
 import i1U17PpZE5dWXEc from "../../assets/images/i1U17PpZE5dWXEc.jpg";
 import i1A2Ex63JsYR17E from "../../assets/images/i1A2Ex63JsYR17E.jpg";
-
 const TheAngle = () => (
   <>
     <div className="manual_detail">
@@ -44,9 +43,6 @@ const TheAngle = () => (
 培养对从不同角度拍摄的照片之间差异的欣赏能力对于任何有抱负的汽车摄影师来说都是至关重要的。</p>
       </div>
     </div>
-
   </>
 );
-
 export default TheAngle;
-  

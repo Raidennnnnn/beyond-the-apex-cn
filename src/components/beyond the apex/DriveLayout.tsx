@@ -3,7 +3,6 @@ import i1aRKJpQcURaREc from "../../assets/images/i1aRKJpQcURaREc.jpg";
 import i1k3XohI2zCu98c from "../../assets/images/i1k3XohI2zCu98c.jpg";
 import i1ejE4DbPVakLb from "../../assets/images/i1ejE4DbPVakLb.jpg";
 import i1AXOmA0LLnJWSB from "../../assets/images/i1AXOmA0LLnJWSB.jpg";
-
 const DriveLayout = () => (
   <>
     <div className="manual_detail">
@@ -44,9 +43,6 @@ const DriveLayout = () => (
         <p className="caption">4WD（四轮驱动）</p>
       </div>
     </div>
-
   </>
 );
-
 export default DriveLayout;
-  

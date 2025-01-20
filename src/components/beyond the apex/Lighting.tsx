@@ -1,7 +1,6 @@
 import i1e3Vio0DWaxo7c from "../../assets/images/i1e3Vio0DWaxo7c.jpg";
 import i1biBFFggzw3rz from "../../assets/images/i1biBFFggzw3rz.jpg";
 import i1l99mgaFi9xaEc from "../../assets/images/i1l99mgaFi9xaEc.jpg";
-
 const Lighting = () => (
   <>
     <div className="manual_detail">
@@ -40,9 +39,6 @@ const Lighting = () => (
 另一个重要元素是汽车的车身颜色。请注意，对于红色汽车，阴影区域通常看起来很模糊。对于白色汽车，尤其是在炎热的夏日阳光下，很难创造阴影。另一方面，对于黑色汽车，车身直接照射的部分可能看起来很模糊，因此最好将整个汽车放在阴影中，并利用背景的反射来照亮它。我发现，整体上（就拍摄出好照片的难易程度而言）表现最好的车身颜色是银色，因为它在各种光线强度下表现良好。</p>
       </div>
     </div>
-
   </>
 );
-
 export default Lighting;
-  

@@ -3,7 +3,6 @@ import i1detNdwAaynPO from "../../assets/images/i1detNdwAaynPO.jpg";
 import i1DKklMV8hSExSH from "../../assets/images/i1DKklMV8hSExSH.jpg";
 import i1JIWOQmU7Hn3b from "../../assets/images/i1JIWOQmU7Hn3b.jpg";
 import i1lrr0lvKNOcX8E from "../../assets/images/i1lrr0lvKNOcX8E.jpg";
-
 const Overtaking = () => (
   <>
     <div className="manual_detail">
@@ -46,9 +45,6 @@ const Overtaking = () => (
         </div>
       </div>
     </div>
-
   </>
 );
-
 export default Overtaking;
-  

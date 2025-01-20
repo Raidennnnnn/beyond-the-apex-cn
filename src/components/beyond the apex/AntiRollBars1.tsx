@@ -1,7 +1,6 @@
 import i1G9ydwtdNrlqcE from "../../assets/images/i1G9ydwtdNrlqcE.jpg";
 import i1ULIP9pKpM3az from "../../assets/images/i1ULIP9pKpM3az.jpg";
 import i1mnNo0ACc1SrEE from "../../assets/images/i1mnNo0ACc1SrEE.jpg";
-
 const AntiRollBars1 = () => (
   <>
     <div className="manual_detail">
@@ -31,9 +30,6 @@ const AntiRollBars1 = () => (
         <p className="caption">图3-3 德国悬挂制造商KW的七柱试验台下方。可以在此设施进行多种振动分析</p>
       </div>
     </div>
-
   </>
 );
-
 export default AntiRollBars1;
-  

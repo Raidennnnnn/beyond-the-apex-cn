@@ -3,7 +3,6 @@ import i1aMIrPadfuVBz from "../../assets/images/i1aMIrPadfuVBz.jpg";
 import i14ERV7gddh7Z7c from "../../assets/images/i14ERV7gddh7Z7c.jpg";
 import i1BkFdKCXBaUY from "../../assets/images/i1BkFdKCXBaUY.jpg";
 import i1ZuMiM1fNWWBTB from "../../assets/images/i1ZuMiM1fNWWBTB.jpg";
-
 const LaunchingAndShifting = () => (
   <>
     <div className="manual_detail">
@@ -47,9 +46,6 @@ const LaunchingAndShifting = () => (
         </div>
       </div>
     </div>
-
   </>
 );
-
 export default LaunchingAndShifting;
-  

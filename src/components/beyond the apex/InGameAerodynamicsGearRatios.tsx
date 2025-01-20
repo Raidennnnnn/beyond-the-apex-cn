@@ -1,6 +1,5 @@
 import i1oBkgbJyeT85cc from "../../assets/images/i1oBkgbJyeT85cc.jpg";
 import i129PGj15wroaz from "../../assets/images/i129PGj15wroaz.jpg";
-
 const IngameaerodynamicsGearRatios = () => (
   <>
     <div className="manual_detail">
@@ -36,9 +35,6 @@ const IngameaerodynamicsGearRatios = () => (
         <p className="image"><img alt="" src={ i129PGj15wroaz }/></p>
       </div>
     </div>
-
   </>
 );
-
 export default IngameaerodynamicsGearRatios;
-  

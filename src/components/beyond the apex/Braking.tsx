@@ -1,7 +1,6 @@
 import i1ZZuZiNHJP9D8E from "../../assets/images/i1ZZuZiNHJP9D8E.jpg";
 import i1yo5qex49Y3O8E from "../../assets/images/i1yo5qex49Y3O8E.jpg";
 import i1cJVz779nKvGuB from "../../assets/images/i1cJVz779nKvGuB.jpg";
-
 const Braking = () => (
   <>
     <div className="manual_detail">
@@ -29,9 +28,6 @@ const Braking = () => (
         <p className="caption">图8-3：在长直道上，找到可以用作刹车点参考的东西（英国布兰兹哈奇）。</p>
       </div>
     </div>
-
   </>
 );
-
 export default Braking;
-  

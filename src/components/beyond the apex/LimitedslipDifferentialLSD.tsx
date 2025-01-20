@@ -1,7 +1,6 @@
 import i12lnDUpoUYD4 from "../../assets/images/i12lnDUpoUYD4.jpg";
 import i1oVGme3FMpRZz from "../../assets/images/i1oVGme3FMpRZz.jpg";
 import i1CiDXe833BJAG from "../../assets/images/i1CiDXe833BJAG.jpg";
-
 const LimitedslipDifferentialLSD = () => (
   <>
     <div className="manual_detail">
@@ -26,9 +25,6 @@ const LimitedslipDifferentialLSD = () => (
 最好从大约50%的锁定比率开始调整，以查看感觉如何。</p>
       </div>
     </div>
-
   </>
 );
-
 export default LimitedslipDifferentialLSD;
-  

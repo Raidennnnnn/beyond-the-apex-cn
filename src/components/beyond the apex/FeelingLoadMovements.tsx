@@ -1,7 +1,6 @@
 import i1xczxxleBaANz from "../../assets/images/i1xczxxleBaANz.jpg";
 import i1vmplQGtoREk7E from "../../assets/images/i1vmplQGtoREk7E.jpg";
 import i1tfF66zlQdMnSB from "../../assets/images/i1tfF66zlQdMnSB.jpg";
-
 const FeelingLoadMovements = () => (
   <>
     <div className="manual_detail">
@@ -28,9 +27,6 @@ const FeelingLoadMovements = () => (
 虽然我们说负载会变化，但除非你驾驶的是产生下压力的赛车，否则四个车轮上的总负载不会增加。请记住，负载控制仅涉及汽车四个车轮之间的总负载的分配和分布。</p>
       </div>
     </div>
-
   </>
 );
-
 export default FeelingLoadMovements;
-  

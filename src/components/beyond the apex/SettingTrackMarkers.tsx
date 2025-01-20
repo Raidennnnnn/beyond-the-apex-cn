@@ -1,5 +1,4 @@
 import i1ymYDHWBkuPD7c from "../../assets/images/i1ymYDHWBkuPD7c.jpg";
-
 const SettingTrackMarkers = () => (
   <>
     <div className="manual_detail">
@@ -25,9 +24,6 @@ const SettingTrackMarkers = () => (
 即使是F1车手也会在比赛日前花时间在赛道上走动。这样做时，他们是在寻找任何可能在竞争中给他们带来优势的视觉标记。</p>
       </div>
     </div>
-
   </>
 );
-
 export default SettingTrackMarkers;
-  

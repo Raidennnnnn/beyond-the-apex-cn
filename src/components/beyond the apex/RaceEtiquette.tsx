@@ -5,7 +5,6 @@ import i1ReDTPIEmv5t from "../../assets/images/i1ReDTPIEmv5t.jpg";
 import i1vaSLwaeWxRaEc from "../../assets/images/i1vaSLwaeWxRaEc.jpg";
 import i1wDhMSOfbux9Ec from "../../assets/images/i1wDhMSOfbux9Ec.jpg";
 import i1B4HuB7aQQ5G7c from "../../assets/images/i1B4HuB7aQQ5G7c.jpg";
-
 const RaceEtiquette = () => (
   <>
     <div className="manual_detail">
@@ -70,9 +69,6 @@ Gran Turismo 7的运动模式允许你在在线比赛中与其他玩家竞争。
         <p className="caption">右侧岗位上挥动着黄旗。你必须立即减速并避免超车。绿旗表示这些限制已解除。</p>
       </div>
     </div>
-
   </>
 );
-
 export default RaceEtiquette;
-  

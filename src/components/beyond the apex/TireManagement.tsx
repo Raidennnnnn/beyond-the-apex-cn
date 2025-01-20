@@ -2,7 +2,6 @@ import i11hX9dkGqe31 from "../../assets/images/i11hX9dkGqe31.jpg";
 import i1rcsfT5RZYo4 from "../../assets/images/i1rcsfT5RZYo4.jpg";
 import i1FlPXfqDGZRAuB from "../../assets/images/i1FlPXfqDGZRAuB.jpg";
 import i1Oc9yIWXKaOfb from "../../assets/images/i1Oc9yIWXKaOfb.jpg";
-
 const TireManagement = () => (
   <>
     <div className="manual_detail">
@@ -47,9 +46,6 @@ A车每圈快2.1秒，但由于化合物较软，它必须在第十圈更换轮�
         </div>
       </div>
     </div>
-
   </>
 );
-
 export default TireManagement;
-  

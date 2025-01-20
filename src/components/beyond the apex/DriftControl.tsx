@@ -1,7 +1,6 @@
 import i12COrHF4SFVY from "../../assets/images/i12COrHF4SFVY.jpg";
 import i1cEnb2GEM9iRuB from "../../assets/images/i1cEnb2GEM9iRuB.jpg";
 import i1ivSqZlcRF937c from "../../assets/images/i1ivSqZlcRF937c.jpg";
-
 const DriftControl = () => (
   <>
     <div className="manual_detail">
@@ -28,9 +27,6 @@ const DriftControl = () => (
 漂移看起来很令人印象深刻，但侧滑过多会导致动力损失，导致速度下降，从而影响圈速。如果在比赛中轮胎打滑，你应该尝试快速稳定滑动。</p>
       </div>
     </div>
-
   </>
 );
-
 export default DriftControl;
-  

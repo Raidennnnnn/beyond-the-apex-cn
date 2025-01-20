@@ -1,5 +1,4 @@
 import i1yiPbj5AStM7SB from "../../assets/images/i1yiPbj5AStM7SB.jpg";
-
 const TakingCorners = () => (
   <>
     <div className="manual_detail">
@@ -25,9 +24,6 @@ const TakingCorners = () => (
 你可以在驾驶技术部分阅读“转弯驾驶线”以获取更多信息。</p>
       </div>
     </div>
-
   </>
 );
-
 export default TakingCorners;
-  

@@ -1,6 +1,5 @@
 import i1GwuTh5bCoyrcE from "../../assets/images/i1GwuTh5bCoyrcE.jpg";
 import i1AQgTkEur1pAW from "../../assets/images/i1AQgTkEur1pAW.jpg";
-
 const EngineHorsepowerAndTorque = () => (
   <>
     <div className="manual_detail">
@@ -31,9 +30,6 @@ const EngineHorsepowerAndTorque = () => (
         <p className="caption">图3-4 压缩比</p>
       </div>
     </div>
-
   </>
 );
-
 export default EngineHorsepowerAndTorque;
-  

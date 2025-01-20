@@ -6,7 +6,6 @@ import i1UkoA4ibQpq6EE from "../../assets/images/i1UkoA4ibQpq6EE.jpg";
 import i1m6WxIaHJxOMb from "../../assets/images/i1m6WxIaHJxOMb.jpg";
 import i1Yut6dX6Nre0cc from "../../assets/images/i1Yut6dX6Nre0cc.jpg";
 import i1yVuqX0ioPuqSH from "../../assets/images/i1yVuqX0ioPuqSH.jpg";
-
 const TakingBetterPhotos = () => (
   <>
     <div className="manual_detail">
@@ -56,9 +55,6 @@ const TakingBetterPhotos = () => (
         <p className="image"><img alt="" src={ i1yVuqX0ioPuqSH }/></p>
       </div>
     </div>
-
   </>
 );
-
 export default TakingBetterPhotos;
-  

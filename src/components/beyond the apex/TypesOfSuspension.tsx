@@ -1,7 +1,6 @@
 import i16tToJH from "../../assets/images/i16tToJH.jpg";
 import i1yffPaaCOorrcc from "../../assets/images/i1yffPaaCOorrcc.jpg";
 import i1UBjnYKdou55cE from "../../assets/images/i1UBjnYKdou55cE.jpg";
-
 const TypesOfSuspension = () => (
   <>
     <div className="manual_detail">
@@ -35,9 +34,6 @@ const TypesOfSuspension = () => (
         <p className="caption">多连杆类型</p>
       </div>
     </div>
-
   </>
 );
-
 export default TypesOfSuspension;
-  

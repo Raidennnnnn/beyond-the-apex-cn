@@ -1,6 +1,5 @@
 import i1c1scH17YF7CTH from "../../assets/images/i1c1scH17YF7CTH.jpg";
 import i17XIkTcaxQqG8c from "../../assets/images/i17XIkTcaxQqG8c.jpg";
-
 const RideHeight = () => (
   <>
     <div className="manual_detail">
@@ -23,9 +22,6 @@ const RideHeight = () => (
 然而，这有其局限性。例如，路面上可能有颠簸会撞击汽车底部。汽车可能会跳跃或轮胎可能会撞到轮罩。悬挂臂的操作范围可能会超出其允许范围。由于所有这些原因，将车身高度设置得与地面接触是不现实的；车身高度必须适合汽车和赛道。在平坦的赛道上可以将车身高度设置得更低，而在颠簸的赛道上则需要确保一定的高度。未铺砌的土路需要将悬挂设置得更高，而在雨天，你不能将悬挂降低太多，以避免汽车底部水滑。考虑这些因素将有助于你确定适当的目标车身高度。</p>
       </div>
     </div>
-
   </>
 );
-
 export default RideHeight;
-  

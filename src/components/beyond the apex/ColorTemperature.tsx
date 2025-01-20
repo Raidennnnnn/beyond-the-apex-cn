@@ -2,7 +2,6 @@ import i1z3sL9bA5yAPC from "../../assets/images/i1z3sL9bA5yAPC.jpg";
 import i1RbqrXYSx3QJ8E from "../../assets/images/i1RbqrXYSx3QJ8E.jpg";
 import i13luHI2a6YkXcc from "../../assets/images/i13luHI2a6YkXcc.jpg";
 import i1gsH6zM4f3wyb from "../../assets/images/i1gsH6zM4f3wyb.jpg";
-
 const ColorTemperature = () => (
   <>
     <div className="manual_detail">
@@ -43,9 +42,6 @@ const ColorTemperature = () => (
 “Scapes”功能包括来自世界各地的背景，所以请记住这一点：这是一种全新的摄影乐趣方式。</p>
       </div>
     </div>
-
   </>
 );
-
 export default ColorTemperature;
-  

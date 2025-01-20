@@ -1,5 +1,4 @@
 import i1EfiLKx543TOO from "../../assets/images/i1EfiLKx543TOO.jpg";
-
 const LearningHowToBePrecise = () => (
   <>
     <div className="manual_detail">
@@ -25,9 +24,6 @@ const LearningHowToBePrecise = () => (
 我曾认识一位玩家，他们在提高最高速度方面遇到了困难。他们对车进行了各种调整，但最终问题在于他们没有足够用力地踩油门。这发生在一个使用方向盘和踏板控制器的活动中；因为玩家穿着厚底运动鞋，他们无法准确判断自己对脚踏板施加了多少压力。</p>
       </div>
     </div>
-
   </>
 );
-
 export default LearningHowToBePrecise;
-  

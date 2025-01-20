@@ -1,7 +1,6 @@
 import i1l3zgIBxYCvzz from "../../assets/images/i1l3zgIBxYCvzz.jpg";
 import i1XZfivhYJMxo7c from "../../assets/images/i1XZfivhYJMxo7c.jpg";
 import i17smvmvjFR0BC from "../../assets/images/i17smvmvjFR0BC.jpg";
-
 const UndersteerAndOversteer = () => (
   <>
     <div className="manual_detail">
@@ -36,9 +35,6 @@ const UndersteerAndOversteer = () => (
 需要记住的一点是，转向特性仅表示汽车在某些条件下的运动特性，可以通过调整各种设置和改变驾驶方式来改变。</p>
       </div>
     </div>
-
   </>
 );
-
 export default UndersteerAndOversteer;
-  

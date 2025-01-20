@@ -2,7 +2,6 @@ import i1Xgb63dLODENEc from "../../assets/images/i1Xgb63dLODENEc.jpg";
 import i1O5ZlgNGqRlW from "../../assets/images/i1O5ZlgNGqRlW.jpg";
 import i1a2xKOdbbZqpuB from "../../assets/images/i1a2xKOdbbZqpuB.jpg";
 import i1XwhHNfioZvI from "../../assets/images/i1XwhHNfioZvI.jpg";
-
 const Springs = () => (
   <>
     <div className="manual_detail">
@@ -35,9 +34,6 @@ const Springs = () => (
 提示！什么是自然频率<br/>不涉及方程，自然频率可以被认为是轮率相对于弹簧重量（车身质量）的大小。例如，如果前自然频率为1.0Hz，后自然频率为1.1Hz，即使前轮率较大，当你将悬挂视为一个振荡系统时，前悬挂将被视为比后悬挂更软。</p>
       </div>
     </div>
-
   </>
 );
-
 export default Springs;
-  

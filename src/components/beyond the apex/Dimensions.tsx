@@ -2,7 +2,6 @@ import i1rWG7rNOPoENcc from "../../assets/images/i1rWG7rNOPoENcc.jpg";
 import i118fWbvM7Ixhb from "../../assets/images/i118fWbvM7Ixhb.jpg";
 import i1A6bNx7WHRcxSB from "../../assets/images/i1A6bNx7WHRcxSB.jpg";
 import i1IJZETXpyRew from "../../assets/images/i1IJZETXpyRew.jpg";
-
 const Dimensions = () => (
   <>
     <div className="manual_detail">
@@ -39,9 +38,6 @@ const Dimensions = () => (
 汽车越轻，推动汽车前进所需的发动机扭矩越少，停车所需的刹车扭矩也越少。减轻重量还会提高汽车的调校性能。车辆重量除以其最大输出称为"<b>功率重量比</b>"；该值越小，汽车的加速越快。</p>
       </div>
     </div>
-
   </>
 );
-
 export default Dimensions;
-  

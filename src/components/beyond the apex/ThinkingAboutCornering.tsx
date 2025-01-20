@@ -1,7 +1,6 @@
 import i165CRVbU5uJTz from "../../assets/images/i165CRVbU5uJTz.jpg";
 import i117NZJIhgJmw from "../../assets/images/i117NZJIhgJmw.jpg";
 import i1tf8IxjWcePluH from "../../assets/images/i1tf8IxjWcePluH.jpg";
-
 const ThinkingAboutCornering = () => (
   <>
     <div className="manual_detail">
@@ -30,9 +29,6 @@ const ThinkingAboutCornering = () => (
         <p className="caption">图9-2 拖刹的图像图。在A点全力刹车，逐渐松开刹车并从B点开始转动方向盘，然后在切点前完成刹车（见下一页）。注意刹车和转向角度具有互补关系。</p>
       </div>
     </div>
-
   </>
 );
-
 export default ThinkingAboutCornering;
-  

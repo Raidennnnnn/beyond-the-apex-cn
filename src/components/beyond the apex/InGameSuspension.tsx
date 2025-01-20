@@ -1,6 +1,5 @@
 import i1SnGQBTJ91pnG from "../../assets/images/i1SnGQBTJ91pnG.jpg";
 import i1ZdslCEEPwSQ7c from "../../assets/images/i1ZdslCEEPwSQ7c.jpg";
-
 const Ingamesuspension = () => (
   <>
     <div className="manual_detail">
@@ -30,9 +29,6 @@ const Ingamesuspension = () => (
         <p className="image"><img alt="" src={ i1ZdslCEEPwSQ7c }/></p>
       </div>
     </div>
-
   </>
 );
-
 export default Ingamesuspension;
-  

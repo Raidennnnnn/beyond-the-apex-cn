@@ -1,5 +1,4 @@
 import i1eVwhq3tvrCC from "../../assets/images/i1eVwhq3tvrCC.jpg";
-
 const IngamegeneralPrinciples = () => (
   <>
     <div className="manual_detail">
@@ -25,9 +24,6 @@ const IngamegeneralPrinciples = () => (
         <p className="image"><img alt="" src={ i1eVwhq3tvrCC }/></p>
       </div>
     </div>
-
   </>
 );
-
 export default IngamegeneralPrinciples;
-  

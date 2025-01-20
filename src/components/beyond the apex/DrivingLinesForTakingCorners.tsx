@@ -1,7 +1,6 @@
 import i1hR9uNCd5JLLEc from "../../assets/images/i1hR9uNCd5JLLEc.jpg";
 import i1XcxReQ4SjVY from "../../assets/images/i1XcxReQ4SjVY.jpg";
 import i1cvpUldBq0iTuB from "../../assets/images/i1cvpUldBq0iTuB.jpg";
-
 const DrivingLinesForTakingCorners = () => (
   <>
     <div className="manual_detail">
@@ -34,9 +33,6 @@ const DrivingLinesForTakingCorners = () => (
 实际的驾驶线将根据弯道的形状以及是否有竞争对手而变化。然而，作为不同场景的基础，你应该对基本驾驶线有一个良好的理解。</p>
       </div>
     </div>
-
   </>
 );
-
 export default DrivingLinesForTakingCorners;
-  

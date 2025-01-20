@@ -2,7 +2,6 @@ import i1bittG66AhlfC from "../../assets/images/i1bittG66AhlfC.jpg";
 import i1hYJIPkYlwySEc from "../../assets/images/i1hYJIPkYlwySEc.jpg";
 import i1gIZdjqJOgHX7c from "../../assets/images/i1gIZdjqJOgHX7c.jpg";
 import i13OxSt3ieFbr from "../../assets/images/i13OxSt3ieFbr.jpg";
-
 const UsingDriverAssistanceBraking = () => (
   <>
     <div className="manual_detail">
@@ -46,9 +45,6 @@ Gran Turismo 7提供了“驾驶辅助”功能，帮助初学者提高驾驶技
         <p className="caption">自动刹车和自动驾驶辅助将帮助你刹车和转向。这些功能可以从快速菜单中进行调整。</p>
       </div>
     </div>
-
   </>
 );
-
 export default UsingDriverAssistanceBraking;
-  

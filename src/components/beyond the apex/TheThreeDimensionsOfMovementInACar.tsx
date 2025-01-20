@@ -1,6 +1,5 @@
 import i1ruPe2AYaTpjb from "../../assets/images/i1ruPe2AYaTpjb.jpg";
 import i1Dc3PUeqKu2mRH from "../../assets/images/i1Dc3PUeqKu2mRH.jpg";
-
 const TheThreeDimensionsOfMovementInACar = () => (
   <>
     <div className="manual_detail">
@@ -29,9 +28,6 @@ const TheThreeDimensionsOfMovementInACar = () => (
 当你在驾驶时转动方向盘时，轮胎在与地面接触的地方变形。产生的弹性力将导致转弯力，汽车将开始转弯。这种垂直方向的旋转运动称为<b>偏航</b>。偏航也发生在水平风中，但通常与控制稳定性有关。由偏航引起的旋转角称为<b>偏航角</b>，变化的速度称为<b>偏航率</b>。</p>
       </div>
     </div>
-
   </>
 );
-
 export default TheThreeDimensionsOfMovementInACar;
-  

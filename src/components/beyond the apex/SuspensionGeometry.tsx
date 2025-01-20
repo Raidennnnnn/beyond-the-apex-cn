@@ -1,7 +1,6 @@
 import i1oHM1Hp4SucxSH from "../../assets/images/i1oHM1Hp4SucxSH.jpg";
 import i1B8TFfiM0m52cc from "../../assets/images/i1B8TFfiM0m52cc.jpg";
 import i1ne3nx65rO9Zz from "../../assets/images/i1ne3nx65rO9Zz.jpg";
-
 const SuspensionGeometry = () => (
   <>
     <div className="manual_detail">
@@ -32,9 +31,6 @@ const SuspensionGeometry = () => (
         <p className="caption">图6-2：调整前后前束角时的转向特性。</p>
       </div>
     </div>
-
   </>
 );
-
 export default SuspensionGeometry;
-  

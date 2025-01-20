@@ -1,7 +1,6 @@
 import i16DE8z3zVf23RH from "../../assets/images/i16DE8z3zVf23RH.jpg";
 import i1QZwRMhYjbJtuH from "../../assets/images/i1QZwRMhYjbJtuH.jpg";
 import i1nZyB70eYPgPz from "../../assets/images/i1nZyB70eYPgPz.jpg";
-
 const HowDoesACarTurn = () => (
   <>
     <div className="manual_detail">
@@ -30,9 +29,6 @@ const HowDoesACarTurn = () => (
 轮胎滑移角会根据驾驶速度、轮胎负载（稍后讨论）、方向盘转动角度等因素不断变化。对此的解释过于复杂，无法在此详述，但值得指出的是，突然的转向输入不会产生良好的转弯力，结果是汽车无法有效转弯。猛打方向盘可能感觉很运动，但效率不高。在以圈速为目标的运动驾驶中，转向操作应当经过衡量，以便在轮胎和路面之间找到和谐。</p>
       </div>
     </div>
-
   </>
 );
-
 export default HowDoesACarTurn;
-  

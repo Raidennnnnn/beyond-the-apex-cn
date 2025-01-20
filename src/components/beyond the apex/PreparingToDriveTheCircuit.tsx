@@ -2,7 +2,6 @@ import i1hamHAxQ2GGwuB from "../../assets/images/i1hamHAxQ2GGwuB.jpg";
 import i1HFI2Hcc4hTD7c from "../../assets/images/i1HFI2Hcc4hTD7c.jpg";
 import i1AWqtbahfP1EO from "../../assets/images/i1AWqtbahfP1EO.jpg";
 import i1F2NIxKfIZ07uB from "../../assets/images/i1F2NIxKfIZ07uB.jpg";
-
 const PreparingToDriveTheCircuit = () => (
   <>
     <div className="manual_detail">
@@ -43,9 +42,6 @@ const PreparingToDriveTheCircuit = () => (
 检查和纠正你的驾驶线将使你能够充分利用赛道上的时间。以这种方式努力将帮助你取得最佳结果。</p>
       </div>
     </div>
-
   </>
 );
-
 export default PreparingToDriveTheCircuit;
-  

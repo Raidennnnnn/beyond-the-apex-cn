@@ -2,7 +2,6 @@ import i1J3baZ4mpMUNz from "../../assets/images/i1J3baZ4mpMUNz.jpg";
 import i1RjRg5PWd9PRcc from "../../assets/images/i1RjRg5PWd9PRcc.jpg";
 import i1FzsTNCi6WvkuB from "../../assets/images/i1FzsTNCi6WvkuB.jpg";
 import i1LrUNigWjkhF from "../../assets/images/i1LrUNigWjkhF.jpg";
-
 const DepthOfField = () => (
   <>
     <div className="manual_detail">
@@ -44,9 +43,6 @@ const DepthOfField = () => (
 浅景深产生更强烈的效果，因此最好用于拍摄单个部件的特写镜头，如尾灯或后翼，而不是整辆车的照片。当你想让汽车从背景中脱颖而出时，浅景深也非常有效——例如，如果你在雾天拍摄照片，或者汽车后面有一座大建筑物。</p>
       </div>
     </div>
-
   </>
 );
-
 export default DepthOfField;
-  

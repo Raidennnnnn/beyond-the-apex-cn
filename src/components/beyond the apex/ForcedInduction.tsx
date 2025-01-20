@@ -1,6 +1,5 @@
 import i1jcTJBoWVYGxC from "../../assets/images/i1jcTJBoWVYGxC.jpg";
 import i1GI7RmC3iPRcuH from "../../assets/images/i1GI7RmC3iPRcuH.jpg";
-
 const ForcedInduction = () => (
   <>
     <div className="manual_detail">
@@ -30,9 +29,6 @@ const ForcedInduction = () => (
         <p className="caption">图5-3 中冷器</p>
       </div>
     </div>
-
   </>
 );
-
 export default ForcedInduction;
-  

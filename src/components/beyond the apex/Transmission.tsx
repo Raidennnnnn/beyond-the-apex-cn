@@ -1,6 +1,5 @@
 import i15tyK6K8yzYF from "../../assets/images/i15tyK6K8yzYF.jpg";
 import i1iM8camJTd7Z7E from "../../assets/images/i1iM8camJTd7Z7E.jpg";
-
 const Transmission = () => (
   <>
     <div className="manual_detail">
@@ -30,9 +29,6 @@ const Transmission = () => (
         <p className="caption">图6-2 “最终齿轮”在驱动轮之前减少变速器输出的速度（右侧）</p>
       </div>
     </div>
-
   </>
 );
-
 export default Transmission;
-  

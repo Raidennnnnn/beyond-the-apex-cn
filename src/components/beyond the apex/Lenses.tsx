@@ -1,7 +1,6 @@
 import i16XAYBTbXRPcSH from "../../assets/images/i16XAYBTbXRPcSH.jpg";
 import i1F8XK4icNhN0uB from "../../assets/images/i1F8XK4icNhN0uB.jpg";
 import i1GFlnKKTs0ngz from "../../assets/images/i1GFlnKKTs0ngz.jpg";
-
 const Lenses = () => (
   <>
     <div className="manual_detail">
@@ -34,9 +33,6 @@ const Lenses = () => (
 只要你能做到这一点，就有很多有趣的广角技术可以尝试。裁剪可以让你剪掉图像中不必要的部分，让你可以像使用长焦镜头一样专注于一个区域。当将汽车放置在背景中时，你不能让背景"胜过"汽车。充分利用裁剪来赋予汽车存在感，你将能够创造出具有真正冲击力的照片。使用这种技术和"Scapes"中提供的许多其他技术，你很快就能拍出比我更好的照片！</p>
       </div>
     </div>
-
   </>
 );
-
 export default Lenses;
-  

@@ -4,7 +4,6 @@ import i1r5bKFqzwzg8O from "../../assets/images/i1r5bKFqzwzg8O.jpg";
 import i1811O0WYsKvGSH from "../../assets/images/i1811O0WYsKvGSH.jpg";
 import i1kG7rfikVhzlb from "../../assets/images/i1kG7rfikVhzlb.jpg";
 import i1XclRpjfidDPb from "../../assets/images/i1XclRpjfidDPb.jpg";
-
 const EngineLayouts = () => (
   <>
     <div className="manual_detail">
@@ -54,9 +53,6 @@ const EngineLayouts = () => (
         </dl>
       </div>
     </div>
-
   </>
 );
-
 export default EngineLayouts;
-  

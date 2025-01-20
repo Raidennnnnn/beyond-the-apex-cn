@@ -1,7 +1,6 @@
 import i1naOvDxWEefsuB from "../../assets/images/i1naOvDxWEefsuB.jpg";
 import i1lt1aAc1mvXk from "../../assets/images/i1lt1aAc1mvXk.jpg";
 import i1h4Jt5vhzefsSH from "../../assets/images/i1h4Jt5vhzefsSH.jpg";
-
 const HowToDriveOnSlipperySurfaces = () => (
   <>
     <div className="manual_detail">
@@ -30,9 +29,6 @@ const HowToDriveOnSlipperySurfaces = () => (
 尽管我们强调了谨慎驾驶的重要性，但这并不意味着你想要退缩。你应该在确保不以导致速度或负载极端变化的方式驾驶的同时提高平均速度。如果是在比赛期间，检查周围汽车的状态，并以一种能够利用任何出现的机会的方式比赛。</p>
       </div>
     </div>
-
   </>
 );
-
 export default HowToDriveOnSlipperySurfaces;
-  

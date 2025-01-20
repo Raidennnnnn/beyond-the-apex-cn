@@ -1,7 +1,6 @@
 import i16COVQuFpPgPz from "../../assets/images/i16COVQuFpPgPz.jpg";
 import i1lcpvOyo7S1dG from "../../assets/images/i1lcpvOyo7S1dG.jpg";
 import i1MwWsbz0XPVHb from "../../assets/images/i1MwWsbz0XPVHb.jpg";
-
 const DifferentialAndLimitedSlipDifferential = () => (
   <>
     <div className="manual_detail">
@@ -31,9 +30,6 @@ const DifferentialAndLimitedSlipDifferential = () => (
         <p className="caption">7-3b 使用LSD时，限制左右轮胎之间的差动运动，将扭矩传递到外侧轮胎</p>
       </div>
     </div>
-
   </>
 );
-
 export default DifferentialAndLimitedSlipDifferential;
-  

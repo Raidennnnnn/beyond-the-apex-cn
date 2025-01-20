@@ -2,7 +2,6 @@ import i1nZoh51vmd7JSB from "../../assets/images/i1nZoh51vmd7JSB.jpg";
 import i1WUslKHVijgO from "../../assets/images/i1WUslKHVijgO.jpg";
 import i1yh8ClOM1j9XuB from "../../assets/images/i1yh8ClOM1j9XuB.jpg";
 import i1FPPONei33UW from "../../assets/images/i1FPPONei33UW.jpg";
-
 const Exposure = () => (
   <>
     <div className="manual_detail">
@@ -39,9 +38,6 @@ const Exposure = () => (
         </div>
       </div>
     </div>
-
   </>
 );
-
 export default Exposure;
-  

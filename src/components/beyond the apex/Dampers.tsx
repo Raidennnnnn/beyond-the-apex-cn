@@ -1,7 +1,6 @@
 import i1EIUQub2Oepuz from "../../assets/images/i1EIUQub2Oepuz.jpg";
 import i1BHNV3uDkbYj from "../../assets/images/i1BHNV3uDkbYj.jpg";
 import i1Df8Bm6RbbspSH from "../../assets/images/i1Df8Bm6RbbspSH.jpg";
-
 const Dampers = () => (
   <>
     <div className="manual_detail">
@@ -32,9 +31,6 @@ const Dampers = () => (
         <p className="caption">图5-2 通过使减震器的压缩侧更软和伸展侧更硬，可以改善乘坐舒适性和轮胎的路面保持特性</p>
       </div>
     </div>
-
   </>
 );
-
 export default Dampers;
-  

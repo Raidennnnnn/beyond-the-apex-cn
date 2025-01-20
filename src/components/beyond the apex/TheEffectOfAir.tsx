@@ -1,6 +1,5 @@
 import i1df2u4MeGQRMcE from "../../assets/images/i1df2u4MeGQRMcE.jpg";
 import i1ARs3UDlyDl0G from "../../assets/images/i1ARs3UDlyDl0G.jpg";
-
 const TheEffectOfAir = () => (
   <>
     <div className="manual_detail">
@@ -36,9 +35,6 @@ Cd值是一个表示空气阻力大小的系数。Cd值越低，空气阻力越�
         <p className="caption">CYM值 – 偏航力矩系数</p>
       </div>
     </div>
-
   </>
 );
-
 export default TheEffectOfAir;
-  

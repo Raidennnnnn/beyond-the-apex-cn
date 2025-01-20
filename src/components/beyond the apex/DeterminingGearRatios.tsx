@@ -1,7 +1,6 @@
 import i12ZDsjILjQpo from "../../assets/images/i12ZDsjILjQpo.jpg";
 import i1QOa0za6nG1lhB from "../../assets/images/i1QOa0za6nG1lhB.jpg";
 import i147pswdYzk4B from "../../assets/images/i147pswdYzk4B.jpg";
-
 const DeterminingGearRatios = () => (
   <>
     <div className="manual_detail">
@@ -35,9 +34,6 @@ const DeterminingGearRatios = () => (
         <p className="caption">图8-3：铃鹿赛道的齿轮比设置示例。设置齿轮，以便最低速度的弯道可以用二档通过，而最高档设置为在直道末端发动机达到红线。</p>
       </div>
     </div>
-
   </>
 );
-
 export default DeterminingGearRatios;
-  
