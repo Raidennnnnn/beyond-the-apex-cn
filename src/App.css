@@ -1,0 +1,15 @@
+.manual_detail {
+  @apply p-6 bg-gray-100 rounded-lg shadow-md;
+}
+
+.content_header {
+  @apply mb-4 border-b-2 border-gray-300 pb-2;
+}
+
+.body {
+  @apply text-gray-700 leading-relaxed;
+}
+
+.caption {
+  @apply text-gray-500 text-sm mt-2;
+}
