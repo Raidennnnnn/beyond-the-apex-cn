@@ -20,8 +20,8 @@ export default function CollapsibleSidebarMenuItem({ folder }: { folder: FilePat
           <SidebarMenuSub>
             {folder.files.map((file) => (
               <SidebarMenuSubItem key={file.path}>
-                <SidebarMenuSubButton asChild className="h-fit py-1" isActive={`/${folder.path}/${file.path}` === pathname}>
-                  <Link to={`/${folder.path}/${file.path}`}>{file.name}</Link>
+                <SidebarMenuSubButton asChild className="h-fit py-1" isActive={`/beyond-the-apex-cn/${folder.path}/${file.path}` === pathname}>
+                  <Link to={`/beyond-the-apex-cn/${folder.path}/${file.path}`}>{file.name}</Link>
                 </SidebarMenuSubButton>
               </SidebarMenuSubItem>
             ))}

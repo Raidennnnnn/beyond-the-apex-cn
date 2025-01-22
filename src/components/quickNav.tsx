@@ -8,7 +8,9 @@ import { useEffect, useState } from "react";
 export default function QuickNav() {
   const navigate = useNavigate();
   const { pathname } = useLocation();
-  const [, parentPath, path] = pathname.split('/');
+  console.log(pathname);
+  
+  const [,, parentPath, path] = pathname.split('/');
   const [previous, setPrevious] = useState<FilePath | null>(null);
   const [next, setNext] = useState<FilePath | null>(null);
 
@@ -16,7 +18,11 @@ export default function QuickNav() {
     const currentParentIndex = filePaths.findIndex(item => item.path === parentPath);
     const currentParent = filePaths[currentParentIndex];
 
-    if (!currentParent) return;
+    if (!currentParent) {
+      setNext({ ...filePaths[0], files: [filePaths[0].files[0]] });
+      return;
+    };
+
     const currentIndex = currentParent.files.findIndex(item => item.path === path);
 
     if (currentIndex > 0 && currentIndex < currentParent.files.length - 1) {
@@ -48,7 +54,7 @@ export default function QuickNav() {
   }, [parentPath, path]);
 
   return (
-    <div className="px-2 py-2 flex justify-between items-center gap-2 w-full">
+    <div className="px-6 pt-2 pb-4 flex justify-between items-center gap-2 w-full">
       <Button 
         size="sm" 
         variant="secondary" 
