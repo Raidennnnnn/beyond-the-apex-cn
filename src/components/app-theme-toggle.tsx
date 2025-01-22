@@ -8,7 +8,6 @@ export function ModeToggle() {
   const { theme, setTheme } = useTheme();
   const ref = useRef<HTMLButtonElement>(null);
 
-
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.ctrlKey && event.key === 'm') {
@@ -27,7 +26,7 @@ export function ModeToggle() {
       ref={ref}
       variant="outline"
       size="sm"
-      className="fixed z-10 bottom-0 md:top-0 right-0 m-2 transition-all w-8 md:w-auto px-1"
+      className="transition-all w-8 md:w-auto px-1"
       onClick={toggleTheme}
     > 
       <Sun className="absolute md:left-2 h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />

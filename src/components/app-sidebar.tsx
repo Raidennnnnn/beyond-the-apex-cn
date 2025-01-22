@@ -1,9 +1,9 @@
 import { filePaths } from "@/components/filePaths";
 import { Sidebar, SidebarMenu } from "./ui/sidebar";
 import { SidebarContent } from "./ui/sidebar";
-import CollapsibleSidebarMenuItem from "./sidebar-menu-item";
+import CollapsibleSidebarMenuItem from "./app-sidebar-menu-item";
 
-export default function AppSidebar() {
+export default function AppSidebar() {  
   return (
     <Sidebar>
       <SidebarContent>

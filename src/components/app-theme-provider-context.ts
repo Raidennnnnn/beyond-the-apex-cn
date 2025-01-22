@@ -1,5 +1,5 @@
 import { createContext } from "react"
-import { Theme } from "./theme-provider"
+import { Theme } from "./app-theme-provider"
 
 type ThemeProviderState = {
   theme: Theme
@@ -7,7 +7,7 @@ type ThemeProviderState = {
 }
 
 const initialState: ThemeProviderState = {
-  theme: "light",
+  theme: "dark",
   setTheme: () => null,
 }
 
