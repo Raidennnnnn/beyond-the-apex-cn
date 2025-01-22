@@ -53,7 +53,7 @@ export default function QuickNav() {
   }, [parentPath, path]);
 
   return (
-    <div className="px-6 pt-2 pb-4 flex justify-between items-center gap-2 w-full">
+    <div className="px-6 pt-2 pb-12 md:pb-4 flex justify-between items-center gap-2 w-full">
       <Button 
         size="sm" 
         variant="secondary" 

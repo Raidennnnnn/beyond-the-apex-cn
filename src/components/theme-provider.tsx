@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { ThemeProviderContext } from "./themeProviderContext"
+import { ThemeProviderContext } from "./theme-provider-context"
 
 export type Theme = "dark" | "light"
 
@@ -41,12 +41,3 @@ export function ThemeProvider({
     </ThemeProviderContext.Provider>
   )
 }
-
-// export const useTheme = () => {
-//   const context = useContext(ThemeProviderContext)
-
-//   if (context === undefined)
-//     throw new Error("useTheme must be used within a ThemeProvider")
-
-//   return context
-// }

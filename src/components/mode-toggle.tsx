@@ -27,11 +27,11 @@ export function ModeToggle() {
       ref={ref}
       variant="outline"
       size="sm"
-      className="fixed z-10 top-0 right-0 m-2 transition-all w-8 md:w-auto px-1"
+      className="fixed z-10 bottom-0 md:top-0 right-0 m-2 transition-all w-8 md:w-auto px-1"
       onClick={toggleTheme}
     > 
-      <Sun className="absolute md:left-2 h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-      <Moon className="absolute md:left-2 h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+      <Sun className="absolute md:left-2 h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+      <Moon className="absolute md:left-2 h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
       <div className="hidden md:flex ml-6 px-2 py-0.5 items-center gap-0.5 border-border rounded-sm bg-muted ">
         <span className="text-lg leading-none">⌘</span>
         <span className="text-xs">M</span>
@@ -79,7 +79,7 @@ export function ModeToggle() {
       },
       {
         duration: 500,
-        easing: 'ease-in-out' ,
+        easing: currentTheme === "light" ? 'ease-out' : 'ease-in-out',
         pseudoElement: currentTheme === "light" ? '::view-transition-old(root)' : '::view-transition-new(root)',
       }
     );

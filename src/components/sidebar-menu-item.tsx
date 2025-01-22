@@ -7,6 +7,7 @@ import { FilePath } from "@/components/filePaths";
 
 export default function CollapsibleSidebarMenuItem({ folder }: { folder: FilePath }) {
   const { pathname } = useLocation();
+
   return (
     <Collapsible defaultOpen className="group/collapsible">
       <SidebarMenuItem >
