@@ -71,8 +71,8 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%
   }
-}
-@layer base {
+/* } */
+/* @layer base { */
   * {
     @apply border-border;
   }
@@ -82,5 +82,17 @@
 
   html {
     @apply text-xl;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-1;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded hover:bg-muted-foreground;
   }
 }
