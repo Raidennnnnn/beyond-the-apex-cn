@@ -1,5 +1,27 @@
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  z-index: 1
+}
+
+::view-transition-new(root) {
+  z-index: 9999
+}
+
+.dark::view-transition-old(root) {
+  z-index: 9999
+}
+
+.dark::view-transition-new(root) {
+  z-index: 1
+}
+
 .manual_detail {
-  @apply p-6 bg-background rounded-lg shadow-md;
+  @apply p-2 md:p-6 bg-background;
 
   .content_header {
     @apply mb-4 border-b-2 border-border pb-2 p-4;
@@ -21,25 +43,25 @@
     }
     
     .image {
-      @apply w-3/4 h-auto pt-4;
+      @apply w-full md:w-3/4 h-auto pt-4 dark:brightness-75;
     }
     
     .caption {
-      @apply text-muted-foreground text-sm italic mt-2 mb-4;
+      @apply text-muted-foreground text-sm mt-2 mb-4;
     }
     
     .images {
-      @apply grid grid-cols-2 gap-4 py-8;
+      @apply grid grid-cols-1 md:grid-cols-2 gap-4 py-8;
     
       .image_list {
         @apply flex flex-col;
     
         dd img {
-          @apply w-full h-auto;
+          @apply w-full h-auto dark:brightness-75;
         }
     
         .caption {
-          @apply text-muted-foreground text-sm italic mt-2;
+          @apply text-muted-foreground text-sm mt-2;
         }
       }
     }

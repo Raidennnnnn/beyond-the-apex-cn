@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 export default {
     darkMode: ["class"],
@@ -7,6 +9,9 @@ export default {
   ],
   theme: {
   	extend: {
+			fontFamily: {
+				sans: ['Source Han Serif CN for Display', defaultTheme.fontFamily.sans],
+			},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
