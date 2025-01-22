@@ -8,9 +8,8 @@ import { useEffect, useState } from "react";
 export default function QuickNav() {
   const navigate = useNavigate();
   const { pathname } = useLocation();
-  console.log(pathname);
   
-  const [,, parentPath, path] = pathname.split('/');
+  const [, parentPath, path] = pathname.split('/');
   const [previous, setPrevious] = useState<FilePath | null>(null);
   const [next, setNext] = useState<FilePath | null>(null);
 
