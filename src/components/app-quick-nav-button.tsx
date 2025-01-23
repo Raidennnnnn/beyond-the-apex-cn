@@ -10,11 +10,7 @@ export default function QuickNavButton({ type, navigateTo }: { type: 'back' | 'f
       size="sm" 
       variant="secondary" 
       className={`h-full py-2 ${navigateTo ? '' : 'invisible'} flex ${type === 'back' ? 'justify-start' : 'justify-end'} max-w-[50%] whitespace-pre-wrap`} 
-      onClick={() => {
-        if (navigateTo) {
-          navigate(navigateTo.path + '/' + navigateTo.files[0].path || '/');
-        }
-      }}
+      onClick={handleClick}
     >
       { type === 'back' && <ArrowLeft className="w-4 h-4" /> }
       {
@@ -28,4 +24,13 @@ export default function QuickNavButton({ type, navigateTo }: { type: 'back' | 'f
       { type === 'forward' && <ArrowRight className="w-4 h-4" /> }
     </Button>
   )
+
+  function handleClick() {
+    if (navigateTo) {
+      const destination = navigateTo.path + '/' + navigateTo.files[0].path || '/';
+      navigate(destination);
+      
+      localStorage.setItem('currentAt', destination);
+    }
+  }
 }

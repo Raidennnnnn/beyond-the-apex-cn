@@ -1,6 +1,6 @@
 import { Moon, Sun } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { useTheme } from "@/hooks/use-Theme"
+import { useTheme } from "@/hooks/use-theme"
 import { useEffect, useRef } from "react"
 import { flushSync } from "react-dom"
 
@@ -33,7 +33,7 @@ export function ModeToggle() {
       <Moon className="absolute md:left-2 h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
       <div className="hidden md:flex ml-6 px-2 py-0.5 items-center gap-0.5 border-border rounded-sm bg-muted ">
         <span className="text-xs leading-none">⌘</span>
-        <span className="text-xs">T</span>
+        <span className="text-xs">M</span>
       </div>
       <span className="sr-only">Toggle theme</span>
     </Button>
