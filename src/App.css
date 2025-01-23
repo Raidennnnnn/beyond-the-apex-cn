@@ -39,19 +39,23 @@
     @apply text-primary leading-relaxed p-4;
 
     .section-header {
-      @apply text-xl font-bold my-4;
+      @apply text-xl font-bold my-4 ;
     }
     
     .image {
-      @apply w-full md:w-3/4 h-auto pt-4 dark:brightness-75;
+      @apply w-full md:w-3/4 h-auto my-4 dark:brightness-75;
     }
     
     .caption {
       @apply text-muted-foreground text-sm mt-2 mb-4;
     }
+
+    .image:has(+ .caption) {
+      @apply mb-2;
+    }
     
     .images {
-      @apply grid grid-cols-1 md:grid-cols-2 gap-4 py-8;
+      @apply grid grid-cols-1 md:grid-cols-2 gap-4 my-4;
     
       .image_list {
         @apply flex flex-col;
@@ -61,7 +65,7 @@
         }
     
         .caption {
-          @apply text-muted-foreground text-sm mt-2;
+          @apply text-muted-foreground text-sm mt-2 mb-0;
         }
       }
     }

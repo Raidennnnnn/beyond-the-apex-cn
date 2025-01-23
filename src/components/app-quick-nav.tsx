@@ -1,12 +1,9 @@
-import { ArrowRight } from "lucide-react";
-import { ArrowLeft } from "lucide-react";
-import { Button } from "./ui/button";
 import { FilePath, filePaths } from './filePaths';
-import { useLocation, useNavigate } from "react-router";
+import { useLocation } from "react-router";
 import { useEffect, useState } from "react";
+import QuickNavButton from "./app-quick-nav-button";
 
 export default function QuickNav() {
-  const navigate = useNavigate();
   const { pathname } = useLocation();
   
   const [, parentPath, path] = pathname.split('/');
@@ -53,47 +50,9 @@ export default function QuickNav() {
   }, [parentPath, path]);
 
   return (
-    <div className="px-6 pt-2 pb-12 md:pb-4 flex justify-between items-center gap-2 w-full">
-      <Button 
-        size="sm" 
-        variant="secondary" 
-        className={`h-full py-2 ${previous ? '' : 'invisible'} flex justify-start max-w-[50%] whitespace-pre-wrap`} 
-        onClick={() => {
-          if (previous) {
-            navigate(previous.path + '/' + previous.files[0].path || '/');
-          }
-        }}
-      >
-        <ArrowLeft className="w-4 h-4" />
-        {
-          previous 
-            ? <div>
-              <div className="text-sm md:text-base text-primary text-left">{previous.files[0].name}</div>
-              <div className="text-xs text-muted-foreground text-left">{previous.name}</div>
-            </div>
-            : ''
-        }
-      </Button>
-      <Button 
-        variant="secondary" 
-        size="sm" 
-        className={`h-full py-2 ${next ? '' : 'invisible'} w-1/2 md:w-fit flex justify-end max-w-[50%] whitespace-pre-wrap`} 
-        onClick={() => {
-          if (next) {
-            navigate(next.path + '/' + next.files[0].path || '/');
-          }
-        }}
-      >
-        {
-          next 
-            ? <div>
-              <div className="text-sm md:text-base text-primary text-right">{next.files[0].name}</div>
-              <div className="text-xs text-muted-foreground text-right">{next.name}</div>
-            </div>
-            : ''
-        }
-        <ArrowRight className="w-4 h-4" />
-      </Button>
+    <div className="px-6 pt-2 pb-16 md:pb-4 flex justify-between items-center gap-2 w-full">
+      <QuickNavButton type="back" navigateTo={previous} />
+      <QuickNavButton type="forward" navigateTo={next} />
     </div>
   )
 }
