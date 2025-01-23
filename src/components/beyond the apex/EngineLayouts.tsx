@@ -1,9 +1,9 @@
-import i1EbgBBrXofgfz from "../../assets/images/i1EbgBBrXofgfz.jpg";
-import i1ioECQ2K1f9o7c from "../../assets/images/i1ioECQ2K1f9o7c.jpg";
-import i1r5bKFqzwzg8O from "../../assets/images/i1r5bKFqzwzg8O.jpg";
-import i1811O0WYsKvGSH from "../../assets/images/i1811O0WYsKvGSH.jpg";
-import i1kG7rfikVhzlb from "../../assets/images/i1kG7rfikVhzlb.jpg";
-import i1XclRpjfidDPb from "../../assets/images/i1XclRpjfidDPb.jpg";
+import i1EbgBBrXofgfz from "../../assets/images/i1EbgBBrXofgfz.webp";
+import i1ioECQ2K1f9o7c from "../../assets/images/i1ioECQ2K1f9o7c.webp";
+import i1r5bKFqzwzg8O from "../../assets/images/i1r5bKFqzwzg8O.webp";
+import i1811O0WYsKvGSH from "../../assets/images/i1811O0WYsKvGSH.webp";
+import i1kG7rfikVhzlb from "../../assets/images/i1kG7rfikVhzlb.webp";
+import i1XclRpjfidDPb from "../../assets/images/i1XclRpjfidDPb.webp";
 const EngineLayouts = () => (
   <>
     <div className="manual_detail">

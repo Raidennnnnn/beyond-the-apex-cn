@@ -1,6 +1,6 @@
-import i16XAYBTbXRPcSH from "../../assets/images/i16XAYBTbXRPcSH.jpg";
-import i1F8XK4icNhN0uB from "../../assets/images/i1F8XK4icNhN0uB.jpg";
-import i1GFlnKKTs0ngz from "../../assets/images/i1GFlnKKTs0ngz.jpg";
+import i16XAYBTbXRPcSH from "../../assets/images/i16XAYBTbXRPcSH.webp";
+import i1F8XK4icNhN0uB from "../../assets/images/i1F8XK4icNhN0uB.webp";
+import i1GFlnKKTs0ngz from "../../assets/images/i1GFlnKKTs0ngz.webp";
 const Lenses = () => (
   <>
     <div className="manual_detail">

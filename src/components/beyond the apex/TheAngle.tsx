@@ -1,7 +1,7 @@
-import i1az50JcXKMCPb from "../../assets/images/i1az50JcXKMCPb.jpg";
-import i1d4EE6OSwVCL from "../../assets/images/i1d4EE6OSwVCL.jpg";
-import i1U17PpZE5dWXEc from "../../assets/images/i1U17PpZE5dWXEc.jpg";
-import i1A2Ex63JsYR17E from "../../assets/images/i1A2Ex63JsYR17E.jpg";
+import i1az50JcXKMCPb from "../../assets/images/i1az50JcXKMCPb.webp";
+import i1d4EE6OSwVCL from "../../assets/images/i1d4EE6OSwVCL.webp";
+import i1U17PpZE5dWXEc from "../../assets/images/i1U17PpZE5dWXEc.webp";
+import i1A2Ex63JsYR17E from "../../assets/images/i1A2Ex63JsYR17E.webp";
 const TheAngle = () => (
   <>
     <div className="manual_detail">

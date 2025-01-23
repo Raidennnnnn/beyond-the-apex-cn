@@ -1,7 +1,7 @@
-import i1hamHAxQ2GGwuB from "../../assets/images/i1hamHAxQ2GGwuB.jpg";
-import i1HFI2Hcc4hTD7c from "../../assets/images/i1HFI2Hcc4hTD7c.jpg";
-import i1AWqtbahfP1EO from "../../assets/images/i1AWqtbahfP1EO.jpg";
-import i1F2NIxKfIZ07uB from "../../assets/images/i1F2NIxKfIZ07uB.jpg";
+import i1hamHAxQ2GGwuB from "../../assets/images/i1hamHAxQ2GGwuB.webp";
+import i1HFI2Hcc4hTD7c from "../../assets/images/i1HFI2Hcc4hTD7c.webp";
+import i1AWqtbahfP1EO from "../../assets/images/i1AWqtbahfP1EO.webp";
+import i1F2NIxKfIZ07uB from "../../assets/images/i1F2NIxKfIZ07uB.webp";
 const PreparingToDriveTheCircuit = () => (
   <>
     <div className="manual_detail">

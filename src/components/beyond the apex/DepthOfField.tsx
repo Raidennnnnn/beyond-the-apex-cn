@@ -1,7 +1,7 @@
-import i1J3baZ4mpMUNz from "../../assets/images/i1J3baZ4mpMUNz.jpg";
-import i1RjRg5PWd9PRcc from "../../assets/images/i1RjRg5PWd9PRcc.jpg";
-import i1FzsTNCi6WvkuB from "../../assets/images/i1FzsTNCi6WvkuB.jpg";
-import i1LrUNigWjkhF from "../../assets/images/i1LrUNigWjkhF.jpg";
+import i1J3baZ4mpMUNz from "../../assets/images/i1J3baZ4mpMUNz.webp";
+import i1RjRg5PWd9PRcc from "../../assets/images/i1RjRg5PWd9PRcc.webp";
+import i1FzsTNCi6WvkuB from "../../assets/images/i1FzsTNCi6WvkuB.webp";
+import i1LrUNigWjkhF from "../../assets/images/i1LrUNigWjkhF.webp";
 const DepthOfField = () => (
   <>
     <div className="manual_detail">

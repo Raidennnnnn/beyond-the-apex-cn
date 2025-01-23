@@ -1,6 +1,6 @@
-import i1hR9uNCd5JLLEc from "../../assets/images/i1hR9uNCd5JLLEc.jpg";
-import i1XcxReQ4SjVY from "../../assets/images/i1XcxReQ4SjVY.jpg";
-import i1cvpUldBq0iTuB from "../../assets/images/i1cvpUldBq0iTuB.jpg";
+import i1hR9uNCd5JLLEc from "../../assets/images/i1hR9uNCd5JLLEc.webp";
+import i1XcxReQ4SjVY from "../../assets/images/i1XcxReQ4SjVY.webp";
+import i1cvpUldBq0iTuB from "../../assets/images/i1cvpUldBq0iTuB.webp";
 const DrivingLinesForTakingCorners = () => (
   <>
     <div className="manual_detail">

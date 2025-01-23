@@ -1,9 +1,9 @@
-import i1iyu9IXFBR9HO from "../../assets/images/i1iyu9IXFBR9HO.jpg";
-import i1b04CkzRmhRm7c from "../../assets/images/i1b04CkzRmhRm7c.jpg";
-import i1b6ScMndhxMTcc from "../../assets/images/i1b6ScMndhxMTcc.jpg";
-import i1B4ERfLdzmXk from "../../assets/images/i1B4ERfLdzmXk.jpg";
-import i162Vie1b13RCO from "../../assets/images/i162Vie1b13RCO.jpg";
-import i1CDK3UFWc3sLcE from "../../assets/images/i1CDK3UFWc3sLcE.jpg";
+import i1iyu9IXFBR9HO from "../../assets/images/i1iyu9IXFBR9HO.webp";
+import i1b04CkzRmhRm7c from "../../assets/images/i1b04CkzRmhRm7c.webp";
+import i1b6ScMndhxMTcc from "../../assets/images/i1b6ScMndhxMTcc.webp";
+import i1B4ERfLdzmXk from "../../assets/images/i1B4ERfLdzmXk.webp";
+import i162Vie1b13RCO from "../../assets/images/i162Vie1b13RCO.webp";
+import i1CDK3UFWc3sLcE from "../../assets/images/i1CDK3UFWc3sLcE.webp";
 const WhatIsAFrictionCircle = () => (
   <>
     <div className="manual_detail">

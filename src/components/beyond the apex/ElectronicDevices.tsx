@@ -1,6 +1,6 @@
-import i1R8LQdfEbuQ9cc from "../../assets/images/i1R8LQdfEbuQ9cc.jpg";
-import i1kt3ujAKaphQ7c from "../../assets/images/i1kt3ujAKaphQ7c.jpg";
-import i18TDnTgSreRp from "../../assets/images/i18TDnTgSreRp.jpg";
+import i1R8LQdfEbuQ9cc from "../../assets/images/i1R8LQdfEbuQ9cc.webp";
+import i1kt3ujAKaphQ7c from "../../assets/images/i1kt3ujAKaphQ7c.webp";
+import i18TDnTgSreRp from "../../assets/images/i18TDnTgSreRp.webp";
 const ElectronicDevices = () => (
   <>
     <div className="manual_detail">

@@ -1,6 +1,6 @@
-import i1xczxxleBaANz from "../../assets/images/i1xczxxleBaANz.jpg";
-import i1vmplQGtoREk7E from "../../assets/images/i1vmplQGtoREk7E.jpg";
-import i1tfF66zlQdMnSB from "../../assets/images/i1tfF66zlQdMnSB.jpg";
+import i1xczxxleBaANz from "../../assets/images/i1xczxxleBaANz.webp";
+import i1vmplQGtoREk7E from "../../assets/images/i1vmplQGtoREk7E.webp";
+import i1tfF66zlQdMnSB from "../../assets/images/i1tfF66zlQdMnSB.webp";
 const FeelingLoadMovements = () => (
   <>
     <div className="manual_detail">

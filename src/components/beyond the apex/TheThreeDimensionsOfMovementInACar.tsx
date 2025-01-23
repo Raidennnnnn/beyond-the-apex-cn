@@ -1,5 +1,5 @@
-import i1ruPe2AYaTpjb from "../../assets/images/i1ruPe2AYaTpjb.jpg";
-import i1Dc3PUeqKu2mRH from "../../assets/images/i1Dc3PUeqKu2mRH.jpg";
+import i1ruPe2AYaTpjb from "../../assets/images/i1ruPe2AYaTpjb.webp";
+import i1Dc3PUeqKu2mRH from "../../assets/images/i1Dc3PUeqKu2mRH.webp";
 const TheThreeDimensionsOfMovementInACar = () => (
   <>
     <div className="manual_detail">

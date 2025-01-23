@@ -1,6 +1,6 @@
-import i1ZEhL85fIoQbb from "../../assets/images/i1ZEhL85fIoQbb.jpg";
-import i1fMWInYxKxSv7c from "../../assets/images/i1fMWInYxKxSv7c.jpg";
-import i19maqWaZ4Q9BC from '../../assets/images/i19maqWaZ4Q9BC.jpg';
+import i1ZEhL85fIoQbb from "../../assets/images/i1ZEhL85fIoQbb.webp";
+import i1fMWInYxKxSv7c from "../../assets/images/i1fMWInYxKxSv7c.webp";
+import i19maqWaZ4Q9BC from '../../assets/images/i19maqWaZ4Q9BC.webp';
 const GettingUsedToYourController = () => (
   <>
     <div className="manual_detail">

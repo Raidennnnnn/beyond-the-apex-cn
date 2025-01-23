@@ -1,6 +1,6 @@
-import i1SeO3FGO2VqJuH from "../../assets/images/i1SeO3FGO2VqJuH.jpg";
-import i1Dws1naAwCGCb from "../../assets/images/i1Dws1naAwCGCb.jpg";
-import i18RcagOEHC2X8E from "../../assets/images/i18RcagOEHC2X8E.jpg";
+import i1SeO3FGO2VqJuH from "../../assets/images/i1SeO3FGO2VqJuH.webp";
+import i1Dws1naAwCGCb from "../../assets/images/i1Dws1naAwCGCb.webp";
+import i18RcagOEHC2X8E from "../../assets/images/i18RcagOEHC2X8E.webp";
 const GettingToKnowTheWidthOfYourCar = () => (
   <>
     <div className="manual_detail">

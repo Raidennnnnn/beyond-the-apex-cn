@@ -1,5 +1,5 @@
-import i1df2u4MeGQRMcE from "../../assets/images/i1df2u4MeGQRMcE.jpg";
-import i1ARs3UDlyDl0G from "../../assets/images/i1ARs3UDlyDl0G.jpg";
+import i1df2u4MeGQRMcE from "../../assets/images/i1df2u4MeGQRMcE.webp";
+import i1ARs3UDlyDl0G from "../../assets/images/i1ARs3UDlyDl0G.webp";
 const TheEffectOfAir = () => (
   <>
     <div className="manual_detail">

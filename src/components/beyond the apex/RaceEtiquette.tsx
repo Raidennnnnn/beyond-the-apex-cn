@@ -1,10 +1,10 @@
-import i1yK7A0yNOmtOz from "../../assets/images/i1yK7A0yNOmtOz.jpg";
-import i13qGPbwBnYKZ8c from "../../assets/images/i13qGPbwBnYKZ8c.jpg";
-import i19o5CaeureRp from "../../assets/images/i19o5CaeureRp.jpg";
-import i1ReDTPIEmv5t from "../../assets/images/i1ReDTPIEmv5t.jpg";
-import i1vaSLwaeWxRaEc from "../../assets/images/i1vaSLwaeWxRaEc.jpg";
-import i1wDhMSOfbux9Ec from "../../assets/images/i1wDhMSOfbux9Ec.jpg";
-import i1B4HuB7aQQ5G7c from "../../assets/images/i1B4HuB7aQQ5G7c.jpg";
+import i1yK7A0yNOmtOz from "../../assets/images/i1yK7A0yNOmtOz.webp";
+import i13qGPbwBnYKZ8c from "../../assets/images/i13qGPbwBnYKZ8c.webp";
+import i19o5CaeureRp from "../../assets/images/i19o5CaeureRp.webp";
+import i1ReDTPIEmv5t from "../../assets/images/i1ReDTPIEmv5t.webp";
+import i1vaSLwaeWxRaEc from "../../assets/images/i1vaSLwaeWxRaEc.webp";
+import i1wDhMSOfbux9Ec from "../../assets/images/i1wDhMSOfbux9Ec.webp";
+import i1B4HuB7aQQ5G7c from "../../assets/images/i1B4HuB7aQQ5G7c.webp";
 const RaceEtiquette = () => (
   <>
     <div className="manual_detail">

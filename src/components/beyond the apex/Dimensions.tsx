@@ -1,7 +1,7 @@
-import i1rWG7rNOPoENcc from "../../assets/images/i1rWG7rNOPoENcc.jpg";
-import i118fWbvM7Ixhb from "../../assets/images/i118fWbvM7Ixhb.jpg";
-import i1A6bNx7WHRcxSB from "../../assets/images/i1A6bNx7WHRcxSB.jpg";
-import i1IJZETXpyRew from "../../assets/images/i1IJZETXpyRew.jpg";
+import i1rWG7rNOPoENcc from "../../assets/images/i1rWG7rNOPoENcc.webp";
+import i118fWbvM7Ixhb from "../../assets/images/i118fWbvM7Ixhb.webp";
+import i1A6bNx7WHRcxSB from "../../assets/images/i1A6bNx7WHRcxSB.webp";
+import i1IJZETXpyRew from "../../assets/images/i1IJZETXpyRew.webp";
 const Dimensions = () => (
   <>
     <div className="manual_detail">

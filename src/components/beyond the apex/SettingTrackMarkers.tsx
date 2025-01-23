@@ -1,4 +1,4 @@
-import i1ymYDHWBkuPD7c from "../../assets/images/i1ymYDHWBkuPD7c.jpg";
+import i1ymYDHWBkuPD7c from "../../assets/images/i1ymYDHWBkuPD7c.webp";
 const SettingTrackMarkers = () => (
   <>
     <div className="manual_detail">

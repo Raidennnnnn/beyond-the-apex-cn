@@ -1,5 +1,5 @@
-import i1oBkgbJyeT85cc from "../../assets/images/i1oBkgbJyeT85cc.jpg";
-import i129PGj15wroaz from "../../assets/images/i129PGj15wroaz.jpg";
+import i1oBkgbJyeT85cc from "../../assets/images/i1oBkgbJyeT85cc.webp";
+import i129PGj15wroaz from "../../assets/images/i129PGj15wroaz.webp";
 const IngameaerodynamicsGearRatios = () => (
   <>
     <div className="manual_detail">

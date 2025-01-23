@@ -1,5 +1,5 @@
-import i1SnGQBTJ91pnG from "../../assets/images/i1SnGQBTJ91pnG.jpg";
-import i1ZdslCEEPwSQ7c from "../../assets/images/i1ZdslCEEPwSQ7c.jpg";
+import i1SnGQBTJ91pnG from "../../assets/images/i1SnGQBTJ91pnG.webp";
+import i1ZdslCEEPwSQ7c from "../../assets/images/i1ZdslCEEPwSQ7c.webp";
 const Ingamesuspension = () => (
   <>
     <div className="manual_detail">

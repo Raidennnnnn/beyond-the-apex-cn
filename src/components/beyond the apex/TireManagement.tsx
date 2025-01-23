@@ -1,7 +1,7 @@
-import i11hX9dkGqe31 from "../../assets/images/i11hX9dkGqe31.jpg";
-import i1rcsfT5RZYo4 from "../../assets/images/i1rcsfT5RZYo4.jpg";
-import i1FlPXfqDGZRAuB from "../../assets/images/i1FlPXfqDGZRAuB.jpg";
-import i1Oc9yIWXKaOfb from "../../assets/images/i1Oc9yIWXKaOfb.jpg";
+import i11hX9dkGqe31 from "../../assets/images/i11hX9dkGqe31.webp";
+import i1rcsfT5RZYo4 from "../../assets/images/i1rcsfT5RZYo4.webp";
+import i1FlPXfqDGZRAuB from "../../assets/images/i1FlPXfqDGZRAuB.webp";
+import i1Oc9yIWXKaOfb from "../../assets/images/i1Oc9yIWXKaOfb.webp";
 const TireManagement = () => (
   <>
     <div className="manual_detail">

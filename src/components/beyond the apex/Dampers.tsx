@@ -1,6 +1,6 @@
-import i1EIUQub2Oepuz from "../../assets/images/i1EIUQub2Oepuz.jpg";
-import i1BHNV3uDkbYj from "../../assets/images/i1BHNV3uDkbYj.jpg";
-import i1Df8Bm6RbbspSH from "../../assets/images/i1Df8Bm6RbbspSH.jpg";
+import i1EIUQub2Oepuz from "../../assets/images/i1EIUQub2Oepuz.webp";
+import i1BHNV3uDkbYj from "../../assets/images/i1BHNV3uDkbYj.webp";
+import i1Df8Bm6RbbspSH from "../../assets/images/i1Df8Bm6RbbspSH.webp";
 const Dampers = () => (
   <>
     <div className="manual_detail">

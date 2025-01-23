@@ -1,6 +1,6 @@
-import i12lnDUpoUYD4 from "../../assets/images/i12lnDUpoUYD4.jpg";
-import i1oVGme3FMpRZz from "../../assets/images/i1oVGme3FMpRZz.jpg";
-import i1CiDXe833BJAG from "../../assets/images/i1CiDXe833BJAG.jpg";
+import i12lnDUpoUYD4 from "../../assets/images/i12lnDUpoUYD4.webp";
+import i1oVGme3FMpRZz from "../../assets/images/i1oVGme3FMpRZz.webp";
+import i1CiDXe833BJAG from "../../assets/images/i1CiDXe833BJAG.webp";
 const LimitedslipDifferentialLSD = () => (
   <>
     <div className="manual_detail">

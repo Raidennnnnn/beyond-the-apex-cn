@@ -1,6 +1,6 @@
-import i1naOvDxWEefsuB from "../../assets/images/i1naOvDxWEefsuB.jpg";
-import i1lt1aAc1mvXk from "../../assets/images/i1lt1aAc1mvXk.jpg";
-import i1h4Jt5vhzefsSH from "../../assets/images/i1h4Jt5vhzefsSH.jpg";
+import i1naOvDxWEefsuB from "../../assets/images/i1naOvDxWEefsuB.webp";
+import i1lt1aAc1mvXk from "../../assets/images/i1lt1aAc1mvXk.webp";
+import i1h4Jt5vhzefsSH from "../../assets/images/i1h4Jt5vhzefsSH.webp";
 const HowToDriveOnSlipperySurfaces = () => (
   <>
     <div className="manual_detail">

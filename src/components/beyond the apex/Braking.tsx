@@ -1,6 +1,6 @@
-import i1ZZuZiNHJP9D8E from "../../assets/images/i1ZZuZiNHJP9D8E.jpg";
-import i1yo5qex49Y3O8E from "../../assets/images/i1yo5qex49Y3O8E.jpg";
-import i1cJVz779nKvGuB from "../../assets/images/i1cJVz779nKvGuB.jpg";
+import i1ZZuZiNHJP9D8E from "../../assets/images/i1ZZuZiNHJP9D8E.webp";
+import i1yo5qex49Y3O8E from "../../assets/images/i1yo5qex49Y3O8E.webp";
+import i1cJVz779nKvGuB from "../../assets/images/i1cJVz779nKvGuB.webp";
 const Braking = () => (
   <>
     <div className="manual_detail">

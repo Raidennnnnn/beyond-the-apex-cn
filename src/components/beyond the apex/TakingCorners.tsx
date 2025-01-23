@@ -1,4 +1,4 @@
-import i1yiPbj5AStM7SB from "../../assets/images/i1yiPbj5AStM7SB.jpg";
+import i1yiPbj5AStM7SB from "../../assets/images/i1yiPbj5AStM7SB.webp";
 const TakingCorners = () => (
   <>
     <div className="manual_detail">

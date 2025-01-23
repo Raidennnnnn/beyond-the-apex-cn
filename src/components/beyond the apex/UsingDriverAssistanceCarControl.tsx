@@ -1,7 +1,7 @@
-import i124lVMo6naH3RB from "../../assets/images/i124lVMo6naH3RB.jpg";
-import i1KTi6BRz29QHO from "../../assets/images/i1KTi6BRz29QHO.jpg";
-import i1HAkzH24Kv6LcE from "../../assets/images/i1HAkzH24Kv6LcE.jpg";
-import i19gJiA9DJDahz from "../../assets/images/i19gJiA9DJDahz.jpg";
+import i124lVMo6naH3RB from "../../assets/images/i124lVMo6naH3RB.webp";
+import i1KTi6BRz29QHO from "../../assets/images/i1KTi6BRz29QHO.webp";
+import i1HAkzH24Kv6LcE from "../../assets/images/i1HAkzH24Kv6LcE.webp";
+import i19gJiA9DJDahz from "../../assets/images/i19gJiA9DJDahz.webp";
 const UsingDriverAssistanceCarControl = () => (
   <>
     <div className="manual_detail">

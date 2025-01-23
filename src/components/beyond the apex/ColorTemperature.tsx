@@ -1,7 +1,7 @@
-import i1z3sL9bA5yAPC from "../../assets/images/i1z3sL9bA5yAPC.jpg";
-import i1RbqrXYSx3QJ8E from "../../assets/images/i1RbqrXYSx3QJ8E.jpg";
-import i13luHI2a6YkXcc from "../../assets/images/i13luHI2a6YkXcc.jpg";
-import i1gsH6zM4f3wyb from "../../assets/images/i1gsH6zM4f3wyb.jpg";
+import i1z3sL9bA5yAPC from "../../assets/images/i1z3sL9bA5yAPC.webp";
+import i1RbqrXYSx3QJ8E from "../../assets/images/i1RbqrXYSx3QJ8E.webp";
+import i13luHI2a6YkXcc from "../../assets/images/i13luHI2a6YkXcc.webp";
+import i1gsH6zM4f3wyb from "../../assets/images/i1gsH6zM4f3wyb.webp";
 const ColorTemperature = () => (
   <>
     <div className="manual_detail">

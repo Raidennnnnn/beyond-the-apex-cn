@@ -1,8 +1,8 @@
-import i1VYs4m6Nnrm4 from "../../assets/images/i1VYs4m6Nnrm4.jpg";
-import i1detNdwAaynPO from "../../assets/images/i1detNdwAaynPO.jpg";
-import i1DKklMV8hSExSH from "../../assets/images/i1DKklMV8hSExSH.jpg";
-import i1JIWOQmU7Hn3b from "../../assets/images/i1JIWOQmU7Hn3b.jpg";
-import i1lrr0lvKNOcX8E from "../../assets/images/i1lrr0lvKNOcX8E.jpg";
+import i1VYs4m6Nnrm4 from "../../assets/images/i1VYs4m6Nnrm4.webp";
+import i1detNdwAaynPO from "../../assets/images/i1detNdwAaynPO.webp";
+import i1DKklMV8hSExSH from "../../assets/images/i1DKklMV8hSExSH.webp";
+import i1JIWOQmU7Hn3b from "../../assets/images/i1JIWOQmU7Hn3b.webp";
+import i1lrr0lvKNOcX8E from "../../assets/images/i1lrr0lvKNOcX8E.webp";
 const Overtaking = () => (
   <>
     <div className="manual_detail">

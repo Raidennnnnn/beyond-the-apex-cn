@@ -1,5 +1,5 @@
-import i15tyK6K8yzYF from "../../assets/images/i15tyK6K8yzYF.jpg";
-import i1iM8camJTd7Z7E from "../../assets/images/i1iM8camJTd7Z7E.jpg";
+import i15tyK6K8yzYF from "../../assets/images/i15tyK6K8yzYF.webp";
+import i1iM8camJTd7Z7E from "../../assets/images/i1iM8camJTd7Z7E.webp";
 const Transmission = () => (
   <>
     <div className="manual_detail">

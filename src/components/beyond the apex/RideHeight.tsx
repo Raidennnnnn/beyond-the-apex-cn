@@ -1,5 +1,5 @@
-import i1c1scH17YF7CTH from "../../assets/images/i1c1scH17YF7CTH.jpg";
-import i17XIkTcaxQqG8c from "../../assets/images/i17XIkTcaxQqG8c.jpg";
+import i1c1scH17YF7CTH from "../../assets/images/i1c1scH17YF7CTH.webp";
+import i17XIkTcaxQqG8c from "../../assets/images/i17XIkTcaxQqG8c.webp";
 const RideHeight = () => (
   <>
     <div className="manual_detail">

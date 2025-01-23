@@ -1,7 +1,7 @@
+import './App.css';
 import { Outlet, useNavigate } from 'react-router';
 import AppSidebar from './components/app-sidebar';
 import { SidebarProvider } from './components/ui/sidebar';
-import './App.css';
 import { ThemeProvider } from './components/app-theme-provider';
 import { ModeToggle } from './components/app-theme-toggle';
 import QuickNav from './components/app-quick-nav';
@@ -14,10 +14,7 @@ function App() {
 
   useEffect(() => {
     const currentAt = localStorage.getItem('currentAt');
-
-    if (currentAt) {
-      navigate(currentAt);
-    }
+    if (currentAt) navigate(currentAt);
   }, [navigate]);
 
   return (

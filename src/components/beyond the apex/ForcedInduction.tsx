@@ -1,5 +1,5 @@
-import i1jcTJBoWVYGxC from "../../assets/images/i1jcTJBoWVYGxC.jpg";
-import i1GI7RmC3iPRcuH from "../../assets/images/i1GI7RmC3iPRcuH.jpg";
+import i1jcTJBoWVYGxC from "../../assets/images/i1jcTJBoWVYGxC.webp";
+import i1GI7RmC3iPRcuH from "../../assets/images/i1GI7RmC3iPRcuH.webp";
 const ForcedInduction = () => (
   <>
     <div className="manual_detail">

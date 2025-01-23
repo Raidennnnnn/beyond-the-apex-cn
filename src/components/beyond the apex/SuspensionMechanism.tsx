@@ -1,7 +1,7 @@
-import i1Ch6bppm00AvW from "../../assets/images/i1Ch6bppm00AvW.jpg";
-import i13rFWzyzQJMv7c from "../../assets/images/i13rFWzyzQJMv7c.jpg";
-import i1h0alkcisJnIz from "../../assets/images/i1h0alkcisJnIz.jpg";
-import i1jUCIrgG4JKW from "../../assets/images/i1jUCIrgG4JKW.jpg";
+import i1Ch6bppm00AvW from "../../assets/images/i1Ch6bppm00AvW.webp";
+import i13rFWzyzQJMv7c from "../../assets/images/i13rFWzyzQJMv7c.webp";
+import i1h0alkcisJnIz from "../../assets/images/i1h0alkcisJnIz.webp";
+import i1jUCIrgG4JKW from "../../assets/images/i1jUCIrgG4JKW.webp";
 const SuspensionMechanism = () => (
   <>
     <div className="manual_detail">

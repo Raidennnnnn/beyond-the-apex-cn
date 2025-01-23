@@ -1,7 +1,7 @@
-import i1bittG66AhlfC from "../../assets/images/i1bittG66AhlfC.jpg";
-import i1hYJIPkYlwySEc from "../../assets/images/i1hYJIPkYlwySEc.jpg";
-import i1gIZdjqJOgHX7c from "../../assets/images/i1gIZdjqJOgHX7c.jpg";
-import i13OxSt3ieFbr from "../../assets/images/i13OxSt3ieFbr.jpg";
+import i1bittG66AhlfC from "../../assets/images/i1bittG66AhlfC.webp";
+import i1hYJIPkYlwySEc from "../../assets/images/i1hYJIPkYlwySEc.webp";
+import i1gIZdjqJOgHX7c from "../../assets/images/i1gIZdjqJOgHX7c.webp";
+import i13OxSt3ieFbr from "../../assets/images/i13OxSt3ieFbr.webp";
 const UsingDriverAssistanceBraking = () => (
   <>
     <div className="manual_detail">

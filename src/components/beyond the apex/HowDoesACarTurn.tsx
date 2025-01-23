@@ -1,6 +1,6 @@
-import i16DE8z3zVf23RH from "../../assets/images/i16DE8z3zVf23RH.jpg";
-import i1QZwRMhYjbJtuH from "../../assets/images/i1QZwRMhYjbJtuH.jpg";
-import i1nZyB70eYPgPz from "../../assets/images/i1nZyB70eYPgPz.jpg";
+import i16DE8z3zVf23RH from "../../assets/images/i16DE8z3zVf23RH.webp";
+import i1QZwRMhYjbJtuH from "../../assets/images/i1QZwRMhYjbJtuH.webp";
+import i1nZyB70eYPgPz from "../../assets/images/i1nZyB70eYPgPz.webp";
 const HowDoesACarTurn = () => (
   <>
     <div className="manual_detail">

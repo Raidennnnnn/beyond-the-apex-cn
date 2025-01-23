@@ -1,6 +1,6 @@
-import i1e3Vio0DWaxo7c from "../../assets/images/i1e3Vio0DWaxo7c.jpg";
-import i1biBFFggzw3rz from "../../assets/images/i1biBFFggzw3rz.jpg";
-import i1l99mgaFi9xaEc from "../../assets/images/i1l99mgaFi9xaEc.jpg";
+import i1e3Vio0DWaxo7c from "../../assets/images/i1e3Vio0DWaxo7c.webp";
+import i1biBFFggzw3rz from "../../assets/images/i1biBFFggzw3rz.webp";
+import i1l99mgaFi9xaEc from "../../assets/images/i1l99mgaFi9xaEc.webp";
 const Lighting = () => (
   <>
     <div className="manual_detail">

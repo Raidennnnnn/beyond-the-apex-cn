@@ -1,6 +1,6 @@
-import i12COrHF4SFVY from "../../assets/images/i12COrHF4SFVY.jpg";
-import i1cEnb2GEM9iRuB from "../../assets/images/i1cEnb2GEM9iRuB.jpg";
-import i1ivSqZlcRF937c from "../../assets/images/i1ivSqZlcRF937c.jpg";
+import i12COrHF4SFVY from "../../assets/images/i12COrHF4SFVY.webp";
+import i1cEnb2GEM9iRuB from "../../assets/images/i1cEnb2GEM9iRuB.webp";
+import i1ivSqZlcRF937c from "../../assets/images/i1ivSqZlcRF937c.webp";
 const DriftControl = () => (
   <>
     <div className="manual_detail">

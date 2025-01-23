@@ -42,8 +42,8 @@
       @apply text-xl font-bold my-4 ;
     }
     
-    .image {
-      @apply w-[320px] md:w-[1280px] h-[180px] md:h-[720px] mx-auto md:mx-0 my-4 dark:brightness-75;
+    .image > img {
+      @apply w-[320px] md:w-[1280px] h-[180px] md:h-[720px] mx-auto md:mx-0 my-4 dark:brightness-75 object-scale-down;
     }
     
     .caption {
@@ -61,7 +61,7 @@
         @apply flex flex-col;
     
         dd img {
-          @apply w-[320px] h-[180px] md:w-[720px] md:h-[405px] mx-auto md:mx-0 dark:brightness-75;
+          @apply w-[320px] h-[180px] md:w-[720px] md:h-[405px] mx-auto md:mx-0 dark:brightness-75 object-cover;
         }
     
         .caption {

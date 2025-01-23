@@ -1,5 +1,5 @@
-import i1L2dQmzAoPTEuB from "../../assets/images/i1L2dQmzAoPTEuB.jpg";
-import i156favH6aQGPO from "../../assets/images/i156favH6aQGPO.jpg";
+import i1L2dQmzAoPTEuB from "../../assets/images/i1L2dQmzAoPTEuB.webp";
+import i156favH6aQGPO from "../../assets/images/i156favH6aQGPO.webp";
 const DrivingPositionForSensingTheCar = () => (
   <>
     <div className="manual_detail">

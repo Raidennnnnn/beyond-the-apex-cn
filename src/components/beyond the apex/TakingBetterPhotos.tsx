@@ -1,11 +1,11 @@
-import i1pupuhGZH0zBb from "../../assets/images/i1pupuhGZH0zBb.jpg";
-import i1wPX3muKC9AG from "../../assets/images/i1wPX3muKC9AG.jpg";
-import i1RUauvCYLzXvSB from "../../assets/images/i1RUauvCYLzXvSB.jpg";
-import i1IxEvMKHejoi from "../../assets/images/i1IxEvMKHejoi.jpg";
-import i1UkoA4ibQpq6EE from "../../assets/images/i1UkoA4ibQpq6EE.jpg";
-import i1m6WxIaHJxOMb from "../../assets/images/i1m6WxIaHJxOMb.jpg";
-import i1Yut6dX6Nre0cc from "../../assets/images/i1Yut6dX6Nre0cc.jpg";
-import i1yVuqX0ioPuqSH from "../../assets/images/i1yVuqX0ioPuqSH.jpg";
+import i1pupuhGZH0zBb from "../../assets/images/i1pupuhGZH0zBb.webp";
+import i1wPX3muKC9AG from "../../assets/images/i1wPX3muKC9AG.webp";
+import i1RUauvCYLzXvSB from "../../assets/images/i1RUauvCYLzXvSB.webp";
+import i1IxEvMKHejoi from "../../assets/images/i1IxEvMKHejoi.webp";
+import i1UkoA4ibQpq6EE from "../../assets/images/i1UkoA4ibQpq6EE.webp";
+import i1m6WxIaHJxOMb from "../../assets/images/i1m6WxIaHJxOMb.webp";
+import i1Yut6dX6Nre0cc from "../../assets/images/i1Yut6dX6Nre0cc.webp";
+import i1yVuqX0ioPuqSH from "../../assets/images/i1yVuqX0ioPuqSH.webp";
 const TakingBetterPhotos = () => (
   <>
     <div className="manual_detail">

@@ -1,6 +1,6 @@
-import i16tToJH from "../../assets/images/i16tToJH.jpg";
-import i1yffPaaCOorrcc from "../../assets/images/i1yffPaaCOorrcc.jpg";
-import i1UBjnYKdou55cE from "../../assets/images/i1UBjnYKdou55cE.jpg";
+import i16tToJH from "../../assets/images/i16tToJH.webp";
+import i1yffPaaCOorrcc from "../../assets/images/i1yffPaaCOorrcc.webp";
+import i1UBjnYKdou55cE from "../../assets/images/i1UBjnYKdou55cE.webp";
 const TypesOfSuspension = () => (
   <>
     <div className="manual_detail">

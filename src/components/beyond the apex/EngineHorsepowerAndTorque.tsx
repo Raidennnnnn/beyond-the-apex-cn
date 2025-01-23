@@ -1,5 +1,5 @@
-import i1GwuTh5bCoyrcE from "../../assets/images/i1GwuTh5bCoyrcE.jpg";
-import i1AQgTkEur1pAW from "../../assets/images/i1AQgTkEur1pAW.jpg";
+import i1GwuTh5bCoyrcE from "../../assets/images/i1GwuTh5bCoyrcE.webp";
+import i1AQgTkEur1pAW from "../../assets/images/i1AQgTkEur1pAW.webp";
 const EngineHorsepowerAndTorque = () => (
   <>
     <div className="manual_detail">

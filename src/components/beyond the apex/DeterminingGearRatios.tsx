@@ -1,6 +1,6 @@
-import i12ZDsjILjQpo from "../../assets/images/i12ZDsjILjQpo.jpg";
-import i1QOa0za6nG1lhB from "../../assets/images/i1QOa0za6nG1lhB.jpg";
-import i147pswdYzk4B from "../../assets/images/i147pswdYzk4B.jpg";
+import i12ZDsjILjQpo from "../../assets/images/i12ZDsjILjQpo.webp";
+import i1QOa0za6nG1lhB from "../../assets/images/i1QOa0za6nG1lhB.webp";
+import i147pswdYzk4B from "../../assets/images/i147pswdYzk4B.webp";
 const DeterminingGearRatios = () => (
   <>
     <div className="manual_detail">

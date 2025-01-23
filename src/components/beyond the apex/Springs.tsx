@@ -1,7 +1,7 @@
-import i1Xgb63dLODENEc from "../../assets/images/i1Xgb63dLODENEc.jpg";
-import i1O5ZlgNGqRlW from "../../assets/images/i1O5ZlgNGqRlW.jpg";
-import i1a2xKOdbbZqpuB from "../../assets/images/i1a2xKOdbbZqpuB.jpg";
-import i1XwhHNfioZvI from "../../assets/images/i1XwhHNfioZvI.jpg";
+import i1Xgb63dLODENEc from "../../assets/images/i1Xgb63dLODENEc.webp";
+import i1O5ZlgNGqRlW from "../../assets/images/i1O5ZlgNGqRlW.webp";
+import i1a2xKOdbbZqpuB from "../../assets/images/i1a2xKOdbbZqpuB.webp";
+import i1XwhHNfioZvI from "../../assets/images/i1XwhHNfioZvI.webp";
 const Springs = () => (
   <>
     <div className="manual_detail">

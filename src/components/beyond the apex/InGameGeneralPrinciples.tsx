@@ -1,4 +1,4 @@
-import i1eVwhq3tvrCC from "../../assets/images/i1eVwhq3tvrCC.jpg";
+import i1eVwhq3tvrCC from "../../assets/images/i1eVwhq3tvrCC.webp";
 const IngamegeneralPrinciples = () => (
   <>
     <div className="manual_detail">

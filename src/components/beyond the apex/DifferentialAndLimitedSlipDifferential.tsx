@@ -1,6 +1,6 @@
-import i16COVQuFpPgPz from "../../assets/images/i16COVQuFpPgPz.jpg";
-import i1lcpvOyo7S1dG from "../../assets/images/i1lcpvOyo7S1dG.jpg";
-import i1MwWsbz0XPVHb from "../../assets/images/i1MwWsbz0XPVHb.jpg";
+import i16COVQuFpPgPz from "../../assets/images/i16COVQuFpPgPz.webp";
+import i1lcpvOyo7S1dG from "../../assets/images/i1lcpvOyo7S1dG.webp";
+import i1MwWsbz0XPVHb from "../../assets/images/i1MwWsbz0XPVHb.webp";
 const DifferentialAndLimitedSlipDifferential = () => (
   <>
     <div className="manual_detail">

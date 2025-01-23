@@ -1,6 +1,6 @@
-import i1oHM1Hp4SucxSH from "../../assets/images/i1oHM1Hp4SucxSH.jpg";
-import i1B8TFfiM0m52cc from "../../assets/images/i1B8TFfiM0m52cc.jpg";
-import i1ne3nx65rO9Zz from "../../assets/images/i1ne3nx65rO9Zz.jpg";
+import i1oHM1Hp4SucxSH from "../../assets/images/i1oHM1Hp4SucxSH.webp";
+import i1B8TFfiM0m52cc from "../../assets/images/i1B8TFfiM0m52cc.webp";
+import i1ne3nx65rO9Zz from "../../assets/images/i1ne3nx65rO9Zz.webp";
 const SuspensionGeometry = () => (
   <>
     <div className="manual_detail">

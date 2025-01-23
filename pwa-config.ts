@@ -6,7 +6,7 @@ export default {
     enabled: true,
   },
   workbox: {
-    globPatterns: ['**/*.{js,css,html,png,jpg,jpeg,gif,svg,ico,json,webp}'],
+    globPatterns: ['**/*.{js,css,html,svg,ico,webp}'],
     runtimeCaching: [
       {
         urlPattern: /^https:\/\/chinese-fonts-cdn\.deno\.dev\/.*/i,
@@ -46,19 +46,25 @@ export default {
     theme_color: '#000000',
     icons: [
       {
-        src: 'pwa-64x64.png',
+        src: 'pwa-64x64.webp',
         sizes: '64x64',
-        type: 'image/png',
+        type: 'image/webp',
       },
       {
-        src: 'pwa-192x192.png',
+        src: 'pwa-192x192.webp',
         sizes: '192x192',
-        type: 'image/png'
+        type: 'image/webp'
       },
       {
-        src: 'pwa-512x512.png',
+        src: 'pwa-512x512.webp',
         sizes: '512x512',
-        type: 'image/png',
+        type: 'image/webp',
+      },
+      {
+        src: 'maskable-icon-512x512.webp',
+        sizes: '512x512',
+        type: 'image/webp',
+        purpose: 'maskable',
       }
     ],
     display_override: ['fullscreen', 'standalone', 'window-controls-overlay'],

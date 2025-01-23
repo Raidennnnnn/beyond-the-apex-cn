@@ -1,4 +1,4 @@
-import i1EfiLKx543TOO from "../../assets/images/i1EfiLKx543TOO.jpg";
+import i1EfiLKx543TOO from "../../assets/images/i1EfiLKx543TOO.webp";
 const LearningHowToBePrecise = () => (
   <>
     <div className="manual_detail">

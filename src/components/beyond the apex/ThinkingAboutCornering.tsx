@@ -1,6 +1,6 @@
-import i165CRVbU5uJTz from "../../assets/images/i165CRVbU5uJTz.jpg";
-import i117NZJIhgJmw from "../../assets/images/i117NZJIhgJmw.jpg";
-import i1tf8IxjWcePluH from "../../assets/images/i1tf8IxjWcePluH.jpg";
+import i165CRVbU5uJTz from "../../assets/images/i165CRVbU5uJTz.webp";
+import i117NZJIhgJmw from "../../assets/images/i117NZJIhgJmw.webp";
+import i1tf8IxjWcePluH from "../../assets/images/i1tf8IxjWcePluH.webp";
 const ThinkingAboutCornering = () => (
   <>
     <div className="manual_detail">

@@ -1,6 +1,6 @@
-import i1l3zgIBxYCvzz from "../../assets/images/i1l3zgIBxYCvzz.jpg";
-import i1XZfivhYJMxo7c from "../../assets/images/i1XZfivhYJMxo7c.jpg";
-import i17smvmvjFR0BC from "../../assets/images/i17smvmvjFR0BC.jpg";
+import i1l3zgIBxYCvzz from "../../assets/images/i1l3zgIBxYCvzz.webp";
+import i1XZfivhYJMxo7c from "../../assets/images/i1XZfivhYJMxo7c.webp";
+import i17smvmvjFR0BC from "../../assets/images/i17smvmvjFR0BC.webp";
 const UndersteerAndOversteer = () => (
   <>
     <div className="manual_detail">

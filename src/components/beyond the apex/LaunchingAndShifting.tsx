@@ -1,8 +1,8 @@
-import i1uHQSjHYcfoTz from "../../assets/images/i1uHQSjHYcfoTz.jpg";
-import i1aMIrPadfuVBz from "../../assets/images/i1aMIrPadfuVBz.jpg";
-import i14ERV7gddh7Z7c from "../../assets/images/i14ERV7gddh7Z7c.jpg";
-import i1BkFdKCXBaUY from "../../assets/images/i1BkFdKCXBaUY.jpg";
-import i1ZuMiM1fNWWBTB from "../../assets/images/i1ZuMiM1fNWWBTB.jpg";
+import i1uHQSjHYcfoTz from "../../assets/images/i1uHQSjHYcfoTz.webp";
+import i1aMIrPadfuVBz from "../../assets/images/i1aMIrPadfuVBz.webp";
+import i14ERV7gddh7Z7c from "../../assets/images/i14ERV7gddh7Z7c.webp";
+import i1BkFdKCXBaUY from "../../assets/images/i1BkFdKCXBaUY.webp";
+import i1ZuMiM1fNWWBTB from "../../assets/images/i1ZuMiM1fNWWBTB.webp";
 const LaunchingAndShifting = () => (
   <>
     <div className="manual_detail">

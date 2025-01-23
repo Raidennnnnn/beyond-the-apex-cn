@@ -1,8 +1,8 @@
-import i1wMRdIeRwZRASH from "../../assets/images/i1wMRdIeRwZRASH.jpg";
-import i1aRKJpQcURaREc from "../../assets/images/i1aRKJpQcURaREc.jpg";
-import i1k3XohI2zCu98c from "../../assets/images/i1k3XohI2zCu98c.jpg";
-import i1ejE4DbPVakLb from "../../assets/images/i1ejE4DbPVakLb.jpg";
-import i1AXOmA0LLnJWSB from "../../assets/images/i1AXOmA0LLnJWSB.jpg";
+import i1wMRdIeRwZRASH from "../../assets/images/i1wMRdIeRwZRASH.webp";
+import i1aRKJpQcURaREc from "../../assets/images/i1aRKJpQcURaREc.webp";
+import i1k3XohI2zCu98c from "../../assets/images/i1k3XohI2zCu98c.webp";
+import i1ejE4DbPVakLb from "../../assets/images/i1ejE4DbPVakLb.webp";
+import i1AXOmA0LLnJWSB from "../../assets/images/i1AXOmA0LLnJWSB.webp";
 const DriveLayout = () => (
   <>
     <div className="manual_detail">

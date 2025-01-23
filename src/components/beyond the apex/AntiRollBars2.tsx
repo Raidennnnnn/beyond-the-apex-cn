@@ -1,6 +1,7 @@
-import i1tP5nHqKvTGNb from "../../assets/images/i1tP5nHqKvTGNb.jpg";
-import i1uQ4u1Ftawc2cc from "../../assets/images/i1uQ4u1Ftawc2cc.jpg";
-import i11obTREqU4xYz from "../../assets/images/i11obTREqU4xYz.jpg";
+import i1tP5nHqKvTGNb from "../../assets/images/i1tP5nHqKvTGNb.webp";
+import i1uQ4u1Ftawc2cc from "../../assets/images/i1uQ4u1Ftawc2cc.webp";
+import i11obTREqU4xYz from "../../assets/images/i11obTREqU4xYz.webp";
+
 const AntiRollBars2 = () => (
   <>
     <div className="manual_detail">
