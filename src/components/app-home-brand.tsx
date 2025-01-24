@@ -1,7 +1,7 @@
 export default function Brand({ className }: { className?: string }) {
   return (
     <div className={`w-full h-full flex justify-center items-center px-5 md:px-32 ${className}`}>
-      <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 188 24" className="text-primary" xmlSpace="preserve" fill="currentColor">
+      <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 188 24" className="text-primary h-10 md:h-24" xmlSpace="preserve" fill="currentColor">
         <g id="グループ_1173" transform="translate(122 672.172)">
           <g id="グループ_693" transform="translate(370.43 298.507)">
             <path id="パス_350" d="M-444.8-963.6c0.6,0.3,1.1,0.8,1.4,1.4v-1.3h2.4v8.9c0.1,0.9-0.1,1.9-0.6,2.7
