@@ -13,12 +13,12 @@ export default function App() {
   return (
     <>
       <AppSidebar />
-      <div className="flex flex-col flex-1 relative w-full ">
+      <div className="flex flex-col flex-1 relative w-full">
         <AppTools>
           <AppSidebarTrigger />
           <ThemeToggle />
         </AppTools>
-        <div {...handlers} className="w-full h-full">
+        <div {...handlers} className="w-full h-full content-container">
           <Outlet />
         </div>
         <QuickNav />
