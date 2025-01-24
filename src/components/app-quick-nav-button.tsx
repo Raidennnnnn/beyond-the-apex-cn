@@ -2,6 +2,7 @@ import { useNavigate } from "react-router";
 import { Button } from "./ui/button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { FilePath } from "./filePaths";
+import { flushSync } from "react-dom";
 
 export default function QuickNavButton({ type, navigateTo, className }: { type: 'back' | 'forward', navigateTo: FilePath | null, className?: string }) {
   const navigate = useNavigate();
@@ -28,9 +29,17 @@ export default function QuickNavButton({ type, navigateTo, className }: { type: 
   function handleClick() {
     if (navigateTo) {
       const destination = navigateTo.path + '/' + navigateTo.files[0].path || '/';
-      navigate(destination);
-      
       localStorage.setItem('currentAt', destination);
+
+      if (!document.startViewTransition) {
+        navigate(destination);
+      } else {
+        document.startViewTransition(() => {
+          flushSync(() => {
+            navigate(destination);
+          });
+        });
+      }
     }
   }
 }

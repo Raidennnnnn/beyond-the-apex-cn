@@ -6,7 +6,7 @@ export default function NaviWrapper({ children }: { children: React.ReactNode })
   useLayoutEffect(() => {
     document.documentElement.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: 'instant'
     });
   }, [location.pathname]);
   return children;

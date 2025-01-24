@@ -24,11 +24,13 @@ export default function CollapsibleSidebarMenuItem({ folder }: { folder: FilePat
               <SidebarMenuSubItem key={file.path}>
                 <SidebarMenuSubButton asChild className="h-fit py-1" isActive={`/${folder.path}/${file.path}` === pathname}>
                   <Link 
+                    viewTransition
                     to={`/${folder.path}/${file.path}`} 
                     onClick={() => {
                       localStorage.setItem('currentAt', `/${folder.path}/${file.path}`);
                       if (isMobile) toggleSidebar();
-                    }}>
+                    }}
+                  >
                     {file.name}
                   </Link>
                 </SidebarMenuSubButton>
