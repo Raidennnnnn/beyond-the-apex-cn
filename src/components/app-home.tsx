@@ -8,9 +8,10 @@ export default function AppHome() {
     const currentAt = localStorage.getItem('currentAt');
     if (!currentAt) return { ...filePaths[0], files: [filePaths[0].files[0]] };
 
-    const [, parentPath, path] = currentAt.split('/');
+    const [parentPath, path] = currentAt.split('/');
     const parent = filePaths.find(({ path}) => path === parentPath);
     const child = parent?.files.find(f => f.path === path);
+
     if (parent && child) {
       return { ...parent, files: [child] };
     } else {

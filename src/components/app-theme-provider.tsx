@@ -1,7 +1,5 @@
 import { useRef, useState } from "react"
-import { ThemeProviderContext } from "./app-theme-provider-context"
-
-export type Theme = "dark" | "light"
+import { Theme, ThemeProviderContext } from "./app-theme-context"
 
 type ThemeProviderProps = {
   children: React.ReactNode
