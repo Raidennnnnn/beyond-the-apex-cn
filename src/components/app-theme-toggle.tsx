@@ -4,7 +4,7 @@ import { useTheme } from "@/hooks/use-theme"
 import { useEffect, useRef } from "react"
 import { flushSync } from "react-dom"
 
-export function ModeToggle() {
+export default function ThemeToggle() {
   const { theme, setTheme } = useTheme();
   const ref = useRef<HTMLButtonElement>(null);
 
@@ -24,8 +24,8 @@ export function ModeToggle() {
   return (
     <Button
       ref={ref}
-      variant="outline"
       size="sm"
+      variant="outline"
       className="transition-all w-8 md:w-auto px-1"
       onClick={toggleTheme}
     > 

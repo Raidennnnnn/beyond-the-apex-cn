@@ -1,4 +1,4 @@
-import Brand from "./brand";
+import Brand from "./app-home-brand";
 import { FilePath, filePaths } from "./filePaths";
 import { useMemo } from "react";
 import QuickNavButton from "./app-quick-nav-button";
