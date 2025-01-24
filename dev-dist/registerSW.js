@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) navigator.serviceWorker.register('/beyond-the-apex-cn/dev-sw.js?dev-sw', { scope: '/beyond-the-apex-cn/', type: 'classic' })
