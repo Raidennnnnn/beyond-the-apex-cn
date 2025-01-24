@@ -9,7 +9,7 @@ export default function QuickNavButton({ type, navigateTo, className }: { type: 
     <Button 
       size="sm" 
       variant="secondary" 
-      className={`h-full py-2 ${navigateTo ? '' : 'invisible'} flex ${type === 'back' ? 'justify-start' : 'justify-end'} max-w-[50%] whitespace-pre-wrap ${className}`} 
+      className={`h-full py-2 ${navigateTo ? '' : 'invisible'} flex ${type === 'back' ? 'justify-start' : 'justify-end'} w-1/2 md:w-fit whitespace-pre-wrap ${className}`} 
       onClick={handleClick}
     >
       { type === 'back' && <ArrowLeft className="w-4 h-4" /> }
