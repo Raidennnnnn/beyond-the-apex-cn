@@ -15,7 +15,8 @@ export default function QuickNav() {
     const currentParent = filePaths[currentParentIndex];
 
     if (!currentParent) {
-      setNext({ ...filePaths[0], files: [filePaths[0].files[0]] });
+      setPrevious(null);
+      setNext(null);
       return;
     };
 
@@ -50,7 +51,7 @@ export default function QuickNav() {
   }, [parentPath, path]);
 
   return (
-    <div className="px-6 pt-2 pb-16 md:pb-4 flex justify-between items-center gap-2 w-full">
+    <div className={`${!previous && !next ? 'hidden' : 'flex'} px-6 pt-2 pb-16 md:pb-4 flex justify-between items-center gap-2 w-full`}>
       <QuickNavButton type="back" navigateTo={previous} />
       <QuickNavButton type="forward" navigateTo={next} />
     </div>

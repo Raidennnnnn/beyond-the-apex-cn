@@ -3,13 +3,13 @@ import { Button } from "./ui/button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { FilePath } from "./filePaths";
 
-export default function QuickNavButton({ type, navigateTo }: { type: 'back' | 'forward', navigateTo: FilePath | null }) {
+export default function QuickNavButton({ type, navigateTo, className }: { type: 'back' | 'forward', navigateTo: FilePath | null, className?: string }) {
   const navigate = useNavigate();
   return (
     <Button 
       size="sm" 
       variant="secondary" 
-      className={`h-full py-2 ${navigateTo ? '' : 'invisible'} flex ${type === 'back' ? 'justify-start' : 'justify-end'} max-w-[50%] whitespace-pre-wrap`} 
+      className={`h-full py-2 ${navigateTo ? '' : 'invisible'} flex ${type === 'back' ? 'justify-start' : 'justify-end'} max-w-[50%] whitespace-pre-wrap ${className}`} 
       onClick={handleClick}
     >
       { type === 'back' && <ArrowLeft className="w-4 h-4" /> }

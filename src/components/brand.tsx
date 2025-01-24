@@ -1,6 +1,6 @@
-export default function Brand() {
+export default function Brand({ className }: { className?: string }) {
   return (
-    <div className="w-full h-full flex justify-center items-center px-5 md:px-32">
+    <div className={`w-full h-full flex justify-center items-center px-5 md:px-32 ${className}`}>
       <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 188 24" className="text-primary" xmlSpace="preserve" fill="currentColor">
         <g id="グループ_1173" transform="translate(122 672.172)">
           <g id="グループ_693" transform="translate(370.43 298.507)">
