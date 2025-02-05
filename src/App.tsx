@@ -18,7 +18,7 @@ export default function App() {
           <AppSidebarTrigger />
           <ThemeToggle />
         </AppTools>
-        <div {...handlers} className="w-full h-full content-container">
+        <div {...handlers} className="w-full h-full">
           <Outlet />
         </div>
         <QuickNav />

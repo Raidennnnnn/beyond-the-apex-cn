@@ -22,10 +22,6 @@
   z-index: 1
 }
 
-.content-container {
-  view-transition-name: main-content-text;
-}
-
 .manual_detail {
   @apply p-2 md:p-6 bg-background;
 
