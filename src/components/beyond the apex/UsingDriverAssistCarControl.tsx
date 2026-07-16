@@ -59,11 +59,11 @@ const UsingDriverAssistCarControl = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The TCS Settings Screen. Increasing the value will make the car more stable but will have a detrimental effect on its acceleration.
           </p>
-          <p lang="zh">
-            TCS 设置界面。数值越高越稳定，但会牺牲加速
+          <p className="caption" lang="zh">
+            TCS 设置界面。数值越高越稳定，但会牺牲加速。
           </p>
         </div>
 
@@ -94,11 +94,11 @@ const UsingDriverAssistCarControl = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The Counter-Steering Assistance Screen. Counter-steering assistance will help stabilize your cars on corners.
           </p>
-          <p lang="zh">
-            反打方向辅助设置界面，可稳定弯道中的车辆动态
+          <p className="caption" lang="zh">
+            反打方向辅助设置界面，可稳定弯道中的车辆动态。
           </p>
         </div>
 
@@ -129,11 +129,11 @@ const UsingDriverAssistCarControl = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The ABS Settings Screen. The moment the system detects your tires locking up, it reduces the brake force to restore control to your vehicle.
           </p>
-          <p lang="zh">
-            ABS 设置界面。检测轮胎抱死，防止制动距离延长
+          <p className="caption" lang="zh">
+            ABS 设置界面。检测轮胎抱死，防止制动距离延长。
           </p>
         </div>
 
@@ -173,11 +173,11 @@ const UsingDriverAssistCarControl = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The ASM Settings Screen. The system monitors for oversteering and understeering, ensuring that the car remains stable when cornering.
           </p>
-          <p lang="zh">
-            ASM 设置界面。监测转向不足与过度，保持稳定过弯
+          <p className="caption" lang="zh">
+            ASM 设置界面。监测转向不足与过度，保持稳定过弯。
           </p>
         </div>
 

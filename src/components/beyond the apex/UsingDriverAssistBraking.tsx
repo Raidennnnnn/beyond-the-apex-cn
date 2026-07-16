@@ -28,7 +28,7 @@ const UsingDriverAssistBraking = () => (
             "Driver Assist" will be enabled for players who select the "Beginner" or "Intermediate" assist preset when starting the game for the first time. The available functions and level of assistance will vary depending on the preset selected. You can change this setting from the "Driving Assistant" option in the "Quick Menu" that appears before each race.
           </p>
           <p lang="zh">
-            首次启动时选择「初学者」或「中级」辅助预设会启用驾驶辅助，但项目与强度因预设而异。可在每场比赛前的「快捷菜单」&gt;「驾驶辅助」中更改。
+            首次启动时选择「初学者」或「中级」辅助预设会启用驾驶辅助，但项目与强度因预设而异。可在每场比赛前的「快捷菜单」→「驾驶辅助」中更改。
           </p>
         </div>
 
@@ -68,11 +68,11 @@ const UsingDriverAssistBraking = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The braking area is a series of red lines across the track which indicate the point at which you should apply the brake.
           </p>
-          <p lang="zh">
-            制动区域是横穿赛道的红色条带，标示应踩制动的位置
+          <p className="caption" lang="zh">
+            制动区域是横穿赛道的红色条带，标示应踩制动的位置。
           </p>
         </div>
 
@@ -103,11 +103,11 @@ const UsingDriverAssistBraking = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The center of the meter will turn red to indicate when it's time to brake.
           </p>
-          <p lang="zh">
-            仪表中央变红，提示制动点
+          <p className="caption" lang="zh">
+            仪表中央变红，提示制动点。
           </p>
         </div>
 
@@ -138,11 +138,11 @@ const UsingDriverAssistBraking = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The section of the meter surrounded by the red square shows the suggested gear. Fourth gear is currently engaged, but it's suggested that the driver switches to third gear ahead of the corner.
           </p>
-          <p lang="zh">
-            画面下方仪表红框内为建议挡位。当前 4 挡行驶，提示下一弯道应降至 3 挡
+          <p className="caption" lang="zh">
+            画面下方仪表红框内为建议挡位。当前 4 挡行驶，提示下一弯道应降至 3 挡。
           </p>
         </div>
 
@@ -164,11 +164,11 @@ const UsingDriverAssistBraking = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The Auto-Brake and Auto-Drive assists will help you with your braking and steering. These features can be adjusted from the Quick Menu.
           </p>
-          <p lang="zh">
-            自动制动与自动转向辅助制动与转向操作，可在比赛快捷菜单的「辅助设置」中调整
+          <p className="caption" lang="zh">
+            自动制动与自动转向辅助制动与转向操作，可在比赛快捷菜单的「辅助设置」中调整。
           </p>
         </div>
       </div>

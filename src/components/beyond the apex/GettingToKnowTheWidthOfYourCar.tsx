@@ -1,3 +1,7 @@
+import i1406VoQdPPwEO from "../../assets/images/i1406VoQdPPwEO.webp";
+import i14DC6pDNkmKFC from "../../assets/images/i14DC6pDNkmKFC.webp";
+import i1JVs47ghbJfluB from "../../assets/images/i1JVs47ghbJfluB.webp";
+
 const GettingToKnowTheWidthOfYourCar = () => (
   <>
     <div className="manual_detail">
@@ -34,6 +38,56 @@ const GettingToKnowTheWidthOfYourCar = () => (
           <p lang="zh">
             进入赛道后，切换到「追逐视角」，将车开到路缘白线处，使外侧车轮压在白线上。停稳后切换到平时使用的视角，观察白线在屏幕上的位置。若使用驾驶舱视角，记住白线相对车窗的位置。左右两侧都要练习。
           </p>
+        </div>
+
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1406VoQdPPwEO} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  Select 'Chase View', drive to the edge of the track, then stop.
+                </p>
+                <p lang="zh">
+                  切换到「追逐视角」，将车沿赛道边缘白线停下。
+                </p>
+              </div>
+            </dd>
+          </dl>
+
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1JVs47ghbJfluB} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  While stopped, try switch the view. This is 'Cockpit View'.
+                </p>
+                <p lang="zh">
+                  保持停车状态切换视角。这是驾驶舱视角。
+                </p>
+              </div>
+            </dd>
+          </dl>
+
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i14DC6pDNkmKFC} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  This is 'Normal View'. Once you've checked one side of the track, go and do the other side.
+                </p>
+                <p lang="zh">
+                  这是标准视角。请在另一侧白线同样练习。
+                </p>
+              </div>
+            </dd>
+          </dl>
         </div>
 
         <div className="bilingual">

@@ -43,11 +43,11 @@ const TakingCorners = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             In Gran Turismo 7, corner indicators can help you with your cornering. These will appear in yellow on your screen. Linking one corner indicator to the next will help you understand the line you should be taking.
           </p>
-          <p lang="zh">
-            《GT 赛车 7》中的行驶标记（黄色）可辅助过弯，将各标记连贯起来即可理解应走的路线
+          <p className="caption" lang="zh">
+            《GT 赛车 7》中的行驶标记（黄色）可辅助过弯，将各标记连贯起来即可理解应走的路线。
           </p>
         </div>
 

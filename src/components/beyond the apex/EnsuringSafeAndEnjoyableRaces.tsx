@@ -57,12 +57,16 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           <img alt="" src={i13CSDzPCgQWZ} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i13CSDzPCgQWZ} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             Be sure to drive between the white lines on the track. You will be penalized if all four of your wheels leave the area between the white lines.
           </p>
-          <p lang="zh">
-            请在白线之间的区域内行驶。四轮全部离开白线区域将受罚
+          <p className="caption" lang="zh">
+            请在白线之间的区域内行驶。四轮全部离开白线区域将受罚。
           </p>
         </div>
 
@@ -92,12 +96,16 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           <img alt="" src={i1lKM9B3WBMuESH} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i1lKM9B3WBMuESH} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             Take care not to obstruct any of the cars behind you when returning to the track.
           </p>
-          <p lang="zh">
-            返回赛道时注意勿阻挡后方车辆
+          <p className="caption" lang="zh">
+            返回赛道时注意勿阻挡后方车辆。
           </p>
         </div>
 
@@ -127,12 +135,16 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           <img alt="" src={i1h1b9nfdBZO6} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i1h1b9nfdBZO6} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             When a car that's clearly faster approaches from behind, be sure to smoothly yield the racing line. It's a good idea to use your indicators to show that you're moving out of the way.
           </p>
-          <p lang="zh">
-            明显更快的车辆逼近时，请平顺让线。用转向灯示意让道也很有效
+          <p className="caption" lang="zh">
+            明显更快的车辆逼近时，请平顺让线。用转向灯示意让道也很有效。
           </p>
         </div>
 
@@ -162,12 +174,16 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           <img alt="" src={i157nK9eEpSdsSH} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i157nK9eEpSdsSH} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             You can only change your line to block cars coming up behind you once.
           </p>
-          <p lang="zh">
-            为守住位置阻挡后方车辆的变线仅允许一次
+          <p className="caption" lang="zh">
+            为守住位置阻挡后方车辆的变线仅允许一次。
           </p>
         </div>
 
@@ -188,12 +204,16 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           <img alt="" src={i1KC42ECOcFkQC} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i1KC42ECOcFkQC} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             If there's a rival car on your inside at a the corner, driving close to the inner edge of the corner so as to force them off the track is bad etiquette. Be sure to always leave one car's width of space.
           </p>
-          <p lang="zh">
-            弯道内侧有其他车辆时，贴内侧行驶迫使其出界是不礼貌的。请始终留出一台车的空间
+          <p className="caption" lang="zh">
+            弯道内侧有其他车辆时，贴内侧行驶迫使其出界是不礼貌的。请始终留出一台车的空间。
           </p>
         </div>
 
@@ -223,12 +243,16 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           <img alt="" src={i1hNyV83tvrPnuB} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i1hNyV83tvrPnuB} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             Suddenly swerving into the pit lane is very dangerous. Follow the white lines on the track which guide you into the pit lane.
           </p>
-          <p lang="zh">
-            从主赛道突然进站非常危险。请沿路面引导进维修区的白线行驶
+          <p className="caption" lang="zh">
+            从主赛道突然进站非常危险。请沿路面引导进维修区的白线行驶。
           </p>
         </div>
 
@@ -267,12 +291,16 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           <img alt="" src={i17ai4I5arkleSB} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i17ai4I5arkleSB} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             A yellow flag is being waved on the post on the right. You must reduce your speed immediately and refrain from overtaking. A green flag indicates that these restrictions have been lifted.
           </p>
-          <p lang="zh">
-            右侧裁判岗正在挥黄旗。请立即减速并放弃超车。绿旗表示限制解除
+          <p className="caption" lang="zh">
+            右侧裁判岗正在挥黄旗。请立即减速并放弃超车。绿旗表示限制解除。
           </p>
         </div>
       </div>

@@ -52,11 +52,11 @@ const SettingTrackMarkers = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             On some tracks there are signs indicating the distance to the next corner. Use these as markers to show you when to brake.
           </p>
-          <p lang="zh">
-            部分赛道设有标示距下一弯道距离的标志，请善加利用
+          <p className="caption" lang="zh">
+            部分赛道设有标示距下一弯道距离的标志，请善加利用。
           </p>
         </div>
 

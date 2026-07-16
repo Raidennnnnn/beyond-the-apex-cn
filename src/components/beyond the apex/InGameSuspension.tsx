@@ -91,12 +91,16 @@ const InGameSuspension = () => (
           <img alt="" src={i1kVtFAyjsRWNz} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i1kVtFAyjsRWNz} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             Natural frequency in Car Settings. Normally the front and rear values should be the same.
           </p>
-          <p lang="zh">
-            车辆设定中的固有振动数，前后数值对齐是基本原则
+          <p className="caption" lang="zh">
+            车辆设定中的固有振动数，前后数值对齐是基本原则。
           </p>
         </div>
       </div>

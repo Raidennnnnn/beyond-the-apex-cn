@@ -62,10 +62,10 @@ const GettingUsedToYourController = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The motion sensor function allows you to turn as if you were turning the steering wheel of a car
           </p>
-          <p lang="zh">
+          <p className="caption" lang="zh">
             动作传感器功能让你像转动方向盘一样操作手柄来转向
           </p>
         </div>
@@ -84,10 +84,10 @@ const GettingUsedToYourController = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             I recommend 'R2/L2 buttons' which lets you use each index finger to control accelerating and braking
           </p>
-          <p lang="zh">
+          <p className="caption" lang="zh">
             推荐用双手食指分别控制油门和制动的「R2/L2 按钮」
           </p>
         </div>

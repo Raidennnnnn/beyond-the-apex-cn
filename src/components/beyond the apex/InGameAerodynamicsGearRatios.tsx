@@ -74,12 +74,16 @@ const InGameAerodynamicsGearRatios = () => (
           <img alt="" src={i19VOKAGIlOcX8c} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i19VOKAGIlOcX8c} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             The setting indicated by the red box is the downforce. Increased downforce means more air resistance, so you'll need to consider a track's characteristics when adjusting this value
           </p>
-          <p lang="zh">
-            红框部分为车辆设定中的下压力。下压力也是风阻，调节时需考虑赛道特性
+          <p className="caption" lang="zh">
+            红框部分为车辆设定中的下压力。下压力也是风阻，调节时需考虑赛道特性。
           </p>
         </div>
 
@@ -127,12 +131,16 @@ const InGameAerodynamicsGearRatios = () => (
           <img alt="" src={i1Zgvepo0FJpSz} />
         </p>
 
+        <p className="image">
+          <img alt="" src={i1Zgvepo0FJpSz} />
+        </p>
+
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             Top Speed in Car Settings. Note that the higher the top speed, the longer it will take to accelerate to that speed.
           </p>
-          <p lang="zh">
-            车辆设定中的最高速。注意：目标最高速越高，加速到该速度所需时间越长
+          <p className="caption" lang="zh">
+            车辆设定中的最高速。注意：目标最高速越高，加速到该速度所需时间越长。
           </p>
         </div>
       </div>

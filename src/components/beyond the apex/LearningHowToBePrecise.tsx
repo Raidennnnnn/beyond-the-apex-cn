@@ -52,11 +52,11 @@ const LearningHowToBePrecise = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             An example from just before the Fuji Speedway's Coca-Cola Corner. Wait for the moment when the distance marker disappears from view to start braking.
           </p>
-          <p lang="zh">
-            富士 Speedway 可口可乐弯前的例子：利用右侧距离标志从屏幕中消失的时机
+          <p className="caption" lang="zh">
+            富士国际赛车场可口可乐弯前的例子：利用右侧距离标志从屏幕中消失的时机开始制动。
           </p>
         </div>
 
