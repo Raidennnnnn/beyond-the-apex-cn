@@ -1,0 +1,1594 @@
+{
+  "review_tuning_and_settings__advanced_settings__01": {
+    "h1_en": "High-Speed Circuits, Technical Courses",
+    "h1_jp": "高速サーキット、テクニカルコース",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● High-Speed Circuits",
+        "jp": "■高速サーキット"
+      },
+      {
+        "type": "h3",
+        "en": "Improving Top Speed",
+        "jp": "トップスピードを伸ばす"
+      },
+      {
+        "type": "p",
+        "en": "For high-speed circuits, the goal is to maintain stability through fast corners. This typically involves using relatively stiff suspension and a low ride height. However, if the ride height is set too low and suspension travel is reduced, the car may struggle to absorb bumps and surface undulations, reducing overall grip. When using stiffer springs, slightly softer anti-roll bars can allow some body movement to help maintain tire contact. Conversely, if the springs are softened to cope with uneven surfaces, increasing anti-roll bar stiffness can help control excess roll. In this way, anti-roll bars can be used to fine-tune the balance of the suspension.\n\nWheel alignment is also an important factor. Increasing rear toe-in can improve straight-line stability and high-speed control. A small amount of negative camber is typically used to maintain grip in corners, but excessive camber should be avoided, as it can reduce the effective contact patch during braking and straight-line driving.\n\nAs with any setup, the goal of gearing is to keep the engine within its powerband as much as possible. The final drive should be selected so that top gear approaches the redline near the end of the longest straight. In terms of aerodynamics, downforce should be kept as low as practical to maximize straight-line speed, while still maintaining sufficient stability for cornering and braking.",
+        "jp": "高速サーキットでクルマに求めたいのは、高速コーナーを可能な限り速く抜けるセッティング。足回りから見ていくとバネレート、ダンパー減衰力ともに硬い方向。車高もなるべく低くセッティングする。ただしサスペンションストロークが足りなくなるほど車高を下げ過ぎたり、路面のギャップやウネリで受ける衝撃を吸収できないほどサスペンションを固めると逆効果になる。スプリングを硬くするならスタビライザーは柔らかめで適度なロールを起こしタイヤの接地性を確保しよう。いっぽう荒れた路面に対してスプリングを若干柔らかめにするならばスタビライザーを硬くしてロールスピードを抑えよう。スプリングでやり切れない仕事をスタビライザーにさせる作戦だ。\n\nアライメントも重要。スタビリティを稼ぐためリアのトーインは増やしたほうがいい。キャンバーはある程度ネガティブに。ただし高速域の直進やフルブレーキング時にタイヤの面積をなるべく広く路面に接地させて安定させたい狙いもあるので、適度に抑えよう。\n\nギアレシオはどんなコースでも共通することだが、常にパワーバンドを外さないセッティングにすることが大切。ファイナルはストレートの終わりで一番高いギアが吹け切るギア比に調整。ダウンフォースについては、基本的にはストレートスピードを伸ばす目的で減らす方向。ただしコーナーやブレーキングでの安定性も確保したいので減らしすぎは禁物だ。"
+      },
+      {
+        "type": "h3",
+        "en": "Suggested Suspension Settings",
+        "jp": "サスペンションセッティングの目安"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i165jip6SQb47C.jpg",
+        "jp": "/images/c/i15TqssDXDTaTcE.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Technical Courses",
+        "jp": "■テクニカルコース"
+      },
+      {
+        "type": "h3",
+        "en": "Efficiently Transfering Power to the Road",
+        "jp": "パワーを効率よく路面に伝える"
+      },
+      {
+        "type": "p",
+        "en": "For a technical course with many tight corners, the aim is to achieve quick turn-in and strong acceleration out of bends with minimal loss of momentum. The first step is to set the ride height appropriately for the surface, keeping it as low as possible without compromising suspension travel or causing instability.\n\nTo improve rotation, the front springs can be softened and the rear springs stiffened, with more moderate changes in rear-wheel-drive cars. Damper settings should be adjusted with the same objective. In terms of alignment, a small amount of front toe-out is often used to sharpen initial turn-in, while reducing it can improve stability through and beyond the apex. Negative camber should be used in moderation to maintain traction during braking and cornering.\n\nTransmission gearing should favor a close-ratio setup to maintain engine speed rather than prioritizing top speed, with a shorter (numerically higher) final drive to improve acceleration.\n\nIf extensive engine tuning is possible, the focus should be on strengthening low- and mid-range torque to improve acceleration out of corners, rather than maximizing peak power at high rpm. Aerodynamic settings should favor higher levels of downforce at both the front and rear to support stability and grip in cornering, rather than outright top speed.",
+        "jp": "タイトコーナーの多いテクニカルコースで目指すセッティングは、素早く向きを変えられて、パワーロスなく一気にコーナーを脱出できるクルマ作り。まず車高をコースに合わせる。不都合を生じない範囲で低くしよう。\n\nバネレートは、車体の向きを変えるキッカケ作り（挙動変化）のためフロントを柔らかく、リアを硬めに（後輪駆動車は適度に）。ダンパーもスプリングと同じ狙いでセッティング。アライメントは初期応答性重視ならフロントをトーインに振る。クリッピングポイント付近のフィーリングを求めるならトーインを減らすというように好みで合わせればいい。注意したいのがキャンバー角だ。ブレーキの効きや立ち上がりでのトラクションを確保したいので、直進時のタイヤの接地面積を減らすネガティブキャンバーはほどほどに抑えよう。\n\nトランスミッションのギアレシオは最高速を重視せず、常に高回転域をキープできるクロスレシオにセッティングしよう。ファイナルのギア比も同様で鋭い加速が可能になる低目のものを選びたい。\n\nエンジン特性を大きく変えられる場合は、エンジンが吹け切るレッドゾーン付近のパワーはあまり重視せず、立ち上がり加速の稼げる中低速域でのトルクを重視したい。ダウンフォースは前後ともに最大限確保するように。空力も最高速よりコーナーの安定性を重視するセッティングとするのだ"
+      },
+      {
+        "type": "h3",
+        "en": "Suggested Suspension Settings",
+        "jp": "サスペンションセッティングの目安"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1NxrWAbhbpeSz.jpg",
+        "jp": "/images/c/i1sdX5yzl0d1g.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__advanced_settings__02": {
+    "h1_en": "Countering Understeer, Countering Oversteer",
+    "h1_jp": "アンダーステア、オーバーステア",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● Countering Understeer",
+        "jp": "■アンダーステア対策"
+      },
+      {
+        "type": "h3",
+        "en": "Understanding Why the Car Refuses to Turn",
+        "jp": "どこで曲がらないのかを把握する"
+      },
+      {
+        "type": "p",
+        "en": "Begin by identifying when understeer occurs—on corner entry, at the apex, or on exit.\n\nIf it appears on entry, front-end grip needs to be increased. This can be achieved by softening the front springs and adjusting the dampers to allow more forward weight transfer, typically by reducing compression damping and controlling rebound. This helps load the front tires more effectively under braking.\n\nIn addition to suspension setup, excessive LSD locking can also contribute to entry understeer. Reducing preload and deceleration locking can help improve rotation. In rear-wheel-drive cars, switching from a 2-way LSD to a 1-way type can reduce locking on deceleration and improve turn-in. On faster circuits, increasing front downforce can also help improve front-end grip.\n\nIf understeer occurs near the apex, increasing negative camber can help maintain a better contact patch under load. Reducing rear toe-in can also make the car more willing to rotate, and in some cases increasing front track width can further improve front-end grip.\n\nIf understeer appears on corner exit in rear-wheel-drive cars, it can be addressed by improving front-end response and rear traction balance. For example, by slightly lowering the front ride height and adjusting damper settings to support weight transfer. In front-wheel-drive cars, increasing LSD effectiveness can help improve traction and reduce power-related understeer, though excessive locking may worsen it.",
+        "jp": "コーナーの進入／クリッピングポイント付近／立ち上がりのどのセクションでアンダーステアが出るのかを見極めることから始める。\n\n進入でアンダーとなる場合は、フロントのグリップ力を最大限に確保しなければならない。柔らかいバネを使い、ダンパーは前輪への荷重移動を促すため、伸び側を固めて縮み側は柔らかくしてみよう。\n\n足回り以外のファクターとして、LSDの効きすぎという理由も考えられる。対策はロック率とイニシャルトルクを落とすこと。後輪駆動車で、加速と減速を問わず作動する2WAYを使っているなら、減速時にはフリーになる1WAYに変更してみよう。高速コーナーであればフロントのダウンフォースを増やし、前輪のグリップを上げる対策も有効だ。\n\nクリッピングポイント付近のアンダーは、ロールした時にタイヤの接地面積が減らないようネガティブキャンバーを増やすべきだろう。リアのトーインを減らしてグリップ力をバランスさせるといったアライメント調整が有効。可能ならフロントのトレッドを広げることも効果がある。\n\n脱出時に問題となる後輪駆動車のプッシングアンダー対策は、フロントの車高を下げたり、フロントダンパーの伸び側とリアダンパーの縮み側を固める。逆にパワーオーバーになるようならリアを柔らかめにし、FF車で立ち上がり加速の際にアンダーが出るならLSDの効きを強くする。"
+      },
+      {
+        "type": "h3",
+        "en": "Suggested Suspension Settings",
+        "jp": "サスペンションセッティングの目安"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1XKKLjPmfJfsSH.jpg",
+        "jp": "/images/c/i19a9xpudy0IRuB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Countering Oversteer",
+        "jp": "■オーバーステア対策"
+      },
+      {
+        "type": "h3",
+        "en": "The Trouble With Rear-Wheel Drives",
+        "jp": "後輪駆動車固有の悩み"
+      },
+      {
+        "type": "p",
+        "en": "Front-wheel-drive and all-wheel-drive cars are generally more resistant to oversteer, while rear-wheel-drive cars are more prone to it due to their drivetrain layout.\n\nIf the aim is to maintain control of oversteer—for example in drifting—stiffer suspension can help make the car’s behavior more predictable. In contrast, for time attack or circuit driving, the focus should be on maintaining rear traction to ensure effective forward acceleration.\n\nUnwanted oversteer typically results from a loss of rear tire grip under power, causing the car to rotate and reducing effective acceleration.\n\nSpring rate and damping can be adjusted to help counter oversteer. Softening the rear springs can improve rear grip, while damper settings can be tuned to control how weight transfers, typically by reducing excessive rear instability. Reducing rear anti-roll bar stiffness can also help maintain traction by allowing more even load distribution across the rear tires. Increasing rear track width, where possible, can further improve stability. If the front suspension is too soft, weight can transfer forward too easily, so slightly increasing front stiffness can help maintain rear grip.\n\nIf a rear wing or spoiler is fitted, increasing its angle can add downforce and improve rear stability, although this will usually come with a small reduction in top speed.",
+        "jp": "FF車や4WD車に関していえば、オーバーステアで悩まされることはほとんどない。オーバーステアは後輪駆動車で問題になるケースがほとんどだ。\n\n仮にドリフト走行がメインでコントロール性を重視するなら、むしろリアの流れる量を正確にコントロールできるよう、前後ともサスペンションを硬めにすればいい。しかしサーキットのタイムアタックであれば、クルマを前に進めるトラクションを最大限確保することを狙って対策を考えよう。\n\n好ましくないオーバーステアになる理由の多くが、パワーオンの時に発生するリアのトラクション不足。加速しないで横方向に駆動力が逃げてしまうものだ。\n\n対策としては、まずスプリングレートとダンパーの減衰力の調整。リアのスプリングレートを柔らかく設定し、その上でダンパーの縮み側をソフトに、伸び側をハードにしてみよう。リアのスタビライザーを柔らかくして内輪側の荷重を増やすのもいい。可能であればリアのトレッドを広げていく。いっぽうフロントは柔らかすぎると大きな姿勢変化を起こしてリアの荷重を抜いてしまう。リアのグリップ力を確保するためにも固めのセッティングが望ましい。\n\nリアスポイラーなどが付いているならば、角度を強めてリアのダウンフォースを増やしてみよう。ただしこの場合は最高速が犠牲になることも忘れずに。"
+      },
+      {
+        "type": "h3",
+        "en": "Suggested Suspension Settings",
+        "jp": "サスペンションセッティングの目安"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i18becgRGmvXk.jpg",
+        "jp": "/images/c/i19L5Z1YeATGLz.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__advanced_settings__03": {
+    "h1_en": "Wet Conditions, Gravel",
+    "h1_jp": "ウェット路面、グラベル",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● Wet Conditions",
+        "jp": "■ウェットコンディション"
+      },
+      {
+        "type": "h3",
+        "en": "Get the Best Out of Your Tires",
+        "jp": "タイヤのパフォーマンスを引き出す"
+      },
+      {
+        "type": "p",
+        "en": "In wet conditions, the coefficient of friction (μ) of the road surface is reduced, lowering overall grip. To compensate, several setup changes can be made.\n\nSpring rates, damping, and anti-roll bar stiffness are typically reduced compared with dry conditions to improve compliance and help the tires maintain contact with the surface. In some cases, rear anti-roll bar stiffness may be reduced significantly to improve stability. Excessively stiff suspension can reduce grip in low-traction conditions, making the car more prone to sudden loss of control, whereas a softer setup allows the tires to follow the surface more effectively. Camber angles are often reduced slightly compared to dry settings to maintain a larger contact patch during acceleration and braking. Where aerodynamic adjustment is available, increasing downforce at both the front and rear can help improve stability and grip in wet conditions.\n\nOne of the simplest wet-weather adjustments is tire pressure. In heavy rain, slightly increasing pressure can help reduce the risk of hydroplaning by encouraging water to be cleared more effectively from the contact patch. In lighter rain, a small reduction in pressure can improve grip. Adjusting front and rear pressures is a quick way to fine-tune balance and is often one of the first changes made.\n\nIf engine tuning is possible, the focus should be on smooth, usable low- and mid-range torque rather than peak power. Greater reliance on electronic control systems can also improve performance in wet conditions, with traction control and braking systems playing a significant role in maintaining stability.",
+        "jp": "当然のことだが、雨で路面のμ（摩擦係数）が低くなればトータルのグリップは大幅に少なくなる。雨のレースになった場合の基本的なセッティングを挙げておく。\n\nスプリングレート、ダンパー、スタビライザーはドライより大幅に柔らかい方向に変更（リアのスタビライザーを外すこともある）。硬い足だとタイヤが接地しにくく、限界域で唐突に滑ることがある。そもそも硬い足回りはトータルのグリップが高い場合に必要なので、グリップの低いウェットでは不要と考えよう。キャンバーはドライ路面より若干起こして加減速時のタイヤの接地面積を稼ぐ。空力の調整が可能な車両は前後ともダウンフォースを増やしてグリップを最大限に上げてやる。\n\nちなみに実戦で行うもっとも簡単なウェットセッティングは空気圧の調整だ。雨が酷ければタイヤの空気圧をドライより高めにしてタイヤ接地面を狭くし、単位面積あたりの荷重を増やすことでハイドロプレーニングを防ぐ。雨量が少なければ反対に空気を下げることもある。空気圧の調整は前後のグリップ力の微調整をする際にも手間なく行えるため、セッティングの第一歩といっていい。\n\nエンジン特性を変更できるなら、トップエンドのパワーより低中速回転域のトルクを重視する。またウェットレースの場合は、電子デバイスを頼ったほうがコントローラブルで速くなるケースが多い。電子制御デバイスの有無による挙動の違いを感じるのもひとつの楽しみ方だ。"
+      },
+      {
+        "type": "h3",
+        "en": "Suggested Suspension Settings",
+        "jp": "サスペンションセッティングの目安"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1wOyrjys9MMcuB.jpg",
+        "jp": "/images/c/i1pSuObmyMpSucE.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Gravel",
+        "jp": "■グラベル"
+      },
+      {
+        "type": "h3",
+        "en": "Improving Control",
+        "jp": "挙動コントロール性能を高める"
+      },
+      {
+        "type": "p",
+        "en": "When setting up a car for gravel driving, the priority is flexibility and control. Unpaved surfaces are unpredictable, and even small changes in line can expose the car to different levels of grip. As cars pass, they also disturb the surface by kicking up dust, sand and loose gravel, further reducing consistency for those behind. A setup that is optimized purely for maximum performance on a smooth surface will lack the compliance needed to cope with these constant changes.\n\nOne approach for loose surfaces is to use a setup that encourages rotation when the driver lifts off the throttle, while remaining more neutral under power. This allows the car’s attitude to be influenced by throttle input, making it easier to guide through corners. Such a balance can be achieved through differential settings that provide locking both on and off throttle, combined with careful adjustment of brake bias.\n\nUndersteer and oversteer can be managed using similar principles to those used on paved surfaces, although the setup will typically be softer and more compliant. Ride height should be set according to surface conditions—while a lower center of gravity is beneficial, rough terrain and obstacles require sufficient clearance to avoid damage. On courses with jumps, aerodynamic balance should help keep the car stable in the air. Engine tuning should prioritize responsiveness over peak power.\n\nIn general, achieving speed on gravel requires adapting core driving techniques to lower-grip conditions rather than applying the same approach used on a circuit.",
+        "jp": "グラベルのセッティングでもっとも大切なのは自由自在なコントロール性だ。舗装されていない路面はコンディションが安定しておらず、少し走行ラインを変えただけでも路面の摩擦係数が大きく変化する。先行車が砂利を飛び出させることも日常茶飯事で、走行順によっても路面状況が大きく変わる。サーキットのように「限界の高さを狙った」セッティングだと、路面変化に対処できないと考えよう。\n\nこうした路面に対応する考え方のひとつは、駆動方式とは無関係に「アクセルを戻したときにノーズがインを向き、アクセルをオンにしたときにニュートラルステアとなるセッティング」。基本をあえて「曲がりすぎる」設定とし、それをアクセルで補正するようなドライビングを想定したセッティングである。具体的には2WAYLSDを使用したり、ブレーキの前後バランスを前寄りにセットしてみよう。\n\nアンダーステアやオーバーステアの対策については、舗装路面と同じ考え方でいい。また適切な車高は路面によって大きく変わる。落とせるだけ落とすのがセオリーだが、深いワダチや大きな石のあるコースだと車両にダメージを与えてしまう。ジャンプのあるコースを走るなら、滞空時の姿勢まで考えた前後の空力バランスを追求すべき。エンジン特性はトップエンドのパワーより、可能な限りレスポンスアップを図るのがベターだ。\n\nグラベルでの速さを獲得するには、ワインディングやサーキットの常識に囚われない発想が求められるといえよう。"
+      },
+      {
+        "type": "h3",
+        "en": "Suggested Suspension Settings",
+        "jp": "サスペンションセッティングの目安"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i11svyRXsDZo4.jpg",
+        "jp": "/images/c/i1aJn4qWfzepSb.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__aerodynamics__01": {
+    "h1_en": "Aerodynamic Tuning",
+    "h1_jp": "エアロチューン",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Aerodynamic parts are often added for styling, but when used correctly they play an important role in optimizing performance. Well-designed aerodynamics can reduce drag and control lift, improving high-speed stability. The downforce generated by these components increases tire load and helps maximize grip and controllability. However, aerodynamic tuning must be balanced with the suspension and overall vehicle setup, as poor implementation can reduce performance.",
+        "jp": "一般的にドレスアップを目的に装着されることが多いエアロパーツも、本格的なチューニングマシンでは非常に重要な機能を果たす。高速域で車速の伸びを鈍らせる空気抵抗と、ボディを浮き上がらせようとする揚力を低減させ、走行性能を高めるのが主たる目的だ。とりわけエアロパーツで発生させる車体を下方向に押さえつける力（ダウンフォース）は、挙動安定性を高めるとともにタイヤのグリップ性能を引き出すために不可欠で、操縦性の向上に大きく貢献する。ただしエアロチューンはサスペンションも含めた全体のバランスを取ることが重要で、不適切なチューニングによって逆に走行性能を悪化させることも珍しくない。"
+      },
+      {
+        "type": "h3",
+        "en": "Front Spoiler",
+        "jp": "フロントスポイラー"
+      },
+      {
+        "type": "p",
+        "en": "These components are designed to control airflow beneath the car and reduce lift. However, if poorly designed or improperly installed, they can disrupt airflow and increase pressure under the body, reducing stability. In extreme cases, this can lead to a significant loss of control.",
+        "jp": "ボディ下面への空気の流入を抑制し、揚力を低減するのが目的。ただし、きわめてまれなケースとはいえ、十分な整形が行われていないパーツを装着し、かつ最低地上高を下げて低重心化を図った車両では、加圧された気流が狭められたボディ下部に次々に侵入し、本来の狙いとは逆にフロントに揚力を発生。最悪、コントロールを失うこともある。走行風をいなし、利用する。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i16xDdiIScrECTH.jpg",
+        "jp": "/images/c/i16xDdiIScrECTH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Rear Bumper Spoiler",
+        "jp": "リアスポイラー"
+      },
+      {
+        "type": "p",
+        "en": "These components are designed to shape airflow around the rear bumper, helping to reduce turbulence and improve overall aerodynamic efficiency. They can be integrated into the bumper as a single unit or added as a separate attachment beneath it. The integrated type is often referred to as a rear bumper spoiler, while the add-on type is commonly called a rear under spoiler or rear skirt.",
+        "jp": "リアバンパー形状の最適化を図り、後方にできる渦の発生を抑え、スムーズに気流を受け流すためのエアロパーツ。リアバンパーと一体式になったものとリアバンパー下部に装着するものがあり、一般的に前者は「リアバンパースポイラー」、後者は「リアアンダースポイラー」や「リアスカート」などと呼ばれる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1PE93sKsGeGNb.jpg",
+        "jp": "/images/c/i1PE93sKsGeGNb.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Side Spoiler",
+        "jp": "サイドスポイラー"
+      },
+      {
+        "type": "p",
+        "en": "Also known as side skirts or side steps, these are mounted along the side sills of the body. They help manage airflow along the sides of the car and can reduce turbulence.",
+        "jp": "サイドスカート、サイドステップなどとも呼び、ボディの両サイド下部（サイドシル付近）に装着し、車体の横に起きる空気抵抗を低減する効果がある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1UoGnYMFM90Sz.jpg",
+        "jp": "/images/c/i1UoGnYMFM90Sz.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Rear Wing",
+        "jp": "リアウィングスポイラー"
+      },
+      {
+        "type": "p",
+        "en": "Mounted on the upper rear of the body, rear wings help manage airflow and generate downforce. Their shape is designed to reduce lift and improve high-speed stability. Larger wings can produce greater downforce, increasing load on the rear tires and improving grip, although this is often accompanied by increased drag.",
+        "jp": "ボディ後方の上部に装着し、気流をスムーズに受け流す整流効果とともに、後方に発生する渦を抑える効果をもたらす。揚力を生む飛行機の主翼を逆にしたスポイラー形状は、大きなサイズになると強いダウンフォースを発生、リアタイヤのグリップ力を高める効果が期待できる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Cf1luD0oa5scc.jpg",
+        "jp": "/images/c/i1Cf1luD0oa5scc.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Rear Diffuser",
+        "jp": "リアディフューザー"
+      },
+      {
+        "type": "p",
+        "en": "Rear diffusers are fitted beneath the rear of the car and work by accelerating airflow from the underbody, helping to lower pressure and generate downforce. They are widely used in racing applications, and their effectiveness depends on factors such as ride height and overall underbody airflow.",
+        "jp": "ボディ下部（アンダーフロア）を流れる風をリアバンパー下部から効率よく抜くことで負圧を発生させ、ダウンフォースを得るための整流板。レーシングマシンでは常識的に用いられているパーツで、アンダーフロアと路面との間隔が狭まるにしたがって効果が増す。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1W6VS3qRqQcxuB.jpg",
+        "jp": "/images/c/i1W6VS3qRqQcxuB.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__basic_settings__01": {
+    "h1_en": "Suspension ①",
+    "h1_jp": "サスペンション①",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● Ride Height/Spring Rate",
+        "jp": "■車高調整／スプリングレート"
+      },
+      {
+        "type": "h3",
+        "en": "Changing Your Car’s Behavior",
+        "jp": "クルマの性格を自在に変えられる"
+      },
+      {
+        "type": "p",
+        "en": "On smooth, flat surfaces, lowering the ride height reduces the center of gravity, helping to limit pitch during acceleration and braking, as well as body roll in cornering. This can improve overall performance. Vehicle behavior can also be fine-tuned by adjusting the front and rear ride heights independently. For example, setting the front slightly lower than the rear can increase front-end grip on corner entry and improve turn-in response. In front-wheel-drive cars, this can also help counter front-end lift under acceleration.\n\nSpring rate has a major influence on how a car responds. It is often assumed that stiffer springs are always better, but this is not the case. Increasing stiffness can reduce unwanted motions such as pitch, yaw and roll, much like lowering ride height, but excessive stiffness can cause the tires to lose contact with the road over bumps, reducing traction. For this reason, spring rate must be carefully matched to the intended use.\n\nIt also plays a key role in handling balance. Increasing front spring stiffness tends to promote understeer, while increasing rear stiffness can promote oversteer. However, these effects are closely linked to damper settings, so both must be considered together when tuning the suspension.",
+        "jp": "路面の凹凸による影響がなければ、車高は低めるほど重心が下がり、コーナリングでのロールや加速／減速時のピッチングが抑えられて運動性能は高まる。また前後で車高を違えることで挙動変化を最適化することも可能で、たとえばリアに対してフロントの車高を低めたセッティングでは、コーナリングの進入制動でよりフロントタイヤを強く路面に押し付けることに繋がり、スムーズなターンインが可能になる。FF車では脱出加速時のノーズアップが抑えられ、トラクションをかけやすいというメリットも生む。\n\nスプリングレートも運動性能に与える影響は大きい。一般的にスプリングは硬いほどいいと思われているが、必ずしもそうとは限らない。車高を低くするのと同様、硬くするほどローリング、ピッチング、ヨーイングといった走りを阻害する動きを抑えられるが、硬すぎると路面からの反発力が増し、タイヤの接地性が損なわれてトラクションが得にくくなる。硬さとしなやかさをバランスさせることを何よりも優先させよう。\n\nスプリングレートはまた、ハンドリング特性にも大きな影響を与える。基本的にフロントのレートが高ければアンダーステア傾向、リアが高ければオーバーステア傾向にクルマを仕立てることができる。ただしここではダンパー減衰力も作用するため、両者を複合的に考えたセッティングが求められる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1g0AMihtMeNNcc.jpg",
+        "jp": "/images/c/i1nZRuxr2BQ2mTH.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Centre of gravity",
+        "jp": "重心高"
+      },
+      {
+        "type": "h3",
+        "en": "● Damping Force",
+        "jp": "■ダンパー減衰力"
+      },
+      {
+        "type": "h3",
+        "en": "Controlling Spring Compression and Extension",
+        "jp": "縮み側、伸び側を臨機応変に設定"
+      },
+      {
+        "type": "p",
+        "en": "Shock absorbers control the rate at which suspension springs compress and rebound under load, and the force they generate is known as damping. This damping force is created by resistance in the fluid and gas inside the damper as the piston moves. Higher damping slows spring movement more quickly, while lower damping allows movement to continue for longer.\n\nCompression and rebound damping can be adjusted independently, allowing more precise control over a car’s behavior. Increasing compression damping resists rapid suspension movement, helping to reduce dive under braking and roll in cornering. However, excessive stiffness can reduce compliance over bumps and make it harder for the tires to maintain consistent contact with the road. Increasing rebound damping helps control how quickly the suspension returns after being compressed, stabilizing the car after larger weight transfers. For example, it can limit excessive front-end lift during acceleration, helping maintain front tire contact.\n\nHandling can also be adjusted by varying compression and rebound damping between the front and rear. Reducing front compression damping allows weight to transfer forward more quickly under braking, increasing front grip and helping to reduce understeer. At the rear, reducing rebound damping can make the car more willing to rotate, while increasing it tends to stabilize the rear and promote understeer. As a general guideline, compression damping is usually set first, followed by rebound.",
+        "jp": "荷重が加わったスプリングの伸縮の速度を制御するのがダンパーで、その抑える力を減衰力という。減衰力はダンパー内に封入されているオイルやガスの中をピストンが上下する際に生じる抵抗によって発生し、減衰力が高ければスプリングの伸縮はすぐに収まり、減衰力が低ければ収まりにくくなる。\n\n基本的に、減衰力は縮む側と伸びる側とで設定が異なり、セッティング次第で、挙動や操縦性を変えることが可能だ。縮み側を高くすれば、制動時のノーズダイブや旋回時のロールなどの姿勢変化の速さを抑えられるが、足回りは突っ張った状態になり、凹凸で跳ねやすく、荷重移動を利用しにくくなるといった弊害も生む。いっぽう伸び側の減衰力は大きな挙動変化を落ち着かせる際に有効だ。たとえば伸び側の減衰力を高くしておくと、コーナーの立ち上がりのアクセルオンでフロントのサスペンションが伸びてしまうことを防ぎ、フロントタイヤの接地性をキープすることが可能になる。\n\nさらに、ハンドリング特性も前後の伸び／縮みの減衰力調整で変化させることが可能だ。フロントの縮み側を弱めれば、ターンイン時のフロントへの荷重移動量が増えるのでアンダーステアを弱めることができる。伸び側では、オーバーステアを強める場合はリアの減衰力を弱く、アンダーステアは強めるのが基本。手順として、縮み側のセッティングを出してから、伸び側を設定するのがセオリーとなっている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1GaS0wlqUwTdz.jpg",
+        "jp": "/images/c/i1LacwyETyQ9HC.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Front and rear damping force (for spring compression).",
+        "jp": "前後減退力（縮み側）"
+      }
+    ]
+  },
+  "review_tuning_and_settings__basic_settings__02": {
+    "h1_en": "Suspension ②",
+    "h1_jp": "サスペンション②",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● Wheel Alignment: Camber Angle",
+        "jp": "■ホイールアライメント・キャンバー角"
+      },
+      {
+        "type": "h3",
+        "en": "The Positive Effect of Negative Camber",
+        "jp": "旋回に有効なネガティブキャンバー"
+      },
+      {
+        "type": "p",
+        "en": "Camber angle is one of the most commonly adjusted alignment settings. Negative camber occurs when the tops of the wheels tilt inward when viewed from the front, while positive camber means the tops tilt outward.\n\nDuring cornering, body roll causes the car to lean toward the outside of the turn. By applying negative camber, the tire can maintain a larger contact patch under load, improving grip. In most cases, “increasing camber” refers to adding more negative camber.\n\nHowever, negative camber has drawbacks in straight-line driving. Because the tire is not fully upright, it can be more sensitive to road irregularities and may reduce straight-line traction. It can also increase rolling resistance and contribute to uneven tire wear, while reducing the effective contact patch during braking. The more extreme the camber setting, the greater these trade-offs, so adjustments should be made carefully.\n\nWhen setting negative camber, it is important to consider how load is distributed between the front and rear during cornering. If the front axle carries a higher load, increasing negative camber at the front relative to the rear can help maintain grip and reduce understeer.\n\nPositive camber is rarely used in performance driving, as it generally reduces grip and stability.",
+        "jp": "ホイールアライメントの代表的なセッティングがキャンバー角調整だ。クルマを正面から見たとき、ハの字状にタイヤ下側が広がっているのがネガティブキャンバー、逆に下側が閉じているのがポジティブキャンバーという。\n\nコーナリングの時、クルマは遠心力でコーナー外側に傾く。この傾きを見越してタイヤをネガティブキャンバーにしておけば、コーナーでタイヤをきちんと路面に正立させてしっかりトラクションをかけることができる。「キャンバー角をつける」といえばこのネガティブキャンバーの効果を狙ったものと思って間違いない。\n\nただしコーナーで踏ん張りを効かせることを目的としたネガティブキャンバーは当然直進時にデメリットを生じる。タイヤが路面に正立しないため路面の轍にステアリングをとられがちになり、トラクションがかかりにくくなる。またタイヤが抵抗となるため加速性能が低下し、接地面積の減少から制動距離が伸びる場合もある。ネガティブキャンバーを強めていくとこの直進時のデメリットばかりが強くなるので、極端なセッティングを行う前に、このメリット・デメリットをしっかり頭に入れておく必要がある。\n\n実際にネガティブキャンバーのセッティングをする際には、コーナリング中の前後タイヤの重量バランスを考慮する。フロント荷重が大きいなら前輪のネガティブ角度を大きめに、後輪の角度は小さめに。こうすることでマシンのアンダーステア傾向が改善されるはずだ。\n\nいっぽうのポジティブキャンバーだが、タイヤグリップの絶対値を下げてしまうため現実的なセッティングとはいえない。クルマの挙動が過敏になるので避けるべきだろう。"
+      },
+      {
+        "type": "h3",
+        "en": "● Wheel Alignment/Toe Angle",
+        "jp": "■ホイールアライメント・トー角"
+      },
+      {
+        "type": "h3",
+        "en": "A Shallow Angle with a Deep Effect on Stability",
+        "jp": "安定性を左右する繊細なアングル"
+      },
+      {
+        "type": "p",
+        "en": "Toe angle is the angle of the wheels when viewed from above. It plays an important role in stability, particularly when load shifts between the left and right sides during cornering. As load transfers to the outside wheel, its angle influences how the car responds, making toe settings an important factor in overall balance.\n\nToe-in refers to the front of the wheels pointing inward, while toe-out means they point outward. In general, front toe-out and rear toe-in tend to promote more responsive turn-in, while front toe-in and rear toe-out increase stability but can reduce agility. Small amounts of front toe-out are often used to improve steering response during cornering.\n\nToe angle is closely related to factors such as wheelbase, track width, camber and power. It is usually one of the final adjustments made, often to fine-tune handling characteristics after other settings have been established. Because excessive toe increases rolling resistance and tire wear, adjustments are typically kept very small. Changes to rear toe in particular can have a significant effect on stability, so front settings are usually adjusted first, with only minor changes made at the rear.",
+        "jp": "車体を上から見たときのタイヤのトー＝つま先部分の角度調整だ。トーは特に左右の荷重バランスが崩れた際の特性に大きく影響する。たとえばコーナリングではアウト側のタイヤに荷重が移動するため、アウト側のタイヤの向きが挙動に大きく影響する。トー角の調整はこの時のタイヤの向きを決めることで、クルマの安定性を決定付ける役割を担っているのだ。\n\n進行方向に対してタイヤが内側を向いている状態を“トーイン”、外側を向いている状態を“トーアウト”と呼ぶ。ハンドリング特性で見ると、基本的にフロントをトーイン、リアをトーアウトにしていくとオーバーステア傾向、逆の設定ではアンダーステア傾向に転じる。またコーナリング時のフロントの動きを落ち着かせるためにトーアウトに設定するケースもある。\n\nもっともトーは、ホイールベースやトレッド、キャンバー角、さらにはエンジンパワーや駆動レイアウトとも密接に関連している。調整はほかの部分では補正し切れない車両特有のクセを補正したり、操縦性の微妙な味付けとして最後に行われることが多い。また角度を付けた分だけ走行抵抗になることもあり、大きな角度変更を行うことは少ない。とくにリアの角度変更は走行性能や操縦性への影響が大きいため、フロントを主体にわずかな範囲で調整していくのがセオリーとなっている。"
+      },
+      {
+        "type": "h3",
+        "en": "● Anti-Roll Bar/Stabilizer Stiffness",
+        "jp": "■スタビライザーレート"
+      },
+      {
+        "type": "h3",
+        "en": "A Final Tweak",
+        "jp": "調整は最後の味付け程度"
+      },
+      {
+        "type": "p",
+        "en": "An anti-roll bar is a torsion spring that connects the left and right suspension arms. It works by resisting differences in suspension movement between the two sides, reducing body roll during cornering and helping maintain a more consistent contact patch. Its stiffness can be described in terms similar to a spring rate, and increasing front bar stiffness generally sharpens response but can also affect balance.\n\nWhen adjusting an anti-roll bar, it is important to maintain an appropriate relationship with the suspension springs. If the bar is too stiff relative to the springs, it can transfer load too aggressively and may cause the inside wheel to unload or lift, reducing traction.\n\nHandling balance can also be influenced by adjusting front and rear anti-roll bar stiffness. However, these changes are typically used to fine-tune behavior after spring and damper settings have been established, as large adjustments can make the setup more difficult to control. Anti-roll bars are best treated as a final tuning tool rather than the primary means of adjustment.",
+        "jp": "鋼材の棒をねじったときに発生する反発力を利用したばねをトーションバースプリングというが、スタビライザーは左右のサスペンションのロアアームをこのトーションバースプリングで繋いだものだ。コーナリングで片方のサスペンションが動いた際に、もう片側のサスペンションが抵抗になり、動いたサスペンションを元に戻そうとする力で、車体の傾き（ロール）を抑え、タイヤの接地性を高めている。コイルスプリング同様バネの硬さはレートで示され、フロントを強くすればステアリングのレスポンスも高まる。\n\nセッティングで注意すべきポイントは、サスペンションスプリングよりも高いレートにしないこと。スタビライザーのほうが強すぎると、荷重を支えているアウト側のタイヤが動いた際に、スプリングがスタビライザーの強さに負けて、同じ方向に動いてしまい、イン側のタイヤが浮き上がるインリフト現象を起こし、十分なトラクションを得られなくなる。\n\nまた、前後のレートの組み合わせでハンドリング特性もある程度、調整することも可能だが、サスペンションセッティングは、あくまでもダンパー減衰力とスプリングレートの組み合わせが基本。これにスタビライザーレートまで加わると、セッティングが複雑になりすぎてポイントが絞りにくくなる。スタビライザーによる調整は最後の味付け程度に考えたほうが無難といえる。"
+      }
+    ]
+  },
+  "review_tuning_and_settings__basic_settings__03": {
+    "h1_en": "Drivetrain",
+    "h1_jp": "ドライブトレイン",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● LSD",
+        "jp": "■LSD"
+      },
+      {
+        "type": "h3",
+        "en": "Changing the Limit Changes Maneuverability",
+        "jp": "効かせ方次第で操縦性も変化"
+      },
+      {
+        "type": "p",
+        "en": "Initial torque refers to the preload applied to the LSD (Limited-Slip Differential), influencing how quickly it begins to act. Higher preload causes the differential to engage more readily, improving traction under acceleration, while lower preload allows a more gradual response.\n\nIn general, increasing initial torque can accentuate the inherent handling characteristics of a drivetrain layout. In rear-wheel-drive cars, it can make oversteer more pronounced, while in front-wheel-drive cars it can increase understeer. Although traction may improve, this can make cornering more demanding, so initial torque should be adjusted to suit the desired handling balance.\n\nAnother adjustable parameter is how the LSD behaves under acceleration and deceleration. The acceleration setting determines how strongly the differential locks when throttle is applied. A higher setting increases locking force, improving traction and helping the car accelerate out of corners more effectively. However, it can also accentuate the car’s handling characteristics, making it more difficult to guide the car precisely on corner exit.\n\nThe deceleration setting controls how strongly the LSD locks when the throttle is released. A higher setting increases stability during braking and corner entry, allowing later braking and a more controlled approach to the turn. However, it can also make the car harder to rotate, and is generally better suited to drivers who are able to manage the resulting understeer.",
+        "jp": "イニシャルトルクとは、LSDが効き始めるタイミングを決定するトルク値のことで、値を高めればアクセル操作に対する反応が速くなりLSDはロックしやすくなる。逆に低くすれば穏やかな効きを示す。\n\nLSDのイニシャルトルクを上げると、一般的にクルマの駆動方式のハンドリング特性が強調されるようになる。後輪駆動車でトルクを上げればオーバーステア、前輪駆動車でトルクを上げればアンダーステア傾向が強まるが、いずれの場合も強力なトラクションが得られる反面、ターンインがしにくくなるというデメリットも際立ってくる。セッティングでは求めるハンドリングをしっかり意識しよう。\n\nもうひとつのセッティングとして注意したいのが加速側と減速側の調整だ。加速側は、アクセルを踏んだ状態でのLSDの効きを調整するもので、強くすれば駆動力が増して素早くコーナーをクリアすることが可能。ただし同時にハンドリング特性の変化の傾向も強まるため、いち早くコーナーの立ち上がり方向に向きを変える運転技術も要求されるようになる。\n\nいっぽう減速側のセッティングはアクセルOFF時のLSDの効かせ方のことで、強く設定すればコーナーへの進入制動で挙動安定性が増すため、ギリギリまでブレーキングを残した思い切った突っ込みが可能になる。ただし回頭性が著しく損なわれる（曲がりにくくなる）ため、どちらかといえば上級者向けのセッティングといえ、初期アンダーを消すためのテクニックが不可欠となる。"
+      },
+      {
+        "type": "h3",
+        "en": "● Gear Ratio",
+        "jp": "■ギアレシオ"
+      },
+      {
+        "type": "h3",
+        "en": "Maintaining Power with a Close Ratio",
+        "jp": "パワーバンド維持に有利なクロスレシオ"
+      },
+      {
+        "type": "p",
+        "en": "Race cars operate on a wide range of circuits, from tight, technical layouts to tracks with long high-speed straights. To extract the best performance, gear ratios often need to be adjusted to suit the course. This typically involves changes to both the transmission ratios and the final drive.\n\nOn tracks with many low- and medium-speed corners, acceleration out of turns is more important than top speed. In these cases, a close-ratio transmission helps keep the engine within its powerband, improving responsiveness between gears.\n\nOn circuits with long straights, a setup favoring higher top speed is preferred, using wider spacing in the higher gears. This type of arrangement is known as a wide-ratio setup.\n\nThe final drive ratio determines how the entire transmission behaves. A shorter (numerically higher) final drive improves acceleration but reduces top speed, while a longer (numerically lower) final drive increases top speed at the expense of acceleration. As a starting point, adjusting the final drive is the simplest way to tune gearing. Ideally, the engine should approach its rev limit in top gear near the end of the longest straight.",
+        "jp": "コーナーの連続するワインディングから長いストレートを持つサーキットまで、クルマが走るステージはさまざまだ。そんな時、ドライブトレインのギア比を変更することで、エンジン特性をそのステージに最適な形で取り出すことが可能となる。ギア比の変更にはトランスミッション自体のギア比とファイナルギアのギア比が影響する。\n\nたとえば低中速コーナーが連続するコーナーでは、トップスピードの伸びよりもコーナーからの加速力を重視したい。そんなときはトランスミッションの各ギアの比を接近させて、パワーバンドを維持しやすくする。こうしたギア比をクロスレシオと呼ぶ。\n\n逆に長いストレートが勝負を決めるようなサーキットなら、5速、6速といった高いギアの比率を小さくして（＝ギアを離して）最高速が伸びるセッティングにすればよい。こうしたギア比はワイドレシオと言われる。\n\nいっぽうファイナルギアのギア比は、トランスミッション全体の性格を左右する。同じトランスミッションでもファイナルギアを低くすれば加速重視の性格となり（到達最高速度は落ちる）、高くすれば最高速度を高める性格になる（加速性能は落ちる）。最初のうちは個々のギア比は変えずに、ファイナルギアだけを変更しよう。ストレートの終わりで最終ギアがきちんとレッドゾーンに達する（吹け切る）かを目安にするといい。"
+      }
+    ]
+  },
+  "review_tuning_and_settings__basic_settings__04": {
+    "h1_en": "Aerodynamics",
+    "h1_jp": "エアロダイナミクス",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● Downforce",
+        "jp": "■ダウンフォース"
+      },
+      {
+        "type": "h3",
+        "en": "Improving High-Speed Performance",
+        "jp": "高速走行性能を決定付ける要"
+      },
+      {
+        "type": "p",
+        "en": "At high speeds, aerodynamic effects become a major factor. These can broadly be divided into two areas: drag, which limits top speed, and lift, which reduces tire load by acting to raise the car. The two are closely related, as changes that reduce drag can also increase lift, while measures that reduce lift often add drag. Achieving the right balance between them is essential.\n\nA key aspect of high-speed tuning is the management of downforce. Downforce is generated by aerodynamic components that create pressure differences, pushing the car toward the road and increasing tire load. While increased downforce improves stability and cornering performance—particularly in high-speed turns—it also adds drag and can reduce top speed. Conversely, reducing downforce lowers drag and increases straight-line speed, but at the expense of cornering grip and stability.\n\nThe required level of downforce depends on the nature of the circuit. Although it may seem beneficial to run high downforce from the outset, this does not always produce the best results. A common approach is to begin with relatively low downforce and increase it gradually based on the demands of high-speed corners. For low-power cars, prioritizing straight-line speed by limiting excess downforce can often be more effective.\n\nAdjusting the balance of front and rear downforce also influences handling at high speed. Increasing front downforce raises front grip and tends to reduce understeer, promoting a more responsive turn-in, while increasing rear downforce improves rear stability and tends to reduce oversteer. Fine adjustments of aerodynamic balance can have a significant impact on performance, particularly on high-speed circuits.",
+        "jp": "高速走行では空気の存在が無視できないが、大きく分けるとその影響は2つある。ひとつは最高速度の壁となる空気抵抗、もうひとつはクルマを浮かせようとする揚力だ。この2つは「空気抵抗を減らすと揚力が増し、揚力を減らすと空気抵抗が増す」という相反関係にあるため、セッティングによって最適にバランスさせることが求められる。\n\n実際のセッティングでは、これはダウンフォースの問題に言い換えられる。ダウンフォースとは、空気抵抗の力を、クルマを路面に押し付ける力として利用するものだ。ダウンフォースを強めれば最高速度は低下するがコーナリングでクルマが安定し、特に高速コーナーの旋回速度を高めることができる。反対にダウンフォースを弱めればコーナリングスピードは低下するものの、ストレートでの最高速度を延ばすことができる。\n\nダウンフォースの量は走行するステージで決まるが、最初からダウンフォースを強めたセッティングはいい結果をもたらさない。必要最小限のダウンフォースでセッティングを施し、高速コーナーなどの重要性に応じて徐々に強めていくという手順で行おう。また小排気量車の場合はダウンフォースをゼロにしてトップスピードを重視したほうがいい。\n\nいっぽうダウンフォースは、前後別々に調整することで高速コーナーでのハンドリング特性変更にも利用できる、フロントを強くすればフロントタイヤのグリップが高まってオーバーステア傾向、リアを強くすればその逆の効果でアンダーステア傾向となる。ハイスピードサーキットでは大きな効果が得られるチューニングである。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Tur9QW4EPtY.jpg",
+        "jp": "/images/c/i1ZhycudSvktQC.jpg"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i10E1Cxye00ITuB.jpg",
+        "jp": "/images/c/i1RYTVDVJoTaRcc.jpg"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1UzYuGghfP1cO.jpg",
+        "jp": "/images/c/i1TWoHovderFEz.jpg"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1TnWn1dH1xKlEc.jpg",
+        "jp": "/images/c/i1rdpueI9uZXZ8c.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__boby__01": {
+    "h1_en": "Weight Reduction and Rigidity",
+    "h1_jp": "高剛性／軽量化",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "When aiming to improve speed and agility, reducing weight and increasing body rigidity are essential. Lower weight not only improves acceleration, but also benefits braking and cornering. Greater rigidity allows the suspension to operate correctly under load and helps maintain consistent tire contact with the road. It also enables the driver to better sense and control the car under demanding conditions. On circuits such as the Nürburgring, where grip levels can vary and the car is subjected to strong lateral and vertical forces, a lack of body rigidity can significantly limit performance.",
+        "jp": "運動性能を極限まで高めるために、必須といえるチューニングがボディの軽量化であり、高剛性化だ。軽量化は、加速性能の向上だけでなく、ブレーキングやコーナリングのレベルアップにも大きく寄与する。いっぽう高剛性化は、大きな負荷が加わった際にもサスペンションを正確に動かし、タイヤの接地性を確保するために欠かせない。また限界域でドライバーが瞬時に車両の挙動を把握し、正確にコントロールする上でも、変形しにくい堅牢なボディは必要不可欠となる。ちなみに路面のμがきわめて低いうえ、横と縦両方から強烈なGが加わるニュルブルクリンクでは、確かなボディ剛性を持つ車両でなければ、1周として満足に走り切ることはできない。"
+      },
+      {
+        "type": "h3",
+        "en": "Spot-Welding",
+        "jp": "スポット溶接"
+      },
+      {
+        "type": "p",
+        "en": "A car’s body is formed from pressed metal panels joined by spot welding at regular intervals. In mass-produced vehicles, manufacturing efficiency limits the number of weld points, which can affect overall rigidity. To address this, additional welding can be carried out to increase the number of joints and improve strength and stiffness. The advantage of this method is that it enhances rigidity without adding significant extra components or weight.",
+        "jp": "ボディはプレスされた金属パネルを張り合わせて作られるが、その接合方法の代表的なものが、一定の間隔をあけて点で溶接するスポット溶接だ。ただし生産効率を重視する市販車の場合、溶接箇所は必要最小限にとどまり、ややもすると剛性が不足する。そこで行われるのが、溶接箇所を追加する「スポット増し」と呼ぶチューニングだ。ボディパネル同士の接合部が強固になって大幅な剛性アップが期待できる。新たに部品を追加せずに行えるため、重量増の心配がないというメリットもある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1wT3CWzrXS6QSH.jpg",
+        "jp": "/images/c/i1wT3CWzrXS6QSH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Strut Bar",
+        "jp": "タワーバー"
+      },
+      {
+        "type": "p",
+        "en": "A strut bar connects the suspension mounting points on the left and right sides of the body, typically across the tops of the strut towers. It increases rigidity in that area, helping the suspension operate more precisely and improving steering response. It is often used alongside upgrades to springs, dampers and bushings. While strut bars are commonly fitted to the front, adding one to the rear can help maintain balanced chassis stiffness.",
+        "jp": "サスペンションの車体取り付け部（タイヤハウス上部）の左右を連結する棒がストラットタワーバー。装着によってボディ前部の剛性が上がって、サスペンションが正確に動くようになり、ステアリング操作に対する反応もシャープになる。基本的にはダンパーやスプリング、ブッシュなどのサスペンションのチューニングと併せて装着すべきだ。フロントのみに装着されるケースが多いが、剛性バランスを考えれば前後装着が望ましい。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1zStmG0cOT0w.jpg",
+        "jp": "/images/c/i1zStmG0cOT0w.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Roll Cage",
+        "jp": "ロールケージ"
+      },
+      {
+        "type": "p",
+        "en": "Roll cages are designed to protect occupants in a crash, but they also increase body rigidity. To be effective, the cage must be properly integrated with the body structure, with mounting points tied into key areas such as the roof and pillars. Welded cages generally provide greater rigidity than bolt-in designs, and a well-designed cage uses multiple bars and attachment points to maximize strength and stiffness.",
+        "jp": "本来はクラッシュして変形したボディから乗員を守るためのロールケージも、ボディ剛性を高めるうえできわめて有効に作用する。ただしケージはルーフやピラー部分との隙間がなく、しっかりとボディに這わせるタイプ、そしてボルト留めではなく、車内に確実に溶接されていることが条件だ。また可能な限り支持点数を増やし、ジャングルジムのように張り巡らせると剛性面での効果をより期待できる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1ATelpChDkQVSB.jpg",
+        "jp": "/images/c/i1ATelpChDkQVSB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Member Brace",
+        "jp": "メンバーブレース"
+      },
+      {
+        "type": "p",
+        "en": "A member brace is a rigid metal bar designed to resist bending and twisting. It reinforces the floor of the vehicle and helps tie the suspension mounting points to the underbody, limiting unwanted movement and improving suspension performance. In this way, just as a strut bar supports the body structure above, a member brace provides support from underneath. When used together with a strut bar, overall chassis stability can be improved further.",
+        "jp": "曲げやねじれに強い金属製の棒、メンバーブレースはフロア下部の剛性を強化するのと同時に、サスペンションメンバーとアンダーボディをつなぐことで、メンバーの無駄な動きを制限し、サスペンション性能をフルに引き出すためのパーツだ。つまりストラットタワーバーがボンネット内からサスペンションとボディを支えるように、ボディ下部から支える仕組みなわけだ。タワーバーとの併用が効果的で挙動安定性がさらに増す。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1w5UTIv9Ca1Pz.jpg",
+        "jp": "/images/c/i1w5UTIv9Ca1Pz.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Reducing Weight",
+        "jp": "軽量化"
+      },
+      {
+        "type": "p",
+        "en": "Reducing weight is one of the most effective ways to improve acceleration, braking and cornering. Modifications can range from simple measures from removing air conditioning and sound insulation to replacing body panels with lightweight materials like aluminum or carbon fiber. In more extreme cases, extensive use of composite panels or lightweight structures may be employed. However, it is important to maintain body rigidity to preserve balanced handling. To keep the center of gravity low, it is often most effective to reduce weight from the upper areas of the car first.",
+        "jp": "加速／減速／旋回、すべての走行性能を高めるうえでもっとも効果的なチューニングが車体を軽くすること。エアコンなどの快適装備や遮音材を省く基本的なものから、ボディパネルなどの材質を軽量なアルミやカーボンに交換、究極ではボディシェル自体をカーボンに、フレームもアルミ製に代えるなどレベルに応じてさまざまな手法が用いられる。ただしバランスよく走行性能を高めるためには軽量化は高剛性化と同時進行であるべき。また重心高（＝低重心化）も考慮して車体上部をメインに軽量化を進めていくのが効果的かつ効率的といえる。"
+      }
+    ]
+  },
+  "review_tuning_and_settings__drive_system__01": {
+    "h1_en": "Gear Ratio",
+    "h1_jp": "ギア比",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● Final Gear Ratio",
+        "jp": "■ファイナルギア比"
+      },
+      {
+        "type": "p",
+        "en": "Altering the final drive ratio allows you to favor acceleration or top speed. For example, with a high-revving engine that produces most of its power at higher rpm, using a shorter final drive ratio can make the performance easier to access and improve acceleration.",
+        "jp": "エンジンパワーを最高速重視にも加速重視にも振り分けられるのが、ファイナルギアの歯車の比率を変えること。つまりファイナルレシオの変更だ。とくにファイナルレシオをローギアード化すれば、ピーキーな高回転・高出力型エンジンのパフォーマンスを引き出しやすくなり、格段の加速性能アップが期待できる。"
+      },
+      {
+        "type": "h3",
+        "en": "Long Gear Ratio",
+        "jp": "ハイギアード化"
+      },
+      {
+        "type": "p",
+        "en": "This type of setup is suited to increasing a car’s top speed, as it allows higher road speeds at lower engine rpm. It can also offer advantages in fuel efficiency. The downside is that it takes longer to reach the engine’s effective power band, which reduces acceleration. It can be more difficult to produce strong power when exiting tight corners, and overall acceleration will be reduced.",
+        "jp": "低いエンジン回転数で車速を伸ばすことができるため、トップスピードを重視するようなシチュエーションでは有利に作用する。また、燃費面でのメリットも大きい。反面、エンジン回転を上げてパワー／トルクバンドに入れるまでにタイムラグを生じるため、加速が緩慢になることは否めない。タイトコーナーからの立ち上がりなどでは、有効なパワー・トルクを引き出しにくく、十分な加速力を得るのは難しくなる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1cd2JuFzcMQ37c.jpg",
+        "jp": "/images/c/i16Ib9Az89xuv8c.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Short Gear Ratio",
+        "jp": "ローギアード化"
+      },
+      {
+        "type": "p",
+        "en": "With a shorter gear ratio, the engine will run at higher rpm even in higher gears such as third and fourth. While top speed is reduced, this makes it easier to access the engine’s power and improves acceleration. It allows the driver to take better advantage of performance when accelerating out of corners, making it well suited to technical courses with many tight bends. The main drawback is the increased risk of over-revving due to the more responsive nature of the drivetrain.",
+        "jp": "3速や4速といった比較的高いギアポジションでも高回転を維持しやすいため、最高速は犠牲になるが、有効なパワー・トルクを引き出しやすく、加速性能を高めることができる。また、コーナリングでもエンジン性能をフルに生かした立ち上がり加速が可能で、とりわけタイトコーナーが主体のテクニカルコースとのマッチングは申し分ない。ただし、アクセル操作に対するエンジンのピックアップが鋭くなる分、オーバーレブに対する注意が必要になる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1b0kiG2R0akHz.jpg",
+        "jp": "/images/c/i1qodoevOy9QHO.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Transmission Gear Ratio",
+        "jp": "■ミッションギア比"
+      },
+      {
+        "type": "p",
+        "en": "Transmission tuning generally involves bringing the gear ratios closer together, creating a close-ratio setup. This makes it easier to keep the engine within its powerband and improves acceleration. However, depending on the final drive ratio, it can increase the likelihood of over-revving, and more frequent gear changes will be required.",
+        "jp": "一般的に、ミッションのチューニングといえばギアのクロスレシオ化（隣り合うギアの比率を接近させること）を意味し、有効なパワーバンドの維持がしやすくなる。加速性能も大きく向上するが、ファイナルとの組み合わせによってはオーバーレブさせやすくなり、頻繁なシフトチェンジが求められる。"
+      },
+      {
+        "type": "h3",
+        "en": "Close Ratio",
+        "jp": "クロスレシオ"
+      },
+      {
+        "type": "p",
+        "en": "A manual transmission with a close gear ratio has smaller steps between gears. The closer the ratios, the smaller the drop in engine rpm during upshifts, allowing the engine to stay within its powerband and use its output more effectively. This type of gearing is particularly suited to naturally aspirated engines with narrower powerbands, such as those using high-lift camshafts. It is typically set up to suit the course layout, in combination with the selected final drive ratio.",
+        "jp": "マニュアルトランスミッションの各ギアの比率を接近させたものがクロスミッション。比率を狭めるほど、シフトアップ時のエンジン回転の落ち込みが少なくなり、パワーを効率よく引き出せるようになる。とくにハイカムを組むなどして、パワーバンドが狭められた自然吸気式エンジンに適したギアリングといえる。コースレイアウトなどに応じ、ファイナルレシオとのマッチングも含めて設定するのが一般的だ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1aR4c0ERxMNU8c.jpg",
+        "jp": "/images/c/i1nEKaVqpGZR8SH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Wide Ratio",
+        "jp": "ワイドレシオ"
+      },
+      {
+        "type": "p",
+        "en": "A wide gear ratio setup is commonly used in production cars, where fuel efficiency and lower engine rpm are priorities. In this case, the gaps between gears are larger. As a result, engine rpm drops more when shifting up, reducing the available power and affecting acceleration. In practice, gear ratios are often a mix of close and wide spacing to suit the engine’s characteristics and intended use. For example, lower gears may be closer together for acceleration, while higher gears are spaced wider to reduce rpm during cruising.",
+        "jp": "ハイギアード化と同様、一般的な市販車は燃費を重視し、エンジン回転を低く抑える目的で各ギアの比率を大きく設定する。その結果、シフトアップしてもエンジンパワーがマイルドに路面に伝わるようになり、加速力が犠牲となってしまう。通常、1速から5速、ないし6速すべてをワイドレシオに設定することは考えにくく、発進・加速で使う1速・2速はクロスレシオ、3速以上をワイドレシオというように、エンジン特性やコースレイアウトなどに応じて、クロスとワイドを組み合わせることが多い。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1GSnulOQ2QWZ.jpg",
+        "jp": "/images/c/i1XHAdZ1PHyWxC.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__drive_system__02": {
+    "h1_en": "Clutch, Flywheels and Propeller Shafts",
+    "h1_jp": "クラッチ、フライホイール&プロペラシャフト",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● Clutch",
+        "jp": "■クラッチ"
+      },
+      {
+        "type": "p",
+        "en": "Reinforcing the clutch is essential in a highly tuned vehicle so that increased engine output can be transmitted to the transmission with minimal loss, and to ensure effective gear engagement. Even slight slippage will reduce acceleration performance. This is achieved by increasing the friction capacity of the clutch disc and the clamping force of the pressure plate in proportion to the engine’s torque output.",
+        "jp": "チューニングエンジンの増大したパワーをロスなくミッションに伝え、シフトチェンジを確実に行う上でクラッチ強化は不可欠。わずかでも滑りを生じれば加速性能はダウンする。出力／トルクアップの度合いに応じてディスクの摩擦力、カバーの圧着力を高めていくのがセオリーだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1ZwDlqcOOx6mTH.jpg",
+        "jp": "/images/c/i1ZwDlqcOOx6mTH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Disc & Cover",
+        "jp": "ディスク&カバー"
+      },
+      {
+        "type": "p",
+        "en": "The most common method of reinforcing the clutch is to replace the standard disc and pressure plate with higher-capacity components. By increasing the friction capacity of the disc and the clamping force of the pressure plate, engine torque can be transmitted more reliably to the transmission. These are important components when increasing engine output, and they provide consistent engagement under hard driving. Metal or ceramic clutch discs are often used for their higher friction and durability.",
+        "jp": "クラッチの強化でもっともオーソドックスな手法がディスクとカバーの強化タイプへの交換だ。クラッチディスクの摩擦力とクラッチカバーの圧着力を高めることで、確実にエンジンパワーをミッションに伝えることが可能になる。エンジンをパワーアップした際の必需品であり、スポーツ走行などでのハードなクラッチワークでもレスポンスに遅れを生じない点もメリット。なおディスクは摩擦係数が高く、耐摩耗性に優れるメタルタイプが主流になっている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1J3FCjzlyx0HO.jpg",
+        "jp": "/images/c/i1J3FCjzlyx0HO.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Multi-Plate Clutches",
+        "jp": "マルチプレート"
+      },
+      {
+        "type": "p",
+        "en": "Most standard clutches use a single friction disc, but multi-plate clutches increase the total friction area by using multiple discs. Reinforced clutches designed to handle higher torque often use two to four plates, along with increased pressure plate clamping force. The greater the number of plates, the higher the torque capacity, allowing the setup to be matched to the engine’s output. While durability and torque transfer are improved, multi-plate clutches can be more difficult to operate. They often require greater pedal effort and more precise engagement.",
+        "jp": "通常のクラッチがシングルディスクなのに対し、複数のディスクを配置して摩擦面積を拡大したもの。より圧着力を高めてエンジンパワーの伝達効率を高めた強化クラッチで、ディスクが2枚のツインプレートから4枚のフォースプレートまである。ディスクの枚数に比例して摩擦力が増し、より高出力なエンジンに適応できる。レスポンスや耐久性も向上するが、反面、踏力が重くなったり、デリケートなクラッチミートが要求されるなど、操作面でのデメリットを生じやすい。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1811o0BiMeNNEc.jpg",
+        "jp": "/images/c/i1811o0BiMeNNEc.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Flywheels and Propeller Shafts",
+        "jp": "■フライホイール&プロペラシャフト"
+      },
+      {
+        "type": "p",
+        "en": "Reducing drivetrain weight can be an effective way to improve throttle response and acceleration. However, an extremely lightweight flywheel can reduce rotational inertia, making it harder to maintain smooth torque delivery at low speeds, such as when driving uphill. Additional tuning may be required to compensate for this.",
+        "jp": "エンジンの吹き上がりやレスポンス、また加速性能を向上させる手段として、駆動系の軽量化も大きな効果をもたらす。ただし極端に軽くしたフライホイールは、登坂路などで十分なエンジントルクを発生させにくくなり、それを補うためのチューニングも必要になる。"
+      },
+      {
+        "type": "h3",
+        "en": "Lightweight Flywheels",
+        "jp": "軽量フライホイール"
+      },
+      {
+        "type": "p",
+        "en": "The flywheel is attached to the rear of the crankshaft, just ahead of the clutch, and its main role is to smooth out fluctuations in engine rotation. The heavier the flywheel, the smoother the engine will run. However, a heavy flywheel can be a disadvantage when quick response is required, and it is often replaced with a lighter one. While this can make the engine less smooth at low speeds and reduce rotational inertia, it improves throttle response and acceleration.",
+        "jp": "クランクシャフトの後端（クラッチの手前）に取り付けられたはずみ車をフライホイールと呼ぶ。エンジンの回転ムラを抑えるのが主な役割で、重くするほど回転は滑らかになる。しかしこの重さは速さを追求するうえではネガティブに作用するので軽量化が望ましい。スムーズな回転が損なわれ、エンジントルクも減少するが、引き換えにシャープな吹き上がりやレスポンスの向上などのメリットが期待できる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1LKgWkpZY1Rhb.jpg",
+        "jp": "/images/c/i1LKgWkpZY1Rhb.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Lightweight Propeller Shafts",
+        "jp": "軽量プロペラシャフト"
+      },
+      {
+        "type": "p",
+        "en": "A propeller shaft, or driveshaft, transmits engine power from the gearbox to the differential. Replacing the standard shaft with a lighter unit can improve response and acceleration by reducing rotational mass. Lightweight shafts are often made from materials such as carbon fiber or composites, and can be significantly lighter than steel units. In addition to reduced weight, improved balance can also contribute to smoother operation.",
+        "jp": "ミッションとデファレンシャルギアとの間に介在し、エンジンパワーを伝達するプロペラシャフトも、軽量化すればエンジンレスポンスや加速性能の向上といったメリットをもたらす。シャフトの材質には主にカーボンやFRP（強化プラスチック）が用いられることが多く、重さはノーマルに対して概ね半分となる。軽さもさることながら回転バランスの正確さも大事な要件だ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1jTzqJYbWf0m7E.jpg",
+        "jp": "/images/c/i1jTzqJYbWf0m7E.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__drive_system__03": {
+    "h1_en": "Limited Slip Differential",
+    "h1_jp": "リミテッドスリップデフ",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "A limited-slip differential (LSD) helps ensure effective transmission of power to the road and improves traction during cornering. Of the various types available, mechanical LSDs that use multi-plate clutches offer a high level of control over the locking characteristics. This allows them to be tuned to suit drivetrain layout, vehicle characteristics, driving style and course conditions. The drawback is that the higher loads placed on the components can increase wear, requiring more frequent oil changes and maintenance.",
+        "jp": "速いコーナリングをめざす上で、エンジンパワーを確実に路面に伝達するリミテッドスリップデフ（LSD）は必需品といえ、数あるLSDの中でももっとも大きな差動制限効果を発揮するのが、多板クラッチの圧着力を利用した“機械式”と呼ばれるタイプ。その大きなメリットとして挙げられるのが、効きや効き始めるまでのレスポンスを自由に設定できる自由度の高さだ。つまり駆動レイアウトなどの車両特性やドライビングスタイル、あるいはコースレイアウトに応じて、最適なトラクションを得ることが可能になる。ただし大きな差動制限力を発揮するいっぽう、内部パーツに加わる負荷も高いため、オイル交換やオーバーホールなど、定期的なメンテナンスが不可欠になる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1e2eQMrK0TclEE.jpg",
+        "jp": "/images/c/i1e2eQMrK0TclEE.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Mechanical LSDs offer a high degree of adjustability in controlling the speed difference between the drive wheels, but they are more specialized components and are not commonly fitted as standard on most vehicles.",
+        "jp": "もっとも大きな差動制限力を発揮する\"機械式LSD\"は、モータースポーツ用パーツとして専用品を後から装着するケースが多い。"
+      },
+      {
+        "type": "h3",
+        "en": "Locking Factor",
+        "jp": "ロック率"
+      },
+      {
+        "type": "p",
+        "en": "The locking factor describes the extent to which a limited-slip differential restricts the speed difference between the drive wheels. In a standard open differential, the locking factor is effectively zero, allowing the wheels to rotate independently, while 100 percent represents full lock, forcing both wheels to turn at the same speed. The higher the locking factor, the greater the restriction on speed difference. However, a higher setting is not always better. The locking effect must be matched to the drivetrain layout, vehicle characteristics and driving conditions. If set too high, it can increase understeer and reduce cornering performance. In many cases, a moderate locking level offers a good balance, but optimal settings depend on the application.",
+        "jp": "LSDの効きそのものを示す値がロック率。0%がノーマルデフで、100%が直結デフロック。値が高いほど差動制限効果が大きくなる。ただし単純に高ければいいというものではなく、駆動方式や車高、トレッドなどとも大きく関連する。目指す性格によって理想値は変動する。理想値以上にロック率を上げれば強い初期アンダーを示すなどコーナリング性能が著しくスポイルされてしまうだろう。一般的には50%前後のロック率が扱いやすく、十分なLSD効果を得られるとされているが、トライ&エラーを繰り返して最適値を導き出すことが望ましい。"
+      },
+      {
+        "type": "h3",
+        "en": "Initial Torque",
+        "jp": "イニシャルトルク"
+      },
+      {
+        "type": "p",
+        "en": "Initial torque refers to the preload applied to the clutch plates inside the differential. Changing the initial torque affects how quickly and how strongly the LSD begins to lock. Higher preload provides more immediate locking and can improve traction under acceleration, while lower preload allows smoother engagement and easier drivability. Tuning often involves adjusting initial torque, but excessive preload can reduce cornering performance and, in front-wheel-drive vehicles, increase torque steer. More recently, setups combining lower initial torque with higher locking characteristics under load have become more common.",
+        "jp": "イニシャルトルクとはデフケース内のディスクを圧着させる圧力（与圧）のこと。これを高めたり低めたりすることでLSDがロックするまでの時間が変更できる。イニシャルを高めればアクセル操作に対する反応が速くなり、瞬時にLSDがロックする。低めれば穏やかにロックするので乗りやすくなる。チューニングではトルクを高めるのが基本だが、回頭性が損なわれたり、FF車ではトルクステアが強くなるなどデメリットも無視できない。ちなみに最近では低トルクでも高いLSD効果を発揮するものも増えている。"
+      },
+      {
+        "type": "h3",
+        "en": "● Types of Mechanical LSD",
+        "jp": "■機械式LSDの種類"
+      },
+      {
+        "type": "h3",
+        "en": "1-WAY",
+        "jp": "1WAY"
+      },
+      {
+        "type": "p",
+        "en": "This type of LSD operates only under acceleration. Because it does not engage off-throttle, it allows the inside wheel to rotate more freely on corner entry, similar to an open differential, resulting in smoother turn-in. This type of LSD is well suited to front-wheel-drive cars, which are prone to understeer, although it can produce a noticeable change in handling depending on throttle input.",
+        "jp": "アクセルONの時のみ作用するLSD。アクセルOFFの状態では作動しないため、ノーマルデフが持つ内輪差補正の機能を活用でき、コーナーアプローチがスムーズに行える。とくにアンダーステアの強いFF車に適しているが、アクセルのON／OFFでの挙動の違いが顕著に出る。"
+      },
+      {
+        "type": "h3",
+        "en": "2-WAY",
+        "jp": "2WAY"
+      },
+      {
+        "type": "p",
+        "en": "A 2-way LSD operates under both acceleration and deceleration. This provides strong locking characteristics, which can increase understeer on entry but improves stability under braking. It also offers predictable response and allows the driver to influence the car’s direction using the throttle.",
+        "jp": "アクセルON、アクセルOFFの両方で効果が得られるLSD。強めの初期アンダーを発生するが、減速時に安定した姿勢を維持できるため思い切ったコーナーアプローチが可能になる。レスポンスに優れ、積極的にアクセルを踏んで曲げることができる。"
+      },
+      {
+        "type": "h3",
+        "en": "1.5-WAY",
+        "jp": "1.5WAY"
+      },
+      {
+        "type": "p",
+        "en": "This type of LSD combines characteristics of both 1-way and 2-way systems. It provides full locking under acceleration, while offering reduced locking during deceleration to allow smoother turn-in. This gives a balanced setup, retaining traction while improving corner entry behavior compared with a full 2-way system.",
+        "jp": "1WAYと2WAY、両方の特性を併せ持つLSD。加速方向でのLSD効果は保ったまま、減速方向の効きを抑え、コーナーアプローチでの曲がりやすさにも配慮。クセを感じさせない、オールマイティに使いこなせるLSDといえる。"
+      }
+    ]
+  },
+  "review_tuning_and_settings__engine__01": {
+    "h1_en": "Fine-Tuning",
+    "h1_jp": "ファインチューニング",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Upgrading the engine control unit (ECU) and improving exhaust flow are common first steps in increasing engine performance. These changes provide a foundation for more extensive modifications, such as internal engine tuning or adding forced induction. While the gains may be modest, they can improve throttle response and overall drivability. The additional stress on the engine is generally small when these modifications are properly implemented.",
+        "jp": "エンジンコンピュータの交換や吸排気系の効率アップは、エンジンの基礎的な体力向上を行うためのものだ。その後に続く、エンジン本体のメカニカルチューンやターボ装着といった本格的なチューニングメニューのベースにもなる。大幅なパワーアップは望めないが、その効果はストレスを感じさせないシャープな吹け上がりや、レスポンスアップなどに表れる。また、エンジンに加わる負荷は比較的少なく、逆に高負荷時のエンジンを保護する機能を持ち、耐久面でのメリットも大きい。"
+      },
+      {
+        "type": "h3",
+        "en": "Engine Control Unit (ECU)",
+        "jp": "コンピュータ"
+      },
+      {
+        "type": "p",
+        "en": "Updating the control maps stored in the ECU is known as ECU tuning, or chip tuning. Parameters such as ignition timing, air-fuel ratio, fuel delivery and, where applicable, variable valve timing can be adjusted. ECU tuning is often required when increasing boost pressure, or when making changes to the intake, exhaust or other engine components.",
+        "jp": "エンジンを制御する情報が記憶されているROM（ロム）のデータを書き換えるのが一般的で、“ROMチューン”とも呼ばれる。点火時期のほか、空燃比、燃料の噴射量やタイミングの変更などが可能だ。ターボ過給圧アップや、吸排気系パーツの交換、エンジン本体に手を加えた際にはこのROMチューニングが必要になる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1luHsu1YOOuucE.jpg",
+        "jp": "/images/c/i1luHsu1YOOuucE.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Spark Plugs",
+        "jp": "スパークプラグ"
+      },
+      {
+        "type": "p",
+        "en": "A strong spark is essential to ignite the air-fuel mixture in the combustion chamber. Under sustained high load, standard spark plugs can be exposed to elevated temperatures, placing them under greater thermal stress. This makes it important to select appropriate spark plugs when an engine is tuned for higher output. Increased combustion temperatures can raise the risk of abnormal combustion, such as pre-ignition. To manage this, spark plugs with a suitable heat range—often a colder rating for higher-output engines—are used.",
+        "jp": "燃焼室内の混合気に点火して正常に爆発させるためには強い火花が不可欠。仮にエンジンがノーマルでも、ノーマルプラグで高負荷運転を続ければ、焼け過ぎの状態になる。特にチューニングで出力アップしたエンジンでは、爆発力の増大によって燃焼室温度が上昇して異常燃焼（プレイグニッション）を起こしやすくなるため、プラグの耐熱性を上げ、熱価の高いプラグを選択する必要がある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1oTSLSlHrOGOz.jpg",
+        "jp": "/images/c/i1oTSLSlHrOGOz.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Air Filter",
+        "jp": "エアクリーナー"
+      },
+      {
+        "type": "p",
+        "en": "The standard air filter is designed to protect the engine from dust and other impurities, but it can introduce some resistance to airflow. It is therefore common to switch to a low-resistance air filter designed for performance use. Rather than significantly increasing power, this change improves throttle response during acceleration and helps airflow at higher rpm. Increased intake noise is also a typical result.",
+        "jp": "エンジンが吸入する空気中に含まれているホコリや異物を取り除くエアクリーナーも、ノーマルは抵抗が大きく、出力面で不利な要素となる。抵抗の少ない競技用への交換が望ましい。パワーアップするというよりは、高回転域でのレスポンス向上や加速時のピックアップに効果がある。また吸気音が大きくなるという効果も期待できる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i11jEI0SEJaNU8E.jpg",
+        "jp": "/images/c/i11jEI0SEJaNU8E.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Exhaust System",
+        "jp": "エキゾーストシステム（排気系）"
+      },
+      {
+        "type": "p",
+        "en": "By reducing exhaust restriction, the engine can rev more freely and throttle response becomes sharper. Turbocharged engines, which rely on exhaust energy, can also benefit from improved flow, although gains from a muffler change alone are usually modest. However, changing exhaust components will affect the engine’s torque characteristics, so it is important to have a clear understanding of the intended outcome.",
+        "jp": "排気抵抗を低減することで、エンジンの吹け上がりやアクセルレスポンスが格段にシャープになる。とりわけ排気エネルギーを利用するターボエンジンでのパワーアップ効果は大きく、マフラーチューニングだけで1～2割の出力向上が望める。ただしパーツの交換にともなってエンジンのトルク特性も変化してしまうので、エンジンチューニングの狙いによって、どのような特性が求められるのかを見極める必要がある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1vcM7H1D6yAY.jpg",
+        "jp": "/images/c/i1vcM7H1D6yAY.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Engine Oil",
+        "jp": "エンジンオイル"
+      },
+      {
+        "type": "p",
+        "en": "High-output engines place greater demands on their components, particularly internal parts, making high-performance engine oil essential. Engine oil acts as a lubricant, a cooling medium and a sealing aid. If it cannot maintain an adequate film, pressure in the cylinders can be reduced and performance will suffer. Insufficient lubrication between moving metal parts can also lead to accelerated wear or seizure. Oil viscosity is an important factor, as it influences friction losses. Synthetic oils that maintain stable performance under demanding conditions are now widely used.",
+        "jp": "特に内部各所に大きなストレスの加わる高出力エンジンで欠かせないのが高性能オイルだ。潤滑のほか、冷却、気密保持などの役割を担っているが、仮に油膜切れを起こせばシリンダー内の圧縮が抜けてパワーダウン。また高速で動いている金属部品の潤滑が間に合わず、焼き付きを起こすケースも珍しくない。さらに、フリクションロス（パーツが動く際の抵抗）を生む粘度も重要な要素で、現在では、低粘度で過酷な使用状況下でも安定した性能を維持する化学合成オイルが広く支持されている。"
+      }
+    ]
+  },
+  "review_tuning_and_settings__engine__02": {
+    "h1_en": "Overhauling the Engine",
+    "h1_jp": "オーバーホール",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Mass-produced engines are built to tight tolerances, but not every unit operates at its absolute potential. Disassembling and rebuilding the engine with careful measurement and assembly can improve consistency and performance. During this process, lighter components can be fitted and rotating parts balanced to enhance efficiency and response. If regulations allow, displacement can also be increased, which can improve output and torque, although it may also raise mechanical and thermal loads.",
+        "jp": "量産を目的としたエンジンは、ノーマルの状態では工作精度が完璧とはいえず、本来発揮できるはずのパワーをスポイルしているケースがある。それを改善するには、すべてをパーツに分解し、精密に組み直すことがエンジン性能の底上げにつながる。いわゆる「オーバーホール」と呼ばれる作業で、同時に各々のパーツのバランスを整え、軽量化を図ることで効果はさらに増す。また排気量に制限を受けないチューニングにおいては、この際にエンジン自体の容量アップも行うのが効率的で、無理なく高いパワー／トルクの向上が期待できる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1B1DHn8ZRwrScc.jpg",
+        "jp": "/images/c/i1B1DHn8ZRwrScc.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Some modern engines are so finely balanced when they roll off the production line that they don’t leave a great deal of opportunity for improvement through overhauling",
+        "jp": "最近のエンジンの中にはノーマルの状態で、すでに細部に渡って入念な調律が行われていて、オーバーホールの余地がわずかしか残されていないものも存在する。"
+      },
+      {
+        "type": "h3",
+        "en": "Increasing Displacement",
+        "jp": "排気量アップ"
+      },
+      {
+        "type": "p",
+        "en": "Increasing engine displacement is one of the most direct ways to improve output. By increasing the amount of air-fuel mixture burned, engine performance can be enhanced. This can be done by “boring” the cylinders to a larger diameter and fitting bigger pistons, or by “stroking” the engine with a longer crankshaft throw and matching components. While both increase displacement, they affect performance differently. Increasing bore can support higher engine speeds and airflow, while increasing stroke generally improves low- and mid-range torque. However, as modern engines have become more compact and lightweight, cylinder walls are often thinner, making large increases in bore more difficult.",
+        "jp": "エンジン本体に手を加えるチューニングでもっとも確実で、高い効果が得られるメニュー。多くの混合気を燃焼させることで、より大きなパワーを得る。手法はシリンダーボア（内径）を削り、大径ピストンを組み込むボアアップと、クランクシャフトやコンロッドなどを交換してピストンストローク（行程）を大きくするストロークアップの2つがある。同じ排気量拡大でも両者は性格が異なる。前者は回転を上げてパワーを得るのに適していて、後者は中低回転域のトルクアップが期待できる。なお最近のエンジンは軽量化のため、シリンダーブロックの肉厚が薄くなっており大幅なボアアップが難しくなりつつある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1n3cQvlK3JJ1.jpg",
+        "jp": "/images/c/i1n3cQvlK3JJ1.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Cylinder block",
+        "jp": "【シリンダーブロック】"
+      },
+      {
+        "type": "h3",
+        "en": "Balancing",
+        "jp": "バランス取り"
+      },
+      {
+        "type": "p",
+        "en": "In a normal engine, the weights of the pistons and connecting rods in each cylinder can vary slightly. Any imbalance in the rotating assembly, including the crankshaft, can create unwanted vibration and reduce efficiency. Balancing the engine involves disassembling it and carefully measuring each component. By matching the weight of each part and correcting the rotational balance, the engine can run more smoothly and efficiently, improving overall performance. In cases where weight correction is not sufficient, parts may be replaced altogether. This type of tuning is particularly important in one-make racing, where major modifications are not permitted.",
+        "jp": "ノーマル状態では、気筒ごとのピストンやコンロッドにはわずかながら重量誤差がある。またクランクシャフトに回転バランスの狂いがあると抵抗が生じ、パワーロスの要因となる。そこでエンジンを分解し、精密にひとつひとつのパーツの重さを計測して均一化、さらに回転バランスなどを補正してスムーズにエンジンを回し、効率よくパワーを引き出すのがバランス取りだ。加工で補正し切れない場合は新品の同パーツに交換することもある。エンジンに大幅な改造が許されていないワンメイクレースの車両では必須ともいえるチューニングだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i16PRuQukIVSnuH.jpg",
+        "jp": "/images/c/i16PRuQukIVSnuH.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Camshafts",
+        "jp": "【カムシャフト】"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1PQzZk0oKjzy.jpg",
+        "jp": "/images/c/i1PQzZk0oKjzy.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Pistons",
+        "jp": "【ピストン】"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Ltg92HvO0BmTH.jpg",
+        "jp": "/images/c/i1Ltg92HvO0BmTH.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Con rods",
+        "jp": "【コンロッド】"
+      },
+      {
+        "type": "h3",
+        "en": "Reducing Weight",
+        "jp": "軽量化"
+      },
+      {
+        "type": "p",
+        "en": "Engine parts that move at high speed are affected by inertia, which can increase frictional losses and reduce efficiency. This can be reduced by removing material to make the components lighter. This process is often carried out together with balancing, but if parts are ground too thin, durability can be compromised.",
+        "jp": "超高速で動くエンジンパーツには慣性が働き、フリクションロスとなってパワーを損失させる。それを解消するのが各パーツの軽量化で、基本的に、バランス取りと同時に行う。ただしパーツの肉厚を削りすぎると耐久性に問題が生じる。"
+      },
+      {
+        "type": "h3",
+        "en": "Reinforcement",
+        "jp": "強化"
+      },
+      {
+        "type": "p",
+        "en": "When major tuning work is carried out on an engine, the loads on each component increase, raising the risk of damage. This makes stronger parts essential, while keeping weight low is equally important. Reinforced components produced using advanced forging techniques, along with materials such as titanium alloys, offer high strength with reduced weight compared with standard parts. In racing and heavily tuned engines, forged aluminum pistons and, in some cases, titanium connecting rods are used to meet these demands.",
+        "jp": "本格的なチューニングを施したエンジンでは燃焼力の増大によって、各部のパーツに大きな負荷が加わり、破損する恐れもある。強度を高めたパーツが必要不可欠だが、いっぽうで軽さも無視できない。そこで用いられるのが、チタン合金をはじめとする新素材や鍛造製法によって作られた強化パーツで、ノーマルとは比較にならない軽さと強度・剛性を両立している。レース／チューニングエンジンではアルミ製の鍛造ピストン、チタン合金製のコンロッドなどが常識となっている。"
+      }
+    ]
+  },
+  "review_tuning_and_settings__engine__03": {
+    "h1_en": "Increasing RPM",
+    "h1_jp": "高回転化",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Engine output is a combination of torque and engine speed (power is proportional to torque × rpm). This means that improving an engine’s ability to operate at higher rpm can increase its potential output. The tuning required focuses on the cylinder head, with the key being improved intake and exhaust flow at high engine speeds. A common method is to replace the standard camshaft with a higher-lift, longer-duration profile. This may require reinforcing valvetrain components, but it can improve airflow and increase high-rpm power. Engines suited to higher rpm are often short-stroke designs, as they allow higher engine speeds with lower piston speeds than long-stroke engines.",
+        "jp": "パワーとは「トルク×回転数」だから、高出力化は「いかにエンジンを高回転で回せるか」にかかっている。ここでのチューニングはシリンダーヘッド関連が中心で、高回転域での吸排気効率のアップが鍵を握る。主流はカム作用角を大きく取ったハイカムへの交換だ。同時にバルブまわりの強化も必要となるが、吸排気ポート拡大と同じ効果が得られ、高回転域で圧倒的なパワーがもたらされる。ちなみにエンジン特性で見ると、高回転に適しているのはショートストローク型だ。吸排気効率が高く、ロングストローク型と比較してピストンスピードそのものも速くないためである。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1oictuyQLkQVuB.jpg",
+        "jp": "/images/c/i1oictuyQLkQVuB.jpg"
+      },
+      {
+        "type": "p",
+        "en": "You can improve an engine’s ability to operate at high rpm and increase output by fitting a high-lift camshaft. However, this can reduce torque at low and medium engine speeds, and some highly tuned engines may idle poorly.",
+        "jp": "ハイカムに交換するだけでエンジン特性を高回転・高出力型に一変させることが可能。その一方、低中回転トルクは極端に細くなり、純粋なレース用ではアイドリングすらしなくなることもある。"
+      },
+      {
+        "type": "h3",
+        "en": "Ports",
+        "jp": "ポート"
+      },
+      {
+        "type": "p",
+        "en": "The intake and exhaust ports allow the air-fuel mixture to enter the engine and provide an exit for exhaust gases after combustion. Ideally, flow through the ports should be as smooth as possible, but production constraints often leave irregularities. Rough cast surfaces, passage shape and small distortions can all create flow resistance. By smoothing and reshaping these surfaces, airflow can be improved. Polishing the ports alone may improve high-rpm response slightly, but the full benefit is usually realized only when combined with more comprehensive cylinder head work, including port shaping and camshaft changes.",
+        "jp": "混合気や燃焼後の排気ガスの通り道である吸気／排気ポートは、できる限りなめらかなほうが望ましいが、コストの関係からノーマルエンジンの場合は入念に仕上げられていることはまれで、吸排気の抵抗になっている。鋳物特有の表面のザラつきや穴の絶対的なサイズ、歪みなどの問題がそれだ。そこを研磨で鏡のように仕上げ、スムーズな吸排気を促す。ポート研磨だけでも高回転のフィーリングは向上するが、カムの交換やヘッドの面研など、シリンダーヘッド全体のチューニングと同時に行わなければ本来の効果は得にくい。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1opnFRwSEVAxO.jpg",
+        "jp": "/images/c/i1FcL1pWHEawPz.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Camshaft",
+        "jp": "カムシャフト"
+      },
+      {
+        "type": "p",
+        "en": "The camshaft controls the opening and closing of the intake and exhaust valves. A high-lift camshaft uses larger cam lobes to increase valve lift and, often, longer duration, allowing the valves to stay open longer. This improves airflow at higher engine speeds, though it can reduce torque at low and medium rpm. As a result, power is increased in the higher rpm range. The more aggressive power delivery can make the car more difficult to manage, but it is a common method for extracting additional performance from a naturally aspirated engine.",
+        "jp": "カムシャフトは吸排気バルブを開閉させる軸のことで、ハイカム＝ハイリフトカムとは、カム山部分を高くしてバルブが開いている時間を長くしたカムシャフトのことをいう。つまり吸排気ポート拡大と同様の効果を得ることが可能になる。低中回転域でのトルクが細くなる反面、高回転域のパワーは劇的に向上する。ピーキーな特性こそ否めないが、自然吸気式エンジンで高出力化を図る際の定番チューニングだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1a2UqkOeHvPTEc.jpg",
+        "jp": "/images/c/i1a2UqkOeHvPTEc.jpg"
+      },
+      {
+        "type": "p",
+        "en": "A standard camshaft on the right compared with a high-lift camshaft on the left. The taller cam lobes increase valve lift and often extend the duration, allowing the valves to remain open longer.",
+        "jp": "右がノーマルカム、左がハイカム。山の部分が高いだけハイカムはバルブの開く量を大きくすることができる。"
+      },
+      {
+        "type": "h3",
+        "en": "Valves",
+        "jp": "バルブ"
+      },
+      {
+        "type": "p",
+        "en": "At the same time as port work and camshaft upgrades, increasing valve size can also be considered. This involves enlarging the intake and exhaust valves to allow greater airflow and improve breathing efficiency. However, larger valves add mass and are subject to greater inertia, so lightweight materials such as titanium are sometimes used to reduce this effect.",
+        "jp": "ポート研磨やカム交換と同時に考えたいのがビッグバルブ化。吸気バルブ側の開口面積を拡げることで吸気量を増やし、充填効率を高めるためのチューニング。もっとも大きいバルブは重く（慣性が大きく働く）なるため、対策として超軽量なチタン製としていることが多い。"
+      },
+      {
+        "type": "h3",
+        "en": "Valve Spring",
+        "jp": "バルブスプリング"
+      },
+      {
+        "type": "p",
+        "en": "High engine speeds can cause the valve springs to oscillate, leading to valve float, where the springs cannot keep pace with the camshaft. In engines tuned for higher output, upgrading the valve springs is important to maintain proper valve control. The need becomes greater when a high-lift camshaft is fitted, as standard springs may not cope with the increased lift and speed. In extreme cases, loss of valve control can lead to contact between the valve and piston. However, stiffer springs increase load on the valvetrain and can accelerate wear.",
+        "jp": "高回転でエンジンを回した際に生じるバルブスプリングの異常振動、すなわちサージング（カムの動きにスプリングの伸縮スピードが追いつかなくなる状態）を防ぐ意味で、スプリング強化は不可欠だ。特にハイカムを組んだ場合は必須で、ノーマルスプリングのままだとバルブのリフト量の増加にスプリングが耐え切れず、最悪の場合はスプリングが密着してカムがロックしたり、バルブとピストンが接触するといった事態も発生しかねない。ただしあまり強いスプリングを組むとエンジンの抵抗となったり、バルブ回りの磨耗を早める原因にもなるので注意しよう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1aK5bUCZGCXiz.jpg",
+        "jp": "/images/c/i1aK5bUCZGCXiz.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__engine__04": {
+    "h1_en": "Increasing Compression",
+    "h1_jp": "高圧縮化",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "The greater the compression of the air-fuel mixture, the more energy is released during combustion, increasing power and torque. Raising compression typically involves reducing combustion chamber volume, often through changes to the cylinder head or pistons. However, excessive compression increases the work required during the compression stroke and raises the risk of abnormal combustion, such as knock. High-compression engines require careful tuning, including adjustments to fuel delivery, ignition timing and component strength, along with the use of appropriately rated spark plugs.",
+        "jp": "エンジンは、ピストンを押し上げて混合気を圧縮する際の力が増すほど、燃焼力が高まってより大きなパワーとトルクが引き出せる。ここでのチューニングはシリンダーヘッドの燃焼室容量の設計がポイントとなる。ただしあまり圧縮比を上げすぎると、エンジンを回す（圧縮する）際の抵抗になるほか、異常燃焼の原因にもなりかねないので注意しよう。燃料調整のほか、点火時期を遅らせてコールドタイプのプラグに換えたり、爆発力が増すことに対するピストンやコンロッドの強化などの対策も必要になる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1TcbrDlMQP7Y8c.jpg",
+        "jp": "/images/c/i1TcbrDlMQP7Y8c.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Increasing compression is often best combined with raising the engine’s usable rpm range. As combustion forces increase, the internal components must also be strengthened to handle the additional load.",
+        "jp": "高圧縮化は高回転化と同時に行うのがセオリー。また燃焼力が大きくなる分、エンジン内部には補強も必要になる。"
+      },
+      {
+        "type": "h3",
+        "en": "Pistons",
+        "jp": "ピストン"
+      },
+      {
+        "type": "p",
+        "en": "A common way to raise an engine’s compression ratio is to fit high-compression pistons. The raised crown reduces combustion chamber volume compared with a standard piston, increasing the compression ratio. However, higher compression raises mixture temperature and combustion pressure, making knock more likely. This requires supporting measures such as optimizing air-fuel mixture, ignition timing and combustion chamber efficiency.",
+        "jp": "圧縮比を高めるうえで、もっとも代表的なチューニングがハイコンプ（ハイコンプレッション＝高圧縮）ピストンへの交換だ。上部が凸状になっている形状からもわかるように、ノーマル形状のピストンに対して燃焼室容積を縮小して高圧縮化を図っている。ただし、高圧縮化では混合気温度、燃焼温度が高温になり、ノッキング＝異常燃焼を発生しやすくなるため、混合気の流れの改善などの対策が求められる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1gpf004z5uXY.jpg",
+        "jp": "/images/c/i1gpf004z5uXY.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Combustion Chamber",
+        "jp": "燃焼室"
+      },
+      {
+        "type": "p",
+        "en": "There are various combustion chamber designs, one of the most common being the pent-roof type, which offers good airflow and efficient combustion. Another important feature in high-compression engines is the use of squish, or quench, areas. These are regions where the piston comes very close to the cylinder head, promoting turbulence and improving combustion. Properly designed quench areas can help reduce the tendency for knock. However, modifying the chamber can create variations in volume between cylinders, so careful measurement is required to ensure consistency.",
+        "jp": "燃焼室の加工は、大掛かりなものでは、吸排気や点火の効率に優れるペントルーフ型に加工する手法などもあるが、高圧縮化にともなうノッキング対策「スキッシュ加工」がメインとなる。これは燃焼室内で圧力が高くなるスキッシュエリア（下図グレー部分）を削り取り、若干圧縮比を下げる作業のこと。ただしスキッシュ加工を行うと各燃焼室ごとの容積にばらつきが出てしまうため、同時に燃焼室の精密な容量測定が必要となる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1EFmatFzcui3RB.jpg",
+        "jp": "/images/c/i1EFmatFzcui3RB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Cylinder Head",
+        "jp": "シリンダーヘッド"
+      },
+      {
+        "type": "p",
+        "en": "The underside of the cylinder head can be machined in small increments to reduce combustion chamber volume, thereby increasing the compression ratio. This process can also correct warping caused by high temperatures, restoring proper sealing between the cylinder head and block and preventing compression loss.",
+        "jp": "シリンダーヘッドの下面を0.1mm単位で研磨することを一般的に“ヘッド面研”と呼ぶ。基本的に燃焼室の容量を縮小することで圧縮比を高めるのが目的だ。またヘッド面研は、エンジンを過酷な熱条件で使用した際の、シリンダーブロックとシリンダーヘッド間の熱による歪み（＝圧縮漏れの原因）を修正する際にも行われる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i13mSW0TqruTHC.jpg",
+        "jp": "/images/c/i13mSW0TqruTHC.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Head Gasket",
+        "jp": "ヘッドガスケット"
+      },
+      {
+        "type": "p",
+        "en": "The head gasket sits between the cylinder block and head, ensuring a proper seal and preventing compression loss. Reducing the thickness of the head gasket has a similar effect to machining the cylinder head, as it reduces combustion chamber volume and increases the compression ratio. Modern head gaskets are typically multi-layer steel designs, offering high strength and good resistance to heat and pressure. This helps maintain a reliable seal under higher compression and prevents leakage from the cylinders.",
+        "jp": "シリンダーヘッドとシリンダーブロックの間に介在して気密性を保ち、圧縮漏れを防いでいるプレートがヘッドガスケットだ。この厚みをノーマルから薄くすることでも、ヘッド面研を行ったのと同じ効果、すなわち燃焼室容量の縮小による圧縮比アップが得られる。最近ではガスケットの素材に、熱伝導率が高く強度に優れるステンレス材を用いることで、吹き抜けを防ぐとともに圧縮比の適正化が図られている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1oLXvOySLYXAcc.jpg",
+        "jp": "/images/c/i1oLXvOySLYXAcc.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__engine__05": {
+    "h1_en": "Forced Induction Devices",
+    "h1_jp": "過給器",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Increasing boost pressure or fitting a larger forced-induction system is an effective way to increase engine output without changing displacement. When combined with mechanical tuning, even greater gains can be achieved. However, forced induction places higher loads on engine components than naturally aspirated setups, so supporting modifications are essential. While naturally aspirated engines often rely on higher compression ratios, forced-induction engines typically use lower static compression to reduce the risk of knock under boost. Turbocharged engines can also suffer from lag, so measures are often taken to improve response.",
+        "jp": "過給圧のアップや過給器自体のサイズアップなどを行うと、エンジン本体に手を加えることなく、比較的容易に排気量アップと同じ効果が得られる。メカニカルチューンと組み合わせればより強力なパワーアップも期待できる。ただし自然吸気式以上にエンジンに過大なストレスが加わるためその対策は不可欠。自然吸気エンジンでは高圧縮化がパワーアップの鍵となるが、過給器エンジンではむしろ圧縮比を下げ、異常燃焼や爆発力の増大によるパーツの破損を防ぐことが求められる。ターボチャージャーの場合は、タイムラグを生じやすいので、極端にレスポンスを悪化させないための工夫も必要だ。"
+      },
+      {
+        "type": "h3",
+        "en": "Boost Pressure",
+        "jp": "ターボ過給圧"
+      },
+      {
+        "type": "p",
+        "en": "Boost pressure is a measure of the pressure increase provided by a turbocharger or supercharger, and is expressed in units such as kg/cm², kPa or psi. The higher the boost pressure, the greater the potential power output. However, as more air is forced into the engine, additional fuel is required, so the ECU must be calibrated accordingly and fuel delivery may need to be upgraded. It is also important to reinforce engine internals to cope with the increased loads from higher combustion pressures.",
+        "jp": "ターボチャージャーがどの程度の空気を吸い、圧縮するのかを示す値が過給（ブースト）圧。単位は圧力の「kg/cm2」で表され、この値を高めるほどパワーを引き出せる。ただし、同時に大量な空気に見合うだけの燃料が必要となり、コンピュータによる燃料調整や、大量の燃料を吐出するためのインジェクターなどに交換する必要がある。さらにエンジン内部にも増大した爆発力に耐えられるだけの強度が求められる。"
+      },
+      {
+        "type": "h3",
+        "en": "High-Flow Turbine",
+        "jp": "ハイフロータービン"
+      },
+      {
+        "type": "p",
+        "en": "This refers to a turbocharger with a larger compressor wheel, increasing airflow and potential output. A process known as “cutback” can be used to reduce the mass of the turbine blades, lowering rotational inertia and allowing boost to build more quickly. This helps improve power while minimizing any loss in response.",
+        "jp": "吸入空気を圧縮するコンプレッサーホイール部分を拡大し、多くの風量を稼ぐことを可能にしたタービンで、基本的にノーマルタービンを分解してコンプレッサーホイールだけを交換する。「カットバック」という処理によってタービンの慣性重量を減らしているため、素早くブーストが立ち上がるのが特長だ。ほとんどレスポンスを犠牲にすることなく、高出力化が可能となっている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1eMPSB3scycCTB.jpg",
+        "jp": "/images/c/i1eMPSB3scycCTB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Increasing Turbine Size",
+        "jp": "大容量タービン"
+      },
+      {
+        "type": "p",
+        "en": "This involves replacing the standard turbocharger with a larger unit, as turbo size sets the potential airflow and power limit. While this can deliver a significant increase in output, a larger turbo generally responds more slowly. Unless the engine can produce sufficient exhaust energy, low-rpm torque may be reduced and boost may only build at higher rpm, which can make the power delivery more difficult to manage.",
+        "jp": "サイズによって出力の限界が決まるタービン本体を、ノーマルからより大きなサイズに交換するチューニング。飛躍的なパワーアップが期待できる反面、大きなタービンを回すためレスポンスが悪化するという短所も生ずる。大量の排気エネルギーを発生できる排気量、あるいはエンジン自体のポテンシャルがない限り、低回転域ではトルクが細く、高回転域でしかターボ効果が得られないなど、扱いにくい特性となることも考慮しよう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1tpMyCCVciLob.jpg",
+        "jp": "/images/c/i1tpMyCCVciLob.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Supercharger",
+        "jp": "スーパーチャージャー"
+      },
+      {
+        "type": "p",
+        "en": "The principle behind a supercharger is similar to that of a turbocharger: it forces compressed air into the engine to increase output. Like turbochargers, it can be fitted to a naturally aspirated engine as a means of increasing power. Because a supercharger is driven directly by the engine, it delivers boost with little delay, making it well suited to situations that require immediate throttle response.",
+        "jp": "圧縮空気をエンジンに押し込んでパワーを得る原理はターボチャージャーと同様。つまりスーパーチャージャーも過給圧を高めることでさらなるパワーアップが可能となる。ターボと同じく、自然吸気式エンジンにボルトオンで装着可能で、比較的容易に大幅なパワーアップが引き出せる。構造上アクセルレスポンスにタイムラグを生じないため、特にテクニカルコースでは大きなメリットがもたらされる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1eh9zHkOkBQdz.jpg",
+        "jp": "/images/c/i1eh9zHkOkBQdz.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Intercooler",
+        "jp": "インタークーラー"
+      },
+      {
+        "type": "p",
+        "en": "The intercooler plays an important role in a turbocharged engine, cooling the air heated during compression and improving charge density. Intercoolers are standard on many production vehicles, but increasing their size can improve cooling performance. However, an oversized intercooler can increase flow resistance and pressure drop, reducing boost pressure and response if not properly matched to the system.",
+        "jp": "ターボチャージャーで圧縮され高温となった空気を冷やすことでエンジンの充填効率を高め、パワーアップにつなげるパーツがインタークーラーだ。市販車でも常識的に装備されているが、サイズアップして効率を上げることでより高い冷却効果が得られる。ただしあまり大型のインタークーラーを装着すると、圧縮空気が内部にとどまる時間が長くなり過給圧が低下する。これを圧力損失と呼び、場合によっては10～20%も過給を下げる原因ともなる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1LeKuGPfpM5sEc.jpg",
+        "jp": "/images/c/i1LeKuGPfpM5sEc.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__engine__06": {
+    "h1_en": "Rotary Engines",
+    "h1_jp": "ロータリーエンジン",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "One of the main aims when tuning a rotary engine is to improve intake airflow. This is achieved by enlarging and reshaping the intake ports, allowing more air-fuel mixture into the combustion chamber. The effect is similar in principle to fitting a more aggressive camshaft in a reciprocating engine, although the resulting power characteristics can differ significantly. For example, peripheral porting, often used in competition rotary engines, can greatly reduce low-rpm torque and make normal driving difficult. In rotary engines, the exhaust ports are positioned close to the turbocharger, allowing exhaust energy to drive the turbine efficiently. By combining porting and turbo tuning, overall performance can be increased.",
+        "jp": "ロータリーエンジンのチューニングのポイントは吸気効率のアップ。つまり吸気ポートを拡大して多くの混合気を燃焼室に送り込むことだ。これ自体は、レシプロエンジンでハイカムを組み込んだ効果と似ているのだが、ポートの移設や拡大によってパワーアップの度合いや特性が大きく変わる点に注意したい。たとえば競技車専用の「ペリフェラルポート」では低速トルクが極端に小さくなり、通常のドライビングでは極めて扱いにくい性格となる。またロータリーエンジンは構造上、排気ポートとターボチャージャーとの間隔が短く、排気エネルギーで効率よくタービンを回せる。ポートチューンとターボチューンとを組み合わせればより効果的なポテンシャルアップを図ることが可能だ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Qzcc5UAZ1h08c.jpg",
+        "jp": "/images/c/i1Qzcc5UAZ1h08c.jpg"
+      },
+      {
+        "type": "p",
+        "en": "One of the greatest advantages of tuning a rotary engine is its good compatibility with turbochargers. Porting and turbo tuning can be combined to give excellent power and ease of operation",
+        "jp": "ロータリーエンジンはターボとのマッチングに優れる点も魅力。高出力と扱いやすさを両立するポートチューニング＋ターボが定番。"
+      },
+      {
+        "type": "h3",
+        "en": "Balancing",
+        "jp": "バランス取り"
+      },
+      {
+        "type": "p",
+        "en": "Compared with a reciprocating engine, a rotary engine has a simpler structure and fewer moving parts. Improving the precision of these components and carefully reassembling the engine can enhance performance and consistency. A critical part of this process is the setting of the seals. The rotor’s apex seals serve a role similar to piston rings, and consistent clearances help maintain smooth operation and proper compression. If the seals are not set correctly, power can be lost and, in severe cases, engine damage may occur.",
+        "jp": "レシプロエンジンと比較してシンプルな構造で、かつ部品点数の少ないロータリーエンジンでは、各々のパーツの精度を高め、入念に組み上げるだけで本来のポテンシャルを引き出すことができる。ポイントは「シールセット」と呼ぶ作業。レシプロのピストンリングに相当するアペックスシールをすべて同じクリアランスに揃えて組み直すことで、ハウジング内のローターが正しい圧縮を保ちながら驚くほどスムーズに回転するようになる。逆にいえば、シールの不具合は出力低下に直結し、最悪、焼き付きをも誘発する"
+      },
+      {
+        "type": "h3",
+        "en": "Side Porting",
+        "jp": "サイドポート"
+      },
+      {
+        "type": "p",
+        "en": "By increasing the size of the intake ports in the side housing, airflow can enter the engine more easily, increasing the total charge and improving power. This produces a similar effect to fitting a more aggressive camshaft in a reciprocating engine.",
+        "jp": "サイドハウジングに設けている吸気ポートの径を拡大することで、通常より早め（多量）に混合気を吸い込み、パワーアップにつなげる。レシプロエンジンでハイカムを組んだのと同じ効果が得られる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1aIlIZWpcha8SB.jpg",
+        "jp": "/images/c/i1aIlIZWpcha8SB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Bridge Porting",
+        "jp": "ブリッジポート"
+      },
+      {
+        "type": "p",
+        "en": "This is one method of modifying the side port, known as a bridge port. The name comes from the “bridged” section left between the enlarged port openings.\n\nThe bridge is retained rather than creating a single large opening because, at extreme port sizes, support is needed to maintain proper sealing. Without it, the apex seal could lose support as it passes over the port, leading to reduced sealing and potential damage.",
+        "jp": "サイドポート・チューニングの手法のひとつで、削ったポートの形状が、ちょうど橋がかかったように見えることからこう呼ばれる。2つのポート口の間にブリッジができるのは、ポートを限界近くまで広げていった時に、アペックスシールが通るラインを残しておく必要があるためだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1FbRH5Rwc47Ib.jpg",
+        "jp": "/images/c/i1FbRH5Rwc47Ib.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Peripheral Porting",
+        "jp": "ペリフェラルポート"
+      },
+      {
+        "type": "p",
+        "en": "This is a method of tuning a rotary engine in which the intake ports are relocated from the side housing to the rotor housing. This allows the air-fuel mixture to enter more directly, significantly increasing power at higher rpm. However, it also reduces low-speed efficiency, resulting in a substantial loss of low-end torque. The result is a more extreme powerband, with strong high-rpm output but reduced drivability at lower engine speeds.",
+        "jp": "ノーマルエンジンではサイドハウジングに設けている吸気ポートを特殊な接着剤で埋め、ローターハウジング上部に移設する手法。混合気がダイレクトにローターハウジング内に送り込まれるため、高回転域で大きなパワーを引き出せるのがメリット。いっぽう、低速／高速と、分割して混合気を送り込むことで常用回転域のトルクを確保しているノーマル（サイドポート）の機能は失われ、高回転での圧倒的なパワーとは対照的に、ほとんど低速トルクが発生しないピーキーな特性に一変する。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i11lGz57fmSsfC.jpg",
+        "jp": "/images/c/i11lGz57fmSsfC.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Combination Porting",
+        "jp": "コンビネーションポート"
+      },
+      {
+        "type": "p",
+        "en": "Also known as “cross-porting,” this technique combines side porting (or bridge porting) with peripheral porting, leveraging the strengths of each—side ports for better low-end response and peripheral ports for increased high-rpm performance.",
+        "jp": "クロスポートとも呼ばれる、サイドポート（またはブリッジポート）とペリフェラルポートとを組み合わせたチューニング。低回転域ではサイドポート、高回転域ではペリフェラルポートだけが作動するシーケンシャル方式で、各々のメリットがもたらされる。"
+      }
+    ]
+  },
+  "review_tuning_and_settings__footwork__01": {
+    "h1_en": "Adjusting Handling Characteristics",
+    "h1_jp": "ハンドリング特性変更",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Tuning the suspension system for sports driving often involves sacrificing some comfort for performance. On smooth surfaces such as a race circuit, lowering the ride height reduces the center of gravity and can improve stability. Stiffer suspension reduces unwanted body movement during acceleration, braking and cornering, helping maintain sharper handling. However, if the suspension is too stiff, it will not absorb load transfer effectively and overall grip and drivability will suffer. The ideal setup balances stiffness with the need for weight transfer. Depending on the vehicle and surface, a softer setup may sometimes provide better traction.",
+        "jp": "スポーツドライビングにおけるサスペンションチューニングとは、乗り心地といった要素をある程度犠牲にして、速さを追求することだ。サーキットのようなフラットな路面に限れば、車高は低いほど重心が下がり挙動が安定する。サスペンションも硬いほど加速・減速・旋回時の無駄な動きがなくなり操縦性がシャープになる。もっとも実際には、サスペンションがまったく機能しないと荷重移動が発生せず、ドライバビリティは極めて悪いものとなる。荷重移動を活用できる範囲で前後左右のバランスも考えながら固めるというのが正解といえよう。また車両特性や路面状況などによっては、タイヤのグリップを高める目的で、あえて柔らかくすることもサスペンションチューニングであることも覚えておこう。"
+      },
+      {
+        "type": "h3",
+        "en": "Shock Absorbers",
+        "jp": "ダンパー"
+      },
+      {
+        "type": "p",
+        "en": "The objective of upgrading shock absorbers is to provide increased damping compared with standard units, which are often tuned for ride comfort. Higher damping allows the car to maintain stability under high speeds and heavy loads, improving overall control. Shock absorber upgrades should generally be carried out in conjunction with spring tuning to ensure a balanced suspension setup.",
+        "jp": "乗り心地を重視したノーマルよりも高い減衰力を与えることで、大きな負荷のかかるハイスピード走行でも挙動の安定性を保ち、操縦性を高めるのが目的。交換・チューニングはスプリングと同時に行うのがセオリーだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1DJn8OiLmePEuH.jpg",
+        "jp": "/images/c/i1DJn8OiLmePEuH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Springs",
+        "jp": "スプリング"
+      },
+      {
+        "type": "p",
+        "en": "Springs improve handling by supporting the vehicle and influencing ride height, which affects the center of gravity. They also play an important role in maintaining stability by controlling body movement during cornering, braking and acceleration, helping to limit roll, nose-dive and squat.",
+        "jp": "基本的な運動性能を高める低重心化のほか、コーナリング中のロール、ブレーキング時のノーズダイブ、あるいは発進・加速時のスクウォート（沈み込み）を抑え、挙動を安定させるために欠かせないパーツ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1TWaFFYwdJqjC.jpg",
+        "jp": "/images/c/i1TWaFFYwdJqjC.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Height-Adjustable Suspension",
+        "jp": "車高調整式サスペンション"
+      },
+      {
+        "type": "p",
+        "en": "Height-adjustable suspension allows the ride height to be changed independently of the springs, while also providing adjustable damping through the shock absorbers. This makes it possible to fine-tune the setup to suit different conditions. There are several methods of adjusting ride height, including threaded collars, C-rings and bracket-type mounts.",
+        "jp": "スプリング長を任意に伸縮させる車高調整機能を備えたダンパーで、同時に減衰力調整も可能なタイプが主流。その組み合わせは幅広く、走りのシチュエーションに合わせてキメ細かく対応させることができる。車高の調整方法はネジ式、Cリング式、ブラケット式などがある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1tzkKBVLm4rSEc.jpg",
+        "jp": "/images/c/i1tzkKBVLm4rSEc.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Anti-roll Bars",
+        "jp": "スタビライザー"
+      },
+      {
+        "type": "p",
+        "en": "Increasing the stiffness of the anti-roll bars can further reduce body roll during cornering. A stiffer front anti-roll bar tends to increase understeer, while a stiffer rear bar tends to promote oversteer.",
+        "jp": "レートを高めることで、スタビライザー本来のコーナリング中のロールを抑える効果をさらに向上させることが可能となる。またフロントのレートが高ければアンダーステア、リアが高ければオーバーステアの傾向を示す。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1U5GHArBUglmz.jpg",
+        "jp": "/images/c/i1U5GHArBUglmz.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Bushings",
+        "jp": "ブッシュ"
+      },
+      {
+        "type": "p",
+        "en": "Using stiffer bushings in dampers, suspension links and other mounting points can reduce unwanted movement and improve steering response and handling precision. Suspension bushings are typically made from elastomer materials such as rubber or polyurethane, though spherical “pillow-ball” joints are also used, employing a metal bearing to allow more precise movement.",
+        "jp": "ダンパーやサスペンションリンクなどのボディ取り付け箇所や、各々のリンクの連結部に介在する緩衝材（ブッシュ）を強化することで、サスペンションの無駄な動きを抑え、リニアな操舵反応や操縦性を得ることができる。ブッシュの材質は主にゴムやウレタンなどの樹脂で、可動部分に金属球を用いた通称“ピロボール”もある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1jwJ6QQBGgHX7c.jpg",
+        "jp": "/images/c/i1jwJ6QQBGgHX7c.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__stopping_power__01": {
+    "h1_en": "Boosting Brake Power and Avoiding Brake Fade",
+    "h1_jp": "制動力／耐フェード性強化",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "A tuned engine with higher speed potential requires a braking system with greater stopping power and resistance to fade. At a basic level, braking can be improved by upgrading the pads, while more extensive changes may involve replacing major components or the entire system with higher-performance parts. However, racing brake systems are not always suited to all applications, so components should be selected to match the vehicle and its use. Larger brake discs and calipers can also increase unsprung weight, which may affect handling. The key is to ensure braking performance is well matched to engine output, without upsetting overall balance.",
+        "jp": "エンジンチューンによって、絶対スピードが高まった車両では、より強力な制動力と、高い耐フェード性能が求められる。ベーシックなところではパッドの交換があり、究極レベルでは、ブレーキシステム自体を大容量の競技車用に交換するなど、レベルに応じたさまざまなメニューが考えられる。ただし競技車用が必ずしもすべての用途で完璧な性能を発揮するとは限らず、目的に応じたパーツ選択が必要になる。またディスクやキャリパーのサイズアップはバネ下重量の増加を招き、運動性を阻害する。ブレーキ性能はエンジンパワーを上回っていることが鉄則だが、たとえば軽量な車両に極端に大容量のシステムを装着しても明らかなオーバークオリティで、走行バランスを崩しかねない。"
+      },
+      {
+        "type": "h3",
+        "en": "Brake Pads",
+        "jp": "パッド"
+      },
+      {
+        "type": "p",
+        "en": "The most basic components to consider when tuning the brakes are the brake pads, which largely determine braking performance and resistance to fade. A wide range of pads is available, from street-focused compounds to high-performance motorsport types. Each operates best within a specific temperature range and offers different levels of heat resistance. Choosing the wrong compound can reduce effectiveness and negatively affect drivability. Higher-performance pads also tend to wear more quickly and can increase brake disc wear due to higher friction. As a general rule, brake pads should be replaced as a complete set to maintain consistent braking performance.",
+        "jp": "ブレーキチューニングにおけるもっとも基本的なパーツで、かつ制動力や耐フェード性を大きく左右する。ストリート用から競技用まで選択の幅は広いが、それぞれで適正温度（最大の制動力を発揮する温度）や耐熱温度などが異なり、目的に合ったものを選ばないと期待した効果が得られず走りに悪影響をおよぼす。当然ながらノーマルと比較して摩耗は速くディスクへの攻撃性も高い。制動バランスを保つために前後セットの交換が基本とされている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1ymmMcoJkrNxuH.jpg",
+        "jp": "/images/c/i1ymmMcoJkrNxuH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Brake Fluid",
+        "jp": "フルード"
+      },
+      {
+        "type": "p",
+        "en": "Brake fluid is the hydraulic medium used in braking systems. It is formulated with a high boiling point, typically above 200°C, to prevent vapor lock. However, it is also hygroscopic, meaning it absorbs moisture over time and gradually degrades. Brake fluids are classified by DOT ratings, with higher grades generally offering higher boiling points. At the same time, they can absorb moisture more readily, which lowers the effective boiling point with use. For this reason, high-performance fluids require regular replacement. It should also be noted that braking performance itself does not increase with a higher DOT rating.",
+        "jp": "油圧式ブレーキで用いられる作動液。レース用は、ベーパーロック現象を防ぐため200℃以上になっても沸騰しない特性を持つが、そのいっぽう吸湿性が非常に高く、劣化しやすい特性も持つ。DOT＝ドットと呼ぶグレードが上がるに従って沸点が上がるが、同時に湿気を吸って劣化しやすくなるわけだ（沸点が下がる）。従ってレース専用のDOT5を用いる際は短いサイクルでの交換が必須となる。ちなみにDOT数を上げても制動力自体が上がるわけではないので注意しよう。"
+      },
+      {
+        "type": "h3",
+        "en": "Brake Hoses",
+        "jp": "ホース"
+      },
+      {
+        "type": "p",
+        "en": "Brake hoses carry fluid between the master cylinder and the brakes. Standard hoses are typically made from rubber, and under heavy braking they can expand slightly, reducing pedal feel and response. This can be improved by using stainless steel braided hoses, which use a PTFE (Teflon) inner line with a steel mesh outer layer to resist expansion. They retain flexibility while providing a firmer, more consistent pedal feel. Such hoses are commonly used in performance and racing applications.",
+        "jp": "フルードの通り道であるホースはノーマルだとゴム製。このため、ハードブレーキングで油圧が高まると膨張してペダルタッチを曖昧にする。これを解消するのがステンレスメッシュと呼ばれるブレーキホースだ。テフロンホースをメッシュ状のステンレスで被い、ゴムと同等の柔軟性を持たせながら膨張を防いでいる。競技車両では常識的に採用されている強化パーツで、常にダイレクトで正確なペダルタッチがもたらされる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1pbfDMrKDhzEb.jpg",
+        "jp": "/images/c/i1pbfDMrKDhzEb.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Brake Discs",
+        "jp": "ディスク"
+      },
+      {
+        "type": "p",
+        "en": "One of the most effective ways to improve braking performance is to increase braking capacity. This is often achieved by using larger diameter discs, which provide greater leverage and heat capacity. However, larger cast-iron discs can increase unsprung weight, which may affect handling. To address this, lightweight materials such as carbon-ceramic are used in high-performance applications. As brake discs wear with use, they must be inspected and, when necessary, replaced or resurfaced to maintain performance.",
+        "jp": "制動力を高める手段としてもっとも効果的なのがブレーキ容量のアップだ。すなわちディスクを大径化し、より大きな摩擦熱を発生させる。しかし鋳鉄製の大径ディスクは同時にバネ下重量の増大を招いて走行性能を低下させる。そのため最近ではセラミックやカーボンなどを主な素材とした軽量なディスクも出回り始めている。なおディスクは使用にともなって摩耗する消耗パーツで、本来の制動力を得るためには定期的な交換、もしくは研磨が求められる。"
+      },
+      {
+        "type": "h3",
+        "en": "Calipers",
+        "jp": "キャリパー"
+      },
+      {
+        "type": "p",
+        "en": "Upgrading brake calipers often involves replacing major components of the braking system. Standard calipers typically use a sliding design, applying force from one side, while opposed-piston calipers apply pressure from both sides of the disc. Some production cars now use multi-piston calipers, which distribute pressure more evenly across the pads and improve braking consistency. Opposed-piston calipers are often built with rigid monoblock construction, helping maintain stable performance under heavy braking.",
+        "jp": "キャリパー本体のチューニングとしては、システム本体をグレードアップしてしまう手法がある。ブレーキパッドを確実にディスクに押し付けるという意味で、パッドを両側から押し出す対向ピストンタイプへの交換が一般的だ。また市販車でも6ピストンのものが多く採用されていることからもわかるように、ピストンの数は多くなるほどパッドへの面圧を均一にすることが可能で、結果、制動力をアップできる。さらに対向ピストンタイプの場合、キャリパー本体が一体成型となり、車軸部分に固定されたまま動かないため、キャリパー自体の剛性が高く、ハードな使用でも安定したブレーキングが得られる点もメリットとなっている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1mOIDSbbjeEU8E.jpg",
+        "jp": "/images/c/i1mOIDSbbjeEU8E.jpg"
+      }
+    ]
+  },
+  "review_tuning_and_settings__tires__01": {
+    "h1_en": "Increased Grip/Rigidity",
+    "h1_jp": "グリップ／剛性アップ",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Grip and rigidity are key characteristics of high-performance tires.\n\nSlicks, which are designed specifically for racing, maximize both. Their rubber compounds provide high grip as they reach operating temperature, and the absence of grooves maintains a large, stable contact patch. Road tires for performance driving take a similar approach, using softer compounds and reduced tread depth. However, on wet surfaces, grooves are essential for clearing water; deeper and more numerous grooves improve wet performance. Choosing the right balance between dry grip and wet capability is therefore critical when selecting tires.",
+        "jp": "ハイパフォーマンスタイヤに求められる重要な要素として、グリップと剛性がある。それを極限まで追求したのがレース専用のスリックタイヤで、接地面のコンパウンドと呼ぶゴムは摩擦熱で溶けて路面に密着する。接地面の剛性を確保するため溝はひとつも存在しない。この考え方は公道用でも同様のことがいえ、高性能を謳うタイヤは例外なくソフトなコンパウンドを用い、溝の浅い大きなトレッドパターンを持つ。しかしウェット路面で排水性を確保するためには溝は不可欠であり、深く多いほど有利。ドライ性能とウェット性能、相反する性能をいかに高い次元でバランスさせるかが大きな課題となっている。"
+      },
+      {
+        "type": "h3",
+        "en": "Width",
+        "jp": "幅広化"
+      },
+      {
+        "type": "p",
+        "en": "Increasing tire width can increase the contact patch and improve grip. However, grip is not determined by contact area alone; it is also influenced by the load on the tire. Fitting very wide tires to a lightweight car may not provide a significant benefit if there is insufficient load to utilize them. Similarly, oversized tires on a low-power car can increase rolling resistance and reduce performance. For this reason, tire size should be selected to match the vehicle’s weight and output.",
+        "jp": "タイヤ幅を広げ、接地面積を拡大すれば必然的にグリップ性能は向上する。しかしタイヤのグリップ力は路面との摩擦だけでなく、タイヤに加わる荷重によっても大きく変化する。たとえば車重の軽いクルマに極端に幅の広いタイヤを装着した場合、十分に荷重がかからず、高いグリップ力を得られないことも珍しくない。いっぽうアンダーパワーのクルマにオーバーサイズのタイヤを装着した場合は、タイヤのグリップ力にパワーが食われ、むしろ遅くなることが多い。車重や出力とのバランスを考えたうえでのサイズ選択が重要なのだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i17A7gD0xmOuScE.jpg",
+        "jp": "/images/c/i17A7gD0xmOuScE.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Low-Profile",
+        "jp": "インチアップ"
+      },
+      {
+        "type": "p",
+        "en": "The profile, or aspect ratio, of a tire describes its sidewall height relative to its width. Using lower-profile tires allows for a larger wheel while maintaining a similar overall diameter, and does not necessarily require an increase in width. A key advantage of low-profile tires is reduced sidewall flex during cornering and braking, which improves steering response and handling. However, larger wheels can increase unsprung weight if taken too far, which may affect ride and handling. In performance applications, larger wheels and low-profile tires are often used to provide clearance for bigger, more effective brakes.",
+        "jp": "インチアップとはタイヤの偏平率（タイヤの幅に対して高さが何%になるかを示すもの）を低めることで、外径を変えることなくホイールのサイズアップを図るための手段だ。必ずしも横幅を広くすることを意味しない。主なメリットとしては、サイドウォールの幅（高さ）が薄くなることでコーナリングやブレーキング時のタイヤのたわみが減少する。つまり剛性アップによる操舵レスポンスや操縦性の向上が挙げられる。ただし極端なインチアップはホイールの大径化によるバネ下重量の増加を招き、運動性能を著しくスポイルする原因にもなる。ちなみに競技車両におけるインチアップの本来の目的は、ホイール径を拡大して大容量のブレーキシステムを収めることにある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1ab0tbkKu0Te.jpg",
+        "jp": "/images/c/i1ab0tbkKu0Te.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Compound",
+        "jp": "コンパウンド"
+      },
+      {
+        "type": "p",
+        "en": "The rubber used in the part of the tire that contacts the road is known as the compound, and it has a major influence on grip. High-performance tires use softer compounds that provide better adhesion at their operating temperature. Racing tires can become very soft when heated, increasing their ability to grip the surface. However, softer compounds wear more quickly, while harder compounds offer greater durability. It is important to understand the characteristics of the compound when selecting a tire. Drivers should also be aware that rubber hardens over time, and tires will gradually lose grip as they age, particularly softer compounds.",
+        "jp": "タイヤの接地部分に用いられているゴムのことをコンパウンドと呼び、絶対的なグリップ性能を決定付けている。グリップ性能が重視されるハイパフォーマンスタイヤは路面に密着しやすいソフトなコンパウンドを用い、とくにレース用のタイヤでは路面との摩擦熱によって表面が溶け、その粘着力を利して路面を執拗に捉える。ただしソフトコンパウンドは高いグリップ力を発生する反面、摩耗が早く、ハードコンパウンドはその逆の特性を持つ。こうした基本特性を理解したうえでの使い分けが必要だ。またゴムは経時変化で硬化し、グリップ性能は新品状態から徐々に低下する。ソフトなコンパウンドほどその傾向は高くなる。"
+      },
+      {
+        "type": "h3",
+        "en": "Tread Pattern",
+        "jp": "グルーブ"
+      },
+      {
+        "type": "p",
+        "en": "The grooves cut into the surface of a tire form the tread pattern, which helps maintain grip in wet conditions by channeling water away from the contact patch. In dry conditions, however, these grooves reduce tread rigidity and can allow more movement under heavy loads during cornering, braking and acceleration. For this reason, racing slicks have no grooves, while high-performance road tires use minimal, shallow tread patterns to maintain stiffness while still providing some wet capability.",
+        "jp": "接地面に刻まれている溝をグルーブと呼び、ウェットでの路面の水を排水して、接地面と路面のグリップ力を維持する役割を持つ。いっぽうドライ路面では、グルーブはコーナリングやブレーキング、あるいは加速でタイヤに大きな荷重が加わった際、接地面にヨレを生じるなどデメリットしかもたらさない。それを端的に示しているのがサーキット専用のスリックタイヤで、溝は1つも存在しない。走行会やサンデーレースで使われるセミレーシングタイヤも接地面の剛性を確保する目的で、ごく浅く、最小限のグルーブを刻んでいるにすぎない。"
+      }
+    ]
+  },
+  "review_tuning_and_settings__vehicle_qualities__01": {
+    "h1_en": "Drivetrain Layout",
+    "h1_jp": "駆動レイアウト",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "The drivetrain layout refers to the position of the engine—typically the heaviest component—and the wheels it drives. Each layout has its own advantages and disadvantages, and even in highly tuned sports cars it remains a major factor influencing handling and behavior. Changing the layout itself is rarely practical, but careful tuning can enhance its strengths while minimizing its weaknesses. A well-developed setup that works with the drivetrain, suspension and aerodynamics can produce a level of performance beyond standard expectations.",
+        "jp": "クルマの中で最も重いエンジンの搭載位置と、エンジンパワーを路面に伝える駆動輪の位置で決まるのが駆動レイアウトだ。クルマは駆動レイアウトによってそれぞれ異なるメリット、デメリットを持つが、スポーツドライビングにおいても、走行性能や操縦性に直結する重要な要素となる。駆動レイアウト自体を変えることは困難だが、可能な限りそのレイアウトのメリットを生かし、デメリットを抑えることでより速い走りに繋げよう。サスペンションからドライブトレイン、エアロダイナミズムに至るまで、すべての要素を総合的に捉えて、高い次元でバランスさせたセッティングは、ノーマルと一線を画す走りをもたらすはずだ。"
+      },
+      {
+        "type": "h3",
+        "en": "FR",
+        "jp": "FR"
+      },
+      {
+        "type": "p",
+        "en": "With a well-balanced weight distribution, an FR (front-engine, rear-wheel-drive) car can offer excellent cornering performance and stability.\n\nTo improve speed, it is important to increase rear traction so that the car remains stable under acceleration. At the same time, the front should be tuned to avoid excessive understeer, allowing the car to follow the intended line even as load shifts rearward during acceleration.",
+        "jp": "最適な前後重量配分を持たせれば、優れた旋回性能と安定性の両立が可能。速さを考えるならパワーONでテールスライドを起こしにくい、リアのトラクションを上げたセッティングを目指そう。いっぽうフロントはパワーONで荷重が減るため、狙ったラインをトレースできなくなるプッシングアンダー対策を重視したい。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1uEgWHnxHauESB.jpg",
+        "jp": "/images/c/i1uEgWHnxHauESB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "FF",
+        "jp": "FF"
+      },
+      {
+        "type": "p",
+        "en": "In an FF (front-engine, front-wheel-drive) car, the front tires handle both steering and drive, but the rear setup is equally important. On high-speed courses, the rear should be tuned for stability, while on tighter, more technical layouts, it can be set to allow greater rotation when lifting off the throttle, aiding cornering. FF cars often use 1-way LSDs, which engage primarily under acceleration.",
+        "jp": "駆動&操舵の両方を行うフロントタイヤに目が行きがちなFF車だが、リアにも十分気を配りたい。基本は高速コースならリアが粘るよう安定性を重視し、細かいターンが続くならアクセルオフなどでリアを流れやすくし、シャープに曲がれるクルマにする。LSDはアクセルONのみで作動する1WAYが基本となる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1L0U8clVua8fO.jpg",
+        "jp": "/images/c/i1L0U8clVua8fO.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "MR",
+        "jp": "MR"
+      },
+      {
+        "type": "p",
+        "en": "Positioning the engine near the center of the car provides balanced weight distribution, improving acceleration and braking performance. Turn-in is sharp, but at the limit the lighter load on the front can lead to understeer. When grip is exceeded, the rear can break away quickly and be more difficult to control. When tuning, attention should be given to maintaining front-end grip on corner entry and improving traction on corner exit. Front and rear downforce must also be carefully balanced.",
+        "jp": "エンジンをクルマ中央に積むため加減速は有利。回頭性もシャープだが限界域ではフロントに乗る荷重が少なくなるためアンダーステア傾向となる。リアが流れた時のスピードも速い。コーナリング初期の旋回性能確保を最優先し、次に立ち上がりでのトラクション確保を意識したい。合わせて前後のダウンフォースもバランスよく調整しよう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1csviZykYklJSB.jpg",
+        "jp": "/images/c/i1csviZykYklJSB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "RR",
+        "jp": "RR"
+      },
+      {
+        "type": "p",
+        "en": "A rear-engine, rear-wheel-drive layout offers strong traction under acceleration and stability under braking. However, with relatively low load on the front, initial understeer can occur during corner entry. At the limit, the rear-biased weight distribution can cause rapid rotation, leading to sudden oversteer. Tuning this layout typically focuses on improving front-end response and stability during corner entry.",
+        "jp": "重いエンジンをリアに搭載するため2輪駆動車ではもっとも優れた加減速性能を持つが、コーナリングではフロント荷重がMR以上に少ないため、強いアンダーステアを示しやすい。さらに限界を超えたときは重いリアが振り子となって一瞬にしてオーバーステアに転ずる。コーナリング初期でしっかり旋回性能を確保するセッティングが望ましい。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1x7rw2AtpPtHb.jpg",
+        "jp": "/images/c/i1x7rw2AtpPtHb.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "4WD",
+        "jp": "4WD"
+      },
+      {
+        "type": "p",
+        "en": "The behavior of a 4WD (AWD) car varies depending on its underlying layout, but in general, its high stability can make turn-in more difficult. Traction when accelerating out of corners is typically very strong, so tuning often focuses on improving front-end response and corner entry. Differential setups can vary, though a common approach is to use a milder locking effect at the front and a stronger locking effect at the rear.",
+        "jp": "ベースとなるクルマの駆動方式によって挙動が異なるが、安定性が高いため曲がりにくいという基本特性を持つ。もとより立ち上がりの安定性は優れているので、コーナリング初期の回頭性を重視したセッティングを意識しよう。その場合は前後の駆動力配分も大きな要素となる。装着するLSDはフロント：1WAY、リア：2WAYが基本だ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1nZEeGZrbpIX8c.jpg",
+        "jp": "/images/c/i1nZEeGZrbpIX8c.jpg"
+      }
+    ]
+  }
+}

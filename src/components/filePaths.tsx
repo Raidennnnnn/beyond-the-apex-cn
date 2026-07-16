@@ -53,6 +53,28 @@ import WheelAlignment from "@/components/beyond the apex/WheelAlignment";
 import HighPerformanceTires from "@/components/beyond the apex/HighPerformanceTires";
 import UnsprungWeight from "@/components/beyond the apex/UnsprungWeight";
 import AirResistanceAndLift from "@/components/beyond the apex/AirResistanceAndLift";
+import FineTuning from "@/components/beyond the apex/FineTuning";
+import OverhaulingTheEngine from "@/components/beyond the apex/OverhaulingTheEngine";
+import IncreasingRPM from "@/components/beyond the apex/IncreasingRPM";
+import IncreasingCompression from "@/components/beyond the apex/IncreasingCompression";
+import ForcedInductionDevices from "@/components/beyond the apex/ForcedInductionDevices";
+import TuningRotaryEngines from "@/components/beyond the apex/TuningRotaryEngines";
+import GearRatio from "@/components/beyond the apex/GearRatio";
+import ClutchFlywheelsAndPropellerShafts from "@/components/beyond the apex/ClutchFlywheelsAndPropellerShafts";
+import LimitedSlipDifferentialTuning from "@/components/beyond the apex/LimitedSlipDifferentialTuning";
+import WeightReductionAndRigidity from "@/components/beyond the apex/WeightReductionAndRigidity";
+import BoostingBrakePowerAndAvoidingBrakeFade from "@/components/beyond the apex/BoostingBrakePowerAndAvoidingBrakeFade";
+import AdjustingHandlingCharacteristics from "@/components/beyond the apex/AdjustingHandlingCharacteristics";
+import IncreasedGripRigidity from "@/components/beyond the apex/IncreasedGripRigidity";
+import AerodynamicTuning from "@/components/beyond the apex/AerodynamicTuning";
+import DrivetrainLayout from "@/components/beyond the apex/DrivetrainLayout";
+import SuspensionSettings1 from "@/components/beyond the apex/SuspensionSettings1";
+import SuspensionSettings2 from "@/components/beyond the apex/SuspensionSettings2";
+import DrivetrainSettings from "@/components/beyond the apex/DrivetrainSettings";
+import AerodynamicsSettings from "@/components/beyond the apex/AerodynamicsSettings";
+import HighSpeedCircuitsTechnicalCourses from "@/components/beyond the apex/HighSpeedCircuitsTechnicalCourses";
+import CounteringUndersteerOversteer from "@/components/beyond the apex/CounteringUndersteerOversteer";
+import WetConditionsGravel from "@/components/beyond the apex/WetConditionsGravel";
 
 export interface TocPage {
   name: string;
@@ -509,37 +531,37 @@ export const tocChapters: TocChapter[] = [
             name: "Fine-Tuning",
             path: "01",
             routePath: "review_tuning_and_settings/engine/01",
-            component: <PlaceholderPage title="Fine-Tuning" />,
+            component: <FineTuning />,
           },
           {
             name: "Overhauling the Engine",
             path: "02",
             routePath: "review_tuning_and_settings/engine/02",
-            component: <PlaceholderPage title="Overhauling the Engine" />,
+            component: <OverhaulingTheEngine />,
           },
           {
             name: "Increasing RPM",
             path: "03",
             routePath: "review_tuning_and_settings/engine/03",
-            component: <PlaceholderPage title="Increasing RPM" />,
+            component: <IncreasingRPM />,
           },
           {
             name: "Increasing Compression",
             path: "04",
             routePath: "review_tuning_and_settings/engine/04",
-            component: <PlaceholderPage title="Increasing Compression" />,
+            component: <IncreasingCompression />,
           },
           {
             name: "Forced Induction Devices",
             path: "05",
             routePath: "review_tuning_and_settings/engine/05",
-            component: <PlaceholderPage title="Forced Induction Devices" />,
+            component: <ForcedInductionDevices />,
           },
           {
             name: "Rotary Engines",
             path: "06",
             routePath: "review_tuning_and_settings/engine/06",
-            component: <PlaceholderPage title="Rotary Engines" />,
+            component: <TuningRotaryEngines />,
           },
         ],
       },
@@ -551,19 +573,19 @@ export const tocChapters: TocChapter[] = [
             name: "Gear Ratio",
             path: "01",
             routePath: "review_tuning_and_settings/drive_system/01",
-            component: <PlaceholderPage title="Gear Ratio" />,
+            component: <GearRatio />,
           },
           {
             name: "Clutch, Flywheels and Propeller Shafts",
             path: "02",
             routePath: "review_tuning_and_settings/drive_system/02",
-            component: <PlaceholderPage title="Clutch, Flywheels and Propeller Shafts" />,
+            component: <ClutchFlywheelsAndPropellerShafts />,
           },
           {
             name: "Limited Slip Differential",
             path: "03",
             routePath: "review_tuning_and_settings/drive_system/03",
-            component: <PlaceholderPage title="Limited Slip Differential" />,
+            component: <LimitedSlipDifferentialTuning />,
           },
         ],
       },
@@ -575,7 +597,7 @@ export const tocChapters: TocChapter[] = [
             name: "Weight Reduction and Rigidity",
             path: "01",
             routePath: "review_tuning_and_settings/boby/01",
-            component: <PlaceholderPage title="Weight Reduction and Rigidity" />,
+            component: <WeightReductionAndRigidity />,
           },
         ],
       },
@@ -587,7 +609,7 @@ export const tocChapters: TocChapter[] = [
             name: "Boosting Brake Power and Avoiding Brake Fade",
             path: "01",
             routePath: "review_tuning_and_settings/stopping_power/01",
-            component: <PlaceholderPage title="Boosting Brake Power and Avoiding Brake Fade" />,
+            component: <BoostingBrakePowerAndAvoidingBrakeFade />,
           },
         ],
       },
@@ -599,7 +621,7 @@ export const tocChapters: TocChapter[] = [
             name: "Adjusting Handling Characteristics",
             path: "01",
             routePath: "review_tuning_and_settings/footwork/01",
-            component: <PlaceholderPage title="Adjusting Handling Characteristics" />,
+            component: <AdjustingHandlingCharacteristics />,
           },
         ],
       },
@@ -611,7 +633,7 @@ export const tocChapters: TocChapter[] = [
             name: "Increased Grip/Rigidity",
             path: "01",
             routePath: "review_tuning_and_settings/tires/01",
-            component: <PlaceholderPage title="Increased Grip/Rigidity" />,
+            component: <IncreasedGripRigidity />,
           },
         ],
       },
@@ -623,7 +645,7 @@ export const tocChapters: TocChapter[] = [
             name: "Aerodynamic Tuning",
             path: "01",
             routePath: "review_tuning_and_settings/aerodynamics/01",
-            component: <PlaceholderPage title="Aerodynamic Tuning" />,
+            component: <AerodynamicTuning />,
           },
         ],
       },
@@ -635,7 +657,7 @@ export const tocChapters: TocChapter[] = [
             name: "Drivetrain Layout",
             path: "01",
             routePath: "review_tuning_and_settings/vehicle_qualities/01",
-            component: <PlaceholderPage title="Drivetrain Layout" />,
+            component: <DrivetrainLayout />,
           },
         ],
       },
@@ -647,25 +669,25 @@ export const tocChapters: TocChapter[] = [
             name: "Suspension ①",
             path: "01",
             routePath: "review_tuning_and_settings/basic_settings/01",
-            component: <PlaceholderPage title="Suspension ①" />,
+            component: <SuspensionSettings1 />,
           },
           {
             name: "Suspension ②",
             path: "02",
             routePath: "review_tuning_and_settings/basic_settings/02",
-            component: <PlaceholderPage title="Suspension ②" />,
+            component: <SuspensionSettings2 />,
           },
           {
             name: "Drivetrain",
             path: "03",
             routePath: "review_tuning_and_settings/basic_settings/03",
-            component: <PlaceholderPage title="Drivetrain" />,
+            component: <DrivetrainSettings />,
           },
           {
             name: "Aerodynamics",
             path: "04",
             routePath: "review_tuning_and_settings/basic_settings/04",
-            component: <PlaceholderPage title="Aerodynamics" />,
+            component: <AerodynamicsSettings />,
           },
         ],
       },
@@ -677,19 +699,19 @@ export const tocChapters: TocChapter[] = [
             name: "High-Speed Circuits, Technical Courses",
             path: "01",
             routePath: "review_tuning_and_settings/advanced_settings/01",
-            component: <PlaceholderPage title="High-Speed Circuits, Technical Courses" />,
+            component: <HighSpeedCircuitsTechnicalCourses />,
           },
           {
             name: "Countering Understeer, Countering Oversteer",
             path: "02",
             routePath: "review_tuning_and_settings/advanced_settings/02",
-            component: <PlaceholderPage title="Countering Understeer, Countering Oversteer" />,
+            component: <CounteringUndersteerOversteer />,
           },
           {
             name: "Wet Conditions, Gravel",
             path: "03",
             routePath: "review_tuning_and_settings/advanced_settings/03",
-            component: <PlaceholderPage title="Wet Conditions, Gravel" />,
+            component: <WetConditionsGravel />,
           },
         ],
       },

@@ -70,9 +70,13 @@ For every page:
   - Engine: `MechanismAndPrinciples` … `PerformanceKeywords`
   - Drivetrain: `Transmission`, `TheDifferentialAndLSD`
   - Body / Brakes / Suspensions / Tires / Wheels / Aerodynamics: wired
+- **Chapter 3 — Review: Tuning & Settings** (22 pages, all sections): EN + CN bilingual
+  - Engine: `FineTuning` … `TuningRotaryEngines`
+  - Drivetrain: `GearRatio`, `ClutchFlywheelsAndPropellerShafts`, `LimitedSlipDifferentialTuning`
+  - Body / Brakes / Suspension / Tires / Aerodynamics / Vehicle qualities / Basic & Advanced settings: wired
 
 ### Content (still stubs — pull & redo, do not salvage)
-- **Chapter 3+ review/tuning pages** and later: still `PlaceholderPage` until pulled & redone
+- **Chapter 4+** (`how_to_get_started`, `photographing_cars`, …): still `PlaceholderPage` until pulled & redone
 
 ### Fonts / shadcn
 - `components.json`: style **`radix-nova`**, zinc, lucide
@@ -84,11 +88,13 @@ For every page:
 ### Tooling
 - Fetch helper: `scripts/fetch_official_apex.py`
 - Cached official HTML/menus: `scripts/official-apex/{us,jp}/`
-- **Review-chapter batch pipeline** (Ch2; reuse for Ch3+):
-  - `scripts/official-apex/extracted/ch2.json` — US/JP block pairs per page (regenerate per chapter)
-  - `scripts/official-apex/extracted/ch2_zh.json` — CN translations keyed `{page_key}:{block_index}` (img blocks omitted)
-  - `scripts/build_ch2_zh.py` — builds/validates `ch2_zh.json`
-  - `scripts/gen_ch2_tsx.py` — emits bilingual `.tsx` + image imports (`.webp` only)
+- **Review-chapter batch pipeline** (Ch2–Ch3; reuse for Ch4+):
+  - `scripts/extract_chapter.py` — US/JP block pairs → `ch{N}.json`
+  - `scripts/download_chapter_images.py` — fetch JPG → WebP in `src/assets/images/`
+  - `scripts/official-apex/extracted/ch{N}.json` — block pairs per page
+  - `scripts/official-apex/extracted/ch{N}_zh.json` — CN translations keyed `{page_key}:{block_index}`
+  - `scripts/build_ch{N}_zh.py` — builds/validates `ch{N}_zh.json`
+  - `scripts/gen_ch{N}_tsx.py` — emits bilingual `.tsx` + image imports (`.webp` only)
 - If `shadcn` CLI hits timeouts: unset `http(s)_proxy` for `ui.shadcn.com`
 
 ## Batch workflow (Review chapters — Ch2 pattern)
@@ -123,9 +129,9 @@ Use for **placeholder chapters** (`review_mechanism`, `review_tuning_and_setting
 
 ## Next (in order)
 
-1. **Chapters 1–2 and sections through CFD (5-5) complete.**
-2. **Next section:** pull & redo **Chapter 3: Review: Tuning & Settings** (or next placeholder block in TOC order).
-3. Spot-check sidebar, prev/next across Ch2 last page → Ch3 first page in browser.
+1. **Chapters 1–3 complete** (Engineering 1–5, Review Mechanism, Review Tuning & Settings).
+2. **Next:** pull & redo **Chapter 4: How to get started with Gran Turismo** (or next placeholder block in TOC order).
+3. Spot-check prev/next at Ch3 last page → Ch4 first page in browser.
 4. Optionally refresh more UI with `pnpm dlx shadcn@latest add …` (only `button` is nova so far).
 
 ## Key paths
@@ -137,7 +143,7 @@ Use for **placeholder chapters** (`review_mechanism`, `review_tuning_and_setting
 | Styles | `src/index.css`, `src/App.css` |
 | shadcn config | `components.json` |
 | Official cache | `scripts/official-apex/` |
-| Ch2 extract / CN / generator | `scripts/official-apex/extracted/ch2*.json`, `scripts/build_ch2_zh.py`, `scripts/gen_ch2_tsx.py` |
+| Ch2–Ch3 extract / CN / generator | `scripts/official-apex/extracted/ch{2,3}*.json`, `scripts/build_ch{2,3}_zh.py`, `scripts/gen_ch{2,3}_tsx.py`, `scripts/extract_chapter.py`, `scripts/download_chapter_images.py` |
 
 ## Notes
 
