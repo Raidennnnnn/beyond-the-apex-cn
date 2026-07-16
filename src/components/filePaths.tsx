@@ -23,6 +23,12 @@ import TheoreticalEfficiencyOfCarEngines from "@/components/beyond the apex/Theo
 import ReversibleAndIrreversibleChange from "@/components/beyond the apex/ReversibleAndIrreversibleChange";
 import ReversingTheHeatEngine from "@/components/beyond the apex/ReversingTheHeatEngine";
 import EnginesLossOfEnergy from "@/components/beyond the apex/EnginesLossOfEnergy";
+import BernoullisTheory from "@/components/beyond the apex/BernoullisTheory";
+import LawOfFluidMotion from "@/components/beyond the apex/LawOfFluidMotion";
+import PlaneOfDiscontinuityAndVortexFilament from "@/components/beyond the apex/PlaneOfDiscontinuityAndVortexFilament";
+import KuttaZhukovskysTheorem from "@/components/beyond the apex/KuttaZhukovskysTheorem";
+import PrandtlsBoundaryLayerTheory from "@/components/beyond the apex/PrandtlsBoundaryLayerTheory";
+import PrandtlsLiftingLineTheory from "@/components/beyond the apex/PrandtlsLiftingLineTheory";
 
 export interface TocPage {
   name: string;
@@ -221,37 +227,37 @@ export const tocChapters: TocChapter[] = [
             name: "4-1 : Bernoulli’s Theory",
             path: "01",
             routePath: "engineering_for_automotive/aerodynamics/01",
-            component: <PlaceholderPage title="4-1 : Bernoulli’s Theory" />,
+            component: <BernoullisTheory />,
           },
           {
             name: "4-2 : Law of Fluid Motion",
             path: "02",
             routePath: "engineering_for_automotive/aerodynamics/02",
-            component: <PlaceholderPage title="4-2 : Law of Fluid Motion" />,
+            component: <LawOfFluidMotion />,
           },
           {
             name: "4-3 : Plane of Discontinuity and Vortex Filament",
             path: "03",
             routePath: "engineering_for_automotive/aerodynamics/03",
-            component: <PlaceholderPage title="4-3 : Plane of Discontinuity and Vortex Filament" />,
+            component: <PlaneOfDiscontinuityAndVortexFilament />,
           },
           {
             name: "4-4 : Kutta–Zhukovsky's Theorem",
             path: "04",
             routePath: "engineering_for_automotive/aerodynamics/04",
-            component: <PlaceholderPage title="4-4 : Kutta–Zhukovsky's Theorem" />,
+            component: <KuttaZhukovskysTheorem />,
           },
           {
             name: "4-5 : Prandtl’s Boundary Layer Theory",
             path: "05",
             routePath: "engineering_for_automotive/aerodynamics/05",
-            component: <PlaceholderPage title="4-5 : Prandtl’s Boundary Layer Theory" />,
+            component: <PrandtlsBoundaryLayerTheory />,
           },
           {
             name: "4-6 : Prandtl's Lifting Line Theory",
             path: "06",
             routePath: "engineering_for_automotive/aerodynamics/06",
-            component: <PlaceholderPage title="4-6 : Prandtl's Lifting Line Theory" />,
+            component: <PrandtlsLiftingLineTheory />,
           },
         ],
       },

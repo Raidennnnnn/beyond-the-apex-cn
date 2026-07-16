@@ -54,9 +54,15 @@ For every page:
 - **3-5** (`ReversibleAndIrreversibleChange.tsx`): EN + CN bilingual
 - **3-6** (`ReversingTheHeatEngine.tsx`): EN + CN bilingual
 - **3-7** (`EnginesLossOfEnergy.tsx`): EN + CN bilingual
+- **4-1** (`BernoullisTheory.tsx`): EN + CN bilingual
+- **4-2** (`LawOfFluidMotion.tsx`): EN + CN bilingual
+- **4-3** (`PlaneOfDiscontinuityAndVortexFilament.tsx`): EN + CN bilingual
+- **4-4** (`KuttaZhukovskysTheorem.tsx`): EN + CN bilingual
+- **4-5** (`PrandtlsBoundaryLayerTheory.tsx`): EN + CN bilingual
+- **4-6** (`PrandtlsLiftingLineTheory.tsx`): EN + CN bilingual
 
 ### Content (still stubs — pull & redo, do not salvage)
-- **Aerodynamics 4-1…** and later: still `PlaceholderPage` until pulled & redone
+- **CFD 5-1…** and later: still `PlaceholderPage` until pulled & redone
 
 ### Fonts / shadcn
 - `components.json`: style **`radix-nova`**, zinc, lucide
@@ -72,10 +78,10 @@ For every page:
 
 ## Next (in order)
 
-1. **1-1…1-8, Vehicle Performance 2-1…2-7, and Efficient Engine 3-1…3-7 complete.**
-2. **Next section:** pull & redo **4-1** (`Bernoulli’s Theory` / `aerodynamics/01`) from official — one page at a time.
-3. Continue 4-2…4-6, then later chapters (placeholders → pull & redo).
-4. Spot-check sidebar, prev/next across 3-6 → 3-7 → 4-1 in browser.
+1. **1-1…1-8, Vehicle Performance 2-1…2-7, Efficient Engine 3-1…3-7, and Aerodynamics 4-1…4-6 complete.**
+2. **Next section:** pull & redo **5-1** (`The World of CFD` / `computational_fluid_dynamics/01`) from official — one page at a time.
+3. Continue 5-2…5-5, then later chapters (placeholders → pull & redo).
+4. Spot-check sidebar, prev/next across 4-6 → 5-1 in browser.
 5. Optionally refresh more UI with `pnpm dlx shadcn@latest add …` (only `button` is nova so far).
 
 ## Key paths
