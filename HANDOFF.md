@@ -9,6 +9,16 @@
 
 Rebuild the site to match the official Beyond the Apex structure, **bilingual EN + CN**, **one page at a time**. Old GT Sport–era TOC/content is abandoned.
 
+## Translation rule (important)
+
+**Old translations do not matter.** Do not reuse, patch, or “add English on top of” existing CN (or mixed) page components.
+
+For every page:
+
+1. **Pull** fresh official text (US EN + JP/CN as available) via `scripts/fetch_official_apex.py` / `scripts/official-apex/`
+2. **Redo** the page component from scratch as EN + CN bilingual pairs (`.bilingual` / `lang="en"` + `lang="zh"`)
+3. Treat any leftover wired pages (e.g. 1-2…1-8) as disposable stubs until rewritten this way
+
 ## Done
 
 ### TOC / nav
@@ -18,11 +28,21 @@ Rebuild the site to match the official Beyond the Apex structure, **bilingual EN
 - Sidebar labels: **English only**
 - Untranslated pages → `PlaceholderPage` (“待翻译 / Coming soon”)
 - Wired: `main.tsx`, sidebar, siblings provider, quick-nav, swipe, home
-- Orphan old chapter components removed (kept only Ch1 preface + force/energy/vibration pages)
+- Orphan old chapter components removed
 
-### Content
-- **Preface** (`AutomotiveEngineering.tsx`): EN + CN bilingual pairs (`.bilingual` in `App.css`)
-- **Force / Energy / Vibration 1-1…1-8**: still wired; mostly CN-only — need EN from official
+### Content (already redone from official)
+- **Preface** (`AutomotiveEngineering.tsx`): EN + CN bilingual
+- **1-1** (`TheConceptsOfForceAndTorque.tsx`): EN + CN bilingual
+- **1-2** (`TheConceptOfEnergy.tsx`): EN + CN bilingual
+- **1-3** (`TheMechanismOfVibration.tsx`): EN + CN bilingual
+- **1-4** (`ResonancePhenomenon.tsx`): EN + CN bilingual
+- **1-5** (`EffectOfDampingForce.tsx`): EN + CN bilingual
+- **1-6** (`PhaseDifference.tsx`): EN + CN bilingual
+- **1-7** (`FrequencyResponse.tsx`): EN + CN bilingual
+- **1-8** (`VibrationInSuspension.tsx`): EN + CN bilingual
+
+### Content (still stubs — pull & redo, do not salvage)
+- **Vehicle Performance 2-1…** and later: still `PlaceholderPage` until pulled & redone
 
 ### Fonts / shadcn
 - `components.json`: style **`radix-nova`**, zinc, lucide
@@ -38,10 +58,11 @@ Rebuild the site to match the official Beyond the Apex structure, **bilingual EN
 
 ## Next (in order)
 
-1. **Rewrite Force/Energy/Vibration page-by-page** starting at **1-1** (`TheConceptsOfForceAndTorque`), using official EN + CN — not a whole mid-section dump.
-2. Continue `1-2` … `1-8`, then later chapters via placeholders → bilingual.
-3. Spot-check sidebar open/close, prev/next, preface + 1-1 in browser.
-4. Optionally re-add remaining UI components with `pnpm dlx shadcn@latest add …` (only `button` was refreshed to nova so far).
+1. **Force / Energy / Vibration (1-1…1-8) complete.**
+2. **Next section:** pull & redo **2-1** (`Tire Dynamics` / `vehicle_performance/01`) from official — one page at a time.
+3. Continue 2-2…2-7, then later chapters (placeholders → pull & redo).
+4. Spot-check sidebar, prev/next across 1-1…1-8 in browser.
+4. Optionally refresh more UI with `pnpm dlx shadcn@latest add …` (only `button` is nova so far).
 
 ## Key paths
 

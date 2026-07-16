@@ -6,36 +6,92 @@ const TheMechanismOfVibration = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-3：振动的机制</h1>
-        <h2>振动源于物体的质量与弹性</h2>
+        <h1>1-3 : The Mechanism of Vibration / 振动的机制</h1>
+        <h2>
+          Vibration is related to the mass and elasticity of an object /
+          振动与物体的质量与弹性相关
+        </h2>
       </div>
       <div className="body">
-        <p>
-          汽车的发动机、悬架、车身等都会产生振动。第2节会详细说明，车辆运动本身也可以作为振动现象来解释。那么振动究竟是什么？振动的机制又是怎样的？在深入讨论汽车运动之前，先把这些问题弄清楚。
+        <div className="bilingual">
+          <p lang="en">
+            Vibration occurs in all parts of a vehicle, including the engine, suspension system and body structure. In Part Two, we will explain how the motion of a vehicle can also be understood as a form of vibration. So, what is the mechanism of vibration? Before we examine vehicle motion in detail, let us first clarify the concept of vibration.
+          </p>
+          <p lang="zh">
+            振动出现在车辆的各个部分，包括发动机、悬架系统与车身结构。在第2节中，我们将说明车辆运动本身也可以理解为一种振动。那么，振动的机制是什么？在深入讨论车辆运动之前，先把振动的概念弄清楚。
+          </p>
+        </div>
+
+        <h3 className="section-header">
+          ● Vibration viewed from the aspect of force / 从力的角度看振动
+        </h3>
+
+        <div className="bilingual">
+          <p lang="en">
+            An easy way to conceptualize this is to imagine a single spring with a weight hanging from it. This is a simple vibration system (Fig. 1-3-1). When the weight is pulled by hand, the spring is stretched and an elastic restoring force is generated (#1–2). When the weight is released, the spring returns toward its equilibrium position, pulling the weight with it (#3). As the spring passes its equilibrium position, the restoring force momentarily becomes zero, but the weight continues moving due to inertia (#4). When the spring reaches maximum compression, the motion slows and the weight comes to a brief stop (#5), after which the restoring force causes it to move again (#6). The compressed spring then extends while exerting its elastic force, attempting to return to its original length (#7), but inertia carries the weight past that point once more (#8). This cycle from #1 through #8 repeats, gradually decreasing in amplitude as the system returns to equilibrium. This is vibration as viewed from the standpoint of force. During vibration, inertia and elasticity each act as both cause and effect.
+          </p>
+          <p lang="zh">
+            一种直观的理解方式，是想象一根弹簧上挂着一个重物——这就是一个简单的振动系统（图1-3-1）。用手向下拉重物时，弹簧被拉伸并产生弹性恢复力（#1–2）。松开手后，弹簧朝平衡位置回缩，同时把重物拉回来（#3）。弹簧经过平衡位置时，恢复力瞬间变为零，但重物因惯性继续运动（#4）。弹簧达到最大压缩时，运动减速，重物短暂停下（#5），随后恢复力又使其重新运动（#6）。被压缩的弹簧在发挥弹力的同时伸长，试图回到原长（#7），但惯性再次把重物带过该点（#8）。#1 到 #8 的循环不断重复，振幅逐渐减小，系统回到平衡。这就是从力的角度看振动。振动过程中，惯性与弹性互为因果。
+          </p>
+        </div>
+
+        <p className="image">
+          <img alt="" src={i1tHERFfXLR0rb} />
         </p>
+        <div className="bilingual">
+          <p className="caption" lang="en">
+            Fig. 1-3-1: The mass oscillates about an equilibrium position where the spring force balances the weight. Away from equilibrium, the spring’s restoring force accelerates the mass, while inertia carries it through the center. Arrows indicate direction and relative magnitude at each stage.
+          </p>
+          <p className="caption" lang="zh">
+            图1-3-1：质量绕弹簧力与重力平衡的平衡位置振荡。偏离平衡时，弹簧恢复力使质量加速，惯性则使其穿过中心。箭头表示各阶段的方向与相对大小。
+          </p>
+        </div>
 
-        <h3 className="section-header">■ 从力的角度看振动</h3>
+        <h3 className="section-header">
+          ● Vibration seen from the aspect of energy / 从能量的角度看振动
+        </h3>
 
-        <p>
-          为简化问题，用重物与弹簧组成的振动系统（像这样能产生一个振动的对象合称为振动系统）来思考（图1-3-1）。用手拉起重物、拉伸弹簧时，会出现抵抗拉力的弹性力（0）。放开手后，弹簧靠自身弹性力把重物拉回，并试图恢复原长（1～2）。即便弹簧回到原长、弹性力变为 0，重物仍因惯性继续运动，于是把弹簧压缩（3）。被压缩的弹簧再次发挥弹性力，抵抗压缩并试图恢复原长（4）。结果重物减速，最终停下（5）。但处于压缩状态的弹簧又会发挥弹性力、试图恢复原长（6）。再次回到原长时，重物又因惯性继续运动（7），结果再次把弹簧拉长，于是 1～9 的过程再次重复。这就是从力的角度看的振动。也就是说，振动现象源于物体的惯性与弹性力。
+        <div className="bilingual">
+          <p lang="en">
+            The vibration just described can also be understood through the Law of Conservation of Energy. If we view vibration from the standpoint of energy, it can be seen as a continuous exchange between the kinetic energy of the weight and the elastic potential energy stored in the spring. As one form increases, the other decreases, and the cycle repeats. The elastic energy of the spring is greatest when the displacement is at its maximum, that is, when the spring is fully stretched or fully compressed, as shown in Fig. 1-3-2 at positions #1, #5 and #9.
+          </p>
+          <p lang="zh">
+            刚才描述的振动也可以用能量守恒定律来理解。从能量角度看，振动是重物动能与弹簧弹性势能之间的持续交换：一方增大时另一方减小，循环往复。弹簧弹性势能在位移最大时最大——也就是弹簧完全伸长或完全压缩时，如图1-3-2中的位置 #1、#5 与 #9。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
+            The maximum speed, and therefore the maximum kinetic energy, of the weight occurs at positions #3 and #7. At these points, the spring passes through its original length, where the stored elastic energy is momentarily at its lowest. In this way, the motion of the system can be understood as a steady transfer of energy back and forth between motion and deformation.
+          </p>
+          <p lang="zh">
+            重物的最大速度——因而也是最大动能——出现在位置 #3 与 #7。此时弹簧经过原长，储存的弹性势能瞬间最低。如此，系统的运动可以理解为能量在「运动」与「变形」之间来回传递。
+          </p>
+        </div>
+
+        <p className="image">
+          <img alt="" src={i11PlNEwfIbXRhH} />
         </p>
+        <div className="bilingual">
+          <p className="caption" lang="en">
+            In Fig. 1-3-2: When viewed from the standpoint of energy, vibration can be understood as a continuous exchange between the kinetic energy of the weight and the elastic potential energy of the spring.
+          </p>
+          <p className="caption" lang="zh">
+            图1-3-2：从能量角度看，振动可理解为重物动能与弹簧弹性势能之间的持续交换。
+          </p>
+        </div>
 
-        <p className="image"><img alt="" src={ i1tHERFfXLR0rb } /></p>
-        <p className="caption">图1-3-1：从力的角度看振动，弹簧弹性力与重物惯性力始终平衡。注意各阶段弹簧上下方向箭头长度相等</p>
-
-        <h3 className="section-header">■ 从能量的角度看振动</h3>
-
-        <p>
-          振动也可以用前面学到的能量守恒定律来考察。从能量角度看，振动就是重物因伸缩产生的动能与弹簧弹性势能之间的往来交换。
-          <br /><br />
-          弹簧弹性势能在位移最大（拉到最开或压到最短）时的①、⑤、⑨处最大；重物动能则在速度最大时的③、⑦处最大。
+        <p className="image">
+          <img alt="" src={i15H6tpyCeFoC} />
         </p>
-
-        <p className="image"><img alt="" src={ i11PlNEwfIbXRhH } /></p>
-        <p className="caption">图1-3-2：从能量角度看，振动是弹簧弹性势能与重物动能的交换</p>
-
-        <p className="image"><img alt="" src={ i15H6tpyCeFoC } /></p>
-        <p className="caption">图1-3-3：与车身相关的振动中，最容易理解的是经悬架传来的路面输入</p>
+        <div className="bilingual">
+          <p className="caption" lang="en">
+            Fig. 1-3-3: The most obvious vibration affecting a vehicle body is the input from the road surface transmitted through the suspension.
+          </p>
+          <p className="caption" lang="zh">
+            图1-3-3：影响车身、最显而易见的振动，是经悬架传来的路面输入。
+          </p>
+        </div>
       </div>
     </div>
   </>

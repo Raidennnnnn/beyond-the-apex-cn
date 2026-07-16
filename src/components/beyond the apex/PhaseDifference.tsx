@@ -6,38 +6,97 @@ const PhaseDifference = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-6：相位差</h1>
-        <h2>相位差是振动节奏的差异</h2>
+        <h1>1-6 : Phase Difference / 相位差</h1>
+        <h2>
+          Phase difference is the difference in the rhythm of the vibration /
+          相位差是振动节奏的差异
+        </h2>
       </div>
       <div className="body">
-        <p>
-          汽车越过路面起伏时，起伏经悬架被「缩小」后传至车身。这时车身振幅比路面起伏更缓和——也就是说，车身振幅被悬架缩小后才传到车身。
+        <div className="bilingual">
+          <p lang="en">
+            When a vehicle interacts with the undulations of a road surface, the suspension reduces the amplitude of the input transmitted to the vehicle body. As a result, the motion experienced by the body is less severe than the undulations of the road.
+          </p>
+          <p lang="zh">
+            车辆与路面起伏相互作用时，悬架会减小传至车身的输入振幅。因此，车身感受到的运动比路面起伏更缓和。
+          </p>
+        </div>
+
+        <p className="image">
+          <img alt="" src={i1ZXUwqf4A9N2EE} />
         </p>
+        <div className="bilingual">
+          <p className="caption" lang="en">
+            Fig. 1-6-1: The undulation of an actual road surface and the resulting motion of the vehicle body through the suspension are closely related. Let us focus on this relationship. Reducing the amplitude transmitted to the body is of paramount importance, but understanding how quickly the body responds to road input is also crucial.
+          </p>
+          <p className="caption" lang="zh">
+            图1-6-1：实际路面起伏与经悬架传到车身的运动密切相关。关注这一关系：减小传至车身的振幅至关重要，但理解车身对路面输入响应有多快同样关键。
+          </p>
+        </div>
 
-        <p className="image"><img alt="" src={ i1ZXUwqf4A9N2EE } /></p>
-        <p className="caption">图1-6-1：实际路面起伏，以及经悬架后的车身振幅。请关注二者关系。车身振幅被抑制到何种程度最重要，但车身对路面起伏的响应有多快同样重要</p>
+        <div className="bilingual">
+          <p lang="en">
+            Where the undulation of the road is treated as an input, it is important to understand how much of the vehicle’s response is reduced. However, that is not the only factor—the speed of the response to the input is also important.
+          </p>
+          <p lang="zh">
+            把路面起伏当作输入时，理解车辆响应被削弱了多少很重要。但这不是唯一因素——对输入的响应速度同样重要。
+          </p>
+        </div>
 
-        <p>
-          关注「输入」——路面起伏——相对于「响应」——车身振幅——被抑制到什么程度，固然最为重要。但振动论不止于此。讨论振动时，「对输入响应有多快」同样非常关键。
+        <p className="image">
+          <img alt="" src={i1PvElN7ftPwaz} />
         </p>
+        <div className="bilingual">
+          <p className="caption" lang="en">
+            Fig. 1-6-2: German suspension maker KW’s 7-post rig (underfloor).
+          </p>
+          <p className="caption" lang="zh">
+            图1-6-2：德国悬架厂商 KW 的七柱试验台（床下）。
+          </p>
+        </div>
 
-        <p className="image"><img alt="" src={ i1PvElN7ftPwaz } /></p>
-        <p className="caption">图1-6-2：德国悬架厂商 KW 的七柱试验台（地下部分）</p>
+        <h3 className="section-header">
+          ● Difference of the rhythm of vibration / 振动节奏的差异
+        </h3>
 
-        <h3 className="section-header">■ 振动节奏的差异</h3>
+        <div className="bilingual">
+          <p lang="en">
+            “Phase difference” is used to evaluate how quickly a vibration system responds to an input. Let us consider this again using a simple system consisting of a spring and a weight.
+          </p>
+          <p lang="zh">
+            「相位差」用来评估振动系统对输入响应有多快。仍用弹簧与重物组成的简单系统来说明。
+          </p>
+        </div>
 
-        <p>
-          评价振动系统对输入响应有多快时，使用的概念是「相位差」。仍用弹簧与重物说明。
-          <br /><br />
-          以固有频率（共振频率）以外的频率强制激励弹簧与重物时，为什么手会感到阻力？此前说「固有频率以外的频率对该系统不自然，因此系统会抵抗」。也可说成：「手的振动节奏，与系统自然的振动节奏不同」。更具体地说，这种节奏差就是「施加振动的方向与重物惯性力方向之间的偏差」。这种运动节奏的差，就称为相位差。
-          <br /><br />
-          看图1-6-3：以非常缓慢的频率激励时，手的力方向与弹簧伸縮同向、同节奏振动，输入与响应无偏差，相位差为 0（图1-6-3 上）。
-          <br /><br />
-          把频率提得非常高时，手的激励力与重物惯性力方向相反，相位差为 180°（图1-6-3 下）。而以固有频率激励时，相位差为 90°（图1-6-3 中）。
+        <div className="bilingual">
+          <p lang="en">
+            When your hand applies motion at a frequency different from the natural frequency of the spring–mass system, why does resistance occur? As explained earlier, the response of the system does not fully align with the input when the driving frequency differs from the natural frequency. In other words, the motion imposed by the hand does not match the natural motion of the system. More specifically, this mismatch arises from a difference in timing between the applied force and the motion of the mass. This difference is referred to as the phase difference.
+          </p>
+          <p lang="zh">
+            当手以不同于弹簧–质量系统固有频率的频率施力时，为何会感到阻力？如前所述，驱动频率偏离固有频率时，系统响应与输入并不完全一致。也就是说，手施加的运动与系统的自然运动不匹配。更具体地说，这种不匹配来自施加力与质量运动在时机上的差异——这一差异称为相位差。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
+            Look at Fig. 1-6-3. When vibration is applied at a low frequency, the force from the hand and the motion of the spring occur in the same direction and at the same rhythm. There is no mismatch between input and response at this stage, so the phase difference is 0 degrees (Fig. 1-6-3, top). However, as the input frequency increases significantly, the phase difference approaches 180 degrees, as the inertial force of the mass and the applied force act in opposite directions (Fig. 1-6-3, bottom). At the natural frequency of the system, the phase difference is 90 degrees (Fig. 1-6-3, middle).
+          </p>
+          <p lang="zh">
+            看图1-6-3。以低频施加振动时，手的力与弹簧运动同向、同节奏；输入与响应无错位，相位差为 0°（图1-6-3上）。当输入频率显著升高时，质量的惯性力与施加力方向相反，相位差趋近 180°（图1-6-3下）。在系统固有频率处，相位差为 90°（图1-6-3中）。
+          </p>
+        </div>
+
+        <p className="image">
+          <img alt="" src={i16pruiYxfxYBz} />
         </p>
-
-        <p className="image"><img alt="" src={ i16pruiYxfxYBz } /></p>
-        <p className="caption">图1-6-3</p>
+        <div className="bilingual">
+          <p className="caption" lang="en">
+            Fig. 1-6-3.
+          </p>
+          <p className="caption" lang="zh">
+            图1-6-3。
+          </p>
+        </div>
       </div>
     </div>
   </>

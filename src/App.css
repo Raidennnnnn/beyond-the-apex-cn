@@ -45,7 +45,7 @@
     }
     
     .image > img {
-      @apply w-[320px] md:w-[1280px] h-[180px] md:h-[720px] mx-auto md:mx-0 my-4 dark:brightness-75 object-scale-down;
+      @apply w-full max-w-[1280px] h-auto mx-auto md:mx-0 my-4 dark:brightness-75;
     }
     
     .caption {
@@ -66,6 +66,14 @@
       p[lang="zh"] {
         @apply text-muted-foreground mb-0;
         font-family: var(--font-cjk);
+      }
+
+      p.caption[lang="en"] {
+        @apply mb-1;
+      }
+
+      p.caption[lang="zh"] {
+        @apply mb-4;
       }
     }
     

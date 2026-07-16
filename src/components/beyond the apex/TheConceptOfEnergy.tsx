@@ -6,30 +6,71 @@ const TheConceptOfEnergy = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-2：能量的概念</h1>
-        <h2>理解能量守恒定律</h2>
+        <h1>1-2 : The Concept of Energy / 能量的概念</h1>
+        <h2>Understanding conservation of energy / 理解能量守恒定律</h2>
       </div>
       <div className="body">
-        <h3 className="section-header">■ 能量守恒定律</h3>
+        <h3 className="section-header">
+          ● The Law of Conservation of Energy / 能量守恒定律
+        </h3>
 
-        <p>
-          把发生在汽车上的物理现象细致分类，可分为力学现象、热现象、电现象、磁现象、化学现象……等等。例如，在汽油发动机气缸中，汽油点火燃烧时气缸内温度上升，活塞被向下推动。这时气缸里同时发生了化学现象、热现象和力学现象。尽管种类不同，这些现象之间有某种不同于“力”的共通效果，那就是能量。能量可以在不同物理现象之间相互转换，且转换前后总量不变、保持一定。这就叫能量守恒定律。
+        <div className="bilingual">
+          <p lang="en">
+            The physical processes in a car include kinetic, thermal, electrical, magnetic and chemical forms. For example, when fuel ignites in the cylinder of an engine, the temperature rises and the expanding gases move the piston, illustrating the conversion of chemical energy into thermal and then mechanical energy. Aside from force, these different types of physical phenomena share one common element, and that is energy. Energy can change from one form to another, even across different physical processes, and the total quantity of energy remains constant before and after conversion. This is known as the Law of Conservation of Energy.
+          </p>
+          <p lang="zh">
+            汽车中的物理过程包括力学、热、电、磁与化学等形式。例如，燃料在发动机气缸中着火时，温度上升，膨胀气体推动活塞——这正说明化学能先转化为热能，再转化为机械能。抛开“力”不论，这些不同种类的物理现象有一个共通要素，那就是能量。能量可以在不同物理过程之间相互转换，且转换前后总量保持不变。这就是能量守恒定律。
+          </p>
+        </div>
+
+        <p className="image">
+          <img alt="" src={i1p6Wka11wrGAEc} />
         </p>
+        <div className="bilingual">
+          <p className="caption" lang="en">
+            Fig. 1-2-1: The concept of energy.
+          </p>
+          <p className="caption" lang="zh">
+            图1-2-1：能量的概念。
+          </p>
+        </div>
 
-        <p className="image"><img alt="" src={ i1p6Wka11wrGAEc } /></p>
-        <p className="caption">图1-2-1：能量的概念</p>
+        <h3 className="section-header">
+          ● Engine cylinder conservation / 发动机气缸内的守恒
+        </h3>
 
-        <h3 className="section-header">■ 发动机气缸内的守恒定律</h3>
+        <div className="bilingual">
+          <p lang="en">
+            If we look at the energy produced by the motion of the piston in an engine, we can see that the chemical energy of the fuel is converted into thermal and kinetic energy. In other words, an engine is a device that converts chemical energy into kinetic energy, a form that is convenient for practical use. At that moment, the Law of Conservation of Energy ensures that the amount of chemical energy converted is equal to the total amount of energy transferred into thermal and kinetic forms. How effectively an engine converts chemical energy into useful kinetic energy is what defines the efficiency of the engine.
+          </p>
+          <p lang="zh">
+            若从活塞运动所产生的能量来看，燃料的化学能被转换成了热能与动能。换言之，发动机是一种把化学能转换成便于实用的动能的装置。此时，能量守恒定律保证：被转换的化学能等于转入热能与动能形式的能量之和。发动机把化学能转换成有用动能的有效程度，就是该发动机的效率。
+          </p>
+        </div>
 
-        <p>
-          从能量角度看气缸内的物理现象：可以说汽油的化学能被转换成了热能与机械能。也就是说，汽油发动机是一种从化学能中、以对人有利的形式取出机械能的装置。此时，根据能量守恒定律，被转换的化学能等于新产生的热能与机械能之和。另外，发动机把化学能转换为有用机械能的比例，就称为该发动机的效率。
+        <p className="image">
+          <img alt="" src={i18YJVtWuja1Rz} />
         </p>
+        <div className="bilingual">
+          <p className="caption" lang="en">
+            Fig. 1-2-2: The concept of energy conversion in the cylinder of an engine.
+          </p>
+          <p className="caption" lang="zh">
+            图1-2-2：发动机气缸内的能量转换概念。
+          </p>
+        </div>
 
-        <p className="image"><img alt="" src={ i18YJVtWuja1Rz } /></p>
-        <p className="caption">图1-2-2：发动机气缸内的能量守恒</p>
-
-        <p className="image"><img alt="" src={ i1WJE9mNNP9bBz } /></p>
-        <p className="caption">图1-2-3</p>
+        <p className="image">
+          <img alt="" src={i1WJE9mNNP9bBz} />
+        </p>
+        <div className="bilingual">
+          <p className="caption" lang="en">
+            Fig. 1-2-3.
+          </p>
+          <p className="caption" lang="zh">
+            图1-2-3。
+          </p>
+        </div>
       </div>
     </div>
   </>
