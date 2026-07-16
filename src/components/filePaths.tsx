@@ -16,6 +16,13 @@ import TireDynamics from "@/components/beyond the apex/TireDynamics";
 import VehicleResponseToPeriodicSteering from "@/components/beyond the apex/VehicleResponseToPeriodicSteering";
 import VibrationInSuspension from "@/components/beyond the apex/VibrationInSuspension";
 import VibrationOfSprungAndUnsprungMass from "@/components/beyond the apex/VibrationOfSprungAndUnsprungMass";
+import TemperatureAndPressure from "@/components/beyond the apex/TemperatureAndPressure";
+import TheIdealHeatEngine from "@/components/beyond the apex/TheIdealHeatEngine";
+import CarnotsConclusion from "@/components/beyond the apex/CarnotsConclusion";
+import TheoreticalEfficiencyOfCarEngines from "@/components/beyond the apex/TheoreticalEfficiencyOfCarEngines";
+import ReversibleAndIrreversibleChange from "@/components/beyond the apex/ReversibleAndIrreversibleChange";
+import ReversingTheHeatEngine from "@/components/beyond the apex/ReversingTheHeatEngine";
+import EnginesLossOfEnergy from "@/components/beyond the apex/EnginesLossOfEnergy";
 
 export interface TocPage {
   name: string;
@@ -166,43 +173,43 @@ export const tocChapters: TocChapter[] = [
             name: "3-1 : Temperature and Pressure",
             path: "01",
             routePath: "engineering_for_automotive/the_efficient_engine/01",
-            component: <PlaceholderPage title="3-1 : Temperature and Pressure" />,
+            component: <TemperatureAndPressure />,
           },
           {
             name: "3-2 : The Ideal Heat Engine",
             path: "02",
             routePath: "engineering_for_automotive/the_efficient_engine/02",
-            component: <PlaceholderPage title="3-2 : The Ideal Heat Engine" />,
+            component: <TheIdealHeatEngine />,
           },
           {
             name: "3-3 : Carnot’s Conclusion",
             path: "03",
             routePath: "engineering_for_automotive/the_efficient_engine/03",
-            component: <PlaceholderPage title="3-3 : Carnot’s Conclusion" />,
+            component: <CarnotsConclusion />,
           },
           {
             name: "3-4 : Theoretical Efficiency of Car Engines",
             path: "04",
             routePath: "engineering_for_automotive/the_efficient_engine/04",
-            component: <PlaceholderPage title="3-4 : Theoretical Efficiency of Car Engines" />,
+            component: <TheoreticalEfficiencyOfCarEngines />,
           },
           {
             name: "3-5 : Reversible Change and Irreversible Change",
             path: "05",
             routePath: "engineering_for_automotive/the_efficient_engine/05",
-            component: <PlaceholderPage title="3-5 : Reversible Change and Irreversible Change" />,
+            component: <ReversibleAndIrreversibleChange />,
           },
           {
             name: "3-6 : Reversing the Heat Engine",
             path: "06",
             routePath: "engineering_for_automotive/the_efficient_engine/06",
-            component: <PlaceholderPage title="3-6 : Reversing the Heat Engine" />,
+            component: <ReversingTheHeatEngine />,
           },
           {
             name: "3-7 : Engine's Loss of Energy",
             path: "07",
             routePath: "engineering_for_automotive/the_efficient_engine/07",
-            component: <PlaceholderPage title="3-7 : Engine's Loss of Energy" />,
+            component: <EnginesLossOfEnergy />,
           },
         ],
       },

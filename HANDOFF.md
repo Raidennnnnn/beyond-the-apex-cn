@@ -47,9 +47,16 @@ For every page:
 - **2-5** (`BodyRollAndVehicleMotion.tsx`): EN + CN bilingual
 - **2-6** (`VibrationOfSprungAndUnsprungMass.tsx`): EN + CN bilingual
 - **2-7** (`HighPerformanceCar.tsx`): EN + CN bilingual
+- **3-1** (`TemperatureAndPressure.tsx`): EN + CN bilingual
+- **3-2** (`TheIdealHeatEngine.tsx`): EN + CN bilingual
+- **3-3** (`CarnotsConclusion.tsx`): EN + CN bilingual
+- **3-4** (`TheoreticalEfficiencyOfCarEngines.tsx`): EN + CN bilingual
+- **3-5** (`ReversibleAndIrreversibleChange.tsx`): EN + CN bilingual
+- **3-6** (`ReversingTheHeatEngine.tsx`): EN + CN bilingual
+- **3-7** (`EnginesLossOfEnergy.tsx`): EN + CN bilingual
 
 ### Content (still stubs — pull & redo, do not salvage)
-- **The Efficient Engine 3-1…** and later: still `PlaceholderPage` until pulled & redone
+- **Aerodynamics 4-1…** and later: still `PlaceholderPage` until pulled & redone
 
 ### Fonts / shadcn
 - `components.json`: style **`radix-nova`**, zinc, lucide
@@ -65,10 +72,10 @@ For every page:
 
 ## Next (in order)
 
-1. **1-1…1-8 and Vehicle Performance 2-1…2-7 complete.**
-2. **Next section:** pull & redo **3-1** (`Temperature and Pressure` / `the_efficient_engine/01`) from official — one page at a time.
-3. Continue 3-2…3-7, then later chapters (placeholders → pull & redo).
-4. Spot-check sidebar, prev/next across 2-6 → 2-7 → 3-1 in browser.
+1. **1-1…1-8, Vehicle Performance 2-1…2-7, and Efficient Engine 3-1…3-7 complete.**
+2. **Next section:** pull & redo **4-1** (`Bernoulli’s Theory` / `aerodynamics/01`) from official — one page at a time.
+3. Continue 4-2…4-6, then later chapters (placeholders → pull & redo).
+4. Spot-check sidebar, prev/next across 3-6 → 3-7 → 4-1 in browser.
 5. Optionally refresh more UI with `pnpm dlx shadcn@latest add …` (only `button` is nova so far).
 
 ## Key paths
