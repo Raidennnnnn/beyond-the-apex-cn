@@ -63,43 +63,54 @@ const Exposure = () => (
           </p>
         </div>
 
-        <p className="image">
-          <img alt="" src={i14dQ72NeUrNxSH} />
-        </p>
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i14dQ72NeUrNxSH} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  I changed to a three-stage exposure and compared the reflections on the white body and the black body.
+                </p>
+                <p lang="zh">
+                  将曝光分三档比较白色车身与黑色车身的映像效果。
+                </p>
+              </div>
+            </dd>
+          </dl>
 
-        <div className="bilingual">
-          <p lang="en">
-            I changed to a three-stage exposure and compared the reflections on the white body and the black body.
-          </p>
-          <p lang="zh">
-            将曝光分三档比较白色车身与黑色车身的映像效果。
-          </p>
-        </div>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1UUYdz6wpUw7O} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  It is generally believed that overexposure helps to express the texture of a black car body.
+                </p>
+                <p lang="zh">
+                  一般认为，要表现黑色车身的质感，曝光宜略向过曝方向设置。
+                </p>
+              </div>
+            </dd>
+          </dl>
 
-        <p className="image">
-          <img alt="" src={i1UUYdz6wpUw7O} />
-        </p>
-
-        <div className="bilingual">
-          <p lang="en">
-            It is generally believed that overexposure helps to express the texture of a black car body.
-          </p>
-          <p lang="zh">
-            一般认为，要表现黑色车身的质感，曝光宜略向过曝方向设置。
-          </p>
-        </div>
-
-        <p className="image">
-          <img alt="" src={i1JeCTJnUvQuv8c} />
-        </p>
-
-        <div className="bilingual">
-          <p lang="en">
-            With a white car body, even if the image is underexposed, the car’s sense of presence is not diminished.
-          </p>
-          <p lang="zh">
-            白色车身即使欠曝，车辆的存在感也不会减弱。
-          </p>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1JeCTJnUvQuv8c} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  With a white car body, even if the image is underexposed, the car’s sense of presence is not diminished.
+                </p>
+                <p lang="zh">
+                  白色车身即使欠曝，车辆的存在感也不会减弱。
+                </p>
+              </div>
+            </dd>
+          </dl>
         </div>
       </div>
     </div>

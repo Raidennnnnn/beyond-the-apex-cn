@@ -31,34 +31,42 @@ const Lenses = () => (
             Having said that, there’s definitely a knack to using wide-angle lenses such as the 35, 28 and 24mm. Wide lenses are convenient because they can capture a lot of content in a single image. The downside is that it’s easier for photographs to become distorted due to the compressed perspective. While there are some cases when you’ll want to deliberately introduce distortion, in car photography, you’ll generally need to be careful that you don’t create any unnecessary warping of your subject.
           </p>
           <p lang="zh">
-            不过，35mm 等效 28mm、24mm 等广角镜头自有独特诀窍。广角能纳入广阔画面，非常方便，但也容易产生伴随远近感的畸变，即所谓「透视」。除非刻意强调透视，汽车摄影中须避免给车辆带来不必要的变形。
+            不过，按 35mm 画幅换算为 28mm、24mm 等的广角镜头自有独特「癖性」。广角能纳入广阔画面，非常方便，但也容易产生伴随远近感的畸变，即所谓「透视」。除非刻意强调透视，汽车摄影中须避免给车辆带来不必要的变形。
           </p>
         </div>
 
-        <p className="image">
-          <img alt="" src={i11EXPQX78CKib} />
-        </p>
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i11EXPQX78CKib} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  Here is the same ‘Scapes’ background seen from two different angles. In the left image, emphasis is placed on the front of the car, making it seem as though it is bursting out of the image.
+                </p>
+                <p lang="zh">
+                  同一「景观」背景下改变画角的示例。左图强调车头，产生向前冲出的压迫感。
+                </p>
+              </div>
+            </dd>
+          </dl>
 
-        <div className="bilingual">
-          <p lang="en">
-            Here is the same ‘Scapes’ background seen from two different angles. In the left image, emphasis is placed on the front of the car, making it seem as though it is bursting out of the image.
-          </p>
-          <p lang="zh">
-            同一「景观」背景下改变画角的示例。左图强调车头，产生向前冲出的压迫感。
-          </p>
-        </div>
-
-        <p className="image">
-          <img alt="" src={i1M5YfCo6bvIK8c} />
-        </p>
-
-        <div className="bilingual">
-          <p lang="en">
-            In the right image, the area around the car has been trimmed and the car has been placed deeper into the image, allowing its body-line to be displayed crisply and clearly.
-          </p>
-          <p lang="zh">
-            右图裁切周围环境、将车辆置于更深处，车身线条表现得更利落清晰。
-          </p>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1M5YfCo6bvIK8c} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  In the right image, the area around the car has been trimmed and the car has been placed deeper into the image, allowing its body-line to be displayed crisply and clearly.
+                </p>
+                <p lang="zh">
+                  右图裁切周围环境、将车辆置于更深处，车身线条表现得更利落清晰。
+                </p>
+              </div>
+            </dd>
+          </dl>
         </div>
 
         <div className="bilingual">
@@ -75,7 +83,7 @@ const Lenses = () => (
             The problem of distortion is an issue in ‘Scapes’ just as it is in real life. While many of the ‘Scapes’ backgrounds have been shot using telephoto lenses, there are also quite a few that were shot with wide lenses. This being the case, you’ll need to take care to avoid unwanted distortion.
           </p>
           <p lang="zh">
-            车辆带上透视的这种「癖好」，在「景观」中同样存在。背景有的用长焦拍摄，也有不少用广角拍摄，须与现实拍摄一样注意避免不自然变形。
+            车辆带上透视的这种「癖性」，在「景观」中同样存在。背景有的用长焦拍摄，也有不少用广角拍摄，须与现实拍摄一样注意避免不自然变形。
           </p>
         </div>
 

@@ -40,13 +40,19 @@ const TakingBetterPhotos = () => (
           </p>
         </div>
 
-        <p className="image">
-          <img alt="" src={i16zACrhHYkty} />
-        </p>
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i16zACrhHYkty} />
+            </dd>
+          </dl>
 
-        <p className="image">
-          <img alt="" src={i1QKAuq3RWn0WSH} />
-        </p>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1QKAuq3RWn0WSH} />
+            </dd>
+          </dl>
+        </div>
 
         <div className="bilingual">
           <p lang="en">
@@ -61,13 +67,19 @@ const TakingBetterPhotos = () => (
           </p>
         </div>
 
-        <p className="image">
-          <img alt="" src={i1pJK4yvNCuImTH} />
-        </p>
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1pJK4yvNCuImTH} />
+            </dd>
+          </dl>
 
-        <p className="image">
-          <img alt="" src={i1CcoQd6a3M34} />
-        </p>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1CcoQd6a3M34} />
+            </dd>
+          </dl>
+        </div>
 
         <div className="bilingual">
           <p lang="en">
@@ -80,13 +92,19 @@ const TakingBetterPhotos = () => (
           </p>
         </div>
 
-        <p className="image">
-          <img alt="" src={i1rkALx8Mokw8C} />
-        </p>
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1rkALx8Mokw8C} />
+            </dd>
+          </dl>
 
-        <p className="image">
-          <img alt="" src={i1f78b3oeUyLQSH} />
-        </p>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1f78b3oeUyLQSH} />
+            </dd>
+          </dl>
+        </div>
 
         <div className="bilingual">
           <p lang="en">
@@ -99,12 +117,12 @@ const TakingBetterPhotos = () => (
 
         <div className="bilingual">
           <p lang="en">
-            Chikara Kitabatake
+            <b>Chikara Kitabatake</b>
             <br />
             Born in 1957, Chikara Kitabatake attended photography school and then joined the photo department of a publishing company at the age of 20. After spending time as legendary car photographer Haru Tajima’s apprentice, he became a motorsports photographer himself, travelling to various countries to photograph events such as the F1 Grand Prix and building up a wealth of experience and know-how in the process. Later, he focused on taking photos for car catalogues and cover shots for motoring magazines. He has a deep connection to the Gran Turismo series, and took many of the location photos that are used in ‘Scapes'.
           </p>
           <p lang="zh">
-            北畠主税 ― Chikara Kitabatake
+            <b>北畠主税 ― Chikara Kitabatake</b>
             <br />
             1957 年生。经摄影学校，20 岁进入出版社摄影部。师从摄影师但马治后，赴各国采访 F1 等赛事，积累经验与人脉。后活跃于汽车目录与汽车杂志封面摄影。与《GT 赛车》渊源深厚，在「景观」中负责大量场景拍摄。
           </p>

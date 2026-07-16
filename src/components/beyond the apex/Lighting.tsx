@@ -58,36 +58,44 @@ const Lighting = () => (
             Incidentally, extremely bright spots — such as parts of a car’s body that are in direct sunlight — are known as ‘highlights’. When photographing cars, ensuring that there is at least one highlight can increase the expressiveness of the photograph enormously.
           </p>
           <p lang="zh">
-            顺便一提，阳光等直射车身形成的耀眼亮斑称为「高光」。拍摄时在某处安排一处高光（光的核心）能大幅提升表现力。若以「正面 7:3」角度（侧面约七成、正面约三成，稳定且杂志常用）拍摄，可先考虑让高光落在车灯附近。
+            顺便一提，阳光等直射车身形成的耀眼亮斑称为「高光」。拍摄时在某处安排一处高光（光的核心）能大幅提升表现力。
           </p>
         </div>
 
-        <p className="image">
-          <img alt="" src={i1p0uUED2zvIX8E} />
-        </p>
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1p0uUED2zvIX8E} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  Here is an example of a car positioned in different ways against the same background. In the left photo, there is a highlight on the side of the
+                  <br />
+                  car’s body: the brightness means that it loses a lot of its expressiveness.
+                </p>
+                <p lang="zh">
+                  同一背景下改变车辆摆放的示例。左图车身侧面有高光，过亮使侧面表情略显平淡。
+                </p>
+              </div>
+            </dd>
+          </dl>
 
-        <div className="bilingual">
-          <p lang="en">
-            Here is an example of a car positioned in different ways against the same background. In the left photo, there is a highlight on the side of the
-            <br />
-            car’s body: the brightness means that it loses a lot of its expressiveness.
-          </p>
-          <p lang="zh">
-            同一背景下改变车辆摆放的示例。左图车身侧面有高光，过亮使侧面表情略显平淡。
-          </p>
-        </div>
-
-        <p className="image">
-          <img alt="" src={i1i5fpxCM0uJRz} />
-        </p>
-
-        <div className="bilingual">
-          <p lang="en">
-            In the right photo, the highlight is placed at the very front of the car, making details such as the curve of the body easier to discern.
-          </p>
-          <p lang="zh">
-            右图高光落在车身最前端。侧面光线较暗，但翼子线的隆起等更易分辨。
-          </p>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1i5fpxCM0uJRz} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  In the right photo, the highlight is placed at the very front of the car, making details such as the curve of the body easier to discern.
+                </p>
+                <p lang="zh">
+                  右图高光落在车身最前端。侧面光线较暗，但翼子线的隆起等更易分辨。
+                </p>
+              </div>
+            </dd>
+          </dl>
         </div>
 
         <div className="bilingual">

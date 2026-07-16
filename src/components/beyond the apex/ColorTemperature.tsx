@@ -11,7 +11,7 @@ const ColorTemperature = () => (
       </div>
       <div className="body">
         <h3>
-          Recreate the Colors of Sunrise and Sunset as You Please / 再现黎明与日落的色温
+          Recreate the Colors of Sunrise and Sunset as You Please / 再现自己感受到的黎明与日落色温
         </h3>
 
         <p className="image">
@@ -58,32 +58,40 @@ const ColorTemperature = () => (
           </p>
         </div>
 
-        <p className="image">
-          <img alt="" src={i1OOoxd2Mma34} />
-        </p>
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1OOoxd2Mma34} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  Here’s an example of what can be done by adjusting color temperatures in ‘Scapes.' In the left photo, the color temperature has been set to 6500K.
+                  <br />
+                  This emphasizes the blue of the sky and the buildings in the background.
+                </p>
+                <p lang="zh">
+                  「景观」调色温的示例。左：色温约 6500K，天空与背景建筑的蓝色被强调。
+                </p>
+              </div>
+            </dd>
+          </dl>
 
-        <div className="bilingual">
-          <p lang="en">
-            Here’s an example of what can be done by adjusting color temperatures in ‘Scapes.' In the left photo, the color temperature has been set to 6500K. 
-            <br />
-            This emphasizes the blue of the sky and the buildings in the background.
-          </p>
-          <p lang="zh">
-            「景观」调色温的示例。左：色温约 6500K，天空与背景建筑的蓝色被强调。
-          </p>
-        </div>
-
-        <p className="image">
-          <img alt="" src={i171e5swG7fQ7SH} />
-        </p>
-
-        <div className="bilingual">
-          <p lang="en">
-            In the right photo, the color temperature has been set to 4500K. Red tones throughout the image have been emphasized, giving the photo more of a sunset feel.
-          </p>
-          <p lang="zh">
-            右：色温约 4500K，整体红色加强，更接近黄昏氛围。
-          </p>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i171e5swG7fQ7SH} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  In the right photo, the color temperature has been set to 4500K. Red tones throughout the image have been emphasized, giving the photo more of a sunset feel.
+                </p>
+                <p lang="zh">
+                  右：色温约 4500K，整体红色加强，更接近黄昏氛围。
+                </p>
+              </div>
+            </dd>
+          </dl>
         </div>
 
         <div className="bilingual">

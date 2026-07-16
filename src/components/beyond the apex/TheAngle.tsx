@@ -63,30 +63,38 @@ const TheAngle = () => (
           </p>
         </div>
 
-        <p className="image">
-          <img alt="" src={i1GV8voRnTmmFz} />
-        </p>
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1GV8voRnTmmFz} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  To find your preferred angle, start by looking at the car from a few different points of view.
+                </p>
+                <p lang="zh">
+                  要找到心仪角度，先从多个视点打量车辆。
+                </p>
+              </div>
+            </dd>
+          </dl>
 
-        <div className="bilingual">
-          <p lang="en">
-            To find your preferred angle, start by looking at the car from a few different points of view.
-          </p>
-          <p lang="zh">
-            要找到心仪角度，先从多个视点打量车辆。
-          </p>
-        </div>
-
-        <p className="image">
-          <img alt="" src={i1CKHLAiSEP0m8c} />
-        </p>
-
-        <div className="bilingual">
-          <p lang="en">
-            Try to get a feel for what the car is ‘expressing’ — say, through the shape of its silhouette or the undulations of its body.
-          </p>
-          <p lang="zh">
-            试着感受汽车所「表达」的内容——比如侧面轮廓的造型，或车身侧面的起伏线条。
-          </p>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1CKHLAiSEP0m8c} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  Try to get a feel for what the car is ‘expressing’ — say, through the shape of its silhouette or the undulations of its body.
+                </p>
+                <p lang="zh">
+                  试着感受汽车所「表达」的内容——比如侧面轮廓的造型，或车身侧面的起伏线条。
+                </p>
+              </div>
+            </dd>
+          </dl>
         </div>
 
         <div className="bilingual">
@@ -112,12 +120,12 @@ const TheAngle = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             In the past, the process of designing cars involved making scale models.
             <br />
             As a result, cars of a certain vintage often have charms that only reveal themselves when viewed from above.
           </p>
-          <p lang="zh">
+          <p className="caption" lang="zh">
             过去汽车设计常用比例模型研讨，因此不少历经岁月的老车，从上俯视时方能发现迷人的角度。
           </p>
         </div>

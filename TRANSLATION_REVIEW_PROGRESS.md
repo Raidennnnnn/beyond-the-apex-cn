@@ -48,8 +48,8 @@ After each review session:
 | Ch.2 Review: Mechanism | 19 | 0 | 0 | 0 | 19 |
 | Ch.3 Review: Tuning & Settings | 22 | 0 | 0 | 0 | 22 |
 | Ch.4 How to get started | 11 | 0 | 0 | 11 | 0 |
-| Ch.5 Photographing Cars | 7 | 0 | 0 | 0 | 7 |
-| **Total** | **93** | **0** | **0** | **11** | **82** |
+| Ch.5 Photographing Cars | 7 | 0 | 0 | 7 | 0 |
+| **Total** | **93** | **0** | **0** | **18** | **75** |
 
 **Review order (locked — do not skip pages):**
 
@@ -59,14 +59,14 @@ After each review session:
 | 2 | Ch.4 Using Driver Assist | 2 | ✅ done |
 | 3 | Ch.4 In-game settings | 3 | ✅ done |
 | 4 | Ch.4 Race Etiquette | 1 | ✅ done |
-| 5 | Ch.5 Scapes | 7 | next |
-| 6 | Ch.2 Mechanism (all sections) | 19 | pending |
+| 5 | Ch.5 Scapes | 7 | ✅ done |
+| 6 | Ch.2 Mechanism (all sections) | 19 | next |
 | 7 | Ch.3 Tuning & Settings (all sections) | 22 | pending |
 | 8 | Ch.1 Automotive Engineering (all sections) | 34 | pending |
 
 Rationale: finish Ch.4 (already started) → Ch.5 (short) → Ch.2/3 mid → Ch.1 heaviest last. Every page #1–93 must end as `pass` or `fixed`.
 
-**Current focus:** Ch.5 Scapes (next session)
+**Current focus:** Ch.2 Mechanism (Basic Specs → …)
 
 ---
 
@@ -323,13 +323,13 @@ Rationale: finish Ch.4 (already started) → Ch.5 (short) → Ch.2/3 mid → Ch.
 
 | # | Page | Route | Status | Reviewed | Notes |
 |---|------|-------|--------|----------|-------|
-| 87 | The Angle | `photographing_cars/scapes/01` | pending | | |
-| 88 | Lighting | `photographing_cars/scapes/02` | pending | | |
-| 89 | Depth of Field | `photographing_cars/scapes/03` | pending | | |
-| 90 | Lenses | `photographing_cars/scapes/04` | pending | | |
-| 91 | Color Temperature | `photographing_cars/scapes/05` | pending | | |
-| 92 | Exposure | `photographing_cars/scapes/06` | pending | | |
-| 93 | Taking Better Photos | `photographing_cars/scapes/07` | pending | | |
+| 87 | The Angle | `photographing_cars/scapes/01` | fixed | 2026-07-16 | Restored `.images` gallery (2 imgs); 3 captions→`caption` (were body bilingual). L/T OK. D OK @5175 |
+| 88 | Lighting | `photographing_cars/scapes/02` | fixed | 2026-07-16 | Restored gallery; captions demoted from body. Split ZH 高光 vs 7:3 (was merged+duplicated). L/T OK |
+| 89 | Depth of Field | `photographing_cars/scapes/03` | fixed | 2026-07-16 | Captions+gallery restored. ZH DOF rule#1 & F=8 follow JP (EN drifts). All 4 imgs load. L/T/D OK |
+| 90 | Lenses | `photographing_cars/scapes/04` | fixed | 2026-07-16 | Restored gallery+captions. ZH「35mm 画幅换算」follows JP (EN lists 35/28/24). L/T/D OK @5175 |
+| 91 | Color Temperature | `photographing_cars/scapes/05` | fixed | 2026-07-16 | Gallery restored. H3→JP sense. ZH「湿度」kept vs EN「air temperature」. Chart img no caption (matches EN). 4 imgs OK |
+| 92 | Exposure | `photographing_cars/scapes/06` | fixed | 2026-07-16 | Restored 3-img gallery+captions (EN has white-car tip; JP gallery stops at 2). L/T/D OK |
+| 93 | Taking Better Photos | `photographing_cars/scapes/07` | fixed | 2026-07-16 | 3× captionless `.images` pairs restored; bio `<b>` name. 8/8 imgs. Ch.5 complete |
 
 ---
 
@@ -340,6 +340,9 @@ Rationale: finish Ch.4 (already started) → Ch.5 (short) → Ch.2/3 mid → Ch.
 | 2026-07-16 | — | 0 | Progress file created; review not started |
 | 2026-07-16 | Ch.4 Advice for Beginners | 5 | All fixed: missing page-02 image trio restored; caption styling; minor ZH polish |
 | 2026-07-16 | Ch.4 Assist + In-game + Etiquette | 6 | Ch.4 complete (11/11). Captions batched; noted EN/JP PP & aero wording drift |
+| 2026-07-16 | Ch.5 Scapes 01–03 | 3 | Fixed: galleries/captions restored; Lighting ZH split; DOF JP F=8 kept |
+| 2026-07-16 | Ch.5 Scapes 04–05 | 2 | Lenses+Color Temp: galleries restored; JP lens equiv / humidity kept vs EN drift |
+| 2026-07-16 | Ch.5 Scapes 06–07 | 2 | Ch.5 complete (7/7). Exposure gallery; Taking Better Photos image pairs |
 
 ---
 
@@ -350,6 +353,7 @@ Capture patterns that appear across many pages (so later sections can fix in bat
 | Pattern | First seen | Count | Resolution |
 |---------|------------|------:|------------|
 | Image captions missing `className="caption"` (look like body text) | Ch.4 | many | Apply `p.caption` inside `.bilingual` after images |
-| Stale extract JSON drops `<div class="images">` galleries | Ch.4.1 p.02 | 1 | Re-run `extract_chapter` / verify block count vs official HTML |
-| Official EN wording drifts from JP; ZH follows JP | Ch.4 in-game PP / aero | 2+ | Prefer JP sense for ZH; keep official EN text as-is |
+| Stale extract JSON drops `<div class="images">` galleries | Ch.4.1 p.02 | 4+ | Ch.5 Scapes 01–03 also; restore `.images` + `dl.image_list` from official HTML |
+| Captions flattened into body bilingual paragraphs | Ch.5 Scapes | 3 | Move caption text under images with `caption` class |
+| Official EN wording drifts from JP; ZH follows JP | Ch.4 in-game PP / aero | 6+ | Prefer JP sense for ZH; keep official EN text as-is (also DOF F=8; DOF rule #1; color-temp「湿度」vs「air temperature」) |
 | Headings use `EN / ZH` on one line (site convention; not body L rule) | all | — | OK; body paragraphs remain EN→ZH pairs |

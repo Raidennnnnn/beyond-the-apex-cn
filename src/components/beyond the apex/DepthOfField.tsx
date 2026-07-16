@@ -41,14 +41,14 @@ const DepthOfField = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
-            These diagrams indicate how the aperture affects the DOF. In the top image, the aperture is wide open, leading to a shallow DOF. In the bottom image, the aperture is closed, leading to a deep DOF. 
+          <p className="caption" lang="en">
+            These diagrams indicate how the aperture affects the DOF. In the top image, the aperture is wide open, leading to a shallow DOF. In the bottom image, the aperture is closed, leading to a deep DOF.
             <br />
             When objects are viewed through a lens, points of light are transmitted to the rear focal plane (the location of the film or image sensor) as circles. These are known as ‘circles of confusion’ and their diameter is affected by the focal
             <br />
             distance and the aperture size. The maximum size these circles can reach while the subject still appears in sharp focus is known as the ‘maximum permissible circle of confusion’.
           </p>
-          <p lang="zh">
+          <p className="caption" lang="zh">
             图示光圈对景深的差异。上：光圈全开，景深浅；下：收小光圈，景深深。物体经镜头成像于焦平面（胶片或传感器位置）为圆形光斑，称「弥散圈」，其直径随焦距与光圈值变化；仍被视为合焦的最大弥散圈直径称「容许弥散圈」。
           </p>
         </div>
@@ -88,30 +88,38 @@ const DepthOfField = () => (
           </p>
         </div>
 
-        <p className="image">
-          <img alt="" src={i1OfFcf1Lod7AcE} />
-        </p>
+        <div className="images">
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1OfFcf1Lod7AcE} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  The only difference between these photographs is that the aperture size (f/) has been adjusted. The right photo uses an aperture size of f/2.8, while the left photo uses an aperture size of f/11.
+                </p>
+                <p lang="zh">
+                  同一构图仅改变光圈（F 值）的景深差异。左：F 值 = 8；右：F 值 = 2.8。
+                </p>
+              </div>
+            </dd>
+          </dl>
 
-        <div className="bilingual">
-          <p lang="en">
-            The only difference between these photographs is that the aperture size (f/) has been adjusted. The right photo uses an aperture size of f/2.8, while the left photo uses an aperture size of f/11.
-          </p>
-          <p lang="zh">
-            同一构图仅改变光圈（F 值）的景深差异。左：F 值 = 8；右：F 值 = 2.8。
-          </p>
-        </div>
-
-        <p className="image">
-          <img alt="" src={i1eQlJHBtTm3jz} />
-        </p>
-
-        <div className="bilingual">
-          <p lang="en">
-            Notice that in the picture with a shallow DOF, the subject stands out from its surroundings, giving it a heightened sense of presence.
-          </p>
-          <p lang="zh">
-            浅景深使主体从周围环境中浮现，存在感更为突出。
-          </p>
+          <dl className="image_list">
+            <dd>
+              <img alt="" src={i1eQlJHBtTm3jz} />
+            </dd>
+            <dd className="caption">
+              <div className="bilingual">
+                <p lang="en">
+                  Notice that in the picture with a shallow DOF, the subject stands out from its surroundings, giving it a heightened sense of presence.
+                </p>
+                <p lang="zh">
+                  浅景深使主体从周围环境中浮现，存在感更为突出。
+                </p>
+              </div>
+            </dd>
+          </dl>
         </div>
 
         <div className="bilingual">
