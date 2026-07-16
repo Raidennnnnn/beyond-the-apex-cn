@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# Beyond the Apex CN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Unofficial bilingual (English + Chinese) fan translation of [Gran Turismo 7 — Beyond the Apex](https://www.gran-turismo.com/us/gt7/apex/).
 
-Currently, two official plugins are available:
+Live site: https://Raidennnnnn.github.io/beyond-the-apex-cn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Disclaimer
 
-## Expanding the ESLint configuration
+This project is a **translation only**. It is **not affiliated with, endorsed by, or connected to** Polyphony Digital, Sony Interactive Entertainment, or Gran Turismo.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **No profit** — This site is free, non-commercial, and not monetized. No ads, no donations, no paid access.
+- **AI-assisted** — Content and site code were **built and generated with AI**, then reviewed for structure and presentation. Translations may contain errors; the official text always takes priority.
+- **Official source** — All content is derived from the official Beyond the Apex documentation:  
+  https://www.gran-turismo.com/us/gt7/apex/
+- **Latest official reference** — Cached / referenced official docs last updated: **2026-07-16**.
 
-- Configure the top-level `parserOptions` property like this:
+If you are the rights holder and want this removed or changed, open an issue or contact the maintainer.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Dev
+
+```bash
+pnpm install
+pnpm dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+pnpm build
+pnpm deploy
 ```
