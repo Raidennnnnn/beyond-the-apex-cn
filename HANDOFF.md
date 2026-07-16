@@ -7,7 +7,7 @@
 
 ## Goal
 
-Rebuild the site to match the official Beyond the Apex structure, **bilingual EN + CN**, **one page at a time**. Old GT Sport–era TOC/content is abandoned.
+Rebuild the site to match the official Beyond the Apex structure, **bilingual EN + CN**. Engineering sections were done **one page at a time**; **Review chapters** (Ch2+) use the **batch generator** below when doing many placeholder pages at once. Old GT Sport–era TOC/content is abandoned.
 
 ## Translation rule (important)
 
@@ -84,7 +84,42 @@ For every page:
 ### Tooling
 - Fetch helper: `scripts/fetch_official_apex.py`
 - Cached official HTML/menus: `scripts/official-apex/{us,jp}/`
+- **Review-chapter batch pipeline** (Ch2; reuse for Ch3+):
+  - `scripts/official-apex/extracted/ch2.json` — US/JP block pairs per page (regenerate per chapter)
+  - `scripts/official-apex/extracted/ch2_zh.json` — CN translations keyed `{page_key}:{block_index}` (img blocks omitted)
+  - `scripts/build_ch2_zh.py` — builds/validates `ch2_zh.json`
+  - `scripts/gen_ch2_tsx.py` — emits bilingual `.tsx` + image imports (`.webp` only)
 - If `shadcn` CLI hits timeouts: unset `http(s)_proxy` for `ui.shadcn.com`
+
+## Batch workflow (Review chapters — Ch2 pattern)
+
+Use for **placeholder chapters** (`review_mechanism`, `review_tuning_and_settings`, …). Engineering pages (1-x, 2-x, …) were mostly hand-built; Review chapters should use the generator.
+
+1. **Fetch** US (often cached) + JP for each page: `python3 scripts/fetch_official_apex.py --locale jp --path /…`
+2. **Extract** EN/JP blocks → `scripts/official-apex/extracted/ch{N}.json` (pair by block index; `img` = path only).
+3. **Translate** JP → Simplified CN → `ch{N}_zh.json`. Keys: `{page_stem}:{block_index}` — **not** a sequential text-only index (images shift indices).
+4. **Images:** download `/images/c/*.jpg` → WebP in `src/assets/images/`. **Delete `.jpg` after convert; never commit them.**
+5. **Generate:** extend `PAGE_META` in `scripts/gen_ch2_tsx.py`, run script, wire `filePaths.tsx`.
+6. **Verify:** `pnpm run build`; spot-check prev/next at chapter boundaries.
+
+### Why a full-chapter batch is slow
+
+| Step | Typical cost | Notes |
+|------|----------------|-------|
+| Image download + WebP | **~4–5 min** (~70–80 images) | **Largest chunk**; sequential fetch + delay |
+| JP page fetch | ~1–2 min | If not already under `scripts/official-apex/jp/` |
+| CN translation | High token/time | Ch2 ≈ **193 text blocks** |
+| Generator + fix-ups | Medium | Block indices, `●` headers, paragraph breaks |
+| TOC + build | Low | `filePaths.tsx`, `pnpm run build` |
+
+**Ch2 one batch:** 19 pages, 9 sections, ~78 images, ~193 bilingual strings → expect **>5 min** wall time when smooth.
+
+### Speed tips
+
+- **Section-sized batches** (e.g. one Ch3 section) = faster turnaround; full chapter = full image + translation cost.
+- **Reuse the generator** — do not hand-write every `.tsx`.
+- **Delete `.jpg` immediately** after WebP; components only import `.webp`.
+- **US HTML is usually cached**; JP often still needs fetching.
 
 ## Next (in order)
 
@@ -102,9 +137,11 @@ For every page:
 | Styles | `src/index.css`, `src/App.css` |
 | shadcn config | `components.json` |
 | Official cache | `scripts/official-apex/` |
+| Ch2 extract / CN / generator | `scripts/official-apex/extracted/ch2*.json`, `scripts/build_ch2_zh.py`, `scripts/gen_ch2_tsx.py` |
 
 ## Notes
 
 - HashRouter; GitHub Pages base `/beyond-the-apex-cn/`
 - Route shape: `#/{chapter}/{section}/{page}` e.g. `#/engineering_for_automotive/preface/01`
 - Do not commit secrets; do not push unless asked
+- **Images:** repo tracks `.webp` only; downloaded `.jpg` are throwaway conversion intermediates
