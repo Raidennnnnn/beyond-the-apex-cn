@@ -65,9 +65,14 @@ For every page:
 - **5-3** (`FeaturesOfScheme.tsx`): EN + CN bilingual
 - **5-4** (`CompatibilityOfFirstAndHighOrderApproximation.tsx`): EN + CN bilingual
 - **5-5** (`SolvingTurbulence.tsx`): EN + CN bilingual
+- **Chapter 2 — Review: Mechanism** (19 pages, all sections): EN + CN bilingual
+  - Basic Specs: `Dimensions`, `DrivetrainsAndWeightDistribution`
+  - Engine: `MechanismAndPrinciples` … `PerformanceKeywords`
+  - Drivetrain: `Transmission`, `TheDifferentialAndLSD`
+  - Body / Brakes / Suspensions / Tires / Wheels / Aerodynamics: wired
 
 ### Content (still stubs — pull & redo, do not salvage)
-- **Chapter 2+ review/tuning pages** and later: still `PlaceholderPage` until pulled & redone
+- **Chapter 3+ review/tuning pages** and later: still `PlaceholderPage` until pulled & redone
 
 ### Fonts / shadcn
 - `components.json`: style **`radix-nova`**, zinc, lucide
@@ -83,9 +88,9 @@ For every page:
 
 ## Next (in order)
 
-1. **Chapter 1 (1-1…1-8), Vehicle Performance (2-1…2-7), Efficient Engine (3-1…3-7), Aerodynamics (4-1…4-6), and CFD (5-1…5-5) complete.**
-2. **Next section:** pull & redo **Chapter 2: Review: Mechanism** (or next placeholder block in TOC order).
-3. Spot-check sidebar, prev/next across 5-5 → next chapter in browser.
+1. **Chapters 1–2 and sections through CFD (5-5) complete.**
+2. **Next section:** pull & redo **Chapter 3: Review: Tuning & Settings** (or next placeholder block in TOC order).
+3. Spot-check sidebar, prev/next across Ch2 last page → Ch3 first page in browser.
 4. Optionally refresh more UI with `pnpm dlx shadcn@latest add …` (only `button` is nova so far).
 
 ## Key paths

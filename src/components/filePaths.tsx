@@ -34,6 +34,25 @@ import FiniteVolumeMethod from "@/components/beyond the apex/FiniteVolumeMethod"
 import FeaturesOfScheme from "@/components/beyond the apex/FeaturesOfScheme";
 import CompatibilityOfFirstAndHighOrderApproximation from "@/components/beyond the apex/CompatibilityOfFirstAndHighOrderApproximation";
 import SolvingTurbulence from "@/components/beyond the apex/SolvingTurbulence";
+import Dimensions from "@/components/beyond the apex/Dimensions";
+import DrivetrainsAndWeightDistribution from "@/components/beyond the apex/DrivetrainsAndWeightDistribution";
+import MechanismAndPrinciples from "@/components/beyond the apex/MechanismAndPrinciples";
+import ValveConfigurations from "@/components/beyond the apex/ValveConfigurations";
+import RotaryEngines from "@/components/beyond the apex/RotaryEngines";
+import ForcedInduction from "@/components/beyond the apex/ForcedInduction";
+import HybridSystems from "@/components/beyond the apex/HybridSystems";
+import PerformanceKeywords from "@/components/beyond the apex/PerformanceKeywords";
+import Transmission from "@/components/beyond the apex/Transmission";
+import TheDifferentialAndLSD from "@/components/beyond the apex/TheDifferentialAndLSD";
+import BodyPerformanceRequirements from "@/components/beyond the apex/BodyPerformanceRequirements";
+import BrakesConstructionAndPrinciples from "@/components/beyond the apex/BrakesConstructionAndPrinciples";
+import BrakeDiscsAndCalipers from "@/components/beyond the apex/BrakeDiscsAndCalipers";
+import SuspensionsConstructionAndPrinciples from "@/components/beyond the apex/SuspensionsConstructionAndPrinciples";
+import TypesOfSuspension from "@/components/beyond the apex/TypesOfSuspension";
+import WheelAlignment from "@/components/beyond the apex/WheelAlignment";
+import HighPerformanceTires from "@/components/beyond the apex/HighPerformanceTires";
+import UnsprungWeight from "@/components/beyond the apex/UnsprungWeight";
+import AirResistanceAndLift from "@/components/beyond the apex/AirResistanceAndLift";
 
 export interface TocPage {
   name: string;
@@ -316,13 +335,13 @@ export const tocChapters: TocChapter[] = [
             name: "Dimensions",
             path: "01",
             routePath: "review_mechanism/packaging/01",
-            component: <PlaceholderPage title="Dimensions" />,
+            component: <Dimensions />,
           },
           {
             name: "Drivetrains and Weight Distribution",
             path: "02",
             routePath: "review_mechanism/packaging/02",
-            component: <PlaceholderPage title="Drivetrains and Weight Distribution" />,
+            component: <DrivetrainsAndWeightDistribution />,
           },
         ],
       },
@@ -334,37 +353,37 @@ export const tocChapters: TocChapter[] = [
             name: "Mechanism and Principles",
             path: "01",
             routePath: "review_mechanism/engine/01",
-            component: <PlaceholderPage title="Mechanism and Principles" />,
+            component: <MechanismAndPrinciples />,
           },
           {
             name: "Valve Configurations",
             path: "02",
             routePath: "review_mechanism/engine/02",
-            component: <PlaceholderPage title="Valve Configurations" />,
+            component: <ValveConfigurations />,
           },
           {
             name: "Rotary Engines",
             path: "03",
             routePath: "review_mechanism/engine/03",
-            component: <PlaceholderPage title="Rotary Engines" />,
+            component: <RotaryEngines />,
           },
           {
             name: "Forced Induction",
             path: "04",
             routePath: "review_mechanism/engine/04",
-            component: <PlaceholderPage title="Forced Induction" />,
+            component: <ForcedInduction />,
           },
           {
             name: "Hybrid Systems",
             path: "05",
             routePath: "review_mechanism/engine/05",
-            component: <PlaceholderPage title="Hybrid Systems" />,
+            component: <HybridSystems />,
           },
           {
             name: "Performance Keywords",
             path: "06",
             routePath: "review_mechanism/engine/06",
-            component: <PlaceholderPage title="Performance Keywords" />,
+            component: <PerformanceKeywords />,
           },
         ],
       },
@@ -376,13 +395,13 @@ export const tocChapters: TocChapter[] = [
             name: "Transmission",
             path: "01",
             routePath: "review_mechanism/drivetrain/01",
-            component: <PlaceholderPage title="Transmission" />,
+            component: <Transmission />,
           },
           {
             name: "The Differential and LSD",
             path: "02",
             routePath: "review_mechanism/drivetrain/02",
-            component: <PlaceholderPage title="The Differential and LSD" />,
+            component: <TheDifferentialAndLSD />,
           },
         ],
       },
@@ -394,7 +413,7 @@ export const tocChapters: TocChapter[] = [
             name: "Body Performance Requirements",
             path: "01",
             routePath: "review_mechanism/body/01",
-            component: <PlaceholderPage title="Body Performance Requirements" />,
+            component: <BodyPerformanceRequirements />,
           },
         ],
       },
@@ -406,13 +425,13 @@ export const tocChapters: TocChapter[] = [
             name: "Construction and Principles",
             path: "01",
             routePath: "review_mechanism/brakes/01",
-            component: <PlaceholderPage title="Construction and Principles" />,
+            component: <BrakesConstructionAndPrinciples />,
           },
           {
             name: "Brake Discs and Calipers",
             path: "02",
             routePath: "review_mechanism/brakes/02",
-            component: <PlaceholderPage title="Brake Discs and Calipers" />,
+            component: <BrakeDiscsAndCalipers />,
           },
         ],
       },
@@ -424,19 +443,19 @@ export const tocChapters: TocChapter[] = [
             name: "Construction and Principles",
             path: "01",
             routePath: "review_mechanism/suspensions/01",
-            component: <PlaceholderPage title="Construction and Principles" />,
+            component: <SuspensionsConstructionAndPrinciples />,
           },
           {
             name: "Types of Suspension",
             path: "02",
             routePath: "review_mechanism/suspensions/02",
-            component: <PlaceholderPage title="Types of Suspension" />,
+            component: <TypesOfSuspension />,
           },
           {
             name: "Wheel Alignment",
             path: "03",
             routePath: "review_mechanism/suspensions/03",
-            component: <PlaceholderPage title="Wheel Alignment" />,
+            component: <WheelAlignment />,
           },
         ],
       },
@@ -445,10 +464,10 @@ export const tocChapters: TocChapter[] = [
         path: "review_mechanism/tires",
         pages: [
           {
-            name: "High-Performance Sub",
+            name: "High-Performance Tires",
             path: "01",
             routePath: "review_mechanism/tires/01",
-            component: <PlaceholderPage title="High-Performance Sub" />,
+            component: <HighPerformanceTires />,
           },
         ],
       },
@@ -460,7 +479,7 @@ export const tocChapters: TocChapter[] = [
             name: "Unsprung Weight",
             path: "01",
             routePath: "review_mechanism/wheels/01",
-            component: <PlaceholderPage title="Unsprung Weight" />,
+            component: <UnsprungWeight />,
           },
         ],
       },
@@ -472,7 +491,7 @@ export const tocChapters: TocChapter[] = [
             name: "Air Resistance and Lift",
             path: "01",
             routePath: "review_mechanism/aerodynamics/01",
-            component: <PlaceholderPage title="Air Resistance and Lift" />,
+            component: <AirResistanceAndLift />,
           },
         ],
       },

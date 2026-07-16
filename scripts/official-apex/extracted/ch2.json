@@ -1,0 +1,1471 @@
+{
+  "review_mechanism__aerodynamics__01": {
+    "h1_en": "Air Resistance and Lift",
+    "h1_jp": "空気抵抗と揚力",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "At high speed, the effect of air resistance becomes significant, often feeling as if an invisible force is limiting further acceleration.\n\nOnce a car exceeds around 80 km/h (50 mph), aerodynamic drag becomes a major factor. Beyond this point, drag increases with the square of speed, meaning that if speed doubles, drag increases fourfold, and if speed triples, it increases ninefold. Rolling resistance from the tires also plays a role, though it is less significant at higher speeds. When aerodynamic drag balances the engine’s output, the car reaches its effective top speed. For race cars, sports cars and even efficiency-focused road cars, reducing air resistance is a key objective.\n\nLower, more streamlined cars generally experience less aerodynamic drag, and smooth, flowing shapes allow air to pass more efficiently over the body. Flush surfaces with minimal protrusions further reduce resistance.\n\nHowever, many low-drag shapes can generate lift, as airflow over the body can accelerate relative to the air beneath it. This reduces the normal force on the tires and can affect stability. Reducing lift often increases drag, so aerodynamic design involves balancing these competing factors.\n\nCrosswinds must also be considered, as they can disturb straight-line stability. Effective aerodynamic design requires balancing drag, lift and yaw stability.",
+        "jp": "高速走行において「空気抵抗」が及ぼす影響はきわめて大きい。速度が増すほどクルマの前進する力を奪う、目に見えない「空気の壁」だ。\n\n空気抵抗による影響は80km/h程度から無視できなくなり、以降速度の2乗に比例して大きくなる。つまり速度が2倍で4倍に、3倍では9倍になる。実際にはタイヤの「転がり抵抗」などもあるが、エンジン出力で空気の壁を破れなくなった時が、そのクルマの最高速。最高速や高速性能を重視するレーシングカーやスポーツカーはもちろん、燃費を重視する実用車でも、空気抵抗の低減は重要になっている。\n\n車高は高いよりも低いほうが抵抗が少なく、形状自体も走行風をスムーズに後方に受け流す流線型やウェッジシェイプ（くさび型）が有利。さらにボディの表面に余計な凸部がない＝フラッシュサーフェスは、空気抵抗を低減させるデザイン処理といえる。\n\nいっぽう留意点もある。空気抵抗の小さいボディは、横から見ると飛行機の主翼のような形状になっていることが多い。このようなボディは上部を流れる空気が下部よりも速くなり、ボディを上方に浮かせようとする力＝揚力が発生してしまうという問題が生じる。しかし揚力を抑えるためには空気抵抗を増す必要があるため、空気抵抗と揚力のバランスポイントをどこに置くかが、デザイン開発の重要な鍵となるのだ。\n\nさらに、高速走行では直進性を乱す横風も無視できない要因となる。エアロダイナミクスは空気抵抗、揚力、そしてヨーイングモーメントまで含めたトータルバランスで考える必要がある。"
+      },
+      {
+        "type": "h3",
+        "en": "Frontal Surface Area   [Frontal Area]",
+        "jp": "前面投影面積"
+      },
+      {
+        "type": "p",
+        "en": "Frontal area is the silhouette of a car when viewed from the front. The larger this area, the greater the aerodynamic drag. Reducing frontal area is one reason sports cars tend to have lower profiles, while boxier vehicles and minivans typically have higher drag due to their larger frontal area.",
+        "jp": "クルマを正面から見た際の車体のシルエット。この面積が広いほど走行風を多く受け、抵抗が大きくなる。スポーツカーが低く構えたボディを採用するのは、前面投影面積を極力小さくするためでもある。1BOXやミニバンは必然的に不利となる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1MaCF17fZj7JuB.jpg",
+        "jp": "/images/c/i1MaCF17fZj7JuB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Cd – Drag Coefficient   [Constant Drag]",
+        "jp": "Cd値ー空気抵抗係数"
+      },
+      {
+        "type": "p",
+        "en": "The drag coefficient (Cd) is a measure of how smoothly air flows over an object. It is generally treated as a fixed value for a given shape, though it can vary with conditions such as speed and airflow. Aerodynamic drag depends on both Cd and frontal area. As a result, a car with a higher Cd but small frontal area may still have relatively low drag, while a vehicle with a larger frontal area can experience higher drag even with a lower Cd.",
+        "jp": "ある物体に風を当てて、どの程度スムーズに空気が流れるかを示す係数。あくまで係数であるため速度には影響されない。実走行で問題になる“空気抵抗”は、この空気抵抗係数（Cd）に前面投影面積を掛けたもの。従って、仮にCd値自体が大きくても前面投影面積の小さいスポーツカーは空気抵抗が小さく、ミニバンなどでは逆のことがいえる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i15rJZ9jJZ4l3b.jpg",
+        "jp": "/images/c/i15rJZ9jJZ4l3b.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Cl – Lift Coefficient",
+        "jp": "CL値ー揚力係数"
+      },
+      {
+        "type": "p",
+        "en": "The lift coefficient (Cl) is a value that represents the aerodynamic force acting on a car in the vertical direction as it moves through the air. Positive values indicate lift, while negative values indicate downforce. Generating downforce typically increases drag, so achieving stability involves balancing front and rear downforce to suit the car’s characteristics.",
+        "jp": "高速走行の走行風によって生じる車体を浮き上がらせようとする力の係数。反対に車体を下方向に押し付ける力を“ダウンフォース”あるいは“マイナスリフト”と呼ぶ。ダウンフォースを得るには空気抵抗を増加させることが求められ、また、挙動の安定化を図るには前後のダウンフォースを最適にバランスさせる必要がある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i13kfAkmJz4BX7c.jpg",
+        "jp": "/images/c/i13kfAkmJz4BX7c.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "CYM – Coefficient of Yawing Moment",
+        "jp": "CYM値ーヨーイングモーメント係数"
+      },
+      {
+        "type": "p",
+        "en": "The Yaw Moment Coefficient represents the tendency of a car to rotate about its vertical axis under aerodynamic forces. In real driving, airflow does not always strike the car head-on, and crosswinds can create a yawing moment that tries to turn the vehicle. A lower yaw moment coefficient generally indicates better stability in crosswinds. Taller vehicles with a higher center of gravity and larger side area are typically more affected.",
+        "jp": "走行中に受ける風は前からとは限らない。さまざまな方向から風を受けた時に、車体の中心軸周辺に発生し、回転させようと作用する力＝直進性を妨げる力をヨーイングモーメントという。CYM値が小さいクルマは横風にも強いといえ、一般的に、重心高が高いトールボディは不利とされている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1a3FfBxQ3evFz.jpg",
+        "jp": "/images/c/i1a3FfBxQ3evFz.jpg"
+      }
+    ]
+  },
+  "review_mechanism__body__01": {
+    "h1_en": "Body Performance Requirements",
+    "h1_jp": "ボディに求められる性能",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Along with the engine and suspension, the body forms the framework that dictates how a car behaves. The most desirable qualities are rigidity and strength, followed by low weight once those are achieved. Rigidity and strength can be understood as resistance to deformation and resistance to failure, respectively.\n\nRigidity has a particularly strong influence on driving performance. When loads increase or shift over bumps or during cornering, a rigid structure resists flex and maintains its shape.\n\nEven when the body is subjected to load, it should return to its original shape quickly so the suspension can operate as intended and the tires can maintain grip. The more rigid the structure, the more effectively power is transmitted to the road, the more predictable the car’s behavior, and the easier it is to control. Conversely, if the body flexes easily, power delivery becomes less efficient and handling suffers.\n\nThe forces acting on a car’s body vary. Some build gradually, while others are sudden and severe. Manufacturers often refer to rigidity under cornering or torsion, but this typically reflects resistance to slower-applied loads. A well-engineered structure must also withstand rapid, high-impact forces without excessive deformation.\n\nStrength can be thought of as a car’s toughness. If a structure lacks strength, it will suffer greater damage in an impact. However, minimizing damage alone is not enough—a well-designed body must also manage impact forces so they are not transmitted directly to the occupants.\n\nIdeally, a car’s structure balances rigidity and strength. Increasing both often requires reinforcement, which adds weight. This is why convertibles, despite lacking a fixed roof, are often heavier than equivalent coupes, as additional structural reinforcement is built into the floor and chassis.",
+        "jp": "ボディはエンジンやサスペンションと並んでクルマの性格を左右する、クルマの骨格である。ボディには「剛性」と「強度」、さらにはそれを実現した上での「軽さ」が求められる。剛性は「変形のしにくさ」、強度は「壊れにくさ」といってもよい。\n\n特に走行性能に大きく影響するのは剛性だ。たとえば凹凸路の通過やコーナリングなどで負荷が加わった時、ボディが変形しにくいことを「剛性が高い」という。\n\n仮に変形したとしても瞬時に復元すればサスペンションを正しく動かすことが可能で、タイヤの接地性も上がる。剛性が高ければ路面にパワーを伝えやすくなり、挙動が安定して運転もしやすくなる。逆に容易にボディが変形すれば、パワーを正確に路面に伝えることができず、操縦性も著しく損なわれてしまう。\n\nボディへの衝撃は一定ではなく、ゆっくり入ってくるものもあれば、急激に入ってくるものもある。クルマのカタログには“曲げ剛性”や“ねじり剛性”といった表記があるが、これはゆっくりとした入力に対する剛性であることが多い。しかし真の高剛性ボディとは、激しく揺さぶられるような瞬間的な衝撃にも耐え得るボディをさす。\n\nいっぽう強度は、硬さや強さと考えればいい。強度が低いと衝突時にボディが受けるダメージは大きい。かといって戦車のような強度を持たせれば、壊れない代わりに激しい衝撃が乗員に加わるのは避けられない。\n\nクルマのボディでは、こうした剛性と強度を高い次元でバランスさせることが求められる。簡単に剛性と強度を高める手段は補強だが、補強ではクルマの重さが重くなることが避けられない。ルーフを持たないオープンカーがフロアなどに補強を施し、結果的に重くなってしまうのはこれが主な理由だ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1xvvR7kIj0nW.jpg",
+        "jp": "/images/c/i1xvvR7kIj0nW.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Body-on-Frame",
+        "jp": "フレームボディ"
+      },
+      {
+        "type": "p",
+        "en": "In body-on-frame construction, the engine, transmission and suspension are mounted to a separate frame, and a body is then attached. Several frame designs exist, including ladder, backbone and perimeter types, but the ladder frame is the simplest, easiest to reinforce, and remains common in trucks and off-road vehicles. Another approach uses a frame made from welded tubular members, to which body panels are attached. Known as a tubular space frame, it cannot be disassembled once built. However, it allows high rigidity with relatively low weight, and can be easier to modify or repair, making it well suited to race cars and low-volume sports cars.",
+        "jp": "“セパレートフレーム”あるいは“ボディ・オン・フレーム”とも呼ばれる。エンジンやトランスミッション、サスペンションなどを取り付けた強固なフレームに、別に作製したボディを架装する構造。ハシゴ型を始め、バックボーン型、ペリメーター型、プラットフォーム型があり、なかでもハシゴ型は、比較的製作コストを安く抑えることが可能で、強度を確保しやすいことからオフロード車などに採用されることが多い。多数の小径鋼管を溶接し、ボディパネルを被せる“マルチチューブラーフレーム”も、フレームボディの一種だが、こちらは非分解式。高剛性と軽量を両立させやすく、改造や修理も容易なことから、レーシングカーや少量生産のスポーツカーで採用されることが多い。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1VvM4F1iVMc9uH.jpg",
+        "jp": "/images/c/i1VvM4F1iVMc9uH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Monocoque Body",
+        "jp": "モノコックボディ"
+      },
+      {
+        "type": "p",
+        "en": "This is the most common construction in modern vehicles, in which the frame and body are integrated into a single structure. Strength comes from the combined structure of panels and reinforcements, resulting in a design that is both rigid and relatively lightweight. It also allows a lower floor height and can be highly effective at absorbing impact energy. Because the engine and suspension are mounted directly to the body, early designs suffered from ride and noise issues, but advances in suspension design and engine mounting have largely addressed these concerns.",
+        "jp": "フレームとボディを一体にした現代のボディ構造の主流。特徴は、卵の殻のように、ボディパネルを主体とする構成パーツ全体でボディの強度を保っている点にあり、軽量かつ高剛性。フロア高を低くできる点でも有利で、さらに、衝突時のエネルギー吸収性にも優れる。エンジンやサスペンションをボディに直接取り付ける構造のため、過去には、乗り心地や騒音面でフレーム構造のクルマに劣るとされていたが、サスペンションの進化やマウント技術の向上で、こういったデメリットも完全に過去のものになっている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1LxcA4GhHRU6z.jpg",
+        "jp": "/images/c/i1LxcA4GhHRU6z.jpg"
+      }
+    ]
+  },
+  "review_mechanism__brakes__01": {
+    "h1_en": "Construction and Principles",
+    "h1_jp": "構造と原理",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "A car’s brakes convert kinetic energy into heat to slow the vehicle, and they also hold the car in place when parked.\n\nA brake system consists of a control input from the driver, a hydraulic system that transmits that input, and the braking mechanism at the wheels. Modern systems enhance this with power assist to amplify pedal effort and anti-lock braking systems (ABS) that help prevent wheel lockup.\n\nThe brake pedal is connected to the braking system through a hydraulic circuit. Based on Pascal’s principle, pressure applied at the master cylinder is transmitted through the fluid to the calipers or wheel cylinders. This pressure acts on the brake pads or shoes, which are made from high-friction materials. When pressed against the brake disc or drum, kinetic energy is converted into heat, slowing the car.\n\nThe fluid in this system is not conventional oil, but a specialized brake fluid. It must resist boiling under high temperatures, and different types are available with varying boiling points.\n\nAs higher-speed driving became more common, most road cars moved from drum to disc brakes at the front. In a disc brake system, braking force is applied to both sides of the disc by pads held in a caliper.\n\nDisc brakes have evolved alongside other vehicle technologies, with ventilated discs improving cooling performance. Caliper design has also advanced, although floating calipers remain widely used, while opposed-piston calipers are typically found in high-performance applications.",
+        "jp": "クルマのブレーキは、運動エネルギーを熱エネルギーに変換して速度を落とす装置だ。停止したクルマが動きださないように固定させる役割も担っている。\n\nブレーキの基本構成要素には、ドライバーの入力を受け付ける操作装置、操作力を伝える液圧回路、そして肝心の制動装置そのものがある。さらに最近は操作力を増幅させる倍力装置が液圧回路に組み込まれるようになり、タイヤのロックを防ぐABSも装着されるようになった。\n\nブレーキペダルと制動装置は液圧回路を通して繋がっている。液圧回路にはパスカルの原理が作用するため、ブレーキペダルの先には断面積の大きなシリンダーが繋がっている。このシリンダー内で生まれた圧力が増幅されてパッドやシューに伝わる仕組みだ。パッドやシューは摩擦材であり、これをブレーキディスクやドラムに押し付けることで運動エネルギーが熱エネルギーに変換され、車速を落とすのである。\n\n液圧回路を流れるのはオイルではなく専用のブレーキ液だ。ブレーキ液はブレーキの発熱に対して沸騰しにくいものが求められ、沸点によっていくつかの種類がある。高速道路の整備が進むに従って、乗用車の前輪ブレーキはドラム式からディスク式に主流が移行した。ディスク式ブレーキは、キャリパーに保持されたパッドでディスクを両側から挟み込んで制動力を発揮させるものだ。\n\nディスク式ブレーキはさらなるクルマの高性能化にともなって、冷却性能に優れるベンチレーテッドディスクへと進化した。キャリパーも簡易な構造のフローティングキャリパーから対向ピストンタイプの大型高性能キャリパーへと進化している。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1VbXznOMkQRe8E.jpg",
+        "jp": "/images/c/i1RCvhHsYL0.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Disc Brakes",
+        "jp": "ディスク式"
+      },
+      {
+        "type": "p",
+        "en": "Friction is applied to both sides of a rotating metal disc attached to the wheel. A key advantage is that most components are exposed to airflow, allowing effective ventilation and heat dissipation, which reduces the risk of overheating. Disc brakes also recover quickly in wet conditions, as water is shed from the disc as it rotates, minimizing any loss of friction. They offer more precise control through the brake pedal, but they lack the self-energizing effect of drum brakes, and their holding ability when parked is generally lower.",
+        "jp": "ホイールとともに回転する金属製の円盤（ディスク）を両側から挟み込むことで制動力を発揮させる。ディスクを始めとした構成部品のほとんどが外に露出しているため、通風性、放熱性ともに優れ、過熱しにくいのが最大の長所。また、ディスクに水が付着した場合も、自らの回転で水を飛散できるため摩擦係数が極端に低下しない点もメリット。ペダル踏力による微妙な制動力のコントロールが行いやすい反面、自己倍力効果はなく、停車時の拘束力はドラム式に劣る。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i10rb8tdrkj0KSH.jpg",
+        "jp": "/images/c/i10rb8tdrkj0KSH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Drum Brakes",
+        "jp": "ドラム式"
+      },
+      {
+        "type": "p",
+        "en": "Braking is achieved by pressing brake shoes against the inner surface of a cylindrical drum that rotates with the wheel. Heat dissipation is relatively poor, so drum brakes are more prone to overheating than disc brakes. If water enters the drum, friction recovery can also take time. However, as the drum rotates, it tends to pull the shoes into contact with the surface, increasing braking force through a self-energizing effect. In passenger cars, drum brakes are often used on the rear wheels, which handle less of the braking load. Many vehicles also use a drum mechanism inside the rear disc assembly as a dedicated parking brake.",
+        "jp": "ホイールとともに回転する円筒形をしたドラムの内側にブレーキシューを押し付けて制動力を得る方式。放熱性が悪いためディスクブレーキより過熱しやすく、ブレーキ内部に水が入った場合も摩擦力の回復に時間がかかる。ただし、制動時にはシュー自らがドラムに食い込む方向に動くため、大きな拘束力を発揮（自己倍力作用という）。乗用車ではブレーキの負担が小さい後輪側に装着されるケースが多い他、大型車では後輪のディスクブレーキの内側にパーキングプレーキとして組み込まれている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1faoE51MtQotW.jpg",
+        "jp": "/images/c/i1faoE51MtQotW.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Braking Problems Caused by Excessive Heat",
+        "jp": "■摩擦熱によるブレーキトラブル"
+      },
+      {
+        "type": "h3",
+        "en": "Fade",
+        "jp": "フェード現象"
+      },
+      {
+        "type": "p",
+        "en": "Brake fade is a reduction in braking performance caused by overheating during repeated or sustained use. As temperatures rise, the brake pads or linings can release gases, which form a thin layer between the friction surfaces and reduce effectiveness.",
+        "jp": "ブレーキを酷使した時、制動力が極端に低下する現象。具体的には、摩擦材であるパッドやライニングが過熱してガスを発生。そのガスがディスクやドラムとの間で、一種の潤滑剤のように作用して摩擦係数を低下させる。"
+      },
+      {
+        "type": "h3",
+        "en": "Vapor Lock",
+        "jp": "ベーパーロック現象"
+      },
+      {
+        "type": "p",
+        "en": "This condition occurs when brake fluid absorbs heat from overheated components and begins to boil, forming vapor bubbles in the hydraulic system. When the brake pedal is applied, these bubbles compress, preventing pressure from being transmitted effectively through the fluid. In severe cases, braking performance can be greatly reduced or lost altogether.",
+        "jp": "過熱したパッドやライニングの熱がブレーキフルード＝作動油を沸騰させ、ブレーキラインの中で気泡が生じる現象。ペダルを踏み込んでも正規の圧力でフルードを送り出すことができなくなり、最悪、制動力が立ち上がらない状況に陥る。"
+      }
+    ]
+  },
+  "review_mechanism__brakes__02": {
+    "h1_en": "Brake Discs and Calipers",
+    "h1_jp": "ディスク、キャリパー",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● Types of Brake Disc",
+        "jp": "■ディスクの種類"
+      },
+      {
+        "type": "h3",
+        "en": "Solid Discs",
+        "jp": "ソリッドディスク"
+      },
+      {
+        "type": "p",
+        "en": "The solid disc is the most basic type, consisting of a simple metal rotor. Its heat dissipation is lower than that of a ventilated disc, but its low cost means it is often used on rear brakes and in lower-load applications. All brake discs must withstand high temperatures and dissipate heat effectively, which is why most are made from cast iron.",
+        "jp": "一枚の円盤を使用したもっともベーシックなタイプ。ベンチレーテッドタイプと比較すると放熱効果は劣るが、低コストでできるため、軽自動車のフロントブレーキに採用されたり、4輪ディスクでも制動時の負担が少ないリアブレーキ用として用いられることが多い。ベンチレーテッドタイプも含め、ディスクには摩擦熱に強く、放熱効果が高い素材が求められることから鋳鉄製が主流。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1levrqKKhYbS.jpg",
+        "jp": "/images/c/i1levrqKKhYbS.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Ventilated Discs",
+        "jp": "ベンチレーテッドディスク"
+      },
+      {
+        "type": "p",
+        "en": "Ventilated discs use a two-piece internal structure, with vanes between the friction surfaces to allow airflow. Originally developed for racing, they are now common on production cars. Compared with solid discs, they run cooler, improving resistance to fade and extending brake pad life. The trade-off is slightly increased weight due to the thicker construction.",
+        "jp": "2枚のディスクを貼り合わせ、その間に多数の放熱用の孔を設けたもの。当初はレーシングカー用として開発・採用されていたが、現在では乗用車にも多く採用されている。ソリッドタイプと比較してディスクの表面温度を低くできることから、より耐熱（フェード）性を高め、パッドの寿命も延ばすことが可能。ただし、厚みがあるため、若干重くなる点がデメリット。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1ywTaoHE2VXRhH.jpg",
+        "jp": "/images/c/i1ywTaoHE2VXRhH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Advanced Ventilated Disc Types",
+        "jp": "■さらに進化したベンチレーテッドディスク"
+      },
+      {
+        "type": "h3",
+        "en": "Cross Drilled Discs",
+        "jp": "ピンホールタイプ"
+      },
+      {
+        "type": "p",
+        "en": "Cross-drilled discs are similar to ventilated discs, but with holes drilled through the rotor surface to aid cooling and gas evacuation. They are often used on high-performance road cars and in some racing applications. The holes can also help clear water and brake dust from the contact surface. Another variation, the slotted disc, uses machined grooves to achieve a similar effect.",
+        "jp": "一般的にベンチレーテッドディスクの摩擦面に、さらに多数の穴を開けて放熱性、および冷却効率を高めたタイプ。“ドリルドディスク”とも呼ばれ、レーシングカーや高性能スポーツカーでは高い頻度で採用されている。穴は制動時に生じる摩擦粉の除去にも有効で、同様の効果を目的に、表面に溝を掘った“スリットディスク”もある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Kt16BYbUaYDW.jpg",
+        "jp": "/images/c/i1Kt16BYbUaYDW.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Spiral Fin Discs",
+        "jp": "スパイラルフィンタイプ"
+      },
+      {
+        "type": "p",
+        "en": "Spiral-vane ventilated discs use internal cooling vanes shaped in a curved or spiral pattern between the friction surfaces. These vanes are designed to optimize airflow through the disc as it rotates, improving heat dissipation. As a result, cooling efficiency is enhanced under sustained braking. This type of disc is commonly used in high-performance cars and heavier, high-powered sedans.",
+        "jp": "ディスクを2枚貼り合わせた内側の放熱用フィンをスパイラル（螺旋状）にしたタイプ。フィン形状はディスク内の気流の数値解析に基づいて最適化されていて、車輪の回転とともに効率的に摩擦熱を放出することができる。高性能スポーツカーのほか、車重の重いハイパワーサルーンにも用いられている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i17ZykRu8HOq87c.jpg",
+        "jp": "/images/c/i17ZykRu8HOq87c.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Types of Calipers",
+        "jp": "■キャリパーの種類"
+      },
+      {
+        "type": "h3",
+        "en": "Floating",
+        "jp": "フローティングタイプ"
+      },
+      {
+        "type": "p",
+        "en": "A floating caliper uses a piston on one side to press a brake pad against the disc. The caliper then slides on its mounts, pulling the pad on the opposite side into contact. This design automatically equalizes pad contact with the disc and provides consistent braking feel. Floating calipers are compact and lightweight, and can maintain effective braking even with minor disc deformation. While they are not ideal for sustained high-performance use, they are well suited to everyday driving.",
+        "jp": "キャリパー内に、パッドを押し出すブレーキピストンを片側にだけ持つタイプで、片押し式と呼ばれることもある。ブレーキペダルからの油圧を受けるピストンは片側にだけ存在し、その反力によって反対側のパッドをディスクに押しつけるように作動する。ディスクに対する当たりがつねに調整され、左右のパッドのタイムラグが変化することもなく、いつも同じタッチのブレーキングが可能になる。キャリパー自体のサイズが小さいので軽量であり、高温になって歪んだディスクブレーキへの対応もできる。サーキットでの連続走行などでは効きの低下が発生するものの、一般的な使用では何ら問題のない性能を持っている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1UXmp2j7tuOdG.jpg",
+        "jp": "/images/c/i1UXmp2j7tuOdG.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Opposing Piston",
+        "jp": "対向ピストンタイプ"
+      },
+      {
+        "type": "p",
+        "en": "This setup uses pistons on both sides of the disc to clamp the pads evenly from each side. Because this design makes the caliper larger and heavier, it is often made from aluminum to reduce weight, which requires careful engineering to maintain rigidity. It is highly effective in demanding conditions such as circuit driving, but to make full use of its performance, high-quality discs and proper cooling are essential. Multi-piston designs—four- and six-piston calipers with larger pad areas—are now common on performance road cars. A large opposed-piston caliper visible behind the wheels is often a sign of a car’s performance focus.",
+        "jp": "ブレーキピストンを左右に持ち、両側からディスクにパッドを押しつける方式。大きく重くなってしまうのでキャリパーをアルミにせざるを得ず、キャリパー剛性の確保が課題となる。サーキットでのスポーツ走行では有効だが、本来の性能を発揮するためにはディスク側にも対策が必要。そうしないと熱による歪みでディスクが傾き、パッドがしっかりと当たらなくなってしまう。ブレーキの大径化に対応して、市販車でも4ポッド、6ポッドといった複数のピストンを使ったパッド面積の広いものが登場している。アルミホイールのすき間から見える大型の対向ピストンは、クルマの高性能ぶりをあらわす強力なアイコンでもある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1fmFRQm8kuQ18E.jpg",
+        "jp": "/images/c/i1fmFRQm8kuQ18E.jpg"
+      }
+    ]
+  },
+  "review_mechanism__drivetrain__01": {
+    "h1_en": "Transmission",
+    "h1_jp": "トランスミッション",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "An engine operates at anywhere from several hundred to several thousand revolutions per minute. This is too fast to drive the wheels directly, so an intermediate mechanism is required. That role is handled by the transmission, which uses different gear ratios to deliver the appropriate balance of speed and torque to the wheels for any given situation.\n\nTo understand this, consider how gears interact. When a small gear drives a larger gear, the larger gear turns more slowly but with increased torque. Conversely, when a larger gear drives a smaller gear, the smaller gear spins faster but with reduced torque.\n\nThe transmission applies these principles to match the appropriate gear to the situation. A car requires the most torque when accelerating from a standstill, and far less to maintain a steady speed. As a result, initial acceleration uses a low gear ratio, which provides higher torque at the wheels to get the car moving.\n\nA lower gear ratio multiplies torque but limits speed. In first gear, even at high rpm, vehicle speed is limited to only several tens of kilometers per hour. As the driver shifts up, gear ratios become progressively taller, allowing higher speeds with less torque multiplication. This range of gears lets the driver select the right balance for any driving condition.\n\nIn a production car, the transmission’s gear ratios are combined with a final drive gear located between the transmission and the drive wheels. This final drive determines the overall gear ratio. Gear ratios have a significant effect on a car’s performance, and in circuit racing, selecting ratios suited to the course can be critical to improving lap times.",
+        "jp": "エンジンは1分あたり数百回転から数千回転で回る。この回転数はタイヤを回すには速すぎる。そこで歯車（ギア）を組み合わせることで、状況に応じた速度と力をエンジンから取り出す仕組みがトランスミッション（変速装置）だ。\n\n歯車の原理を思い出そう。ある歯車をより大きな歯車と組み合わせると、大きな歯車は速く回転しない代わりに力を増幅させることができる。いっぽう小さな歯車を組み合わせると小さな歯車は速く回転するが取り出せる力は小さくなる。\n\nトランスミッションもこの原理を用いている。クルマがもっとも大きな力を必要とするのは発進の時。反対に高速を一定速度で走る時にはわずかなパワーしか必要としない。そこで発進時にはエンジンに大きな歯車を組み合わせて（＝減速比が大きい）大きなトルクを生み出し、クルマを確実に前進させるのだ。\n\nしかし大きい歯車は、トルク増幅はできるけれど回転は遅い。これは、1速ギアの時、エンジンを回転限界まで回しても、時速わずか数十kmまでしか加速できないことからもわかるだろう。そこでトランスミッションは複数枚の歯車を用意し、徐々に歯車を小さくする（減速比を小さくする）ことで、走行状況に応じた速度や力を自在に操ることができるのだ。\n\n実際のクルマは、エンジン直後のトランスミッションと、駆動輪手前にあるファイナルギアを組み合わせてギア比を作り出している。ギア比を変更することでクルマの走行特性を大きく変えることができる。特にサーキット走行では、サーキットに適したギア比を選択することがタイムアップの大きな鍵になるといってもいいだろう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i13fFsB1COd3pEE.jpg",
+        "jp": "/images/c/i18dcUPgTYr917E.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● The Final Drive",
+        "jp": "■ファイナルギア"
+      },
+      {
+        "type": "p",
+        "en": "The gear that provides the final stage of power transfer to the drive wheels is known as the final drive. It is the last step in reducing engine speed to a usable level at the wheels, and in longitudinal layouts, it also redirects the flow of power by 90 degrees.\n\nThe final drive operates independently of the transmission gear selection, and changing its ratio is an effective way to alter a car’s behavior. In performance cars, a numerically higher final drive ratio is often used to improve acceleration, while a lower ratio can reduce engine speed and improve fuel economy.",
+        "jp": "エンジンと駆動輪の間に介在する駆動系の最後の減速ギア装置がファイナルギア。駆動系全体で見ればトランスミッションと補完関係にあり、エンジン回転をもう一度減速させてタイヤに伝える装置といえる。エンジンを縦に置くクルマでは、パワーの伝わる向きを90度変える役割も持っている。ファイナルギアはトランスミッションとは独立しているので、交換が比較的容易だ。このためクルマの特性を大きく変えたい時の重要な要素となる。一般的にスポーツ性能を重視する場合はファイナルギアのギア比を大きくすることで加速性能を上げることができる（到達速度は低くなる）。逆に燃費性能に重きを置く場合はギア比を小さくすることで、エンジンの回転を抑えることができる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1c25GFw42u3i.jpg",
+        "jp": "/images/c/i1c25GFw42u3i.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Types of Two-Pedal Transmission",
+        "jp": "■2ペダルトランスミッションの種類"
+      },
+      {
+        "type": "h3",
+        "en": "AT   [Automatic Transmission]",
+        "jp": "AT"
+      },
+      {
+        "type": "p",
+        "en": "A common type of transmission uses a torque converter, a form of fluid coupling, to shift gears automatically based on vehicle speed and engine rpm. The system relies on planetary gearsets controlled by hydraulic pressure. It offers smooth, seamless gear changes, though fluid losses within the system can reduce fuel efficiency.",
+        "jp": "正確には“オートマチックトランスミッション”。エンジン動力の断続にトルクコンバーター（流体クラッチ）を用い、車速やエンジン回転数に応じて変速比を自動的に切り替える機能を備えた、内燃機関では長く使われてきたトランスミッション。内部のギアはプラネタリーギアを使い、油圧によって制御している。滑らかな変速にメリットがあるものの、油圧による滑りやロスが発生してしまい、燃費の面で不利になっている。"
+      },
+      {
+        "type": "h3",
+        "en": "CVT   [Continuously Variable Transmission]",
+        "jp": "CVT"
+      },
+      {
+        "type": "p",
+        "en": "A continuously variable transmission does not shift through fixed gears like a conventional transmission. Instead, it uses a pair of variable-diameter pulleys connected by a metal belt or chain to continuously vary the gear ratio. The result is exceptionally smooth operation with no shift shock, while allowing the engine to operate near its most efficient range under a wide range of conditions.",
+        "jp": "“無段変速機”や“連続可変トランスミッション”とも呼ばれる。通常のトランスミッションのような歯車の切り替えによる変速ではなく、金属製のベルトやチェーンなどでつないだ、2つのプーリー（滑車）やディスクの径を変化させることによって変速比を連続的に変化させる。変速ショックは皆無で、さまざまな走行状況で、もっとも効率のいいエンジン回転域のみを使って走ることができる。"
+      },
+      {
+        "type": "h3",
+        "en": "DCT   [Dual Clutch Transmission]",
+        "jp": "DCT"
+      },
+      {
+        "type": "p",
+        "en": "A dual-clutch transmission is essentially a manual transmission with its operation automated through the use of two clutches. Odd and even gears are split across two shafts, and by preselecting the next gear and switching clutches, it delivers shift speeds that can exceed those of a conventional manual. Unlike traditional automatics, which rely on planetary gearsets and a torque converter, a DCT can operate efficiently at higher engine speeds and is well suited to high-performance applications. It is a transmission type used in both sports cars and efficiency-focused models.",
+        "jp": "“デュアルクラッチトランスミッション”はマニュアルトランスミッションの操作を、2つのクラッチを使って自動化したもの。奇数ギアと偶数ギアを別々の軸に分け、それぞれをクラッチで瞬時に切り替えることでマニュアル以上の変速性能を実現している。ATではプラネタリーギアの回転限界によって、使えるエンジンの最高回転数に制限があるが、DCTには高回転エンジンも組み合わせられる。スポーツ系だけでなく、エコカーにも有効なトランスミッションだ。"
+      }
+    ]
+  },
+  "review_mechanism__drivetrain__02": {
+    "h1_en": "The Differential and LSD",
+    "h1_jp": "デファレンシャルとLSD",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "● Differential",
+        "jp": "■デファレンシャルギア"
+      },
+      {
+        "type": "p",
+        "en": "A differential is essential in vehicles with driven wheels on both the left and right sides. If a car only traveled in a straight line, it wouldn’t be necessary, but as soon as it turns, its role becomes clear.\n\nWhen cornering, the outside wheel travels a greater distance than the inside wheel. If both drive wheels were forced to rotate at the same speed, the inner wheel would resist and slip, making the car difficult to turn. The differential, a gearset integrated with the final drive and located between the drive wheels, allows them to rotate at different speeds to solve this problem.\n\nAs shown in the diagram, engine power is transmitted through the final drive to the ring gear. The ring gear carries small pinion gears, which mesh with the side gears and transfer power to the left and right wheels.\n\nWhen the car is moving in a straight line, the rotation of the final drive turns the ring gear, and the pinion gears do not rotate on their own axes. Instead, they act as a unit, transmitting equal torque to both side gears. In this condition, the left and right wheels rotate at the same speed.\n\nHowever, when cornering, the inside wheel encounters greater resistance, and this is transmitted to the corresponding side gear. As a result, the pinion gears, which were rotating with the carrier without spinning on their axes, begin to rotate, allowing a difference in speed between the left and right wheels.\n\nIn this condition, torque is still distributed through the differential, but the mechanism allows each wheel to rotate at the speed required to negotiate the corner smoothly.",
+        "jp": "駆動輪が左右にあるクルマにとってデファレンシャルギアは必需品だ。完全な直進走行では不要だが、コーナーを曲がる時に大切な役割を果たす。単に“デフ”と呼ぶことも多く、日本語でいえば差動歯車機構となる。\n\nコーナリングの際、コーナー外側のタイヤは内側のタイヤよりも長い距離を走る。この距離の違いに応じてタイヤに回転差をつけないと、内側のタイヤが突っ張るような動きをしてクルマは曲がらなくなる。この差をうまく吸収するのがデフというわけだ。デフは左右の駆動輪の間に、ファイナルギアと一体化されて組み込まれている。\n\n下の図を参考に仕組みを説明しよう。ファイナルギアから来たエンジンパワーはリングギアに伝わる。リングギアには2つのピニオンギアが固定されていて、このピニオンギアは2つのサイドギアの周囲を公転するようになっている。サイドギアは2つあって、それぞれ左右の駆動輪へと繋がっている。\n\n普段クルマが直進しているときは、ファイナルギアの回転に合わせてピニオンギアがサイドギアの周囲を回り、サイドギアにエンジンパワーを伝えている。この場合、左右の駆動輪には同じトルクが分配されている。\n\nところがコーナーで旋回状態になると、コーナー内側のタイヤに抵抗が生まれて、その抵抗がドライブシャフトを通じて内輪のサイドギアへ伝わる。するといままでサイドギアの周囲を回っていたピニオンギアが公転と同時に自転するようになり、外側のタイヤと内側のタイヤの回転差を調整するのだ。こうすることでエンジンのパワーは、抵抗を生んでいるコーナー内側に少なく、外側のタイヤに多く分配されて回転差が補正されるのである。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1N9whh0p5O82cE.jpg",
+        "jp": "/images/c/i1uXKHGsZZdFiG.jpg"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1KdhA2dQ50prz.jpg",
+        "jp": "/images/c/i1bgKIlXPHJ7G8E.jpg"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1GYIArBtn1MycE.jpg",
+        "jp": "/images/c/i1m4QUEQiWmUW.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Limited-Slip Differential",
+        "jp": "■LSD［リミテッドスリップデフ］"
+      },
+      {
+        "type": "p",
+        "en": "When cornering, a conventional differential has a drawback. If one drive wheel loses traction completely, the other wheel receives little usable drive force, and the wheel with no grip spins freely. This occurs because the differential allows the path of least resistance to dominate, sending torque to the slipping wheel. The same effect can be seen on ice or snow, where a loss of traction at one wheel causes it to spin while the other remains stationary.\n\nA limited-slip differential (LSD) is designed to limit this behavior when there is a significant difference in rotational speed between the left and right wheels. By restricting the speed difference between the side gears, it helps distribute torque more effectively. This can be achieved through several methods, including clutch-type systems, electronically controlled systems, and viscous fluid-based designs.\n\nIn performance cars, LSDs are used not only to improve traction in low-grip conditions, but also to make better use of available power and enhance handling.",
+        "jp": "コーナーでのデファレンシャルの役割は述べたとおりだが、デフには機構上弱点がある。それは、デフを組み込んだ駆動輪のうち1輪が接地しなくなると、他の駆動輪に駆動力を伝えなくなる点だ。接地しないタイヤは空転する。デフは空転するタイヤの回転差を補正しようとして、このタイヤだけに駆動力を伝えてしまうのである。ぬかるみや雪道でスタックするクルマをよく見ることがあるが、たいていはデフのこの性質によるものだ。\n\nそこで左右の駆動輪に一定以上の回転差が生じた場合、デフの機能を制限するのがLSD（リミテッド・スリップ・デファレンシャル）だ。\n\nLSDの原理は、ドライブシャフトにつながるサイドギアの回転を一定に抑制する機構を組み込むことで、両輪に駆動力を確実に配分しようというものだ。具体的な方式には多板クラッチ式、電子制御式、ギアの噛み合いとその軸方向に発生する力を摩擦力などに変えるもの、粘性流体のせん断抵抗力（物質内のずれに逆らう力）を用いたものなどがある。\n\nスポーツモデルでは、ぬかるみなどからの脱出といった目的よりも、駆動力の確保、さらには操縦性を向上させる目的でLSDが使われていることも覚えておこう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1OGFsbI1htoO.jpg",
+        "jp": "/images/c/i1KTQVZTDsRiMuB.jpg"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1a2lI6y1YtRXSB.jpg",
+        "jp": "/images/c/i11UeSaXZKy1i.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Types of LSD",
+        "jp": "■LSDの種類"
+      },
+      {
+        "type": "h3",
+        "en": "Torque-Sensitive Type",
+        "jp": "トルク感応式"
+      },
+      {
+        "type": "p",
+        "en": "This type of limited-slip differential uses specially designed gears. When a difference in torque arises between the left and right wheels, internal resistance increases, limiting the amount of slip. Because these systems can tightly control differences in wheel speed, they are effective in demanding conditions such as circuit driving, and their response is very quick. Common types include torque-sensitive designs such as Torsen and helical differentials, as well as clutch-type multi-plate systems.",
+        "jp": "特殊なギアを組み合わせた方式。左右の駆動輪にトルクの差が発生すると、ギアの歯面抵抗が増すことで差動制限を行う。差動制限力が大きいため、サーキット走行のように常に大負荷で走る場合に有効で、差動制限が開始されるまでの反応時間も短い。多板クラッチ式のほかトルセン式、ヘリカル式など種類は豊富。"
+      },
+      {
+        "type": "h3",
+        "en": "Speed-Sensitive Type",
+        "jp": "回転感応式"
+      },
+      {
+        "type": "p",
+        "en": "These systems restrict differential action using a highly viscous silicone fluid rather than gears. The most common is the viscous type, which relies on shear resistance in the fluid, although there are also designs that use fluid flow through small orifices to create resistance. These systems do not limit wheel speed difference as effectively as torque-biasing types, and their response is slower, but they can be easier to manage on low-traction surfaces.",
+        "jp": "差動制限にギアではなく、高粘度のシリコンオイルを使う。オイルのせん断抵抗を利用したビスカス式が代表的で、ほかにオイルがオリフィス（小さな穴）を通過する際の抵抗を利用したオリフィス式がある。トルク感応式と比較して差動制限力は控えめで、レスポンスもやや緩慢だが、その分、低μ路では扱いやすい。"
+      },
+      {
+        "type": "h3",
+        "en": "Active-Control Type",
+        "jp": "アクティブ制御式"
+      },
+      {
+        "type": "p",
+        "en": "Electronically controlled systems use a computer to monitor sensor data and regulate the difference in drive-wheel speed. Many competition cars, particularly rally cars in the World Rally Championship, use these systems, and they have also been adopted in some production vehicles. Differential action is controlled by varying clutch pressure, typically through hydraulic or electromagnetic actuation.",
+        "jp": "電子制御式。コンピュータが各種センサーからの情報をもとに、能動的に差動制限を行う。ラリーなどの競技車両で用いられることが多く、WRCでの使用は一般的だが、一部の市販車でも採用されている。差動制限力のコントロールは摩擦板の圧力制御で行い、油圧式と、電磁クラッチを使用する2つのタイプがある。"
+      }
+    ]
+  },
+  "review_mechanism__engine__01": {
+    "h1_en": "Mechanism and Principles",
+    "h1_jp": "構造と原理",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Most cars are equipped with a four-stroke-cycle reciprocating engine. Reciprocating engines consist of cylinders in which pistons move back and forth to generate power. The four strokes of the engine are intake, compression, power, and exhaust.\n\nLet’s take a closer look at these four strokes of the cycle. In the intake stroke, the intake valve opens just before the piston reaches “top dead centre”—the position where the piston is at the top of the cylinder. As the piston moves downward, an air-fuel mixture is drawn in through the open valve. When the piston reaches the bottom of the cylinder, the intake stroke is complete, and the compression stroke begins. During this phase, all valves are closed, and the rising piston compresses the air-fuel mixture in the cylinder.\n\nJust after the piston reaches the top of the cylinder, compressing the air-fuel mixture, the spark plug ignites the mixture, causing combustion. This is the power stroke, during which the temperature inside the cylinder can reach up to about 2000°C, and pressure can rise to around 200 atmospheres. This high-temperature, high-pressure combustion pushes the piston downward, turning the crankshaft and converting thermal energy into mechanical (rotational) energy.\n\nWhen the piston reaches the bottom again, the exhaust stroke begins, and the exhaust valves open so that the remaining gases can be discharged. At the moment the exhaust valves open, residual pressure in the cylinder helps initiate the outflow, but as the piston moves upward it becomes the primary force expelling the gases through the valves. Once the piston reaches the top again, the intake valves open, and the cycle begins anew.\n\nA reciprocating engine runs through these four-stroke cycles and turns the crankshaft several hundred times per minute at idle, and several thousand times per minute at higher speeds, to continuously produce power for the car.",
+        "jp": "ほとんどのガソリンエンジン車は4サイクルのレシプロエンジンを搭載している。レシプロエンジンにはシリンダーがあり、シリンダーの中をピストンが往復運動することで動力を生み出す。4サイクルとはその往復運動が、吸入－圧縮－燃焼－排気という4つに分けられるために付いた呼称だ。\n\n4サイクルエンジンの行程を説明しよう。まずピストンがシリンダー上死点に届くわずか前に吸気バルブが開く。 上死点に達したピストンが下がり始めるとシリンダー内部の圧力が低下するため、開いた吸気バルブから空気とガソリンの混合気が吸い込まれる。ピストンが一番下まで下がると吸気行程は終了し、圧縮行程へ進む。すべてのバルブが閉じたシリンダーの中で、ピストンが混合気を圧縮していく。\n\n混合気を圧縮したピストンが頂点を少し過ぎたところで 点火プラグが着火を行う。これが燃焼だ。この時ガソリンエンジンのシリンダー内部は2000℃、200気圧にも達する。その高温高圧のエネルギーがピストンを押し下げ、クランクシャフトを回すことで回転エネルギーが生まれる。\n\nピストンが下に着くと排気バルブが開けられ排気行程となる。ここではピストンが押し出すというよりは、排気ガスは自らの高温高圧のエネルギーによって、排気バルブから飛び出していく。そして再びピストンが頂点へ来ると吸気バルブが開けられることで、吸気行程へと戻る。\n\nこの行程を通して4サイクルエンジンは、アイドリング状態でも1分間に数百回、全開状態になると数千回というスピードでクランクシャフトを回して、パワーを生み出し続けるのである。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1txPgKMrUU4L.jpg",
+        "jp": "/images/c/i1XS15LSr4UATdH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Types of Cylinder Configurations",
+        "jp": "■シリンダー配置の種類"
+      },
+      {
+        "type": "h3",
+        "en": "Inline Engine",
+        "jp": "直列型"
+      },
+      {
+        "type": "p",
+        "en": "This type of engine has multiple cylinders aligned in a single row. All cylinders share one crankshaft, and the cylinder block is made as a single unit, making the construction simple and allowing the engine to be relatively lightweight. However, as the number of cylinders increases, the engine becomes longer, which can create packaging constraints within the vehicle.",
+        "jp": "複数のシリンダーを一列に配置。バルブの開閉を管理する カムシャフト、シリンダーで生まれた動力を回転運動にして取り出すクランクシャフトをすべてのシリンダーで共有し、シリンダーブロックも一体化できるため、構造がシンプルで比較的軽量にできるのがメリット。ただし気筒数が多くなると長くなりスペース的に不利が生じる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1e5B8j7TUfhoG.jpg",
+        "jp": "/images/c/i1e5B8j7TUfhoG.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "V Engine",
+        "jp": "V型"
+      },
+      {
+        "type": "p",
+        "en": "Here, the right and left cylinders arranged in a V-shape. The crankshaft can be made shorter, which allows the engine to remain compact even with a larger number of cylinders. This layout also offers good balance characteristics, and the shorter cylinder block and crankshaft contribute to improved rigidity.",
+        "jp": "シリンダーを左右交互にV字型にレイアウト。クランクシャフトの長さを短くでき、多気筒でもエンジン自体のサイズをコンパクトにできるのが利点。気筒数にかかわらず振動が少なく、短いシリンダーブロックやクランクシャフトは剛性にも優れる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1V3Onn5dBvN78E.jpg",
+        "jp": "/images/c/i1V3Onn5dBvN78E.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Flat Engine",
+        "jp": "水平対向型"
+      },
+      {
+        "type": "p",
+        "en": "In this type of engine, the alternating cylinders are arranged horizontally. The left and right cylinders are opposed with the crankshaft in the middle. These are sometimes called “boxer” engines, because the pistons moving left and right resemble the jabs of a boxer. The benefit of this engine is its low centre of gravity due to its reduced height.",
+        "jp": "シリンダーを左右交互に水平に配置した型式。クランクシャフトを中心にシリンダーが左右に向かい合い、対向したピストンが左右対称の動きをする様子が、ボクシングでのパンチの打ち合いに似ているところから“ボクサー”エンジンとも呼ばれる。エンジン高が低いため低重心化にもメリットがある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1XKWmA5ALmCVW.jpg",
+        "jp": "/images/c/i1XKWmA5ALmCVW.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "W Engine",
+        "jp": "W型"
+      },
+      {
+        "type": "p",
+        "en": "This originally referred to an engine with a single crankshaft and three banks of cylinders arranged in a W-shape. In recent years, however, engines formed by combining two narrow-angle V engines are also referred to as W engines. The width of a W engine is greater than that of a V engine, but its shorter overall length makes it advantageous for engines with twelve cylinders or more.",
+        "jp": "本来、1本のクランクシャフトに対して3列のシリンダーを扇状に配置したエンジンのことをいうが、現在では、狭角のV型エンジンを2つ組み合わせたものもW型と呼ぶ。横幅はV型よりも広くなるが、12気筒以上の多気筒では、クランクシャフト長（＝エンジン長）を短縮するメリットのほうが大きい。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i13zo39Fn23xe8E.jpg",
+        "jp": "/images/c/i13zo39Fn23xe8E.jpg"
+      }
+    ]
+  },
+  "review_mechanism__engine__02": {
+    "h1_en": "Valve Configurations",
+    "h1_jp": "バルブ駆動方式",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "In a four-stroke engine, there are two types of valves: intake valves, which open during the intake stroke to allow the air-fuel mixture into the cylinder, and exhaust valves, which open during the exhaust stroke to release waste gases. These valves are located in the cylinder head and play an important role in sealing and controlling access to the combustion chamber.\n\nModern engines typically place the camshaft at the top of the engine (overhead cam), allowing more precise and reliable valve operation. Most modern engines use four valves per cylinder—two intake and two exhaust—to improve airflow. However, engines designed for efficiency at lower engine speeds may use two valves per cylinder, with one intake and one exhaust valve.\n\nThe latest trend is toward variable valve timing. Early systems allowed valves to operate with two discrete timing profiles—one for low engine speeds and one for high engine speeds—but more recent developments enable valve timing and lift to be varied continuously to match engine conditions. In advanced systems such as Valvetronic, power is regulated primarily by controlling valve lift rather than relying on a conventional throttle valve, improving efficiency.",
+        "jp": "4サイクルエンジンには、吸気行程で開いて外部から混合気を導く吸気バルブと、排気行程で開いて燃焼ガスを外部に送り出す排気バルブがある。バルブはシリンダーヘッドに設けられ、燃焼室と外部をタイミングよく遮断したり繋いだりする弁の役割を果たす。\n\n現代のエンジンではカムシャフトがエンジンの上部に配置されるのが一般的で、より正確なバルブ駆動を実現している。バルブの数は吸気2、排気2の4バルブがほとんどだが、低回転域での燃焼効率を追求した吸気1、排気1の2バルブも健在だ。\n\n最近のトレンドとしては可変バルブタイミング機構がある。もともとは低回転域と高回転域でバルブタイミングを切り替えるものであったが、その後エンジン回転によってバルブタイミングとリフト量を連続的に可変できるものへと進化した。さらにBMWのバルブトロニックが口火を切った最新の可変バルブ機構では、スロットルバルブを使わずに出力調整を行い、より効率を高めることにも成功している。"
+      },
+      {
+        "type": "h3",
+        "en": "● Types of Valve Configuration",
+        "jp": "■バルブ駆動方式の種類"
+      },
+      {
+        "type": "h3",
+        "en": "DOHC   [Double Overhead Camshaft]",
+        "jp": "DOHC   [Double Over Head Camshaft]"
+      },
+      {
+        "type": "p",
+        "en": "DOHC stands for Double Overhead Camshaft. In a DOHC engine, one camshaft operates the intake valves and another operates the exhaust valves. In addition to providing more precise control by separating these functions, this layout allows for reduced valvetrain mass and improved valve operation at higher speeds. As a result, the engine can achieve higher RPM, leading to improved power output. This is why the DOHC layout has been widely adopted in modern high-performance engines.",
+        "jp": "DOHCとは「ダブル・オーバー・ヘッド・カムシャフト」の略称で、カムシャフトを2本にして吸気側と排気側のバルブを別々に駆動する方式。カムの負担が減るためバルブの開閉をより確実に行えるようになるほか、バルブ周りの動弁系重量（＝慣性）を軽減することが可能で高回転、高出力を得やすい。ほとんどの高性能エンジンで採用されている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1BJQRHL5WdKz7E.jpg",
+        "jp": "/images/c/i1BJQRHL5WdKz7E.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "SOHC   [Single Overhead Camshaft]",
+        "jp": "SOHC   [Single Over Head Camshaft]"
+      },
+      {
+        "type": "p",
+        "en": "A single overhead camshaft (SOHC) engine uses one camshaft to operate both the intake and exhaust valves. Depending on the combustion chamber design, the camshaft may act directly on the valves or operate them through rocker arms. Compared with an OHV engine, valve operation is more precise and higher engine speeds are possible. Compared with a DOHC engine, valve control is generally less flexible, but high-RPM SOHC engines do exist, so they are not necessarily inferior.",
+        "jp": "シリンダーヘッドに1本のカムシャフトを設けた方式が「シングル・オーバー・ヘッド・カムシャフト」。燃焼室形状によってカムシャフトがバルブを直接駆動させるものと、カムシャフトからロッカーアームというシーソーのような部品を介してバルブを駆動するものがある。OHVに比べるとバルブ追従性が高まり高回転化が可能になる。DOHCに比べるとバルブ追従性で不利といわれるがSOHCにも高回転型エンジンは存在するため一概に劣るとはいえない。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1kF9sb4fjxzz.jpg",
+        "jp": "/images/c/i1kF9sb4fjxzz.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "OHV   [Overhead Valve]",
+        "jp": "OHV   [Over Head Valve]"
+      },
+      {
+        "type": "p",
+        "en": "An overhead valve (OHV) engine, as its name suggests, has its valves mounted in the cylinder head. Unlike SOHC or DOHC designs, the camshaft is located in the engine block beside the cylinders and operates the valves through long pushrods and rocker arms. This structure is simple and relatively easy to maintain. However, the added mass and complexity of the valvetrain can limit performance at high engine speeds, so these engines are generally less suited to high-RPM applications.",
+        "jp": "「頭上弁式」とも呼ばれる「オーバー・ヘッド・バルブ」は、その名のとおり、バルブ機構をシリンダーヘッド上に設けた型式だ。SOHC、DOHCとの違いは、カムシャフトが頭上ではなくシリンダー横にあり、ここからプッシュロッドという長い棒とロッカーアームを介してバルブを駆動する点。構造がシンプルで整備性に優れる反面、高回転でのバルブ追従性は思わしくなく、高出力化には不向きとされる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1bkLIhKxRAsvuB.jpg",
+        "jp": "/images/c/i1bkLIhKxRAsvuB.jpg"
+      }
+    ]
+  },
+  "review_mechanism__engine__03": {
+    "h1_en": "Rotary Engines",
+    "h1_jp": "ロータリーエンジン",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Rotary engines (also known as Wankel engines) produce power in a manner similar to reciprocating engines, in that they go through the four stages of intake, compression, power, and exhaust. However, these processes are carried out in a very different way.\n\nInstead of cylinders, this type of engine uses an epitrochoid-shaped rotor housing, within which a triangular rotor rotates. The rotor moves around an eccentric shaft within the housing, expanding and contracting the chambers between itself and the housing. It is within these chambers that the intake, compression, power, and exhaust cycles take place. A rotary engine will typically consist of two or three rotors operating within an equal number of housings.\n\nIn typical engines, the reciprocating motion of multiple pistons can make smooth power delivery more difficult, and also produces noise and vibration. In contrast, rotary engines are based on continuous rotational motion, resulting in smoother operation. Another benefit of this type of engine is the absence of conventional valves, which reduces the number of moving parts. Rotary engines have also traditionally been lighter, and although advances in reciprocating engine technology have reduced this difference, rotary engines remain more compact in overall design.\n\nIn a rotary engine, the timing of the intake and exhaust processes is determined by the shape and position of the ports in the rotor housing. Tuning the intake and exhaust characteristics is therefore achieved by modifying these port shapes and locations. In addition, because rotary engines do not use conventional exhaust valves, exhaust gases exit more directly, which can make them well suited to turbocharging applications.\n\nCompared to a reciprocating engine, a rotary engine is at a disadvantage in terms of fuel consumption. This is largely due to the relatively large surface area of the combustion chamber in relation to its volume, which leads to greater heat loss and lower efficiency in converting thermal energy into mechanical energy.",
+        "jp": "ロータリーエンジンもレシプロエンジンと同じように、吸入空気を吸い込み、圧縮して燃焼、そして排気という行程を繰り返すことで回転エネルギーを得る。ただしその行程はレシプロと根本的に異なっている。\n\nロータリーエンジンにはシリンダーの代わりにローターハウジングという繭形の空間があり、そこに三辺を膨らませた三角形状のローターが組み込んである。このローターが偏心して回転することでローターとローターハウジングの間にできる空間の大きさが変化し、ここで圧縮、燃焼、排気といった行程を行う。通常1機のロータリーエンジンにはこのローターハウジングが2つ、あるいは3つ組み合わせられている。\n\n通常のエンジンでは複数のピストンが往復運動するため力の制御が難しく、それが振動や音を生み出す原因になる。しかしロータリーエンジンは原理的に回転運動であるため、スムーズで滑らかなフィーリングが得られる。バルブ系も持たないので部品点数が大幅に軽減できる点も美点だ。最近ではレシプロエンジンが軽量化してきたため、かつてのように軽さをアピールすることは難しいが、コンパクトであることは間違いない。\n\nロータリーの吸排気のタイミングは、ローターハウジングの壁面や側面に設けられたポート（混合気の通り道）の形状で決まる。ロータリーエンジンの吸排気チューニングは、そのポートの位置と形状を変えることで対応することになる。またロータリーエンジンには排気バルブが存在しないため、排気エネルギーをダイレクトに排気ポートへ排出できることから、ターボチャージャーとの相性に優れているのも特長だ。\n\n一方ロータリーエンジンはレシプロに比べて燃費の面で不利だと言われる。これは燃焼室の容積に対して表面積の割合が大きいため、熱が逃げてしまい、回転エネルギーへと変化する割合が低いためだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1qCcN0dtuW6H.jpg",
+        "jp": "/images/c/i1Setgxp23fp9cE.jpg"
+      }
+    ]
+  },
+  "review_mechanism__engine__04": {
+    "h1_en": "Forced Induction",
+    "h1_jp": "過給器",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "An increase in the amount of air flowing into an engine will result in an increase in power. The simplest way to achieve this is by increasing engine displacement.\n\nHowever, a similar effect can be achieved without increasing displacement through a process known as forced induction. This involves compressing more air into the engine, allowing a greater mass of air—and therefore fuel—to enter the combustion chamber. Devices that perform this function are generally classified into two types: superchargers and turbochargers.\n\nThe amount of pressure added when the intake air is compressed is known as “boost,” and increasing boost generally increases power. One unit of atmospheric pressure is approximately one bar (about 1 kg/cm²). If the boost pressure is 1 bar (gauge), the total intake pressure becomes about 2 bar absolute—one bar of atmospheric pressure plus one bar of boost—effectively doubling the air density entering the engine under ideal conditions.\n\nThe drawback of forced induction is that as boost pressure increases, cylinder pressure and thermal stress on engine components rise accordingly. For this reason, engines equipped with turbochargers or superchargers are typically reinforced, and the compression ratio is often lowered to reduce the risk of abnormal combustion such as knock.\n\nWhen air is compressed, its temperature increases, which reduces its density and limits the amount of oxygen entering the engine. This effect becomes more pronounced under heavy load or in hot conditions, reducing potential power output. As a result, intercoolers are commonly used to cool the compressed air and restore density, improving performance and efficiency.\n\nTurbochargers take time to build boost, as they are driven by exhaust energy and there is a delay before sufficient pressure is generated. On the other hand, superchargers, which are driven directly by the engine’s crankshaft, do not suffer from this delay, but they consume some engine power because of this mechanical drive.\n\nEngines that combine the advantages of both systems—using a supercharger at low engine speeds and a turbocharger at higher speeds—have recently attracted attention.",
+        "jp": "エンジンは多くの空気を吸い込むことができれば、その分だけパワーアップが可能になる。もっとも単純な方法は排気量を拡大することだ。\n\nしかし排気量を変えずに排気量を拡大したような効果を生み出せるものがある。それが過給器だ。大別するとスーパーチャージャーとターボチャージャーがあるが、どちらも吸気をエンジンに押し込む（これを過給という）ことで、排気量拡大と同じ効果を実現するわけだ。\n\n空気を圧縮する際の圧力は過給圧＝ブースト圧と呼ばれ、過給圧を上げるほど引き出されるパワーも大きくなる。大気圧が1気圧の時、これを1bar、または1kg／cm2という単位で表す。過給圧が1barだとすると、大気圧と合わせて2bar、つまり2倍の空気がエンジンに入っていることになる。\n\n過給器のデメリットとしては、過給圧を上げるにつれて燃焼エネルギーが高まり、エンジンへのダメージが大きくなること、異常燃焼が発生することなどがあげられる。このため過給器付きエンジンではエンジン内部のパーツの強度を高めたり、圧縮比を低めて異常燃焼を抑えるといった対策が施される場合が多い。\n\nまた空気は圧縮することで熱を帯びて密度が低下する。 高負荷運転や夏期にはいっそうその傾向が強まり、燃焼させても大きな爆発力（＝出力）が得られなくなる。「吸気温度が1度上昇すると約1ps損失する」ともいわれ、圧縮空気をクールダウンするためのインタークーラーの装着はもはや常識となっている。\n\nターボチャージャーは排気エネルギーで過給器を差動させるため、ブースト圧が発生するまでに時間的な遅れ（タイムラグ）が生じる。いっぽうエンジンのクランクシャフトを動力源とするスーパーチャージャーはタイムラグとは無縁だが、エンジン自体のパワーを幾分失わせてしまうというデメリットがある。\n\n最近では低回転ではスーパーチャージャー、高回転でターボといったふうに両者を組み合わせて、互いのメリットを高めた過給器エンジンも脚光を集めている。"
+      },
+      {
+        "type": "h3",
+        "en": "Superchargers",
+        "jp": "スーパーチャージャー"
+      },
+      {
+        "type": "p",
+        "en": "A supercharger is a compressor, usually driven by a belt connected to the crankshaft, that compresses air before it enters the engine. Because it is driven directly by the crankshaft, it provides strong boost at low engine speeds and offers quicker throttle response compared with a turbocharger. A supercharger also tends to perform well in vehicles with automatic transmissions. The illustration here shows a “Roots” type supercharger, but several other types exist, including Lysholm (twin-screw) compressors and scroll-type designs.",
+        "jp": "エンジンの出力軸からベルトなどを介して取り出した動力によって圧縮機（コンプレッサー）を駆動、空気を圧縮してエンジンに供給するのがスーパーチャージャー。コンプレッサーの動力にクランクシャフトの回転を用いているためターボチャージャーとは対照的に「低回転域での過給効果が大きい」「アクセルレスポンスに優れる」といったメリットを持つ。オートマチックトランスミッションと組み合わせた際の相性もよい。イラストはルーツブロワー型と呼ばれるものだがこれ以外にもリショルムコンプレッサー型やスクロール型など複数のタイプがある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1pajaNoJhZbu.jpg",
+        "jp": "/images/c/i1qT32WvphDs1z.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Turbochargers",
+        "jp": "ターボチャージャー"
+      },
+      {
+        "type": "p",
+        "en": "Named “turbo” after the turbine that drives its compressor, a turbocharger uses exhaust gases to spin the turbine and compress intake air. Because it recovers energy from the exhaust, it does not draw power directly from the engine as a supercharger does, improving efficiency at higher engine speeds. However, at low engine speeds where exhaust flow is limited, the turbine may not reach operating speed, and it takes time to build boost as the turbine “spools up” during acceleration. This momentary delay in response is known as “turbo lag.” Various technologies have been developed to reduce this effect, and they continue to evolve. In Europe, turbochargers are increasingly used with smaller engines to improve fuel economy.",
+        "jp": "ターボはタービンを意味し、通常はマフラーを通過して放出される排気ガスの圧力を利用してタービンを回して駆動する過給器のことだ。排気ガスのエネルギーを使うので、スーパーチャージャーのような高回転域での駆動ロスの増大はない。その代わりに、排気ガスのエネルギーが低い低回転域などではタービンを回せず、そこから加速しようとしてもタービンの回転が高まるまで時間が必要になる。これがいわゆるターボラグの原因だ。それを克服するために、さまざまなシステムが考えられており、まだまだ進化を続けている。さらにターボを使う代わりに排気量を小さくしたダウンサイジングエンジンも、省燃費ユニットとして登場してきている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i17B3PNFugtKThB.jpg",
+        "jp": "/images/c/i1sjxIOs9Wgr07E.jpg"
+      }
+    ]
+  },
+  "review_mechanism__engine__05": {
+    "h1_en": "Hybrid Systems",
+    "h1_jp": "ハイブリッドシステム",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "The purpose of a hybrid system is to improve fuel economy by combining an internal combustion engine with an electric motor. Japan has led the development of hybrid vehicles, and while these systems have been known primarily for their environmental benefits, European manufacturers have also begun to develop hybrids aimed at high-performance applications.\n\nThe weakness of an internal combustion engine lies in its relatively low efficiency during idling and at low engine speeds. In contrast, an electric motor can produce maximum torque at near-zero speed, and its high efficiency allows it to compensate for the engine’s limitations at low RPM. At higher speeds, however, the combustion engine operates more efficiently, so overall efficiency is achieved by combining the strengths of both systems.\n\nAnother advantage of combining an electric motor with a battery is the ability to recover energy. When decelerating—either by lifting off the accelerator or by braking—the motor acts as a generator driven by the rotation of the wheels, recharging the battery. This recovered energy can then be reused to power the motor. In this way, energy that would normally be lost as heat during braking is partially converted into electrical energy instead.\n\nA further benefit is that the motor can assist the engine in a manner similar to a supercharger. Many hybrids developed by European manufacturers emphasize this advantage, using electric motors to provide additional torque and achieve the performance feel of a larger-displacement engine without increasing engine size. Hybrid systems vary depending on how the motor and engine are integrated, and several types are already in commercial use. As development continues, new configurations are likely to emerge, including advanced hybrid systems for high-performance and supercar applications.",
+        "jp": "「エンジンとモーターを併用することでエネルギー効率を高め、燃費を向上させる」というのがハイブリッドシステムの目的だ。日本がトップランナーとして作ってきたハイブリッドカーはエコカー一辺倒だったが、ヨーロッパのスポーツカーメーカーなども参入することで、次世代のパワーユニットの中心的存在となっている。\n\nエンジンの弱点はアイドリング時や発進時に効率が悪くなることだ。ところがモーターはゼロ回転から最大トルクが発揮でき、効率も高いのでエンジンが苦手な低回転領域をフォローできる。いっぽう速度が上がるとエンジンの効率は高まり、モーターは逆に出力が低下して効率が悪化する。そこでお互いの長所が活きる領域を組み合わせてエネルギー効率を劇的に高めたのが、ハイブリッドカーなのだ。\n\nモーターとバッテリーを積むことのメリットは、エネルギーを回収できることだ。これを回生と呼ぶが、アクセルオフの時やブレーキング時に、タイヤの回転エネルギーで発電機を回し、バッテリーを充電する。そこで蓄えた電気を再びモーターを動かす時に使うのだ。こうすることで、今までブレーキが熱として捨てていたエネルギーを、電気として再利用することが可能になる。\n\nもうひとつのメリットは、エンジンの性能を補ってモーターに過給器のような働きをさせられる点だ。ヨーロッパメーカーが作るハイブリッドカーには、むしろこれを主眼としたモデルも多い。大排気量車の走行フィーリングを過給器ではなく電気モーターが実現するという発想である。\n\nモーターやエンジンなどをどう組み合わせるかによって、ハイブリッドシステムの制御の幅と得意な領域は異なってくる。自動車メーカーはそれぞれのコンセプトで最適なシステムを探っているが、すでに多くのハイブリッドシステムが実用化されている。スーパーカー用ハイブリッドも登場しており、システム出力が1,000psに達するようなユニットもある。"
+      },
+      {
+        "type": "h3",
+        "en": "● The Toyota Prius",
+        "jp": "■トヨタ プリウスの作動概要"
+      },
+      {
+        "type": "h3",
+        "en": "System Overview",
+        "jp": "システム全体図"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1iwJv10edZzS.jpg",
+        "jp": "/images/c/i13yAL6qIut0NhB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "When Accelerating from Standstill or At Low/Medium Speeds",
+        "jp": "発進時・低中速走行時"
+      },
+      {
+        "type": "p",
+        "en": "When accelerating from a standstill or driving at low to medium speeds, the engine operates inefficiently and may be stopped. In these conditions, drive power is provided by the electric motor alone.",
+        "jp": "発進時や低速から中速までの通常走行など、エンジン効率の悪い領域ではエンジンを停止。モーターのみで走行。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Ml89Y7ythnh.jpg",
+        "jp": "/images/c/i1Ml89Y7ythnh.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Normal Driving",
+        "jp": "通常走行時"
+      },
+      {
+        "type": "p",
+        "en": "Engine power is split into two paths by the power distribution mechanism: one drives the generator, and the other drives the wheels directly.",
+        "jp": "エンジン動力は動力分割機構で2経路に分割。1つは発電機を駆動させて発電する経路。いっぽうは、車輪を直接駆動。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1WStbKytF0LhhH.jpg",
+        "jp": "/images/c/i1WStbKytF0LhhH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Rapid Acceleration",
+        "jp": "急加速時"
+      },
+      {
+        "type": "p",
+        "en": "Assisted by the battery, drive power from both the engine and the motor is combined, resulting in good response and smooth acceleration.",
+        "jp": "バッテリーからも電力を供給。エンジンの駆動力に、さらにモーターの駆動力を加えることで、レスポンスがよく、スムーズな加速性能が得られる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1GXrVhiFggA9W.jpg",
+        "jp": "/images/c/i1GXrVhiFggA9W.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Deceleration and Braking",
+        "jp": "減速時＆制動時"
+      },
+      {
+        "type": "p",
+        "en": "The wheels drive the motor, which functions as a generator, converting the vehicle’s kinetic energy during braking into electricity that is used to recharge the battery (a process known as regenerative braking).",
+        "jp": "車輪がモーターを駆動。モーターを発電機として機能させ、クルマの制動エネルギーを効率よく電力に転化。回生ブレーキとして作用し、回収した電力はバッテリーに充電される。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1aP944GCETqW8E.jpg",
+        "jp": "/images/c/i1aP944GCETqW8E.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Battery charging",
+        "jp": "バッテリー充電時"
+      },
+      {
+        "type": "p",
+        "en": "The battery is designed to maintain a consistent level of charge. When the battery charge drops, the engine starts, drives the generator, and recharges the battery.",
+        "jp": "バッテリーは一定の充電状態を維持するよう制御される。充電量が少ない場合は、エンジンを始動し、発電機を駆動させて充電を開始する。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1f0sCzsznQDtW.jpg",
+        "jp": "/images/c/i1f0sCzsznQDtW.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Types of Hybrid System",
+        "jp": "■ハイブリッドシステムの種類"
+      },
+      {
+        "type": "h3",
+        "en": "Series Hybrid",
+        "jp": "シリーズ方式"
+      },
+      {
+        "type": "p",
+        "en": "The role of the engine is solely to drive the generator, and only the motor propels the car. This system is simple, and the engine can be located more freely within the vehicle. It is essentially an electric car with an onboard generator.",
+        "jp": "エンジンは発電機を回すだけの役割で、クルマを動かすのはモーターのみ。シンプルな構成であり、エンジンの搭載位置も自由で、発電機を積んだ電気自動車ともいえるが、高速域ではモーターの効率が問題となることがある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1ojuijzvKVCL.jpg",
+        "jp": "/images/c/i1oGB9hn42Dyx7c.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Parallel Hybrid",
+        "jp": "パラレル方式"
+      },
+      {
+        "type": "p",
+        "en": "The engine and the motor operate in parallel. The motor is usually located between the engine and the transmission, allowing both to contribute to driving the wheels. The downsized engine still plays the primary role in providing drive force, while the motor assists to improve performance and fuel efficiency.",
+        "jp": "エンジンとモーターが並んだ方式。従来のエンジンとトランスミッションの中間にモーターを組み入れることで完成するので、生産性も高い。あくまで主役はダウンサイジングしたエンジンで、それをモーターがアシストすることで、動力性能と燃費性能の両方のメリットを得よう、という狙いが形になったものだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1zALVvHBUel2EE.jpg",
+        "jp": "/images/c/i1tO5lcJKATGNb.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Series-Parallel Hybrid",
+        "jp": "シリーズ・パラレル方式"
+      },
+      {
+        "type": "p",
+        "en": "Also called a power-split hybrid, this system uses a planetary gearset to divide engine output between a generator and a drive motor. At launch and low speeds, propulsion typically comes from the battery. As speeds rise, the gasoline engine operates within its most efficient rpm range, driving the generator and, when needed, sending power mechanically to the wheels while recharging the battery.",
+        "jp": "別名「スプリット方式（＝動力分割方式）」。エンジン動力をプラネタリーギアを用いた動力分割機構によって分割し、発電機とモーターに振り分けるシステム。発進／低速走行時はバッテリーに蓄えた電力で走行し、通常走行時にはエンジンを効率のいい回転域で使いつつ発電機を回してバッテリー充電も行う。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i13LakOdMgwmrz.jpg",
+        "jp": "/images/c/i1t6KftxYY0sFC.jpg"
+      }
+    ]
+  },
+  "review_mechanism__engine__06": {
+    "h1_en": "Performance Keywords",
+    "h1_jp": "性能を知るキーワード",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "When reviewing a vehicle’s catalog specifications, you’ll encounter a range of figures and technical terms. Understanding these is essential to grasp a car’s characteristics and potential.\n\nFive core terms define an engine’s capability. You may recognize terms such as “horsepower” and “torque,” but a closer look clarifies what they mean for a vehicle’s performance.",
+        "jp": "カタログのスペック表には、多くの数値や用語が並んでいる。クルマのエンジンの性能やポテンシャルを推し量るためには、その意味と読み方をしっかり把握していなければならない。ここではエンジンのポテンシャルを知る上で目安となる基本用語を5つ取り上げた。馬力やトルク、排気量など、今まで当たり前のように思えた数値もその意味をきちんと理解することで、クルマの特性や性能がより深く見えてくるはずだ。"
+      },
+      {
+        "type": "h3",
+        "en": "Horsepower",
+        "jp": "馬力   [Horsepower]"
+      },
+      {
+        "type": "p",
+        "en": "Horsepower represents the upper limit of an engine’s output and is usually expressed as “PS” or “hp.” One PS (metric horsepower) equals the power required to lift a 75-kilogram mass one meter in one second. In other words, a 100-PS engine could lift about 1 ton 7.5 meters in one second at maximum output. Horsepower is calculated from torque and engine speed, so a low-displacement engine can still produce strong output if it revs high enough. Internationally, output is also listed in kilowatts (1 PS = 0.735 kW).",
+        "jp": "エンジンの性能を端的に表す数値が“PS”などで表記される馬力だ。1馬力は75kgの物体を1秒間に1m持ち上げる「仕事量」のことをいう。いい換えると100馬力のエンジンは1tの物体を1秒間に7.5m持ち上げられることになる。馬力は「トルク×回転数」によって求められるもので、たとえば、小排気量でも高回転型のエンジンであれば、大きな出力を発揮させることができる。なお、国際規格では“ kW ”表示が用いられる（1PS：0.735kW）。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1rgDyadTehRo8c.jpg",
+        "jp": "/images/c/i143Rg7LRA0QMcE.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Torque",
+        "jp": "トルク   [Torque]"
+      },
+      {
+        "type": "p",
+        "en": "Torque is a measure of turning force. For example, applying 1 kilogram of force to a nut with a 1-meter-long wrench produces 1 kilogram-meter of torque. In an engine, torque describes the force acting to turn the crankshaft.\n\nThe higher the torque, the greater the force sustaining engine speed, and the easier it is for the driver to control the engine.",
+        "jp": "回転力を表す数値をトルクと呼び、1m先にあるナットを（1mの長さの）レンチで1kgの力を加えて回す時の回転力が1kg-mとなる。エンジンでいえば、クランクシャフトが持つ回転させようとする力を表している。燃焼エネルギーそのものに近いので、自然吸気エンジンでは排気量が大きくなるほどトルクが得られるようになっている。\n\nトルクが強いということは、エンジンの回転を維持しようとする力が強いわけで、ドライバーにとって扱いやすいエンジンということができる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1tb08Jl09RclEE.jpg",
+        "jp": "/images/c/i16Szwh6utrCC.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Displacement/Number of Cylinders",
+        "jp": "排気量／気筒数   [Displacement/Cylinder]"
+      },
+      {
+        "type": "p",
+        "en": "Displacement describes the volume of the air-fuel mixture drawn into an engine. In a reciprocating engine, it is calculated by multiplying the swept volume of one cylinder by the number of cylinders.\n\nGreater displacement generally brings higher output, but as the volume of each cylinder increases, engine rotation becomes less smooth. That is why engines often use more cylinders to keep individual cylinder volume low. Increasing cylinder count also raises the number of combustion events per crankshaft rotation, resulting in smoother operation.\n\nGenerally speaking, a cylinder’s displacement falls between 350cc and 600cc. However, engines with a large number of cylinders are more expensive, so cylinder size is often dictated by the vehicle’s size and class.",
+        "jp": "排気量とはエンジンがどのくらいの混合気を吸い込めるかを知る目安で、レシプロエンジンでは「ピストンが往復する円柱の体積×気筒数」になる。気筒数とは1機のレシプロエンジンにあるシリンダーの数のことだ。\n\nエンジンの排気量は大きくなるほどより大出力が得られるが、1気筒の容積があまり大きくなるとスムーズな回転が阻害される。そこで気筒数を増やすことで1気筒あたりの容積を抑えるわけだ。また気筒数が増えるとクランクシャフト1回転あたりのシリンダーの爆発数も増えるため、エンジン回転がスムーズになるという効果もある。\n\n一般的に1気筒当たりの排気量は350～600ccが理想的とされるが、多気筒エンジンは非常にコストがかかる。このため実際の気筒数はボディサイズや車格によって決まることが多い。"
+      },
+      {
+        "type": "h3",
+        "en": "Bore/Stroke Ratio",
+        "jp": "ボアストローク比   [BoreStroke ratio]"
+      },
+      {
+        "type": "p",
+        "en": "The bore/stroke ratio is the relationship between the diameter of the cylinder and the length of the piston’s movement within the cylinder. Engines with a ratio of less than 1:1 are known as long-stroke engines, while those with a ratio of more than 1:1 are short-stroke. A ratio of exactly 1:1 is known as square. The bore/stroke ratio affects how the engine behaves. \n\nGenerally speaking, a long-stroke engine can produce strong torque at low to medium revs, while high-rev power is harder to achieve. The opposite is generally true of a short-stroke engine.",
+        "jp": "シリンダー内のストローク（行程）をボア（内径）で割った値を「ボアストローク比」と呼ぶ。値が1より小さいものをショートストローク、1より大きいものはロングストローク、ちょうど1の場合はスクエアという。ボアストローク長はエンジンの特性にも影響する。一般的にロングストロークエンジンは低中回転域のトルクを生み出しやすいが、高回転域でのパワーが発揮しにくい。ショートストロークエンジンはその逆の特性となる。ちなみにピストンがシリンダー内の最上部にあるとき（もっとも押し上げられた状態）を上死点、反対の最下部にあるときを下死点と呼ぶことも覚えておこう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1a52v6VnXF8eSH.jpg",
+        "jp": "/images/c/i1DMo6XEbGZKJSB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Compression Ratio",
+        "jp": "圧縮比   [Compressionratio]"
+      },
+      {
+        "type": "p",
+        "en": "Compression ratio describes how much the air-fuel mixture is compressed inside the cylinder, and it has a strong influence on engine output.\n\nIt is calculated by dividing the cylinder volume with the piston at bottom dead center (total volume) by the volume with the piston at top dead center (combustion chamber volume). Total cylinder volume is the displacement plus the combustion chamber volume.\n\nFor example, in a 2,000cc four-cylinder engine, displacement per cylinder is 500cc. If the combustion chamber volume is 50cc, total cylinder volume is 550cc. Dividing 550cc by 50cc gives a compression ratio of 11:1.\n\nTypically, naturally aspirated engines have compression ratios between about 9:1 and 11:1. Higher ratios generally produce more output for a given displacement. Engines with forced induction often use lower compression ratios, typically in the 7:1 to 9:1 range.",
+        "jp": "圧縮比とはエンジンが吸い込んだ混合気をどのくらい圧縮させるかを示す数値だ。エンジンパワーはこの圧縮比で大きく変わる。\n\n圧縮比は、ピストンが押し下げられて最大になったシリンダー容積（＝シリンダーの総容積）を、ピストンがもっとも押し上げられて最小になったシリンダー容積（これを燃焼室容量と呼ぶ）で割れば求められる。シリンダー総容積とはピストンが上下する円柱の体積（＝排気量）に燃焼室容積を加えたものだ。\n\nたとえば2,000ccの4気筒エンジンの場合、1気筒当たりの排気量＝シリンダー容量は500cc。仮に燃焼室容量が50ccだとしたら、総容量500cc＋50cc＝550ccを燃焼室容量50cc で割り、圧縮比は「11」ということになる。\n\n通常、自然吸気のガソリンエンジンでは圧縮比を9～11に設定している場合が多く、10を超えると排気量に対して高出力な設定といえる。いっぽう過給器付エンジンでは異常燃焼を抑えるため、7～9程度が一般的だ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1IExtxI73evjz.jpg",
+        "jp": "/images/c/i1Yd6VlPGgkdF.jpg"
+      }
+    ]
+  },
+  "review_mechanism__packaging__01": {
+    "h1_en": "Dimensions",
+    "h1_jp": "ディメンション",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "A vehicle’s frame and the fundamental layout of its components are among its most critical specifications. Because these are determined in the early stages of development, they are the most difficult to change later. These core design choices have a major influence on the three primary functions of a vehicle: acceleration, handling, and braking. Any shortcomings in these areas are difficult to overcome through tuning alone, and even small differences in the base design can lead to significant variations in performance. In addition, the effectiveness of any tuning is strongly dependent on the vehicle’s underlying potential. To fully maximize performance, it is important to understand how these fundamental specifications shape the way a car drives.",
+        "jp": "設計の初期段階から決定しているボディの骨格や基本的なメカニズムのレイアウトは、基本性能と呼ばれるもので、容易に変更することはできない。これこそがクルマの三大機能「走る・曲がる・止まる」に大きく影響する“ポテンシャル”であり、走行性能を見極める重要な判断基準だ。この基本性能の部分にはチューニングで補うことが難しい要素が多く、わずかなスペックの差が走りの優劣に影響する。さらにチューニングを加えた際にもたらされる効果も、そのクルマ本来のポテンシャルで大きく変化する。それぞれのスペックが走行性能にどんな影響を与えるかを、ここでしっかり覚えよう。"
+      },
+      {
+        "type": "h3",
+        "en": "Wheelbase",
+        "jp": "ホイールベース"
+      },
+      {
+        "type": "p",
+        "en": "The wheelbase is the distance between the center of the front wheels and the center of the rear wheels, viewed from the side. This dimension has a significant influence on a vehicle’s behavior. A longer wheelbase generally improves straight-line stability and reduces sensitivity to road undulations and crosswinds. It also tends to provide a smoother, more comfortable ride. In contrast, a shorter wheelbase enhances steering responsiveness and agility, making the vehicle more maneuverable, particularly in tight corners, though at the expense of stability.",
+        "jp": "車体を横から見て、前輪の中心から後輪の中心までの長さをホイールベースという。クルマの走行安定性に影響し、長いほど路面のアンジュレーション（うねり）や横風の影響を受けにくく、直進安定性が高い傾向がある。一般論としては、ホイールベースが短くなるほど安定性が悪化するいっぽう、ステアリング操作に対する反応が鋭くなり、機敏にコーナーを曲がれるようになる。乗り心地の面からいえば、ロングホイールベースはより快適な走り味を生み出しやすく、いっぽうショートホイールベースではその逆の作用を生じる傾向が強い。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Eyjv4Mbqp56Ec.jpg",
+        "jp": "/images/c/i1Eyjv4Mbqp56Ec.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Overhang",
+        "jp": "オーバーハング"
+      },
+      {
+        "type": "p",
+        "en": "The front overhang is the distance from the center of the front wheels to the foremost end of the front bumper. The rear overhang is the distance from the center of the rear wheels to the end of the rear bumper. Mass located in these overhang areas increases the vehicle’s yaw moment of inertia—its resistance to rotation—thereby reducing maneuverability. For this reason, heavier components are ideally positioned within the wheelbase, closer to the vehicle’s center. This is particularly important for major masses such as the engine. That said, some overhang is necessary for packaging and aerodynamic performance, so it cannot be eliminated entirely.",
+        "jp": "前輪ホイールの中心からフロントバンパー前端までをフロントオーバーハング、後輪ホイールの中心からリアバンパー後端までをリアオーバーハングと呼ぶ。この部分に重い物があるとクルマのヨー慣性モーメント（旋回を妨げる力）も大きくなり運動性能が低下する。従って重量物はできるだけホイールベースの内側へ配置する構造が理想的。とくにエンジンのような重いユニットは重要だ。ただし空力的な効果を得るためには、オーバーハングにはある程度の長さが必要とされている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1I1P1Ans2QOMb.jpg",
+        "jp": "/images/c/i1I1P1Ans2QOMb.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Track Width",
+        "jp": "トレッド"
+      },
+      {
+        "type": "p",
+        "en": "Track width refers to the distance between the left and right wheels on an axle. Increasing track width generally improves lateral stability and grip during cornering, as it widens the base over which the vehicle’s weight is distributed. This reduces lateral load transfer and allows the tires to maintain better contact with the road surface, improving traction. Increasing the track width of the driven wheels can therefore enhance the vehicle’s ability to transmit power effectively. \n\nA narrower track width, on the other hand, can make a vehicle feel more responsive but typically reduces overall stability. It is also common—especially in performance and race cars—for the front and rear track widths to differ in order to fine-tune handling balance.",
+        "jp": "左右のタイヤの距離をトレッドと呼ぶ。トレッドを広げることで仮想的な重心高を低くすることができる。一般的にトレッドが広がるほどコーナリングでのタイヤの踏ん張りが利くようになり、駆動輪のトレッドを広げればパワーを路面に伝えるのに有利になる。レーシングカーでは前後輪を異なるトレッド幅とすることでハンドリングをチューニングしている場合が多い。いっぽうホイールベースに対して極端に狭いトレッドは、ハンドリングをクイックにする反面、安定性を損なう傾向が強くなる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1broYi9aVmTycE.jpg",
+        "jp": "/images/c/i1broYi9aVmTycE.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Height",
+        "jp": "車高"
+      },
+      {
+        "type": "p",
+        "en": "Height is measured from the road surface to the highest point of a vehicle. In general, a lower vehicle height corresponds to a lower center of gravity, which reduces body roll during cornering and can improve handling performance and cornering speed. However, reducing height also introduces trade-offs. It limits cabin space, reduces available suspension travel (the range over which the suspension can compress and extend), and increases the risk of the vehicle bottoming out over bumps or uneven surfaces.",
+        "jp": "路面から最高部までのクルマの高さをいう。車高が低いほど重心高が下がるためコーナリング時のロール（車体の横方向の傾き）を抑えられるようになり、旋回速度を高めることができる。いっぽう車高を低くすることで室内の居住性は低下する。またサスペンションのストローク量（伸び縮み量）の確保が難しくなり、サーキットの縁石などで底付き（完全に縮みきってしまうこと）を起こす原因にもなる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1dAq9XSAdj4O.jpg",
+        "jp": "/images/c/i1dAq9XSAdj4O.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Weight",
+        "jp": "車両重量"
+      },
+      {
+        "type": "p",
+        "en": "Weight is a crucial factor in determining vehicle performance. The lighter the car, the less load is placed on the engine, allowing more of its power to be used for acceleration. Additional benefits include reduced braking demand and improved cornering performance due to lower inertia. The ratio of a car’s weight to its maximum power output is known as the power-to-weight ratio. A lower ratio generally results in quicker acceleration and a more responsive driving feel. Vehicle weight also has a significant impact on fuel efficiency and emissions. As a result, reducing weight has become a key focus in modern automotive design, both for performance and environmental considerations.",
+        "jp": "クルマの運動性能を左右するきわめて大事なファクター。車重が軽いほどエンジンへの負担が減り、動力性能面で有利になる。またブレーキへの負荷が軽減されるので制動力が高まり、さらに慣性による無駄が抑えられてコーナリングが軽快になるなど、メリットは計り知れない。車重を最高出力で割った値を「パワーウエイトレシオ」と呼ぶ。この値が小さいほどコーナーからの立ち上がりを含めた加速は鋭くなり、スポーティな走りが可能となる。いっぽう燃費を向上させる効果もきわめて大きく、環境性能という観点からも軽量化は新車開発時の重要なテーマになっている。"
+      }
+    ]
+  },
+  "review_mechanism__packaging__02": {
+    "h1_en": "Drivetrains and Weight Distribution",
+    "h1_jp": "重量バランスと駆動方式",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Like size and weight, the drivetrain is another fundamental vehicle specification. Drivetrain layouts are typically described by two-letter combinations that indicate the engine position and the driven wheels, using “front,” “mid,” and “rear,” with the engine location listed first and the driven wheels second. Common layouts include FF (front-engine, front-wheel drive), FR (front-engine, rear-wheel drive), MR (mid-engine, rear-wheel drive), and RR (rear-engine, rear-wheel drive). This classification is important because the location of the engine—often the heaviest single component—and the wheels it drives have a major influence on weight distribution, traction, and overall vehicle dynamics.\n\nIn cars with good weight balance, the engine’s power can be transmitted more effectively to the driven wheels, improving traction during acceleration and at launch. Braking performance also benefits, as balanced weight distribution helps maintain stability and control under deceleration.\n\nThe most significant advantage, however, is in cornering. A well-balanced car distributes load more evenly across all four tires, improving grip and predictability. In contrast, poor weight balance can lead to uneven load transfer under lateral forces, increasing the risk of instability and loss of control.\n\nAn idealized weight distribution is often described as 50:50 between the front and rear axles, as well as balanced left to right. This helps maximize the available grip at all four tires and promotes predictable handling. In practice, FR layouts can approach this balance more easily than other configurations. FF vehicles—along with many all-wheel-drive systems derived from FF layouts—tend to be front-heavy, while RR vehicles are typically rear-heavy. Many modern FF cars use transverse (sideways) engine layouts to improve packaging and partially mitigate front weight bias.\n\nThat said, weight distribution alone does not determine performance. Through suspension tuning, tire selection, and driving technique, some of the disadvantages can be reduced. However, layout still matters: MR configurations are often favored in high-performance and racing applications because they allow for more centralized mass and superior balance, which can provide an advantage over even well-balanced FR cars.",
+        "jp": "ボディサイズと同じような基本スペックに「駆動方式」 がある。駆動方式はエンジンの搭載位置と、駆動するタイヤの位置で決まり、一般的にFF、FR、MR、RRといった表現がされる。クルマの中でもっとも重いパーツであるエンジンを車体のどこに置き、どのタイヤを駆動させるかは、クルマの重量バランスを決定付ける大きな要因となる。\n\n重量バランスが良好なクルマは、エンジンパワーを効率よく駆動輪に伝えることが可能になり、発進／加速性能が有利になる。ブレーキングでも極端な前のめりになりにくく、確実な減速が可能になる。\n\n重量バランスがもっとも影響するのがコーナリングだ。 遠心力によってクルマが不安定になるため、重量バランスが適正ではないクルマは、旋回スピードを上げていくとスピンなどに至る可能性がある。\n\n基本的に重量バランスは前後・左右ともに50対50が理想値とされる。エンジンをボディ前部に置き、後輪を駆動するFRは、この50対50が実現しやすい。いっぽうフロントにエンジンと駆動系が集まるFF（及びFFベースの4WD）はフロントヘビー傾向が出やすく、逆にエンジンと駆動系がボディ後ろに集まるRRはリアヘビーになりやすい。FFの中には、重量配分を改善するために、横向きが主流となっているエンジンをあえて縦向きとしたモデルも存在する。\n\nただし重量バランスによるハンディは絶対なものではなく、セッティングやドライビングによってある程度矯正することができる。重量バランスに優れるFRにMRのレースマシンが勝利する理由も、こんなところに隠れているのだ。"
+      },
+      {
+        "type": "h3",
+        "en": "● Types of Drivetrains",
+        "jp": "■駆動方式の種類"
+      },
+      {
+        "type": "h3",
+        "en": "FR [Front-Engine, Rear-Wheel Drive]",
+        "jp": "FR   [Front engine - Rear drive]"
+      },
+      {
+        "type": "p",
+        "en": "This is a conventional layout, with the engine located at the front and the drive wheels at the rear. Vehicles with this configuration can achieve a relatively balanced weight distribution, contributing to stable and predictable handling. In addition to good handling characteristics, this layout offers clear steering feedback, as the front wheels are dedicated to steering while the rear wheels handle propulsion. However, traction can be a limitation on low-grip surfaces, as the driven rear wheels may have less load under certain conditions, making it more difficult to transmit power effectively.",
+        "jp": "客室の前方にエンジンを搭載し、後輪を駆動するコンベンショナルなレイアウト。50対50が理想とされる前後重量配分をもっとも実現させやすい。優れたハンドリングに加えて、操舵輪と駆動輪が分離しているため操舵感覚（ステアリングを切る感覚）にクセがない点も美点。ただし路面状況によってはトラクション（駆動力）がかかりにくい側面もある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1EApAeIvqC82cc.jpg",
+        "jp": "/images/c/i1EApAeIvqC82cc.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "FF [Front-Engine, Front-Wheel Drive]",
+        "jp": "FF   [Front engine - Front drive]"
+      },
+      {
+        "type": "p",
+        "en": "This layout places both the engine and the driven wheels at the front. By concentrating the engine and transmission in the front, packaging efficiency is improved, allowing for a larger cabin and more usable interior space. However, this configuration typically results in a front-heavy weight distribution. Because the front wheels are responsible for both steering and delivering drive power, the available tire grip must be shared between turning and acceleration during cornering. This can limit performance and lead to understeer at higher loads. For these reasons, this layout is generally less suited to very high-powered applications, though it remains widely used due to its practicality, cost efficiency, and space advantages.",
+        "jp": "フロントのエンジンで前輪を駆動する方式。重いエンジンとトランスミッションをともにボンネット内に収める構造上、広い客室を作るのには適しているが、フロントヘビーの重量配分になる。さらに前輪が駆動と操舵の両方を兼ねているため、コーナリング時には旋回と駆動でタイヤのグリップ力を使い分ける必要がある。概して高出力車には不向きなレイアウトといえる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1yCrqoh3eHJYb.jpg",
+        "jp": "/images/c/i1yCrqoh3eHJYb.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "MR [Mid-Engine, Rear-Wheel Drive]",
+        "jp": "MR   [Mid engine - Rear drive]"
+      },
+      {
+        "type": "p",
+        "en": "This layout places the engine near the center of the car, driving the rear wheels. By concentrating mass close to the vehicle’s center of gravity, it reduces the yaw moment of inertia, allowing for quicker and more responsive changes in direction. This contributes to sharp and precise cornering performance. It also promotes good traction balance between the front and rear tires during acceleration and braking. For these reasons, this layout is widely used in high-performance sports cars and race vehicles.",
+        "jp": "エンジンを前輪と後輪の間に搭載し後輪を駆動。“ミッドシップ”とも呼ばれる。エンジンをボディの中央近くに置くことで、クルマの重心からの距離が短くなり、シャープなコーナリング性能を発揮できる。加速、減速でも前後のタイヤは最大のグリップを発揮する。もっとも走りに有利なピュアスポーツカー、レーシングカーで定番の駆動レイアウト。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1PN7KZ1AwVKRhH.jpg",
+        "jp": "/images/c/i1PN7KZ1AwVKRhH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "RR [Rear-Engine, Rear-Wheel Drive]",
+        "jp": "RR   [Rear engine - Rear drive]"
+      },
+      {
+        "type": "p",
+        "en": "A rear-wheel-drive layout has the engine mounted in the rear overhang behind the wheels. This layout concentrates weight at the rear of the vehicle, pressing the rear wheels onto the road surface and improving traction and acceleration. However, it reduces load on the front wheels, which can make turn-in less responsive and lead to understeer when first entering a corner. Also, because of the heavy rear weight bias, if the rear end breaks away it can do so abruptly, requiring a high level of driving skill to recover.",
+        "jp": "後輪のさらに後ろ、リアオーバーハング部にエンジンを搭載し、後輪を駆動する。リアヘビーの重量バランスになるが、エンジン&ミッションの重さで後輪が路面に押さえ付けられるためトラクションが得やすく、加速性能に優れる。反面前輪に荷重がかからないので、コーナリング初期にアンダーステアになりやすい。また後輪の荷重が大きい分、リアタイヤが限界を超えた際の滑り出しは急激で、リカバリーには高いドライビングスキルが求められる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1WPcdNkMutoC.jpg",
+        "jp": "/images/c/i1WPcdNkMutoC.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "4WD [Four-Wheel Drive]",
+        "jp": "4WD   [Four wheel drive]"
+      },
+      {
+        "type": "p",
+        "en": "This configuration delivers power to all four wheels. Despite the increased weight, this layout is well suited for standing starts and acceleration due to its high level of traction. However, its stability can make it less responsive when turning. It is possible to adapt most drivetrains into four-wheel drive, but the base layout still has a strong influence on overall handling. Generally, either the front or rear wheels act as the primary drive wheels, with torque distributed to the others when slip is detected.",
+        "jp": "基本的に前後左右4本のタイヤで駆動。機構的な重量増を除けばもっとも発進・加速に適した 駆動レイアウト。ただし高い安定性ゆえ曲がりにくさを生じることもある。FF、FR、MR、RRなどすべてのレイアウトで4WD化は可能だが、どのレイアウトをベースにするかによって操縦性は大きく異なる。一般的には前後輪どちらかを主動輪とし、そのタイヤのスリップに応じて、もういっぽうへトルクを配分する方式が主流。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1tdCIMuYKxaqSH.jpg",
+        "jp": "/images/c/i1tdCIMuYKxaqSH.jpg"
+      }
+    ]
+  },
+  "review_mechanism__suspensions__01": {
+    "h1_en": "Construction and Principles",
+    "h1_jp": "構造と原理",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "The suspension is the system between the body and the wheels that absorbs shocks from the road while supporting the vehicle. It also plays a key role in handling, making it a critical part of a car’s design.\n\nSuspension systems are broadly classified as dependent or independent. In a dependent system, movement of one wheel affects the other on the same axle. In an independent system, the left and right wheels move separately. Dependent layouts include beam or live axles, while independent designs include strut-type and double wishbone suspension.\n\nThe suspension is made up of springs, dampers and linkages. The springs absorb impacts from the road, while the dampers control spring motion to maintain ride comfort and stability. The linkages guide wheel movement, helping the tires maintain consistent contact with the road. Together, the system supports the vehicle and manages how forces are transmitted through the tires.\n\nThe illustration shows a strut-type suspension. First developed by Earle S. MacPherson, it has become one of the most widely used suspension layouts in production cars. In this design, the strut assembly serves a structural role, effectively replacing the upper control arm found in a double wishbone setup. This reduces component count and helps free up space in the engine bay.",
+        "jp": "サスペンションは、ボディとタイヤの間にあって、車体を支えつつタイヤが受けたショックを吸収するメカニズムだ。操縦安定性にも大きな影響を与える、重要な走行メカニズムでもある。\n\nサスペンションは大きく分類すると、左右輪の片方の動きがもういっぽうにも影響を及ぼす固定式と、左右輪が別個に動く独立式がある。それぞれ代表的な形式としては、固定式では車軸式、リンク式、トーションビーム式などがあり、独立式ではストラット式、ダブルウィッシュボーン式などがある。\n\nサスペンション自体は、スプリング、ダンパー、リンク（アーム）類で構成されている。スプリングは路面からの衝撃を緩和し、ダンパーはスプリングの振動を抑制して乗り心地や安定性の向上に寄与している。リンク類はタイヤの動きを規制して最適にタイヤが接地するよう配置されている。サスペンションは、スプリングがその反力としてタイヤを路面に押し付け、かつその位置を決めるという重大な役割も担っている。\n\nイラストはストラット式サスペンションで、数多くの車種に採用された代表的な型式だ。ストラット式はダブルウィシュボーンのアッパーアームをストラットケースが兼ねるタイプで、部品点数が少なく、エンジンルームを大きく取れるなどのメリットがある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1bpN9qvxg31rb.jpg",
+        "jp": "/images/c/i1rBBDeeHwkhF.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Example of strut-type suspension",
+        "jp": "【ストラット式サスペンションの例】"
+      },
+      {
+        "type": "h3",
+        "en": "Springs",
+        "jp": "スプリング"
+      },
+      {
+        "type": "p",
+        "en": "Springs absorb impacts from the road and help maintain a consistent ride height. They play a key role in controllability, and have a major influence on handling and stability. Spring tuning alone can significantly affect a car’s performance. Most vehicles use steel coil springs, although some are equipped with air suspension systems.",
+        "jp": "走行中に車体に加わる衝撃を最初に受け止め、ショックを和らげる機能とともに、一定の車高を保つ役割も担っている。操縦性のほか、ハンドリング性能、挙動安定性などに大きな影響を与える重要なファクター。スプリングの設定だけでもクルマの性格が一変するといっても過言ではない。金属製のコイルスプリングが一般的で、空気の圧力を利用した“エアサス”もある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1jbETgqfSdN9SH.jpg",
+        "jp": "/images/c/i1jbETgqfSdN9SH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Shock Absorbers",
+        "jp": "ダンパー"
+      },
+      {
+        "type": "p",
+        "en": "A coil spring can absorb an impact under load, but once compressed, it will continue to oscillate. Dampers control this motion. The most common type uses resistance generated by a piston moving through oil, often with gas pressure to improve performance. By slowing the spring’s movement, the damper reduces unwanted vertical motion. Like springs, dampers play a key role in control and stability.",
+        "jp": "コイル状のスプリングは荷重を受けた際、伸縮することで緩衝するが、そのままの状態では上下動が収まらない。その動きを収めるのがダンパー（ショックアブソーバーともいう）の役割だ。筒に封入したオイルやガスの中をピストンが上下する際の抵抗力を利用するタイプが一般的だが、「ゆっくり縮んで、ゆっくり戻る」動きで、スプリングの激しい上下動を減衰させる。スプリング同様、操縦性や安定性を左右する。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1GZ2tQPAZkgN.jpg",
+        "jp": "/images/c/i1GZ2tQPAZkgN.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Suspension Arms",
+        "jp": "サスペンションアーム"
+      },
+      {
+        "type": "p",
+        "en": "Suspension arms control wheel movement. They connect the wheel assembly to the body or subframe through bushings. Common types include A-arms, or wishbones. They are typically made from steel, although aluminum is often used in performance applications to reduce weight. In layouts with two arms per wheel, such as double wishbone suspension, they are referred to as upper and lower control arms.",
+        "jp": "ホイールの動きをコントロールするパーツで「コントロールアーム」とも呼ばれる。ブッシュを介してボディやアクスルに取り付けられる。AアームやIアームなど、形状はさまざまで、基本的にプレス鋼板だが、強度を高めた鍛造品やスポーツモデルでは軽量化のためにアルミ製の鍛造品を用いることもある。ダブルウィッシュボーンのように上下で一対になったアームの場合、上側をアッパーアーム、下側をロアアームと呼ぶ。"
+      },
+      {
+        "type": "h3",
+        "en": "Suspension Bushings",
+        "jp": "サスペンションブッシュ"
+      },
+      {
+        "type": "p",
+        "en": "Suspension bushings are compliant components fitted at the joints of suspension links and arms, as well as other mounting points on the body. If they are too soft, they can deform under load during cornering, introducing unwanted movement and reducing control and stability. For this reason, bushings are typically made from rubber compounds that balance compliance and durability. In competition cars, rigid spherical joints, often called pillow-ball joints, are used instead to maximize precision. Bushings play an important role in allowing the springs and dampers to function as intended.",
+        "jp": "サスペンションを構成する金属製のリンクやアームなどの結合部、あるいはボディの取り付け部に用いられる緩衝材。柔らかすぎるとコーナリングなどの大きな荷重によって変形し、サスペンションに不要な動きが生じて操縦性や安定性が損なわれてしまう。そのため素材には衝撃吸収性に優れたゴムを使うが、競技車両ではサスペンションを無駄なく動かすため、ピロボールという金属の球面軸受を用いることも多い。スプリングやダンパーの性能を引き出す上でも重要なパーツ。"
+      },
+      {
+        "type": "h3",
+        "en": "Sway Bars/Stabilizers",
+        "jp": "スタビライザー"
+      },
+      {
+        "type": "p",
+        "en": "A sway bar, or stabilizer, is a device that reduces body roll by using the torsional resistance of a bar connecting the left and right suspension. It is also known as an anti-roll bar. The bar links both sides of the suspension and primarily reacts to differences in movement between them. When cornering, the outside suspension compresses while the inside extends. The sway bar resists this difference, helping to limit roll and stabilize the vehicle. By adjusting its stiffness, it can also be used to influence understeer and oversteer balance.",
+        "jp": "トーションバースプリングのねじれを利用した車体のロールを抑えるための安定化装置。「アンチロールバー」とも呼ぶ。両端をサスペンションのロアアームに取り付け、左右の車輪が異なる動きをした時だけに作動する。例えばコーナリングではアウト側の車輪が沈み込み、イン側の車輪が伸び上がる格好になるが、この時に左右の車輪の動きが等しくなるように制御して姿勢を安定させる。スタビライザーのこの効果を利用して、アンダーステア／オーバーステア対策のセッティングに用いることもできる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1UoFMeHLrYkKEc.jpg",
+        "jp": "/images/c/i1UoFMeHLrYkKEc.jpg"
+      }
+    ]
+  },
+  "review_mechanism__suspensions__02": {
+    "h1_en": "Types of Suspension",
+    "h1_jp": "サスペンションの種類",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "While all suspension systems serve the same basic functions—supporting the vehicle and absorbing bumps and load changes—each type has its own characteristics. These differences affect performance in areas such as cornering, controllability and ride comfort.\n\nSuspension design continues to evolve, but complexity does not always mean better performance. The need to respond quickly to road irregularities and maintain consistent tire contact has led to increasingly sophisticated solutions.",
+        "jp": "車高を保ち、走行中の負荷や衝撃を受け止めるといった機能は同じでも、タイプによってサスペンションの性能や特性はさまざまだ。その性能、特性により、コーナリングを始めとした走行性能、「安全性」にも繋がるコントロール性能、さらには乗り心地などの快適性能の優劣が決まってくる。サスペンションは日進月歩の進化を遂げ、これまでにもいろいろなタイプが生まれてきた。複雑な機構を持ったものが必ずしも高性能とは限らないが、「路面の凹凸・アンジュレーションに瞬時に追従し、タイヤを常に正しく接地させる」というサスペンションの理想をかなえるために、いまもなおあらゆる工夫や手法が検討されている。"
+      },
+      {
+        "type": "h3",
+        "en": "Rigid Axle",
+        "jp": "固定式"
+      },
+      {
+        "type": "p",
+        "en": "In a rigid axle suspension, the left and right wheels are connected by a single axle, so movement on one side affects the other, which can reduce tire contact with the road. The axle and housing are heavy, increasing unsprung mass. However, because it is simple, strong and inexpensive to produce, rigid axle suspension is often used for the rear suspension of rear-wheel-drive vehicles.",
+        "jp": "「リジッドアクスル」は左右のタイヤ&ホイールが車軸（アクスル）でつながった構造。片輪の動きが反対側の車輪に伝わるため接地性が損なわれやすい。またアクスルビームやアクスルハウジング自体が重く、バネ下重量の面でも不利。ただし低コストで強度に優れることから、安価な後輪駆動車のリアサスに採用されることが多い。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1EYd8bCAKtON.jpg",
+        "jp": "/images/c/i1EYd8bCAKtON.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Independent Suspension",
+        "jp": "独立懸架式"
+      },
+      {
+        "type": "p",
+        "en": "Independent suspension allows the left and right wheels to move up and down individually, making it well suited to handling bumps and uneven road surfaces. In rear-wheel-drive cars, it also helps maintain consistent tire contact, improving traction at each wheel. The result is a balance of stability and ride comfort.",
+        "jp": "左右の車輪を独立して上下に動かすことが可能で、凹凸やアンジュレーションなど路面に対する追従性に優れる。とくに後輪駆動車の場合、左右の車輪に効率よくパワーを伝えることができるメリットは大きい。さらに作動部の重量を軽くできる点も利点といえ、操縦安定性と乗り心地の両立ポイントは高い。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1iotopPPMdWKcE.jpg",
+        "jp": "/images/c/i1iotopPPMdWKcE.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Independent Suspension – The System of Choice for Most Sports Cars",
+        "jp": "■スポーツモデルが多用する独立式サスペンション"
+      },
+      {
+        "type": "h3",
+        "en": "MacPherson Strut",
+        "jp": "ストラット"
+      },
+      {
+        "type": "p",
+        "en": "This is a simple suspension layout consisting of a spring, damper and lower control arm. The “strut” refers to the damper assembly, which also serves as a structural member. The upper section mounts to the body through a rubber insulator, while the lower portion connects to the suspension arm. With fewer components, it is compact and space-efficient, and its long stroke allows it to absorb a wide range of road inputs. The system was developed by Earle S. MacPherson, for whom it is named.",
+        "jp": "基本的にスプリングとダンパー、そしてロアアームで構成されたシンプルな構造。ストラットは力を受け持つ支柱を意味し、ダンパーを指している。上端は「マウントラバー」と呼ぶパーツを介してボディで支え、ダンパーの下部はロアアームで支える。部品点数が少なく、重さも抑えられるほか、ストローク長を確保しやすいため路面からの振動を大きな範囲で吸収できる点がメリット。開発者の名前にちなんで「マクファーソンストラット」と呼ばれることも多い。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1GkJdRoNg13rb.jpg",
+        "jp": "/images/c/i1GkJdRoNg13rb.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Double Wishbone",
+        "jp": "ダブルウィッシュボーン"
+      },
+      {
+        "type": "p",
+        "en": "This is a design that supports the wheels with upper and lower control arms. The arms are typically shaped like a V, resembling a bird’s wishbone. Depending on their geometry and the car’s layout, they can effectively control changes in wheel alignment during acceleration and cornering. This allows for precise handling, making it a popular choice for sports cars that prioritize control and stability. However, it is more complex, uses more components, and requires more space.",
+        "jp": "上下が一対になったアームで車輪を懸架する構造。アームが2本（ダブル）で、当初のV字形をしたアームが、鳥の鎖骨（ウィッシュボーン）の形状に似ていたことが名前の由来。アーム形状やレイアウト次第で、加減速時の車両の姿勢や、アライメント変化を比較的自由に制御することが可能。また、高剛性を確保しやすいことから、操縦性やスタビリティを重視するスポーツモデルに採用されることが多い。ただし、部品点数が多く、構造も複雑。広い取り付けスペースが必要になる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1H1V4Qp2mfp0EE.jpg",
+        "jp": "/images/c/i1H1V4Qp2mfp0EE.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Multi-Link",
+        "jp": "マルチリンク"
+      },
+      {
+        "type": "p",
+        "en": "This is an advanced layout that uses three to five separate arms to control wheel position. Because each link operates independently, the system allows a high degree of tuning freedom and precise control of wheel alignment. The additional links help manage forces in multiple directions, improving tire contact with the road. This type of suspension is often used for the rear of high-performance front-wheel-drive cars to enhance stability at speed, and in high-output rear-wheel-drive cars to improve traction.",
+        "jp": "ダブルウィッシュボーンの進化型ともいえ、ダブルウィッシュボーンが上下2本のアームで構成するのに対して、3～5本のリンクでアクスルの位置決めがなされている。それぞれのアームが離れているため配置の自由度は大きく、より細やかなセッティングが可能。また、数本のアームで支持することでジオメトリー変化を厳密に管理することが可能で、タイヤの接地性にも優れる。高性能なFF車では高速域の挙動安定性確保のために、また高出力な後輪駆動車ではトラクションの確保を目的に、リアサスペンションに採用するケースが多い。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1nMt233hSG6H.jpg",
+        "jp": "/images/c/i1nMt233hSG6H.jpg"
+      }
+    ]
+  },
+  "review_mechanism__suspensions__03": {
+    "h1_en": "Wheel Alignment",
+    "h1_jp": "ホイールアライメント",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Take a piece of furniture with caster wheels. Viewed from above, the wheel’s pivot axis is offset and angled relative to the direction of travel. This geometry causes the wheel to self-align and track straight when pushed, rather than wobbling.\n\nNow imagine rolling a car tire along the ground. If it stands upright, it will travel straight, but if it is leaned slightly, it will tend to turn in that direction as it rolls.\n\nThese examples show that the angles at which wheels are mounted have a direct effect on how they move. This is the basis of wheel alignment, or suspension geometry.\n\nDriving, turning and braking all depend on correct alignment. Proper wheel positioning allows the tires to operate effectively and plays a major role in defining a car’s handling characteristics.\n\nThe illustrations below show the four basic wheel alignment angles. Toe is the angle of the wheels viewed from above, caster is the angle of the steering axis viewed from the side, camber is the angle of the wheels viewed from the front, and kingpin angle refers to the inclination of the steering axis relative to the wheels when viewed from the front. These settings are adjusted in very small increments, often as little as 0.1 degree or 0.1 mm, leaving little margin for error. Incorrect settings can cause the car to pull off line or negatively affect handling. Understanding their effects is essential.",
+        "jp": "身の回りの家具や椅子に移動用の車輪が付いていたら見てほしい。真上から眺めると、車輪の中心軸と家具との取り付け軸の位置がずれていることに気付くはずだ。家具や椅子を動かす時、車輪がふらふらせず一定方向に進むのはこの「ずれ」のおかげだ。\n\nいっぽうタイヤをはずして地面を転がしたとする。接地面を地面にぴったり付けて（真っ直ぐ立てて）転がせばタイヤは直進するが、接地面の一部しか使わずに（傾けて）転がすと、タイヤは一定方向にカーブすることがわかるだろう。\n\nつまりタイヤをクルマに固定するときにさまざまな角度を与えてやれば、クルマの運動条件に適した形でタイヤを動かすことが可能になる。いわばこれがホイールアライメント（＝サスペンションジオメトリー）である。「走る・曲がる・止まる」ことの基本は、4本のタイヤがアライメントどおり正しく取り付けられていることだ。この「タイヤの位置決め」によってタイヤの性能を引き出し、さらにはクルマの特性を決定付けることも可能になる。\n\n具体的なホイールアライメントの代表要素には、下で説明している4つがある。ボディを上から見たときのタイヤの角度であるトー角、ボディを横から見たときのサスペンションの傾き具合であるキャスター角、そしてボディを正面から見たときのタイヤの倒れこみ具合であるキャンバー角、同じくボディを正面から見たときのタイヤとサスペンションの取り付け角であるキングピン角だ。これらはそれぞれ0.1度、0.1mmといった精度で管理される。誤差が生じると直進性が損なわれたり、操作に違和感を感じるようになる。それぞれがクルマに及ぼす影響をしっかり覚えよう。"
+      },
+      {
+        "type": "h3",
+        "en": "Toe Angle",
+        "jp": "トー角   [Toe angle]"
+      },
+      {
+        "type": "p",
+        "en": "This is the angle of the left and right wheels when viewed from above. If the fronts of the wheels point outward, it is called toe-out, and if they point inward, it is toe-in. This angle has a significant effect on straight-line behavior; if set excessively, it will cause uneven tire wear.",
+        "jp": "車体を上から見た場合の、左右輪の広がり角度のこと。進行方向に対して外側に広がっている状態は“トーアウト”、内側にすぼまっている状態が“トーイン”。直進性に大きく影響し、過度に設定するとタイヤに偏摩耗が生じる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1aUxscvrkyoaz.jpg",
+        "jp": "/images/c/i1aUxscvrkyoaz.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Caster Angle",
+        "jp": "キャスター角   [Caster angle]"
+      },
+      {
+        "type": "p",
+        "en": "This is the angle of the steering axis relative to vertical when viewed from the side. It influences straight-line stability and the self-aligning torque that returns the wheels to center after steering input. If the caster angle differs between the left and right sides, the car may pull toward the side with less positive caster, and the steering can feel uneven, especially under braking.",
+        "jp": "車輪を真横から見た際のフロントサスペンションの傾き角度。ホイールの横振れを抑える効果のほか、セルフアライニングトルク（ステリングを切った際にホイールを直進状態に戻そうとする力）にも作用。左右で異なると、角度の立っているほうにクルマが流されたり、制動時にステアリングを取られるなどの症状が出る。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Qr0l29AKF8eSH.jpg",
+        "jp": "/images/c/i1Qr0l29AKF8eSH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Camber Angle",
+        "jp": "キャンバー角   [Camber angle]"
+      },
+      {
+        "type": "p",
+        "en": "Camber angle is the angle of the wheels relative to vertical when viewed from the front. If the tops of the wheels tilt inward, this is negative camber; if they tilt outward, it is positive camber. In most modern cars, camber is set slightly negative to improve tire contact during cornering.",
+        "jp": "クルマを正面から見たとき、タイヤ下側が広がっている状態が“ネガティブキャンバー”、上側に向かって狭まっている状態が“ポジティブキャンバー”。ノーマルの状態では、荷重が加わった際に下開きにならないように、上開きに設定されていることが一般的。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1et0s6cgOfwg.jpg",
+        "jp": "/images/c/i1et0s6cgOfwg.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Kingpin Inclination",
+        "jp": "キングピン角   [King pin angle]"
+      },
+      {
+        "type": "p",
+        "en": "Kingpin inclination is the angle of the steering axis when viewed from the front. It helps reduce the effects of road forces on the steering, while also influencing straight-line stability, steering return and steering effort.",
+        "jp": "タイヤを車体正面から見た時のホイール取り付け軸の傾き角。基本的には路面からの入力によるハンドルの取られを抑えるための角度で、直進性やステアリングの復元力（セルフアライニングトルク）、また操舵力に影響を与える。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1d4h4GWya9jlSH.jpg",
+        "jp": "/images/c/i1d4h4GWya9jlSH.jpg"
+      }
+    ]
+  },
+  "review_mechanism__tires__01": {
+    "h1_en": "High-Performance Sub",
+    "h1_jp": "高性能タイヤの条件",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Tire characteristics can be broadly divided into four categories: load support, shock absorption, traction for acceleration and braking, and maintaining directional stability in a straight line and through corners. Once a good balance of these basic functions is achieved, the tire can be tuned for specific applications.\n\nSports cars favor tires that provide strong traction and stability under acceleration, braking and cornering. These tires use high-grip compounds to maximize contact with the road and are designed with stiff sidewalls to limit deformation under load. This improves steering response and allows higher cornering speeds.\n\nHigh-grip tires also have drawbacks. While they provide strong cornering grip, recovery beyond the limit can be abrupt and requires driver skill. Their higher grip levels increase the loads placed on the suspension and body, and can lead to greater body roll if the chassis is not properly tuned. Because of their capability, they can upset the overall balance of a car unless the chassis is designed to match. Increased friction also leads to faster wear, reduced ride comfort and higher noise levels.\n\nGrip on wet roads is largely influenced by the tread pattern of the tire. The grooves are designed to channel water away from the contact patch, but they can reduce tread stiffness. Striking the right balance is difficult, particularly with performance tires.\n\nA car cannot exceed the limits of its tires, so it is essential for the driver to understand their performance and characteristics in order to select the right tire for the intended use.",
+        "jp": "タイヤの機能は大きく4つに分けられる。車重を支える「荷重支持機能」、路面からの衝撃を和らげる「緩衝機能」、走って止まる「制動・駆動機能」、そして、安定して直線・コーナーを走るための「進路保持機能」。これら基本機能のバランスを取った上で、タイヤごとに異なる性能や特性に応じたチューニングが行われる。\n\n走行性能を重視するスポーツタイヤでは制動・駆動機能と進路保持機能、すなわち「走る・曲がる・止まる」性能の向上が重要だ。具体的には、路面を捉える接地面のゴムのグリップ力を高め、タイヤが荷重を受けた際の変形を抑えるために剛性を上げる。例えばコーナリングではステアリング操作に対する反応が鋭くなり、大幅に旋回スピードを高めることが可能となる。\n\nもちろんハイグリップタイヤにもデメリットはある。コーナリングなどで限界が高い反面、限界を超えた際の対処が難しく、相応のドライビングスキルが必要とされる。またサスペンションやボディに加わる負荷が増し、グリップとのバランスが崩れてコーナリング中のロール量が大きくなる傾向もある。つまりクルマ側にもそれを履きこなせるだけのキャパシティが求められるのだ。路面との摩擦力が大きいため摩耗が速く、乗り心地が悪化し、騒音が大きくなるなど快適性も損なわれるといった点にも注意したい。\n\nなおウェット路でのグリップは接地面に刻まれた溝が性能を大きく左右する。タイヤと路面の間に存在する水分を効率よく排出するのが溝の目的だが、排水性能と接地面の剛性は相反関係にあり、とくにスポーツタイヤではバランスを取るのが難しいとされる。クルマはタイヤの性能以上には走れない。このため自らのドライビングに合致したタイヤを選ぶ知識を養っておこう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1DXnsUgcTw9bz.jpg",
+        "jp": "/images/c/i1OjW0X1fBrGQC.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Tread Compound",
+        "jp": "トレッドコンパウンド"
+      },
+      {
+        "type": "p",
+        "en": "Tread compound is the rubber used on the tire’s surface that makes contact with the road. Softer compounds used in high-performance tires provide greater grip but wear more quickly, while standard tires use harder compounds that offer longer life with less peak grip. Tires are designed to operate within a specific temperature range; grip increases as they warm up, but excessive heat can reduce performance.",
+        "jp": "接地面に用いられるゴム。ハイパフォーマンスタイヤが使用する路面を強くグリップする柔らかいゴムは、路面との摩擦が大きいため摩耗が速く、いっぽう、耐摩耗性を重視する一般車用ではグリップ性能を一定レベルにとどめた硬いコンパウンドを用いる。また、ゴムはある程度発熱させないと硬く、本来のグリップを発揮させにくい反面、過熱させ過ぎてもグリップは低下する。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i190YtIVZ6QExSH.jpg",
+        "jp": "/images/c/i190YtIVZ6QExSH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Tread Pattern",
+        "jp": "トレッドパターン"
+      },
+      {
+        "type": "p",
+        "en": "The tread pattern is the arrangement of grooves in the part of the tire that contacts the road. These grooves channel water away as the tire rotates, and many designs are directional to maximize water evacuation. Because grooves reduce tread block stiffness, performance tires often use fewer, larger channels rather than many small ones. Asymmetric designs are also common, with a more solid outer section for cornering stability and more grooves on the inner side to improve wet performance.",
+        "jp": "接地面に彫り込まれたミゾのことをいい、「グルーブ」とも呼ぶ。路面の水を（回転とともに）排出するのが主な目的。より排水効果を高める目的で、回転方向を指定した方向性パターンを採用しているタイヤも少なくない。いっぽう、溝は接地面の剛性を低下させる要因となるため、ハイパフォーマンスタイヤでは細い切れ込みをなくし、太い溝だけでパターンを構成するのが一般的。また、コーナリング時に強く路面に押し付けられる外側は溝を減らすことでトレッド剛性を高め、内側は多くの溝を設けて排水性を高める、左右非対称パターンを採用しているものもある。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1YkD5E2T0MkHb.jpg",
+        "jp": "/images/c/i1YkD5E2T0MkHb.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Casing Rigidity",
+        "jp": "ケーシング剛性"
+      },
+      {
+        "type": "p",
+        "en": "The casing refers to the structural body of the tire, including the carcass, sidewalls and bead, which support the tread. Forces acting on the tread are transmitted through this structure to the bead, where the tire is secured to the wheel. A rigid casing helps limit deformation during acceleration, braking and cornering, improving response and stability. However, increased rigidity can reduce ride comfort, so tires are tuned to balance performance and comfort based on their intended use.",
+        "jp": "トレッドを始め、サイドウォールや、各ビードで構成されているタイヤの断面はケース（容器）状になっていて、その剛性のことを“ケーシング剛性”という。トレッド部に加わる路面からの力は各部に伝わり、最終的にはビードベース部で受け止める。つまり、加速&減速、コーナリングでタイヤに大きな荷重が加わった際、無駄なヨレを発生させないためには、タイヤ全体の剛性＝ケーシング剛性を高めることが重要なのだ。ただし、高剛性化を進めるにしたがって、運動性能が向上する反面、乗り心地はスポイルされる傾向にある。タイヤのキャラクターや使用目的に応じたチューニングが施されるわけだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1YkcrrsM3efEuH.jpg",
+        "jp": "/images/c/i1WgtlYcRQaLk7E.jpg"
+      }
+    ]
+  },
+  "review_mechanism__wheels__01": {
+    "h1_en": "Unsprung Weight",
+    "h1_jp": "バネ下重量",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Although often seen as a styling feature, aluminum wheels have a significant effect on driving performance.\n\nA car requires the most torque when accelerating from a standstill. Rotating the wheels from rest takes energy, and heavier wheels require more of it. Lighter wheels reduce rotational inertia, making acceleration easier and reducing the load on the engine.\n\nWeight not supported by the suspension is known as unsprung mass and has a major influence on vehicle behavior. Lighter wheels and tires improve acceleration, braking and ride quality, as the suspension can respond more effectively to the road surface. Reduced weight can also contribute to improved fuel efficiency.\n\nThe popularity of aluminum wheels in sports cars reflects the performance benefits they offer. In motorsport, unsprung mass is often reduced further with magnesium alloy wheels, which are even lighter than aluminum.\n\nAluminum wheels also conduct heat efficiently, helping dissipate heat generated by the brakes, and they are generally more resistant to corrosion than steel wheels.\n\nCare must be taken when changing wheel size, as increasing diameter can offset the weight advantage of lighter materials. Larger wheels tend to increase unsprung mass, so the benefits of lower-profile tires must be balanced against the drawbacks of added weight.",
+        "jp": "ドレスアップアイテムとしての意味合いが強いアルミホイールは、いっぽうで走行性能に及ぼす影響も小さくない。クルマがもっとも動力を必要とするのは発進時。車輪が静止した状態からひと転がりさせるためには、非常に大きなエネルギーが求められる。重いホイールほど回転させにくく、逆に軽いほど少ないエネルギー（エンジンパワー）で軽々と回る。\n\nこれは「バネ下重量」と呼ぶものでクルマの運動性に大きな影響を及ぼす。ホイールやタイヤが軽いと、発進・加速性能が向上するし、制動時にタイヤの回転を止めやすい（ブレーキがよく効く）。またサスペンションの動きがスムーズになって路面追従性や乗り心地が改善されるし、燃費も向上するといった点でもメリットがある。\n\nスポーツカーの多くが、鉄よりも比重の軽いアルミホイールを純正採用していることがそのなによりの証拠だろう。その効果は「バネ下1kgの軽量化は、バネ上15kgの軽量化に相当する」ともいわれるほどだ。モータースポーツの世界ではアルミよりさらに軽いマグネシウム合金やカーボンのホイールも使われている。\n\n主流のアルミホイールは、その熱伝導性のよさや熱容量からブレーキ熱の排出を効率よく行えるメリットを持ち、鋳鉄製と比較して耐腐食性も高い。\n\nいっぽうホイールを交換するときは、サイズアップによって重量増加を招く場合があるので注意したい。特に大幅にサイズを拡大した場合は結果的にバネ下重量を増加させてしまうケースが大半だ。タイヤのロープロファイル化によるメリットと重量増のデメリットを勘案することが必要となる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1zhvFQ1Noh8AEE.jpg",
+        "jp": "/images/c/i1zhvFQ1Noh8AEE.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The lighter the wheel, the better the tire can follow the road surface, improving ride quality and stability.",
+        "jp": "ホイールが軽くなるとタイヤの路面追従性が向上し、よりフラットな乗り心地が得られる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1nWmE2CM0SJRb.jpg",
+        "jp": "/images/c/i1nWmE2CM0SJRb.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Lower wheel weight reduces the energy required to set the car in motion.",
+        "jp": "ホイールの軽さはクルマが動き出す際のエンジンパワーも軽減させる。"
+      },
+      {
+        "type": "h3",
+        "en": "● Types of Lightweight Wheels",
+        "jp": "■構造"
+      },
+      {
+        "type": "h3",
+        "en": "One-Piece",
+        "jp": "1ピース"
+      },
+      {
+        "type": "p",
+        "en": "A one-piece wheel is made with the rim and disc formed as a single unit. After casting or forging, it is machined to achieve a high level of precision. Design flexibility is more limited, but the one-piece construction allows for lower weight and good balance compared with multi-piece wheels.",
+        "jp": "リム部とディスク部が一体になった、もっともベーシックな構造。鋳造（もしくは鍛造）後に切削加工で仕上げるため寸法精度が高い。比較的デザインの自由度が小さい反面、部品点数が少ないため2ピースや3ピースと比較して軽量で、重量バランスにも優れる。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Kx0PqNJkrLQSB.jpg",
+        "jp": "/images/c/i1Kx0PqNJkrLQSB.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Two-Piece",
+        "jp": "2ピース"
+      },
+      {
+        "type": "p",
+        "en": "A two-piece wheel has the disc and rim manufactured separately and then joined, typically with bolts or by welding. Different materials and production methods can be used for each section, including aluminum, magnesium or titanium, and either casting or forging. This construction allows greater flexibility in design, particularly in disc styling and offset.",
+        "jp": "ディスク部とリム部を別々に作製し、ボルト&ナット、もしくは溶接して結合させた構造。ディスク部とリム部を異なる素材（アルミ、マグネシスム、チタン…）や製法（鍛造／鋳造）で作り分けることが可能。オフセット量や、ディスクデザインの自由度が大きい。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1QTArcWtOMm4.jpg",
+        "jp": "/images/c/i1QTArcWtOMm4.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "Three-Piece",
+        "jp": "3ピース"
+      },
+      {
+        "type": "p",
+        "en": "A three-piece wheel is made from separate inner and outer rim sections, with the center disc attached using perimeter bolts. Like two-piece designs, it offers flexibility in materials and construction, along with a wide range of styling and offset options. The additional hardware can add weight, but it allows even greater design freedom, making this type popular for custom and high-end applications.",
+        "jp": "表側のリム部と裏側のリム部を溶接し、ディスク部をピアスボルトで組み付ける構造。2ピースの特徴・長所を持ち、（ピアスボルトの分）重量的に若干不利とされるが、デザインの自由度がもっとも高く、ファッション性を重視したホイールに多く採用されている。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1dvybpzM9rPAuH.jpg",
+        "jp": "/images/c/i1dvybpzM9rPAuH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Manufacturing Methods",
+        "jp": "■製法"
+      },
+      {
+        "type": "h3",
+        "en": "Casting",
+        "jp": "鋳造"
+      },
+      {
+        "type": "p",
+        "en": "Casting is a manufacturing method in which molten aluminum is poured into a mold. It allows a high degree of design flexibility, particularly for the wheel center. However, to achieve sufficient strength, the material often needs to be thicker, which can limit weight savings compared with steel wheels. Even so, its low cost makes casting the most common method for producing aluminum wheels.",
+        "jp": "高温で溶かしたアルミニウムを鋳型に流し込んで成型する製造法。2ピース、3ピースではディスク部のデザインの自由度が高いのがメリット。反面十分な強度を持たせるために肉厚を厚くする必要があり、スチール製に対する重量面のアドバンテージは小さい。低コストのため純正品も含めて現在のアルミホイールの主流になっている。"
+      },
+      {
+        "type": "h3",
+        "en": "Forging",
+        "jp": "鍛造"
+      },
+      {
+        "type": "p",
+        "en": "In forging, a block of metal is compressed under extremely high pressure, aligning its internal grain structure and producing a dense, strong material. Compared with casting, the material is stronger, allowing for thinner sections and reduced weight. The result is high strength and rigidity, along with improved resistance to fatigue. Forging is more expensive and offers less design flexibility than casting. While aluminum is most common, magnesium is also used in some racing and high-performance applications for further weight reduction.",
+        "jp": "金属の塊を数千トンという高圧力で圧縮し、粘り強く、硬い材質にするのが鍛造。鋳造と比較して強度に優れるため、肉厚を薄くして軽量にできるメリットがある。ただし、その硬度ゆえ引っ張り強度には強いが曲げ強度に弱いという側面を持ち、一般的に生産コストが高くデザインにも制限を受けやすい。素材はアルミニウムに限らず、競技車や一部のスポーツカーではアルミよりも軽量なマグネシウム製の鍛造ホイールを装着するケースが目立つ。"
+      }
+    ]
+  }
+}
