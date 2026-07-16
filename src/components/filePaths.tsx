@@ -8,7 +8,14 @@ import ResonancePhenomenon from "@/components/beyond the apex/ResonancePhenomeno
 import TheConceptOfEnergy from "@/components/beyond the apex/TheConceptOfEnergy";
 import TheConceptsOfForceAndTorque from "@/components/beyond the apex/TheConceptsOfForceAndTorque";
 import TheMechanismOfVibration from "@/components/beyond the apex/TheMechanismOfVibration";
+import BodyRollAndVehicleMotion from "@/components/beyond the apex/BodyRollAndVehicleMotion";
+import CarResponseToSteeringAngle from "@/components/beyond the apex/CarResponseToSteeringAngle";
+import HighPerformanceCar from "@/components/beyond the apex/HighPerformanceCar";
+import SteadyStateCircularDriving from "@/components/beyond the apex/SteadyStateCircularDriving";
+import TireDynamics from "@/components/beyond the apex/TireDynamics";
+import VehicleResponseToPeriodicSteering from "@/components/beyond the apex/VehicleResponseToPeriodicSteering";
 import VibrationInSuspension from "@/components/beyond the apex/VibrationInSuspension";
+import VibrationOfSprungAndUnsprungMass from "@/components/beyond the apex/VibrationOfSprungAndUnsprungMass";
 
 export interface TocPage {
   name: string;
@@ -111,43 +118,43 @@ export const tocChapters: TocChapter[] = [
             name: "2-1 : Tire Dynamics",
             path: "01",
             routePath: "engineering_for_automotive/vehicle_performance/01",
-            component: <PlaceholderPage title="2-1 : Tire Dynamics" />,
+            component: <TireDynamics />,
           },
           {
             name: "2-2 : Steady-state Circular Driving",
             path: "02",
             routePath: "engineering_for_automotive/vehicle_performance/02",
-            component: <PlaceholderPage title="2-2 : Steady-state Circular Driving" />,
+            component: <SteadyStateCircularDriving />,
           },
           {
             name: "2-3 : A Car's Response to Changes in Steering Angle",
             path: "03",
             routePath: "engineering_for_automotive/vehicle_performance/03",
-            component: <PlaceholderPage title="2-3 : A Car's Response to Changes in Steering Angle" />,
+            component: <CarResponseToSteeringAngle />,
           },
           {
             name: "2-4 : Vehicle Response to Periodic Steering Motion",
             path: "04",
             routePath: "engineering_for_automotive/vehicle_performance/04",
-            component: <PlaceholderPage title="2-4 : Vehicle Response to Periodic Steering Motion" />,
+            component: <VehicleResponseToPeriodicSteering />,
           },
           {
             name: "2-5 : Body Roll and Vehicle Motion",
             path: "05",
             routePath: "engineering_for_automotive/vehicle_performance/05",
-            component: <PlaceholderPage title="2-5 : Body Roll and Vehicle Motion" />,
+            component: <BodyRollAndVehicleMotion />,
           },
           {
             name: "2-6 : Vibration of Sprung Mass and Unsprung Mass",
             path: "06",
             routePath: "engineering_for_automotive/vehicle_performance/06",
-            component: <PlaceholderPage title="2-6 : Vibration of Sprung Mass and Unsprung Mass" />,
+            component: <VibrationOfSprungAndUnsprungMass />,
           },
           {
             name: "2-7 : What Constitutes a High-Performance Car?",
             path: "07",
             routePath: "engineering_for_automotive/vehicle_performance/07",
-            component: <PlaceholderPage title="2-7 : What Constitutes a High-Performance Car?" />,
+            component: <HighPerformanceCar />,
           },
         ],
       },

@@ -40,9 +40,16 @@ For every page:
 - **1-6** (`PhaseDifference.tsx`): EN + CN bilingual
 - **1-7** (`FrequencyResponse.tsx`): EN + CN bilingual
 - **1-8** (`VibrationInSuspension.tsx`): EN + CN bilingual
+- **2-1** (`TireDynamics.tsx`): EN + CN bilingual
+- **2-2** (`SteadyStateCircularDriving.tsx`): EN + CN bilingual
+- **2-3** (`CarResponseToSteeringAngle.tsx`): EN + CN bilingual
+- **2-4** (`VehicleResponseToPeriodicSteering.tsx`): EN + CN bilingual
+- **2-5** (`BodyRollAndVehicleMotion.tsx`): EN + CN bilingual
+- **2-6** (`VibrationOfSprungAndUnsprungMass.tsx`): EN + CN bilingual
+- **2-7** (`HighPerformanceCar.tsx`): EN + CN bilingual
 
 ### Content (still stubs — pull & redo, do not salvage)
-- **Vehicle Performance 2-1…** and later: still `PlaceholderPage` until pulled & redone
+- **The Efficient Engine 3-1…** and later: still `PlaceholderPage` until pulled & redone
 
 ### Fonts / shadcn
 - `components.json`: style **`radix-nova`**, zinc, lucide
@@ -58,11 +65,11 @@ For every page:
 
 ## Next (in order)
 
-1. **Force / Energy / Vibration (1-1…1-8) complete.**
-2. **Next section:** pull & redo **2-1** (`Tire Dynamics` / `vehicle_performance/01`) from official — one page at a time.
-3. Continue 2-2…2-7, then later chapters (placeholders → pull & redo).
-4. Spot-check sidebar, prev/next across 1-1…1-8 in browser.
-4. Optionally refresh more UI with `pnpm dlx shadcn@latest add …` (only `button` is nova so far).
+1. **1-1…1-8 and Vehicle Performance 2-1…2-7 complete.**
+2. **Next section:** pull & redo **3-1** (`Temperature and Pressure` / `the_efficient_engine/01`) from official — one page at a time.
+3. Continue 3-2…3-7, then later chapters (placeholders → pull & redo).
+4. Spot-check sidebar, prev/next across 2-6 → 2-7 → 3-1 in browser.
+5. Optionally refresh more UI with `pnpm dlx shadcn@latest add …` (only `button` is nova so far).
 
 ## Key paths
 
