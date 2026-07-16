@@ -29,6 +29,11 @@ import PlaneOfDiscontinuityAndVortexFilament from "@/components/beyond the apex/
 import KuttaZhukovskysTheorem from "@/components/beyond the apex/KuttaZhukovskysTheorem";
 import PrandtlsBoundaryLayerTheory from "@/components/beyond the apex/PrandtlsBoundaryLayerTheory";
 import PrandtlsLiftingLineTheory from "@/components/beyond the apex/PrandtlsLiftingLineTheory";
+import TheWorldOfCFD from "@/components/beyond the apex/TheWorldOfCFD";
+import FiniteVolumeMethod from "@/components/beyond the apex/FiniteVolumeMethod";
+import FeaturesOfScheme from "@/components/beyond the apex/FeaturesOfScheme";
+import CompatibilityOfFirstAndHighOrderApproximation from "@/components/beyond the apex/CompatibilityOfFirstAndHighOrderApproximation";
+import SolvingTurbulence from "@/components/beyond the apex/SolvingTurbulence";
 
 export interface TocPage {
   name: string;
@@ -269,31 +274,31 @@ export const tocChapters: TocChapter[] = [
             name: "5-1 : The World of CFD",
             path: "01",
             routePath: "engineering_for_automotive/computational_fluid_dynamics/01",
-            component: <PlaceholderPage title="5-1 : The World of CFD" />,
+            component: <TheWorldOfCFD />,
           },
           {
             name: "5-2 : Finite Volume Method",
             path: "02",
             routePath: "engineering_for_automotive/computational_fluid_dynamics/02",
-            component: <PlaceholderPage title="5-2 : Finite Volume Method" />,
+            component: <FiniteVolumeMethod />,
           },
           {
             name: "5-3 : Features of Scheme",
             path: "03",
             routePath: "engineering_for_automotive/computational_fluid_dynamics/03",
-            component: <PlaceholderPage title="5-3 : Features of Scheme" />,
+            component: <FeaturesOfScheme />,
           },
           {
             name: "5-4 : Compatibility of First-Order Approximation and High-Order Approximation",
             path: "04",
             routePath: "engineering_for_automotive/computational_fluid_dynamics/04",
-            component: <PlaceholderPage title="5-4 : Compatibility of First-Order Approximation and High-Order Approximation" />,
+            component: <CompatibilityOfFirstAndHighOrderApproximation />,
           },
           {
             name: "5-5 : Solving Turbulence",
             path: "05",
             routePath: "engineering_for_automotive/computational_fluid_dynamics/05",
-            component: <PlaceholderPage title="5-5 : Solving Turbulence" />,
+            component: <SolvingTurbulence />,
           },
         ],
       },

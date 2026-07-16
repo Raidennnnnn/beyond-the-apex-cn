@@ -60,9 +60,14 @@ For every page:
 - **4-4** (`KuttaZhukovskysTheorem.tsx`): EN + CN bilingual
 - **4-5** (`PrandtlsBoundaryLayerTheory.tsx`): EN + CN bilingual
 - **4-6** (`PrandtlsLiftingLineTheory.tsx`): EN + CN bilingual
+- **5-1** (`TheWorldOfCFD.tsx`): EN + CN bilingual
+- **5-2** (`FiniteVolumeMethod.tsx`): EN + CN bilingual
+- **5-3** (`FeaturesOfScheme.tsx`): EN + CN bilingual
+- **5-4** (`CompatibilityOfFirstAndHighOrderApproximation.tsx`): EN + CN bilingual
+- **5-5** (`SolvingTurbulence.tsx`): EN + CN bilingual
 
 ### Content (still stubs — pull & redo, do not salvage)
-- **CFD 5-1…** and later: still `PlaceholderPage` until pulled & redone
+- **Chapter 2+ review/tuning pages** and later: still `PlaceholderPage` until pulled & redone
 
 ### Fonts / shadcn
 - `components.json`: style **`radix-nova`**, zinc, lucide
@@ -78,11 +83,10 @@ For every page:
 
 ## Next (in order)
 
-1. **1-1…1-8, Vehicle Performance 2-1…2-7, Efficient Engine 3-1…3-7, and Aerodynamics 4-1…4-6 complete.**
-2. **Next section:** pull & redo **5-1** (`The World of CFD` / `computational_fluid_dynamics/01`) from official — one page at a time.
-3. Continue 5-2…5-5, then later chapters (placeholders → pull & redo).
-4. Spot-check sidebar, prev/next across 4-6 → 5-1 in browser.
-5. Optionally refresh more UI with `pnpm dlx shadcn@latest add …` (only `button` is nova so far).
+1. **Chapter 1 (1-1…1-8), Vehicle Performance (2-1…2-7), Efficient Engine (3-1…3-7), Aerodynamics (4-1…4-6), and CFD (5-1…5-5) complete.**
+2. **Next section:** pull & redo **Chapter 2: Review: Mechanism** (or next placeholder block in TOC order).
+3. Spot-check sidebar, prev/next across 5-5 → next chapter in browser.
+4. Optionally refresh more UI with `pnpm dlx shadcn@latest add …` (only `button` is nova so far).
 
 ## Key paths
 

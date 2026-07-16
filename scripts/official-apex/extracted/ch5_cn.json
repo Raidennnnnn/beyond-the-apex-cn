@@ -1,0 +1,380 @@
+{
+  "5-1": {
+    "h1": "5-1 : The World of CFD / CFD的世界",
+    "h2": "CFD, a world of discretisation / CFD，离散化的世界",
+    "sections": [
+      {
+        "type": "intro",
+        "en": "The previous section's introduction to aerodynamics should have made it clear that a full understanding of flow fields requires solving fluid equations such as the Navier–Stokes Equations. In the latter part of the 20th century, advances in computing made it possible to solve these equations numerically. <br/><br/>This field is known as Computational Fluid Dynamics (CFD), or numerical fluid dynamics. CFD has become an essential tool in automotive development, although it is not widely known outside the field. To understand the basics of how CFD works, we briefly examine the underlying theoretical concepts.",
+        "zh": "上一节对空气动力学的介绍应当已经说明，要完整理解流场，需要求解诸如 Navier–Stokes 方程之类的流体方程。20 世纪后半叶，计算技术的进步使这些方程得以数值求解。<br/><br/>这一领域称为计算流体力学（Computational Fluid Dynamics，CFD），或称数值流体力学。CFD 已成为汽车开发中不可或缺的工具，但在业界之外却鲜为人知。为理解 CFD 的基本工作原理，此处简要介绍其背后的理论概念。"
+      },
+      {
+        "type": "h3",
+        "en": "● Approximation",
+        "zh": "● 近似"
+      },
+      {
+        "type": "p",
+        "en": "The real world can be viewed as a continuous (analog) system, in which physical quantities vary smoothly in space and time. In fluid dynamics, fluids are typically modeled as continuous media with properties defined at every point in this continuum. Computers, however, operate digitally and can only handle discrete values with finite resolution. As a result, CFD represents the continuous flow field by dividing space and time into small, discrete elements. Despite this discretization, the objective of CFD is to approximate the behavior of the continuous real world as accurately as possible. To achieve this, physical processes that cannot be directly resolved must be modeled and incorporated through appropriate assumptions and approximations. <br/>",
+        "zh": "现实世界可视为连续（模拟）系统，物理量在空间与时间中平滑变化。在流体动力学中，流体通常被建模为连续介质，其性质在该连续体的每一点上都有定义。然而，计算机以数字方式运行，只能处理分辨率有限的离散值。因此，CFD 通过将空间与时间划分为细小的离散单元来表示连续流场。尽管存在这种离散化，CFD 的目标仍是尽可能准确地近似连续现实世界的行为。为此，无法直接分辨的物理过程必须通过适当的假设与近似加以建模并纳入计算。"
+      },
+      {
+        "type": "image",
+        "src": "i1nArCjPg11myb.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-1-1: The difference between the real world and the world of CFD.",
+        "zh": "图5-1-1：现实世界与 CFD 世界的差异。"
+      },
+      {
+        "type": "p",
+        "en": "How, then, is the missing information represented? One approach is to connect known data points with straight lines and assume that the values between them vary linearly. Alternatively, higher-order models can be used, where the variation between points is represented by smooth curves.This process of representing unknown values based on known data while preserving the essential behavior is called approximation, and the resulting value is referred to as an approximate value. In CFD, these approximation methods are implemented through numerical schemes. <br/>",
+        "zh": "那么，缺失的信息如何表示？一种做法是用直线连接已知数据点，并假定其间数值呈线性变化。亦可采用高阶模型，用平滑曲线表示点与点之间的变化。这种在保留本质行为的前提下、依据已知数据表示未知值的过程称为近似，所得结果称为近似值。在 CFD 中，这些近似方法通过数值格式实现。"
+      },
+      {
+        "type": "image",
+        "src": "i15lXiPnf3Pp9EE.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-1-2: Complement missing data from computers",
+        "zh": "图5-1-2：补全计算机所缺失的数据。"
+      },
+      {
+        "type": "h3",
+        "en": "● The Lax Equivalence Theorem",
+        "zh": "● Lax 等价定理"
+      },
+      {
+        "type": "p",
+        "en": "Since computers cannot represent every point in space and time, CFD results are inherently approximate. However, if the difference from the true value is sufficiently small, it is acceptable in practice. For example, if the average flow velocity is 30 m/s, a difference on the order of 0.000001 m/s is negligible. In the same way, small numerical differences in simulation results are not a concern as long as they remain within an acceptable tolerance. In technical terms, a simulation is considered acceptable when the solution has converged. <br/><br/>An important concept related to this is the Lax Equivalence Theorem, demonstrated by Peter Lax. This theorem states that for a well-posed linear initial value problem, a numerical scheme converges if, and only if, it is both consistent and stable. In other words, the relationship between consistency and stability determines convergence. Refer to Fig. 5-1-4 for the definitions of consistency, stability and convergence.",
+        "zh": "由于计算机无法表示空间与时间的每一点，CFD 结果本质上是近似的。然而，若与真值的差异足够小，在实践中便可接受。例如，若平均流速为 30 m/s，0.000001 m/s 量级的差异可忽略不计。同样，只要仿真结果中的微小数值差异处于可接受容差之内，便无需担忧。从技术上说，当解已收敛时，仿真即被视为可接受。<br/><br/>与此相关的一个重要概念是 Peter Lax 所证明的 Lax 等价定理。该定理指出：对于适定的线性初值问题，数值格式收敛的充要条件是它既相容又稳定。换言之，相容性与稳定性共同决定收敛性。相容性、稳定性与收敛性的定义见图5-1-4。"
+      },
+      {
+        "type": "image",
+        "src": "i11zaMR6StyOC.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-1-3",
+        "zh": "图5-1-3"
+      },
+      {
+        "type": "image",
+        "src": "i1Dvk8qAorWpkuB.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-1-4 Conformability and stability. The \"true value\" referred to here is the solution obtained from an analytical solution of the governing partial differential equations of fluid flow.",
+        "zh": "图5-1-4：相容性与稳定性。此处所称「真值」，指对流体控制偏微分方程作解析求解所得之解。"
+      },
+      {
+        "type": "p",
+        "en": "The Lax Equivalence Theorem states that for a well-posed linear initial value problem, a numerical scheme converges if and only if it is both stable and consistent. In other words, when a scheme satisfies these two conditions, the numerical (difference) solution approaches the exact solution of the original differential equation as the grid spacing becomes sufficiently small.",
+        "zh": "Lax 等价定理指出：对于适定的线性初值问题，数值格式当且仅当既稳定又相容时才收敛。换言之，当格式满足这两项条件时，随着网格间距充分缩小，数值（差分）解将趋近原微分方程的精确解。"
+      }
+    ]
+  },
+  "5-2": {
+    "h1": "5-2 : Finite Volume Method / 有限体积法",
+    "h2": "The most widely used fluid simulation technique / 应用最为广泛的流体仿真技术",
+    "sections": [
+      {
+        "type": "intro",
+        "en": "While many fluid simulation techniques have been developed, we now introduce one of the most widely used methods: the finite volume method.",
+        "zh": "虽已发展出多种流体仿真技术，此处介绍其中应用最为广泛的一种：有限体积法。"
+      },
+      {
+        "type": "h3",
+        "en": "● Concept of the finite volume method",
+        "zh": "● 有限体积法的概念"
+      },
+      {
+        "type": "p",
+        "en": "The finite volume method focuses on the balance of quantities flowing into and out of divided space elements. For instance, consider the volume of water flowing into and out of a container. To calculate how much water is in the container one second later, the following relationship can be used:",
+        "zh": "有限体积法关注流入与流出各划分空间单元的物理量平衡。例如，考虑流入与流出某容器的水量。要计算一秒后容器内有多少水，可使用下列关系："
+      },
+      {
+        "type": "p",
+        "en": "Volume in a container after 1 second = Original volume + Inflow per second - Outflow per second",
+        "zh": "一秒后容器内体积 = 原有体积 + 每秒流入量 − 每秒流出量"
+      },
+      {
+        "type": "p",
+        "en": "The basic idea behind the finite volume method is similar to predicting the future volume of water by using the current volume and the amount flowing in and out. This same conservation-based approach can be applied not only to volume, but also to other physical quantities such as mass, momentum, and energy. As a result, variables like pressure and flow velocity can be calculated by tracking their balance within each control volume.",
+        "zh": "有限体积法的基本思想与此类似：依据当前水量及进出流量预测未来水量。这种基于守恒的做法不仅适用于体积，也可用于质量、动量、能量等其他物理量。于是，可通过追踪各控制体内的平衡来计算压力、流速等变量。"
+      },
+      {
+        "type": "p",
+        "en": "The approximation (scheme) used in the difference method and the finite volume method is based on the Taylor Expansion. The Taylor Expansion is a technique that represents a smooth function as a series of terms. Although it is not discussed in detail here, it plays a fundamental role in many areas of mathematics, including CFD, and is well worth further study.",
+        "zh": "差分法与有限体积法所用的近似（格式）以泰勒展开为基础。泰勒展开是将光滑函数表示为级数项的技术。虽不在此详述，它在包括 CFD 在内的诸多数学领域中都起基础性作用，值得进一步学习。"
+      },
+      {
+        "type": "image",
+        "src": "i1OvhHON7g3wyb.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-2-1: Concept of the finite volume method.",
+        "zh": "图5-2-1：有限体积法的概念。"
+      },
+      {
+        "type": "h3",
+        "en": "● Numerical flux",
+        "zh": "● 数值流束"
+      },
+      {
+        "type": "p",
+        "en": "Let us examine the concept of the finite volume method in more detail through CFD. First, the flow domain is divided into small elements, as shown in Fig. 5-2-2. This discretized space is referred to as a lattice (or mesh, or grid). We then consider fluid flowing through this mesh. <br/><br/>Assume that the physical quantities within each control volume are known at a given time. The essence of the finite volume method is to predict the values at the next time step by evaluating the fluxes—i.e., the inflow and outflow of those quantities—across the boundaries of each control volume over time. <br/><br/>So, how is the inflow and outflow per unit time for each element determined? In CFD, these are estimated by approximating fluxes at the control volume boundaries based on the distribution of the current physical quantities. There are multiple valid approaches to this approximation, meaning the flux is not uniquely defined. The method used to estimate these boundary fluxes is called a numerical flux, and its formulation has a significant impact on the accuracy and stability of the simulation.",
+        "zh": "下面通过 CFD 更具体地考察有限体积法的概念。首先，如图5-2-2 所示，将流动区域划分为细小单元。这种离散化空间称为格点（或称网格、栅格）。继而考虑流经该网格的流体。<br/><br/>假定各控制体在某一时刻的物理量已知。有限体积法的本质，是通过评估各控制体边界上随时间变化的通量——即这些物理量的流入与流出——来预测下一时间步的值。<br/><br/>那么，各单元单位时间内的流入与流出如何确定？在 CFD 中，这些量依据当前物理量的分布，对控制体边界上的通量作近似估算。此类近似有多种有效途径，因而通量并非唯一确定。用于估算这些边界通量的方法称为数值流束，其构造对仿真的精度与稳定性有重大影响。"
+      },
+      {
+        "type": "image",
+        "src": "i11zk0I49JS5uhB.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-2-2: Numerical flux going in and out of the element.",
+        "zh": "图5-2-2：进出单元的数值流束。"
+      },
+      {
+        "type": "image",
+        "src": "i1aMB09xarZkKEE.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-2-3: Flow field around the rear wing of a race car.",
+        "zh": "图5-2-3：赛车尾翼周围的流场。"
+      }
+    ]
+  },
+  "5-3": {
+    "h1": "5-3 : Features of Scheme / 数值格式的特征",
+    "h2": "Monotonicity and high accuracy cannot be compatible / 单调性与高精度无法兼得",
+    "sections": [
+      {
+        "type": "intro",
+        "en": "There are several ways to define the numerical flux, and the practitioner must choose an appropriate scheme. This choice is not arbitrary, as different schemes have different levels of accuracy and stability, which directly affect the quality of the simulation. As stated by the Lax Equivalence Theorem, a scheme must be both consistent and stable to ensure convergence. If an inappropriate scheme is used, errors can grow and the solution may diverge. Let us now briefly examine how differences in numerical schemes can affect the results. <br/>",
+        "zh": "数值流束的定义方式有多种，从业者须选择适当的格式。此选择并非任意，因不同格式的精度与稳定性各异，直接影响仿真质量。如 Lax 等价定理所述，格式须既相容又稳定方能保证收敛。若采用不当格式，误差可能增大，解亦可能发散。下面简要考察数值格式差异如何影响结果。"
+      },
+      {
+        "type": "h3",
+        "en": "● The scheme of primary approximation",
+        "zh": "● 一阶近似格式"
+      },
+      {
+        "type": "p",
+        "en": "To complement missing information in a computer, the simplest approach is to approximate changes in physical quantities using a straight line. When a linear function is used for this purpose, the scheme is said to have first-order (primary) accuracy. First-order schemes have the advantage of preserving monotonicity, meaning they do not introduce non-physical oscillations. However, they also have the disadvantage of introducing numerical diffusion, which tends to smear or smooth sharp gradients in the solution. <br/>",
+        "zh": "为补全计算机中的缺失信息，最简做法是用直线近似物理量的变化。若为此采用线性函数，则称该格式具有一阶（初级）精度。一阶格式的优点在于保持单调性，即不引入非物理振荡。但其缺点是会引入数值扩散，往往使解中的陡梯度被抹平或平滑。"
+      },
+      {
+        "type": "image",
+        "src": "i1vZ6190jRFeNdB.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-3-1: Calculation example of wave propagation and the first-order approximation scheme. The solution diffuses because the scheme of first-order approximation can't resolve the high frequency waves.",
+        "zh": "图5-3-1：波传播与一阶近似格式的计算示例。由于一阶近似格式无法分辨高频波，解发生扩散。"
+      },
+      {
+        "type": "h3",
+        "en": "● The scheme of high-order accuracy",
+        "zh": "● 高阶精度格式"
+      },
+      {
+        "type": "p",
+        "en": "It is natural to assume that greater accuracy can be achieved by using information from more lattice elements and approximating with higher-order curves rather than simple linear expressions. In practice, higher-order schemes do provide more accurate solutions than standard first-order schemes. However, increasing the order also increases computational complexity, as more neighboring elements must be considered in the calculation. In addition, some high-order schemes can introduce non-physical oscillations (often referred to as numerical oscillations), which may reduce overall accuracy, especially near sharp gradients or discontinuities. <br/>",
+        "zh": "自然会想到，若取用更多格点信息、以高阶曲线而非简单线性式近似，便可获得更高精度。实践中，高阶格式确实比标准一阶格式给出更精确的解。然而，阶数提高也会增大计算复杂度，因须考虑更多相邻单元。此外，部分高阶格式可能引入非物理振荡（常称数值振荡），尤其在陡梯度或不连续面附近，反而降低整体精度。"
+      },
+      {
+        "type": "image",
+        "src": "i1EJDxWhnuntS.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-3-2: A calculation example of a second-order approximation scheme and wave propagation (flow). The wave form is broken because the high-order accuracy wave is different from the speed (phase) of the wave propagation from the frequency.",
+        "zh": "图5-3-2：二阶近似格式与波传播（流动）的计算示例。高阶精度波的传播速度（相位）随频率而异，故波形被破坏。"
+      },
+      {
+        "type": "h3",
+        "en": "● Godunov's Theorem",
+        "zh": "● 戈杜诺夫定理"
+      },
+      {
+        "type": "p",
+        "en": "A higher-order approximation scheme generally provides more accurate results over much of the flow field. However, it also has important drawbacks. In regions where the flow changes abruptly—such as across discontinuities—high-order schemes can produce non-physical oscillations, leading to instability and unrealistic values. In such cases, first-order schemes, which preserve monotonicity, often provide more reliable results. <br/><br/>This raises a natural question: why not construct a scheme that is both highly accurate and free of oscillations? The answer lies in Godunov's Theorem. This theorem states that linear numerical schemes that preserve monotonicity cannot be higher than first-order accurate. In other words, it is not possible to achieve both high-order accuracy and strict monotonicity at the same time. As a result, all practical schemes involve a trade-off between accuracy and stability. <br/>",
+        "zh": "高阶近似格式在流场大部分区域通常能给出更精确的结果，但也有重要缺点。在流动急剧变化之处——例如不连续面两侧——高阶格式可能产生非物理振荡，导致不稳定与非现实数值。此类情形下，保持单调性的一阶格式往往更可靠。<br/><br/>由此自然产生疑问：何不构造既高精度又无振荡的格式？答案在于戈杜诺夫定理。该定理指出，保持单调性的线性数值格式不可能高于一阶精度。换言之，无法同时实现高阶精度与严格单调性。因此，一切实用格式都须在精度与稳定性之间取舍。"
+      },
+      {
+        "type": "image",
+        "src": "i1tq8jF6qqGz3uB.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-3-3: According to Godunov's Theorem, any linear scheme with higher-order accuracy cannot preserve the monotonicity of the solution for problems such as the linear wave equation. For this reason, non-linear schemes were developed to overcome this limitation. One such approach is the TVD (Total Variation Diminishing) scheme (described in 5-4).",
+        "zh": "图5-3-3：据戈杜诺夫定理，对线性波动方程等问题，任何具高阶精度的线性格式均无法保持解的单调性。为此发展了非线性格式以克服此局限，其中之一为 TVD（Total Variation Diminishing，总变差递减）格式（见5-4）。"
+      },
+      {
+        "type": "image",
+        "src": "i1o5XBWlYYhjiG.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-3-4: The accuracy for dramatic changes in flow, such as a surface of discontinuity.",
+        "zh": "图5-3-4：针对不连续面等流动急剧变化时各格式的精度。"
+      }
+    ]
+  },
+  "5-4": {
+    "h1": "5-4 : Compatibility of First-Order Approximation and High-Order Approximation / 一阶近似与高阶近似的兼容",
+    "h2": "How to make both first-order approximation and high-order approximation compatible / 如何兼顾一阶近似与高阶近似",
+    "sections": [
+      {
+        "type": "intro",
+        "en": "According to Godunov's Theorem, it is not possible for a linear scheme to be both high-order accurate and strictly monotonic. In other words, some degree of oscillation cannot be completely eliminated in such schemes. Therefore, instead of trying to remove oscillations entirely, alternative approaches are used to control them while maintaining as much accuracy as possible.",
+        "zh": "据戈杜诺夫定理，线性格式无法既具高阶精度又严格保持单调性。换言之，此类格式中一定程度的振荡无法完全消除。因此，与其试图彻底去除振荡，不如采用其他途径加以控制，同时尽可能保持精度。"
+      },
+      {
+        "type": "h3",
+        "en": "■ TVD",
+        "zh": "■ TVD"
+      },
+      {
+        "type": "p",
+        "en": "First-order approximation schemes are diffusive and less accurate, but they preserve monotonicity and do not produce oscillations. In contrast, higher-order schemes provide greater accuracy in smooth regions, but can generate non-physical oscillations when applied to flows with abrupt changes, such as discontinuities. Each approach therefore has its own advantages and disadvantages. A natural idea is to combine the strengths of both methods, using higher-order accuracy in smooth regions while preserving monotonicity near discontinuities. This concept led to the development of TVD (Total Variation Diminishing). <br/><br/>TVD (Total Variation Diminishing) combines first-order and higher-order approximations. It is designed to prevent an increase in the total variation of the solution, thereby avoiding non-physical oscillations. In smooth regions of the flow, TVD uses higher-order approximations to achieve greater accuracy. In regions with sharp gradients or discontinuities, it switches to first-order behavior to preserve monotonicity. In this way, TVD adapts to the local flow conditions, maintaining stability while retaining as much accuracy as possible.",
+        "zh": "一阶近似格式具有扩散性、精度较低，但能保持单调性且不产生振荡。相比之下，高阶格式在平滑区域精度更高，但用于含不连续面等急剧变化的流动时，可能产生非物理振荡。两种途径各有优劣。自然的思路是结合二者长处：在平滑区域采用高阶精度，在不连续面附近保持单调性。这一构想促成了 TVD（Total Variation Diminishing，总变差递减）的发展。<br/><br/>TVD 将一阶与高阶近似相结合，旨在防止解的总变差增大，从而避免非物理振荡。在流动平滑区域，TVD 采用高阶近似以提高精度；在陡梯度或不连续面区域，则切换为一阶行为以保持单调性。如此，TVD 随局部流动条件自适应，在保持稳定的同时尽可能保留精度。"
+      },
+      {
+        "type": "image",
+        "src": "i1kBp6hCiyjm47c.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-4-1 TVD",
+        "zh": "图5-4-1：TVD"
+      },
+      {
+        "type": "p",
+        "en": "There are other techniques, in addition to TVD, that are used to reduce oscillations arising from high-order approximation schemes. One approach is to introduce artificial (numerical) viscosity, which stabilizes the solution by damping non-physical oscillations. Another widely used method is MUSCL (Monotonic Upstream-Centered Schemes for Conservation Laws), which improves accuracy while maintaining stability.",
+        "zh": "除 TVD 外，还有其他技术用于抑制高阶近似格式引起的振荡。一种做法是引入人工（数值）粘性，通过阻尼非物理振荡来稳定解。另一广泛采用的方法是 MUSCL（Monotonic Upstream-Centered Schemes for Conservation Laws，守恒律单调上游中心格式），在保持稳定的同时提高精度。"
+      },
+      {
+        "type": "p",
+        "en": "Schemes such as TVD, which maintain high-order accuracy in smooth regions while capturing sharp changes in discontinuous regions without introducing non-physical oscillations, are commonly referred to as high-resolution schemes.",
+        "zh": "像 TVD 这样在平滑区域保持高阶精度、又能在不连续区域捕捉急剧变化且不引入非物理振荡的格式，通常称为高分辨率格式。"
+      },
+      {
+        "type": "image",
+        "src": "i1RMOVZ6f1mmD.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-4-2: The results obtained are much closer to the true value when using TVD",
+        "zh": "图5-4-2：采用 TVD 所得结果更接近真值。"
+      },
+      {
+        "type": "h3",
+        "en": "■ Evaluation of TVD",
+        "zh": "■ TVD 的评价"
+      },
+      {
+        "type": "p",
+        "en": "Diagram 5-4-2 compares results obtained using a TVD scheme with those from first-order and higher-order approximation schemes. Unlike higher-order schemes, TVD avoids non-physical oscillations such as overshoot and undershoot. At the same time, compared with first-order schemes, it reduces excessive numerical diffusion, resulting in a more accurate representation of sharp gradients. In particular, the TVD solution remains closer to the true (exact) solution than the other schemes. <br/><br/>However, because TVD schemes require additional calculations to adapt to local flow conditions, they generally incur a higher computational cost and longer computation time.",
+        "zh": "图5-4-2 将 TVD 格式的结果与一阶及高阶近似格式的结果相比较。与高阶格式不同，TVD 避免了过冲、下冲等非物理振荡。同时，相较一阶格式，它减轻了过度的数值扩散，使陡梯度得到更准确的表示。尤其值得注意的是，TVD 解比其他格式更接近真值（精确解）。<br/><br/>然而，TVD 格式须额外计算以适应局部流动条件，因此通常计算成本更高、耗时更长。"
+      },
+      {
+        "type": "p",
+        "en": "TVD is effective for handling discontinuities, such as shock waves, and are widely used in simulations of compressible flows.",
+        "zh": "TVD 适于处理冲击波等不连续面，在可压缩流动仿真中应用广泛。"
+      }
+    ]
+  },
+  "5-5": {
+    "h1": "5-5 : Solving Turbulence / 求解湍流",
+    "h2": "Method of reducing computational complexity / 降低计算复杂度的方法",
+    "sections": [
+      {
+        "type": "h3",
+        "en": "● Solving vortexes",
+        "zh": "● 求解涡旋"
+      },
+      {
+        "type": "p",
+        "en": "When a vehicle is in motion, turbulence is generated around it. Turbulence consists of a wide range of vortices, from large energy-containing structures to very small dissipative ones. To resolve even a simple vortex numerically, multiple grid elements are required, as illustrated in Fig. 5-5-1. Therefore, directly resolving all vortical structures in a turbulent flow demands an extremely large number of elements. <br/><br/>For example, attempting to directly compute all turbulent scales around a vehicle traveling at 100 km/h would require on the order of 10¹³ grid elements—approximately ten trillion. While such calculations may be theoretically possible with advanced supercomputers, they are generally impractical for real-world automotive engineering applications.",
+        "zh": "车辆运动时，其周围会产生湍流。湍流由尺度各异的涡旋构成，从大尺度含能结构到极小的耗散结构皆有。如图5-5-1 所示，即使数值分辨一个简单涡旋，也需要多个网格单元。因此，直接分辨湍流中全部涡旋结构需要极其庞大的单元数量。<br/><br/>例如，试图直接计算时速 100 km 车辆周围所有湍流尺度，约需 10¹³ 个网格单元——即约十万亿个。虽借助先进超级计算机在理论上或许可行，但对实际汽车工程应用而言通常不切实际。"
+      },
+      {
+        "type": "image",
+        "src": "i1ZBZFXSnAxQidB.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-5-1 To resolve two-dimensional vortexes, a minimum of nine lattice elements will be necessary",
+        "zh": "图5-5-1：要分辨二维涡旋，至少需要九个格点单元。"
+      },
+      {
+        "type": "image",
+        "src": "i1O1mnTLXb0nW.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-5-2 The relationship between turbulence and air vortexes",
+        "zh": "图5-5-2：湍流与空气涡旋的关系。"
+      },
+      {
+        "type": "h3",
+        "en": "● Turbulence model",
+        "zh": "● 湍流模型"
+      },
+      {
+        "type": "p",
+        "en": "In fluid mechanics, modeling the characteristics of turbulence has been essential to advancing our understanding of its behavior. While turbulent motion is governed by the Navier–Stokes Equations, obtaining a complete, exact solution for all scales of turbulence is not feasible in practice. As a result, efforts have focused on modeling key features of turbulence, with considerable success. In practical CFD applications, these simplified turbulence models are introduced to avoid resolving every vortex, both large and small, thereby significantly reducing computational cost. Two of the most widely used approaches are the Reynolds-Averaged Navier-Stokes (RANS) method and the Large Eddy Simulation (LES) method.",
+        "zh": "在流体力学中，对湍流特性建模对于深化对其行为的理解至关重要。湍流运动虽由 Navier–Stokes 方程支配，但实践中无法获得涵盖所有尺度的完整精确解。因此，学界长期致力于对湍流关键特征建模，并已取得显著成效。在实际 CFD 应用中，引入这些简化湍流模型，以避免分辨大小各样的每一个涡旋，从而大幅降低计算成本。应用最广的两种方法是雷诺平均 Navier–Stokes（RANS）法与大涡模拟（LES）法。"
+      },
+      {
+        "type": "p",
+        "en": "Not using a turbulence model and instead directly solving the governing fluid equations is called Direct Numerical Simulation (DNS). In DNS, all scales of turbulence—from the largest eddies to the smallest dissipative structures—are fully resolved. However, as noted earlier, achieving this requires extremely fine spatial resolution. In addition, time must also be discretized with very small time steps to accurately capture the evolution of these flow structures. As a result, the computational cost becomes extraordinarily high.",
+        "zh": "不使用湍流模型、直接求解流体控制方程的做法称为直接数值模拟（Direct Numerical Simulation，DNS）。在 DNS 中，湍流的所有尺度——从最大涡旋到最小耗散结构——均被完全分辨。然而，如前所述，实现这一点需要极细的空间分辨率。此外，时间亦须以极小时间步离散，方能准确捕捉这些流动结构的演化。因此，计算成本变得极其高昂。"
+      },
+      {
+        "type": "h3",
+        "en": "● RANS (Reynolds Averaged Navier-Stokes)",
+        "zh": "● RANS（Reynolds Averaged Navier-Stokes，雷诺平均 Navier–Stokes）"
+      },
+      {
+        "type": "p",
+        "en": "RANS is a turbulence modeling approach that represents the flow using time-averaged quantities. In this formulation, the flow variables are decomposed into a mean component and a fluctuating component, and the effects of turbulence are modeled through additional terms (Reynolds stresses). Because RANS solves only the averaged flow, its computational cost is relatively low, making it the most widely used approach in engineering applications. However, it has limitations, including difficulty in accurately predicting complex flow phenomena such as separation, strong unsteadiness, and certain turbulent structures. <br/>",
+        "zh": "RANS 是一种以时间平均量表示流动的湍流建模方法。在此表述中，流动变量分解为平均分量与脉动分量，湍流效应通过附加项（雷诺应力）建模。由于 RANS 只求解平均流动，计算成本相对较低，是工程应用中最为广泛的方法。但其局限包括难以准确预测分离、强非定常及某些湍流结构等复杂流动现象。"
+      },
+      {
+        "type": "image",
+        "src": "i1Mo4GRTkubKpSH.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-5-3 RANS",
+        "zh": "图5-5-3：RANS"
+      },
+      {
+        "type": "h3",
+        "en": "● LES (Large Eddy Simulation)",
+        "zh": "● LES（Large Eddy Simulation，大涡模拟）"
+      },
+      {
+        "type": "p",
+        "en": "In turbulent flow, the larger vortices carry most of the energy and have the greatest influence on the overall flow field, while smaller vortices play a more dissipative role. If the large vortices are resolved directly and the smaller ones are modeled, this approach is known as LES. LES explicitly calculates the large-scale turbulent structures, while modeling the effects of the smaller scales (subgrid scales). Because of this, LES can capture unsteady and complex flow features with much higher accuracy than RANS. However, this increased fidelity comes at the cost of significantly greater computational requirements.",
+        "zh": "在湍流中，较大涡旋承载大部分能量，对整体流场影响最大，较小涡旋则更多起耗散作用。若直接分辨大涡旋、对小涡旋建模，此法即称为 LES。LES 显式计算大尺度湍流结构，并对较小尺度（亚格子尺度）的效应建模。因此，LES 能以远高于 RANS 的精度捕捉非定常与复杂流动特征，但更高的保真度也意味着显著更大的计算需求。"
+      },
+      {
+        "type": "image",
+        "src": "i16ai9QsP29Jo.jpg"
+      },
+      {
+        "type": "caption",
+        "en": "Fig. 5-5-4",
+        "zh": "图5-5-4"
+      }
+    ]
+  }
+}
