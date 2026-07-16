@@ -75,6 +75,17 @@ import AerodynamicsSettings from "@/components/beyond the apex/AerodynamicsSetti
 import HighSpeedCircuitsTechnicalCourses from "@/components/beyond the apex/HighSpeedCircuitsTechnicalCourses";
 import CounteringUndersteerOversteer from "@/components/beyond the apex/CounteringUndersteerOversteer";
 import WetConditionsGravel from "@/components/beyond the apex/WetConditionsGravel";
+import GettingUsedToYourController from "@/components/beyond the apex/GettingUsedToYourController";
+import GettingToKnowTheWidthOfYourCar from "@/components/beyond the apex/GettingToKnowTheWidthOfYourCar";
+import SettingTrackMarkers from "@/components/beyond the apex/SettingTrackMarkers";
+import LearningHowToBePrecise from "@/components/beyond the apex/LearningHowToBePrecise";
+import TakingCorners from "@/components/beyond the apex/TakingCorners";
+import UsingDriverAssistBraking from "@/components/beyond the apex/UsingDriverAssistBraking";
+import UsingDriverAssistCarControl from "@/components/beyond the apex/UsingDriverAssistCarControl";
+import InGameGeneralPrinciples from "@/components/beyond the apex/InGameGeneralPrinciples";
+import InGameSuspension from "@/components/beyond the apex/InGameSuspension";
+import InGameAerodynamicsGearRatios from "@/components/beyond the apex/InGameAerodynamicsGearRatios";
+import EnsuringSafeAndEnjoyableRaces from "@/components/beyond the apex/EnsuringSafeAndEnjoyableRaces";
 
 export interface TocPage {
   name: string;
@@ -729,31 +740,31 @@ export const tocChapters: TocChapter[] = [
             name: "Getting Used to Your Controller",
             path: "01",
             routePath: "how_to_get_started/advice_for_beginners/01",
-            component: <PlaceholderPage title="Getting Used to Your Controller" />,
+            component: <GettingUsedToYourController />,
           },
           {
             name: "Getting to Know the Width of Your Car",
             path: "02",
             routePath: "how_to_get_started/advice_for_beginners/02",
-            component: <PlaceholderPage title="Getting to Know the Width of Your Car" />,
+            component: <GettingToKnowTheWidthOfYourCar />,
           },
           {
             name: "Setting Track Markers",
             path: "03",
             routePath: "how_to_get_started/advice_for_beginners/03",
-            component: <PlaceholderPage title="Setting Track Markers" />,
+            component: <SettingTrackMarkers />,
           },
           {
             name: "Learning How to Be Precise",
             path: "04",
             routePath: "how_to_get_started/advice_for_beginners/04",
-            component: <PlaceholderPage title="Learning How to Be Precise" />,
+            component: <LearningHowToBePrecise />,
           },
           {
             name: "Taking Corners",
             path: "05",
             routePath: "how_to_get_started/advice_for_beginners/05",
-            component: <PlaceholderPage title="Taking Corners" />,
+            component: <TakingCorners />,
           },
         ],
       },
@@ -765,13 +776,13 @@ export const tocChapters: TocChapter[] = [
             name: "Using Driver Assist ① - Braking",
             path: "01",
             routePath: "how_to_get_started/using_driver_assistance/01",
-            component: <PlaceholderPage title="Using Driver Assist ① - Braking" />,
+            component: <UsingDriverAssistBraking />,
           },
           {
             name: "Using Driver Assist ② - Car Control",
             path: "02",
             routePath: "how_to_get_started/using_driver_assistance/02",
-            component: <PlaceholderPage title="Using Driver Assist ② - Car Control" />,
+            component: <UsingDriverAssistCarControl />,
           },
         ],
       },
@@ -783,19 +794,19 @@ export const tocChapters: TocChapter[] = [
             name: "In-Game: General Principles",
             path: "01",
             routePath: "how_to_get_started/in_game/01",
-            component: <PlaceholderPage title="In-Game: General Principles" />,
+            component: <InGameGeneralPrinciples />,
           },
           {
             name: "In-Game: Suspension",
             path: "02",
             routePath: "how_to_get_started/in_game/02",
-            component: <PlaceholderPage title="In-Game: Suspension" />,
+            component: <InGameSuspension />,
           },
           {
             name: "In-Game: Aerodynamics / Gear Ratios",
             path: "03",
             routePath: "how_to_get_started/in_game/03",
-            component: <PlaceholderPage title="In-Game: Aerodynamics / Gear Ratios" />,
+            component: <InGameAerodynamicsGearRatios />,
           },
         ],
       },
@@ -807,7 +818,7 @@ export const tocChapters: TocChapter[] = [
             name: "Ensuring safe and enjoyable races",
             path: "01",
             routePath: "how_to_get_started/race_etiquette/01",
-            component: <PlaceholderPage title="Ensuring safe and enjoyable races" />,
+            component: <EnsuringSafeAndEnjoyableRaces />,
           },
         ],
       },

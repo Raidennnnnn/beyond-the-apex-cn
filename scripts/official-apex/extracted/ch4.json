@@ -1,0 +1,923 @@
+{
+  "how_to_get_started__advice_for_beginners__01": {
+    "h1_en": "Getting Used to Your Controller",
+    "h1_jp": "コントローラーに慣れよう",
+    "blocks": [
+      {
+        "type": "img",
+        "en": "/images/c/i1DCLM2phKgsmb.jpg",
+        "jp": "/images/c/i1DCLM2phKgsmb.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Hi there, I'm YAM! My story with Gran Turismo goes back to my early school days when my eyes were first opened to the thrill of driving cars. After many years of honing my skills, and trying to hit ever faster speeds, I took home the Gran Turismo Asia Championship title in 2012.\nFrom then on, I began working on the development side of Gran Turismo, while following the careers of the world's best players at Gran Turismo World Series events. Today I'd like to pass on some tips and tricks to new drivers of Gran Turismo.",
+        "jp": "皆さん、こんにちは。僕はYAMといいます。小学生の頃『グランツーリスモ』と出会い、クルマを操る楽しさに目覚めました。以来、どうすれば速く走れるかを考えて練習を重ね、2012年にはアジア8ヶ国の代表が集まる「グランツーリスモ アジアチャンピオンシップ」で優勝することができました。\nその後は『グランツーリスモ』を開発する側に回り、「グランツーリスモ ワールドシリーズ」を通じて、世界のトッププレイヤーの走りを追い続けています。今回はそんな僕が、これから『グランツーリスモ』を始めようという人に、「うまくなるヒント」をお伝えできればと思います。"
+      },
+      {
+        "type": "h3",
+        "en": "Becoming one with your car",
+        "jp": "クルマと一体になる感覚をつかむ"
+      },
+      {
+        "type": "p",
+        "en": "The first thing that new drivers will need to do is familiarize themselves with their controller. Although I prefer to race with a steering wheel and pedals, most newcomers to Gran Turismo 7 will be starting off with a wireless controller. Getting your wireless controller to react exactly how you want it to is the first step to improving your driving.",
+        "jp": "まずはじめは、「ワイヤレスコントローラーに慣れよう」ということです。クルマはステアリング（ハンドル）とペダルを使って運転しますが、『グランツーリスモ７』では、多くの人がワイヤレスコントローラーからスタートします。このワイヤレスコントローラーを思ったとおりに扱えることが、『グランツーリスモ』上達の第一歩なのです。"
+      },
+      {
+        "type": "p",
+        "en": "With that in mind, I'd like you to pick up your wireless controller.  You do not need to grip or squeeze it tightly. Rather, you should hold it lightly, and try to play in a relaxed manner.",
+        "jp": "早速、ワイヤレスコントローラーを手に取ってください。強く握る必要はありません。軽く持って、力まずに操作しましょう。"
+      },
+      {
+        "type": "p",
+        "en": "The first time you launch Gran Turismo 7, you will be given the option to choose from three different control styles: Left stick, Directional buttons, and Motion sensor. I recommend selecting the Motion sensor setting. Holding your controller in both hands, you will be able to tilt it left and right, just like a real steering wheel, which I think you'll find to be more natural.",
+        "jp": "『グランツーリスモ７』を初めて起動すると、ワイヤレスコントローラーによるステアリングの操作法を、3つのプリセットから選びます。「左スティック」「方向キー」「モーションセンサー機能」のうち、僕がお勧めしたいのはモーションセンサー機能です。コントローラーを両手で持ち、左右に傾けることでステアリング操作を行うのですが、本物のステアリングを切る動作に近いので、自然な感覚で操作できると思います。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1suEtVqqpRfcSH.jpg",
+        "jp": "/images/c/i1xH4Ai8nY09uz.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The motion sensor function allows you to turn as if you were turning the steering wheel of a car",
+        "jp": "モーションセンサー機能はクルマのステアリングを切る感覚でコントローラーの操作ができます"
+      },
+      {
+        "type": "p",
+        "en": "Similarly, there are three different pedal (accelerate/brake) control styles. Players who previously selected the Motion sensor setting will find it easiest to press the R2 and L2 buttons with their index fingers. In this control style, the R2 button is used for accelerating and the L2 button for braking.",
+        "jp": "同様に、ペダル操作（アクセル・ブレーキ）タイプも3つの操作法から選べます。ステアリングで「モーションセンサー機能」を選んだ人は、両手の人差し指で操作する「R2/L2ボタン」がいいと思います。R2ボタンがアクセル、L2ボタンがブレーキです。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1hL88mEgEftZ.jpg",
+        "jp": "/images/c/i1UD1IBreyDZ07c.jpg"
+      },
+      {
+        "type": "p",
+        "en": "I recommend 'R2/L2 buttons' which lets you use each index finger to control accelerating and braking",
+        "jp": "アクセルとブレーキを両手の人差し指で操作する「R2/L2ボタン」はおすすめ"
+      },
+      {
+        "type": "p",
+        "en": "The amount of pressure that you apply to the R2 and L2 buttons will produce a corresponding reaction. In other words, by pressing the buttons lightly you will achieve a weak brake/acceleration, and by pressing them firmly, you will achieve a sharp brake/acceleration. Getting a good feel for decelerating and accelerating is something that you can only acquire by actually driving, so this may require some practice.",
+        "jp": "「R2/L2ボタン」は押し方によって効き具合が加減できます。浅く押すと弱めのブレーキ（アクセル）、深く押すと強いブレーキ（アクセル）といった具合です。実際に走ってみて、クルマの減速や加速のイメージをつかみましょう。"
+      },
+      {
+        "type": "p",
+        "en": "Try not to drive too fast at first. Instead, pay attention to how your car reacts to the steering and pedal settings you have selected. You will have succeeded when you no longer feel that you are merely 'controlling' your car but have become one with it.",
+        "jp": "はじめは速く走る必要はありません。自分が行ったステアリングやペダルの操作に対して、画面の中のクルマがどう動くかを意識してください。「操作している」という感覚が薄れ、自分の意志とクルマの動きが一体になる感覚がつかめれば合格です。"
+      }
+    ]
+  },
+  "how_to_get_started__advice_for_beginners__02": {
+    "h1_en": "Getting to Know the Width of Your Car",
+    "h1_jp": "車両（車幅）感覚を身につけよう",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "Learning to use the full width of the track",
+        "jp": "コース幅を目いっぱい使うために"
+      },
+      {
+        "type": "p",
+        "en": "Now that you've familiarized yourself with your controller, let's work on developing your spatial awareness. Even when you're driving in \"Cockpit View,\" it's important to have a sense of the width of your car. In sports driving, you must use the full width of the road, as in a race you can overtake (or be overtaken by) rival cars with the narrowest of openings.",
+        "jp": "コントローラーの操作に慣れてきたら、車両感覚を身につける練習をしましょう。なかでもクルマの幅（車幅）を感じることは重要です。スポーツドライビングは道幅を目いっぱい使って走りますし、実際のレースではライバルのクルマを、横ギリギリから追い抜く（追い抜かれる）こともあるからです。"
+      },
+      {
+        "type": "p",
+        "en": "Playing with your camera angle should help you to develop a feel for the width of your car in a race.",
+        "jp": "車幅感覚をつかむ練習法ですが、レース中の視点切り替え機能を利用するといいでしょう。"
+      },
+      {
+        "type": "p",
+        "en": "Once you've entered a track, select the 'Chase View' setting and drive your car to the edge of the road, so that your outer wheels are positioned on the white line. With your car stopped, change to the racing view that you would normally use when playing and study where the white line appears on the screen. If you are in 'Cockpit View', try to remember where the white line is relative to your window. Do this on both sides of the track.",
+        "jp": "サーキットにコースインしたら、視点を切り替えて「チェイスビュー（後方俯瞰視点）」を選び、コース端の白線に外側のタイヤが載るようにクルマを停めます。それができたらクルマは停めたまま、視点を普段自分がプレイするビューに切り替えて、白線が画面のどこに見えるかを確認するのです。運転席からの視点となるコックピットビューでは、白線がウインドウのどの位置に見えるかを記憶してください。同じことを左右反対側でも行いましょう。"
+      },
+      {
+        "type": "p",
+        "en": "These white lines mark the maximum track width available to you in a race. As I mentioned before, you will need to use the entire track in sports driving. This is especially true of corners, where an Out-In-Out* driving line will increase your turn radius and reduce the centrifugal force on your car. In such a case, knowing how close you can maneuver your car to the edge of the road is very important. To be competitive, you will want to develop a good spatial awareness of your car.",
+        "jp": "ここで覚えた白線の位置が、レース中にクルマが走れるコースの最大幅になります。先にも述べたとおり、スポーツドライビングではコースを目いっぱい使いますが、特にコーナー（カーブ）では、「アウト・イン・アウト*」という走り方をすることで旋回半径を大きくし、クルマにかかる遠心力を小さくします。そんな場面でも「クルマをコースの端どこまで寄せられるか」はとても重要になるので、車幅感覚はしっかり身につけてください。"
+      },
+      {
+        "type": "p",
+        "en": "* Out-In-Out\nA cornering method whereby you enter a corner on the outside of the track, cut in towards the middle, and exit the corner on the outside. This will result in a larger turning radius. Although it covers a greater distance, this method will reduce the centrifugal force on your car, allowing you to increase your turning speed.",
+        "jp": "*アウト・イン・アウト\nコーナーの入り口ではコース外側、中間地点では内側、出口では再び外側というルートを走ることで、実際のコーナーよりも旋回する「円の大きさ」を大きくすること。走る距離は伸びるが、クルマにかかる遠心力が小さくなるので旋回スピードを高めることができる。"
+      }
+    ]
+  },
+  "how_to_get_started__advice_for_beginners__03": {
+    "h1_en": "Setting Track Markers",
+    "h1_jp": "コースに目印を作ろう",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "Trackside signs and curbs can serve as track markers",
+        "jp": "コース脇の看板や縁石は目印になる"
+      },
+      {
+        "type": "p",
+        "en": "Once you've got a feel for controlling your car, you'll want to start paying attention to the things around it. With that in mind, let's practice looking for track markers.",
+        "jp": "クルマを操る感覚が身に着いたら、次はクルマの外に目を向けてみましょう。コースに、走る目印を見つける練習です。"
+      },
+      {
+        "type": "p",
+        "en": "Launch Gran Turismo 7 and access the 'Starting and Stopping' challenges in 'License' mode (B-1, B-2). Were you able to make a clean stop within the goal area? The faster you drive, the longer it will take for you to come to a full stop, so knowing exactly when to apply the brakes (i.e. the braking point) can be tricky.",
+        "jp": "まずは『グランツーリスモ７』を起動して、ライセンスモードの「発進と停止（B-1、B-2）」に挑戦してみてください。停止エリア内にピッタリ停まることができたでしょうか。スピードが上がるほどクルマが停止するまでに時間がかかり、ブレーキをかけ始めるタイミング（＝ブレーキングポイント）を見つけることが難しくなると思います。"
+      },
+      {
+        "type": "p",
+        "en": "If you're having a hard time finding the right braking point, try paying attention to trackside elements, such as the curb and signs, as they can be used as braking point markers.",
+        "jp": "もし、ブレーキングポイントを見つけることに悩んだら、コース脇にある縁石や看板に目を向けてください。それらをブレーキングポイントの目印として利用するのです。"
+      },
+      {
+        "type": "p",
+        "en": "For example, on some tracks you'll find signs reading '100m', '50m', and so on, indicating the distance to an upcoming turn. Try to use these signs as braking point markers. If you find that you're braking too early and are stopping before the goal area, you should move your braking point to just after your marker. Conversely, if you're braking too late and overshooting the goal area, you should think of your braking point as being ahead of your marker. By practicing this technique, you will learn how to brake more intuitively and will be able to stop in the same spot consistently.",
+        "jp": "たとえばサーキットには、「100m」「50m」というふうに、コーナーまでの距離を表示する看板が建っていることがあります。この距離看板を意識してブレーキをかけてみましょう。もしブレーキが早すぎて停止エリアの手前で停まってしまったら、目印を基準にブレーキングポイントを遅らせます。逆に遅すぎて停止エリアを過ぎてしまったら、ブレーキングポイントを目印の手前にずらしましょう。こうすることで、感覚だけに頼ったブレーキを卒業し、何回トライしても同じ場所で停まれるテクニックを身につけるのです。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1rRS7lnwiF7CTH.jpg",
+        "jp": "/images/c/i11N3ks09WeWNz.jpg"
+      },
+      {
+        "type": "p",
+        "en": "On some tracks there are signs indicating the distance to the next corner. Use these as markers to show you when to brake.",
+        "jp": "サーキットにはコーナーまでの距離を示す看板が立っていることがあります。こうした目印をうまく利用しましょう"
+      },
+      {
+        "type": "p",
+        "en": "Of course, you won't always find distance markers on a track. So try to use whatever is available to you as a makeshift marker. This could be a marshal post, a curb, a spectators' stand, or even some flowers growing at the side of the track.",
+        "jp": "実際のサーキットでは、いつも距離看板が建てられているとは限りません。目印として利用できるものはなんでも利用しましょう。マーシャルポストや縁石、観客席、コース脇に生えた花や草なども目印になります。"
+      },
+      {
+        "type": "p",
+        "en": "Even F1 drivers are known to spend time walking about a track prior to race day. In doing so, they are scouting for any visual marker that might give them a leg up on their rivals.",
+        "jp": "F1ドライバーも、レースウィークのはじめにコースを歩くことがあります。じっくりとコースを観察することで、ライバルが見落としているかもしれない「目印」を見つけているのですね。"
+      }
+    ]
+  },
+  "how_to_get_started__advice_for_beginners__04": {
+    "h1_en": "Learning How to Be Precise",
+    "h1_jp": "正確な操作を身につけよう",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "Reacting to where your racing marker is on screen",
+        "jp": "「目印が画面のどこへきたら操作するか」を決める"
+      },
+      {
+        "type": "p",
+        "en": "In the previous section, I talked about setting racing markers, but here I'd like to talk a little bit more about gauging speed.",
+        "jp": "前項では、目印を作る話をしましたが、速さを身につけるために、もう少し細かい話をしましょう。"
+      },
+      {
+        "type": "p",
+        "en": "A player once said to me, \"I know how to find braking point markers, but I don't know exactly when to brake, as the position of my markers keeps changing according to my view.\" This player is absolutely right. Simply finding a marker will not tell you exactly when to brake.",
+        "jp": "以前、あるプレーヤーからこんな質問を受けました。「ブレーキングで目印を見つけることはわかったけれど、走っていると目印の位置が変わるので、ブレーキをかける一瞬がどこなのか決められない」。まさに彼のいうとおりだと思います。漠然と目印を見つけただけでは、操作の瞬間がわからないのです。"
+      },
+      {
+        "type": "p",
+        "en": "Therefore, it is necessary that one create their own rules for reacting to racing markers.",
+        "jp": "そんな悩みを解決するには、「目印が画面のどこにきたら操作をするか」、自分の中でルールを設ける必要があります。"
+      },
+      {
+        "type": "p",
+        "en": "Personally, I wait for the moment when the marker disappears from my view on the screen. Of course, this doesn't always work out straight away, so I need to make adjustments in some cases. This approach improves your accuracy one step at a time, bringing increased precision to your movements and more consistency to your lap times.",
+        "jp": "僕の場合は「目印がテレビの画面から消える瞬間」を目安にしています。現実にはそのタイミングですべてがうまくいくわけではなく、わずかに調整を加えることもあるのですが……。でも、こうすることで操作の精度が段違いに上がり、レース中のラップタイムも安定させることができるのです。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1damDKCR9dwg.jpg",
+        "jp": "/images/c/i1jmDhQqd8gHX7c.jpg"
+      },
+      {
+        "type": "p",
+        "en": "An example from just before the Fuji Speedway's Coca-Cola Corner. Wait for the moment when the distance marker disappears from view to start braking.",
+        "jp": "富士スピードウェイのコカ・コーラコーナー手前の例。右側の距離看板が画面から見切れるタイミングを利用します"
+      },
+      {
+        "type": "p",
+        "en": "Being precise is not only important for responding to track markers, but also for accelerating and braking in general.",
+        "jp": "コース上の目印に対してだけでなく、アクセルやブレーキ操作自体にも、正確さは重要です。"
+      },
+      {
+        "type": "p",
+        "en": "I once knew a player who was having trouble improving their top speed. They had made all kinds of adjustments to their car, but, in the end, the problem was that they were not pressing hard enough on the throttle. This happened at an event where steering wheel and pedal controllers were being used; because the player was wearing thick-soled trainers, they weren't able to judge precisely how much pressure they were applying to their foot pedal.",
+        "jp": "僕が出会ったあるプレーヤーは、最高速が思ったように伸びないと悩んでいました。クルマのセッティングをあれこれ変えてみたりしたのですが、結局、自分がアクセルを100％踏み切れていないことが原因でした。その時はコントローラーにステアリングとペダルを使う大会だったのですが、底の厚いスニーカーを履いていたために、踏力の調整がうまくできなかったのですね。"
+      }
+    ]
+  },
+  "how_to_get_started__advice_for_beginners__05": {
+    "h1_en": "Taking Corners",
+    "h1_jp": "コーナーを走ってみよう",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "Pay attention to when you start turning",
+        "jp": "ステアリングを切り始めるタイミングに注意"
+      },
+      {
+        "type": "p",
+        "en": "Lastly, I'd like to touch on taking corners.",
+        "jp": "コーナーの走り方についても、お話ししておきましょう。"
+      },
+      {
+        "type": "p",
+        "en": "Remember the out-in-out method I mentioned previously? When cornering, the basic premise is to drive along an arc that goes from the outside to the inside, and then back to the outside of the track.",
+        "jp": "先のページで説明した「アウト・イン・アウト」を思い出してください。コーナーでは、コースの外側＞内側＞外側を繋いだ円弧の上を走るのが基本でしたね。"
+      },
+      {
+        "type": "p",
+        "en": "Start by slowly steering into a corner from the outside of the track, and continue steering inwards until you reach the midpoint of the corner. At the innermost point (clipping point or apex), check to see that your steering angle is at its maximum. From there, you'll need to begin to correct your steering (i.e. return it to normal.) If you can do this, then you'll have made a perfect turn.",
+        "jp": "コーナーのアウト側からゆっくりとステアリングを切り始めます。中間地点を目指してじわじわとステアリングを切り込んでいき、一番イン側に寄った場所（エイペックスといいます）で、ステアリングの切れ角も最大になっているかを確かめてください。エイペックスからは徐々にステアリングを戻し始め、コーナー出口で戻し終わる（ステアリングが中立に戻る）ことができれば完璧です。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1h4AGBhXNZ08uB.jpg",
+        "jp": "/images/c/i1PrJhJBnZ00Sb.jpg"
+      },
+      {
+        "type": "p",
+        "en": "In Gran Turismo 7, corner indicators can help you with your cornering. These will appear in yellow on your screen. Linking one corner indicator to the next will help you understand the line you should be taking.",
+        "jp": "「グランツーリスモ７」ではドライビングマーカーがコーナリングを助けてくれます。画面に黄色く見えているのがドライビングマーカー。それぞれをつなぐように走ることでコーナリングの走行ラインが理解できます"
+      },
+      {
+        "type": "p",
+        "en": "If you find that your car is reaching the inside of the track before you'd like it to, you may be starting your turn too early. Conversely, if you aren't able to reach the inside of the track by the midpoint of the corner, you may be starting your turn too late. Although your driving line will be affected by speed and other variables, you should focus first on finding the point at which you need to start turning.",
+        "jp": "もしもクルマが狙った場所より手前でイン側に寄ってしまったら、ステアリングを切り始めるタイミングが早いかもしれません。中間地点でイン側にクルマを寄せることができないなら、切り始めるタイミングが遅いかもしれません。走行ラインにはスピードなども影響しますが、はじめはこうやってステアリングを切り始めるポイントを探るといいでしょう。"
+      },
+      {
+        "type": "p",
+        "en": "While cornering, it is also important that you continuously adjust your line of sight. In addition to paying attention to your braking marker, your steering marker, the clipping point of the corner, and the exit of the corner, you should always be thinking one step ahead of your present position. By keeping an eye out for what's up ahead, you'll be able to see your way through the entire corner.",
+        "jp": "コーナリング中は目線の移動も重要です。コーナーでは「ブレーキングの目印」＞「ハンドルを切り始める目印」＞「コーナーのエイペックス」＞「コーナー出口」と注視するポイントを移していきますが、目線は常に操作の一歩先を捉える必要があります。先へ先へと目を向けることによってコーナー全体が見通せるようになるからです。"
+      }
+    ]
+  },
+  "how_to_get_started__in_game__01": {
+    "h1_en": "In-Game: General Principles",
+    "h1_jp": "セッティング術①／原則",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "Keeping the accelerator depressed for as long as possible",
+        "jp": "アクセルを長く踏めるクルマに仕上げる"
+      },
+      {
+        "type": "p",
+        "en": "One of the key things to bear in mind when adjusting settings is this: drivers that can keep the accelerator depressed for longer tend to win.",
+        "jp": "セッティングのとき頭に入れておきたいことは、「レースでは、アクセルをより長く踏んでいたクルマが勝つ」ということだ。"
+      },
+      {
+        "type": "p",
+        "en": "For example, to increase the top speed at the end of a straight, it's necessary to increase the exit speed at the preceding corner—and to do that, you need to start accelerating at an earlier point. The key to winning is therefore to consider the whole track and to work out how to spend as much time as possible with your accelerator depressed.",
+        "jp": "たとえば、ストレートエンドでの最高速度を高めるには手前のコーナーの脱出速度を高める必要があり、コーナーの脱出速度を高めるにはコーナーでのアクセルオンのタイミングを早める必要がある。こうやってコースの全周に渡って「どれだけアクセルを踏んでいられるか」を考えることが、レースに勝つということだ。"
+      },
+      {
+        "type": "p",
+        "en": "If you just think about one corner at a time, you won't win. You need to ensure that your car is as quick as possible around the track as a whole.",
+        "jp": "ひとつのコーナーばかり見ていてはレースには勝てない。コース全体でいかに速いクルマを作り上げるかにこだわろう。"
+      },
+      {
+        "type": "h3",
+        "en": "● Pay attention to your performance points",
+        "jp": "パフォーマンスポイントに気を配ろう"
+      },
+      {
+        "type": "p",
+        "en": "All the cars you can drive in Gran Turismo 7 have a 'PP' (performance points) rating. A car's PP is an indicator of its performance, and is used to group cars together for racing, among other things.",
+        "jp": "『グランツーリスモ７』でドライブできるクルマには、すべてPP（パフォーマンスポイント）が与えられている。PPはクルマの性能を表す指標のひとつで、レースに参戦する車両の性能をそろえたいときなどに用いられる。"
+      },
+      {
+        "type": "p",
+        "en": "A car's PP is determined by key factors such as its top speed, acceleration, and RPM at various speeds (80, 120, and 160km/h). Improving these areas through tuning will also increase the car's PP.",
+        "jp": "PPは、そのクルマの最高速度や減速性能、速度ごと（80、120、160km/h）の旋回性能といった要素を計測して決められている。チューニングを行って性能が上がれば、PPの値も高くなる。"
+      },
+      {
+        "type": "p",
+        "en": "If you're entering races with PP restrictions, don't just think of how to adjust PP in general—think of which specific PP-related factors would be best to adjust. For example, on tracks with several long straights you need to priorities top speed, which means boosting engine power. If you're racing on tricky short tracks, the focus is on maneuverability at low speeds, which will mean stiffening your suspension. Even cars with the same PP can have very different characteristics, so it's important to make sure you prepare your car for the event it's entering.",
+        "jp": "PP制限の設けられたレースイベントに参戦する場合は、漠然とPPを調整するのではなく、PPのどの要素を調整するか、を考えよう。たとえば全開区間の長い高速型のレースならば、最高速度を最優先してエンジンパワーを強化する。ショートコースのトリッキーなレースならば、低速域の旋回性能を重視して、足まわりを引き締めるといった具合だ。こうすることで、同じPPでも特性に違いが生まれ、ステージに合ったクルマを作ることができるのだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i18q29PET9Rvjb.jpg",
+        "jp": "/images/c/i1xFKsBZAptm8C.jpg"
+      }
+    ]
+  },
+  "how_to_get_started__in_game__02": {
+    "h1_en": "In-Game: Suspension",
+    "h1_jp": "セッティング術②／足まわり",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "Body height and natural frequency",
+        "jp": "車高と固有振動数の調整法"
+      },
+      {
+        "type": "p",
+        "en": "We've already discussed suspension settings in the first half of the book, so here are a few additional notes relating to Gran Turismo 7's car settings.",
+        "jp": "サスペンションのセッティングについては前半でも説明したが、ここでは『グランツーリスモ７』でのマシンセッティングに即して、いくつか補足をしよう。"
+      },
+      {
+        "type": "h3",
+        "en": "● Body height",
+        "jp": "●車高"
+      },
+      {
+        "type": "p",
+        "en": "As previously mentioned, the lower a car's body height, the better. However, front and rear body height can be adjusted in order to change a car's steering characteristics. Lowering the front of a car reduces the load on the rear wheels, creating a tendency to oversteer. Similarly, lowering the back of a car reduces the load on the front wheels, creating a tendency to understeer.",
+        "jp": "車高は低いほどよいというのは前述した通りだが、前後の車高を変えることでステアリング特性の調整にも使える。車体を前下がりにすると後輪荷重が減るためオーバーステア傾向となり、後ろ下がりにすると前輪荷重が減ってアンダーステア傾向になる。"
+      },
+      {
+        "type": "p",
+        "en": "The front-rear body height balance also affects a car's aerodynamics. Generally, lowering the front of a car shifts the aerodynamic balance to the front, increasing the tendency to oversteer.",
+        "jp": "車高の前後バランスはエアロダイナミクスのバランスにも影響する。一般的には、車体を前下がりにすると空力のバランスが前よりとなってオーバーステア傾向が強くなる。"
+      },
+      {
+        "type": "p",
+        "en": "In other words, changing a car's front-rear body height balance settings from their default can affect other settings in ways that are difficult to understand. At first, therefore, it's better to stick with the same body height for the front and rear of the car, only using minor body height adjustments as a final step in your set up.",
+        "jp": "とはいえ、セッティングの初期段階から車高の前後バランスを変えると、他のセッティング項目の効果がわかりにくくなる。最初は前後同じ車高でセッティングし、最後の微調整に前後バランスを利用するのがいいだろう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1EBYKny3oMRTEE.jpg",
+        "jp": "/images/c/i1KeV09ChokxVSH.jpg"
+      },
+      {
+        "type": "h3",
+        "en": "● Natural Frequency (Spring Rate)",
+        "jp": "●固有振動数（スプリングレート）"
+      },
+      {
+        "type": "p",
+        "en": "We mentioned previously that you shouldn't think of suspension settings in terms of the spring rates, but in terms of the natural frequency: a measure that reflects the quality of suspension support and the motion ratio.",
+        "jp": "足まわりのセッティングはスプリングレート単体の値で考えず、サスペンションが支える質量やモーションレシオを含んだ固有振動数で決めようと前に説明したが、固有振動数を決める際はタイヤの種類も考慮しよう。"
+      },
+      {
+        "type": "p",
+        "en": "If you're using tires with a lot of grip, such as racing tires, the general principle is that the natural frequency should be higher. If you use racing tires without increasing the natural frequency, then the car will roll more often, its response will be poorer, and it will generally be harder to drive.",
+        "jp": "レーシングタイヤなどグリップ力の高いタイヤを履くときは、固有振動数も高くするのが原則だ。固有振動数を上げずにレーシングタイヤを履くと、ロール量が大きいうえにレスポンスが悪い、乗りにくいクルマになることが多い。"
+      },
+      {
+        "type": "p",
+        "en": "In the same way, the natural frequency should also be higher if you're using a car that produces a lot of downforce, such as a racing car. Racing cars are sensitive to the air currents beneath then, and rolling or pitching can affect the stability of the car. As such, you should increase the natural frequency and ensure that the suspension prevents the car's body from moving too much.",
+        "jp": "同様に、レーシングカーなど強力なダウンフォースを発生するクルマの場合も、固有振動数を高くすべきだ。レーシングカーは床下の気流に敏感で、ロールやピッチングによってクルマの姿勢が変化することを嫌う。このため固有振動数を高くして「車体が動かない足まわり」を作ってあげることが重要なのだ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1kVtFAyjsRWNz.jpg",
+        "jp": "/images/c/i1Zn6mtxLOFUQC.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Natural frequency in Car Settings. Normally the front and rear values should be the same.",
+        "jp": "カーセッティングの固有振動数。前後の値をそろえることが基本となる"
+      }
+    ]
+  },
+  "how_to_get_started__in_game__03": {
+    "h1_en": "In-Game: Aerodynamics / Gear Ratios",
+    "h1_jp": "セッティング術③／空力・ギア比",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "Adjusting aerodynamics and gear ratios",
+        "jp": "エアロダイナミクスとギア比の調整法"
+      },
+      {
+        "type": "p",
+        "en": "Let's focus on aerodynamics and gear ratios, two more settings that affect the performance of your car.",
+        "jp": "マシンの特性を変えるセッティング項目としては、エアロダイナミクス（空力）とトランスミッションのギア比にも注目しておきたい。"
+      },
+      {
+        "type": "h3",
+        "en": "● Aerodynamics",
+        "jp": "●エアロダイナミクス"
+      },
+      {
+        "type": "p",
+        "en": "Aerodynamics allows you to adjust downforce (the pressure the car exerts onto the track surface), thus increasing tire grip, allowing you to take corners at higher speeds.",
+        "jp": "エアロダイナミクスでは、ダウンフォース（車体を路面に押し付ける力）を調整することでタイヤのグリップ力を高め、高速時のコーナリングスピードを向上させることができる。"
+      },
+      {
+        "type": "p",
+        "en": "On the other hand, downforce also creates air resistance—and greater air resistance can lead to lower top speeds.",
+        "jp": "いっぽうダウンフォースは空気抵抗でもあるため、強めれば強めるほど、クルマの最高速度を低下させる要因ともなる。"
+      },
+      {
+        "type": "p",
+        "en": "In real races, you will need to consider these two opposing factors when setting up your car.",
+        "jp": "実際のレースでは、この相反する効果を勘案してセッティングを行おう。"
+      },
+      {
+        "type": "p",
+        "en": "On tracks with long straights, reduce downforce in order to reduce air resistance, allowing for better top speeds (sacrificing cornering speed in the process). On tracks with lots of corners, increase downforce to increase cornering speed (sacrificing top speed in the process).",
+        "jp": "ストレート区間の長いコースでは、ダウンフォースを抑えめにして空気抵抗を減らし、最高速の伸びを重視する（＝コーナリングスピードは犠牲にする）。逆に中高速コーナーが多いコースではダウンフォースを強めて、旋回スピードを高める（＝最高速度は犠牲にする）セッティングが正解だ。"
+      },
+      {
+        "type": "p",
+        "en": "Downforce can be adjusted for the front and rear of the car independently, so it can also be used to tune steering characteristics. If downforce is strong in high speed sections, increase front downforce to place more load on the front wheels. If oversteering is a problem, increase rear downforce to improve stability.",
+        "jp": "なおダウンフォースはフロントとリアを個別に調整できるため、ステアリング特性のチューニングにも利用できる。高速域でアンダーステアが強い場合は、フロントのダウンフォースを増やして前輪の荷重を高めよう。逆にオーバーステアが強い場合は、リアのダウンフォースを増やすことで安定感を高めればよい。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i19VOKAGIlOcX8c.jpg",
+        "jp": "/images/c/i19jxhGIPHQ23TH.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The setting indicated by the red box is the downforce. Increased downforce means more air resistance, so you'll need to consider a track's characteristics when adjusting this value",
+        "jp": "赤く囲った部分がカーセッティングのダウンフォース。ダウンフォースは空気抵抗でもあるのでコース特性を考慮しよう"
+      },
+      {
+        "type": "h3",
+        "en": "● Gear ratios",
+        "jp": "●ギア比"
+      },
+      {
+        "type": "p",
+        "en": "If you have a fully customizable transmission, you can adjust your transmission's gear ratios. We've already discussed how to have your gear ratios align, but there are times when various aspects need to be adjusted more finely.",
+        "jp": "「フルカスタマイズ・トランスミッション」を装着すると、トランスミッションのギア比が変更できる。ギア比の合わせ方については先に述べたが、ポイントごとに微調整が必要な場合もある。"
+      },
+      {
+        "type": "p",
+        "en": "For example, if your engine is redlining just before a corner. Generally, shifting up a gear when you want to be shifting down will cost you time. If this keeps happening, you could reduce that gear's ratio ever so slightly, to avoid your engine redlining.",
+        "jp": "たとえばコーナーの直前でギアが吹け切ってしまう（＝エンジン回転がレッドゾーンに達してしまう）ケース。本来ならシフトダウンしたい場所でシフトアップしていては、タイムをロスしてしまう。こんな場合は、そのギアのギア比をほんのわずか小さくして、エンジンが吹け切らないようにしよう。"
+      },
+      {
+        "type": "p",
+        "en": "You should also check your revs when exiting a corner. The focus is all on acceleration, so you need to make sure your engine is in its power band (the region in which it can produce the most power). If your revs are too low, your gear ratios might be too high, and should be adjusted down. (There are cases when an earlier gear shift is effective.) On corners immediately before a long straight, this adjustment can have a significant influence on speeds.",
+        "jp": "コーナー出口でのエンジン回転数もチェックしたい。加速性能が重視される場面なので、エンジン回転数がパワーバンド（エンジンがもっともパワーを発揮できる領域）にあるかどうかを確認するのだ。エンジン回転が低すぎる場合はギア比を大きく、高すぎる場合は小さく調整しよう（※早めのシフトアップが有効なケースもある）。長いストレートの手前にあるコーナーでは、この調整が到達速度にも大きく影響する。"
+      },
+      {
+        "type": "p",
+        "en": "You should also check your revs at the end of long straights where you hit top speed. You'll have been using your top gear, so ideally you want the engine to be just outside its red zone. If revs are too low, you can increase the gear ratio, but if you're redlining, you can decrease the gear ratio. Be aware, however, that your top speed is also affected by aerodynamics and engine characteristics, so be sure to keep an eye on your speedometer when making adjustments.",
+        "jp": "最高速を記録するストレート区間の終わりでも、エンジン回転数は確認すべきだ。トップギアをほぼ使い切り、エンジン回転がレッドゾーン手前にあれば理想的。エンジン回転が低い場合はギア比を大きくし、吹け切ってしまうようなら小さくしよう。ただし最高速は空力やエンジン特性にも左右されるので、スピードメーターで車速を見ながら調整しよう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1Zgvepo0FJpSz.jpg",
+        "jp": "/images/c/i1nWijjS6ZvKOz.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Top Speed in Car Settings. Note that the higher the top speed, the longer it will take to accelerate to that speed.",
+        "jp": "カーセッティングの最高速設定。到達速度を高めるほどそこへ至る加速力は鈍くなることに注意"
+      }
+    ]
+  },
+  "how_to_get_started__race_etiquette__01": {
+    "h1_en": "Ensuring safe and enjoyable races",
+    "h1_jp": "気持ちよく安全なレースを戦うために",
+    "blocks": [
+      {
+        "type": "p",
+        "en": "Gran Turismo 7's Sport mode allows you to compete against other players in online races. In these races, consideration of others is paramount. Motor racing is a contact sport that takes place in cars, but drivers can enjoy safe races by being aware of each others' presence.",
+        "jp": "『グランツーリスモ７』の「スポーツ」モードでは、ネットワークを通じて他のプレイヤーとレースを戦う。こうした場面で重要になるのが、他のプレイヤーへの配慮だ。レースはクルマを通じたコンタクトスポーツなので、お互いの存在を認め合うことではじめて、安全なレースが可能になる。"
+      },
+      {
+        "type": "p",
+        "en": "The key points of racing etiquette are listed below. Beginners should pay particularly close attention!",
+        "jp": "ここでは、とくにビギナーが注意したいレース中のマナーについてまとめておこう。"
+      },
+      {
+        "type": "h3",
+        "en": "● Don't drive off the track",
+        "jp": "●コース外を走らない"
+      },
+      {
+        "type": "p",
+        "en": "When racing, you can only drive on the approved track surface. With the exception of certain tracks, such as urban circuits, white lines are painted on both sides of the track, and you should try to drive within these lines at all times. In most races you will incur a penalty if all four of your tires leave the track.",
+        "jp": "レース中に走ることができるのは、走路として認められたコースの上だけだ。市街地コースなど特殊なケースを除けば、走路の両脇には白線が引かれているので、この白線からはみ出さないように走ろう。一般的なレースでは、4本のタイヤすべてがコース外に出るとペナルティの対象となる。"
+      },
+      {
+        "type": "p",
+        "en": "When you're involved in a tightly fought race against your rivals, it's easy to get carried away and attempt to cut a corner. Try to avoid doing this, and maintain a fair racing line at all times.",
+        "jp": "ライバルと接近戦になったりすると、気の焦りからコーナーをショートカットしたりしやすくなる。くれぐれもフェアな走行ラインを走ろう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i13CSDzPCgQWZ.jpg",
+        "jp": "/images/c/i13CSDzPCgQWZ.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Be sure to drive between the white lines on the track. You will be penalized if all four of your wheels leave the area between the white lines.",
+        "jp": "コースは白線に挟まれたエリアを走ろう。4輪すべてが白線外に出るとペナルティの対象となる"
+      },
+      {
+        "type": "h3",
+        "en": "● Don't block other cars when returning to the track",
+        "jp": "●復帰するときは他車を邪魔しない"
+      },
+      {
+        "type": "p",
+        "en": "If you misjudge the braking point, you might find yourself driving off the track. You'll want to return to the track right away, of course, but be aware that blocking—or colliding with—other cars as you do so will incur a penalty.",
+        "jp": "ブレーキングポイントを見誤ったりすると、コース外に飛び出してしまうことがある。すぐにコースに戻りたいところだが、レースを続けているほかの車両の走行を邪魔したり、接触したりするとペナルティの対象となるので注意しよう。"
+      },
+      {
+        "type": "p",
+        "en": "Check whether there are cars behind you and ensure that you return safely to the track. If you're still getting used to racing, there is a 'Driver Assistance' feature that will automatically replace your car on the track.",
+        "jp": "コースへの復帰は後続車を確認し、安全に行おう。慣れないうちはドライビングアシストの置き直し機能を使うことも有効だ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1lKM9B3WBMuESH.jpg",
+        "jp": "/images/c/i1lKM9B3WBMuESH.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Take care not to obstruct any of the cars behind you when returning to the track.",
+        "jp": "コースに復帰する際は後続車の邪魔にならないように気を配ろう"
+      },
+      {
+        "type": "h3",
+        "en": "● Smoothly yield the racing line",
+        "jp": "●走行ラインを譲るときはスムーズに"
+      },
+      {
+        "type": "p",
+        "en": "If there's a faster car coming up from behind, you should yield the racing line. Refusing to do so by abruptly changing your line and obstructing chasing cars is dangerous, and could lead to collisions.",
+        "jp": "後ろから自分よりも速いクルマが迫ってきたときは、走行ラインを譲ろう。なかなか道を譲らず、背後へ付かれてから急に車線を変えるような行為は、追い抜こうとした後続車と交錯する危険性を高める。"
+      },
+      {
+        "type": "p",
+        "en": "Get into the habit of checking your rear view mirror regularly, and smoothly yield the racing line to any faster cars that are coming up from behind. In 'Touring Car' races, you can use your indicators to show other drivers that you are changing your line.",
+        "jp": "普段から頻繁にバックミラーを見る癖をつけて、速い後続車にはスムーズにラインを譲ろう。ツーリングカーレースの場合は、ウィンカーで車線変更を知らせることも有効だ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1h1b9nfdBZO6.jpg",
+        "jp": "/images/c/i1h1b9nfdBZO6.jpg"
+      },
+      {
+        "type": "p",
+        "en": "When a car that's clearly faster approaches from behind, be sure to smoothly yield the racing line. It's a good idea to use your indicators to show that you're moving out of the way.",
+        "jp": "明らかに速いクルマが来たときはスムーズにラインを譲ろう。ウィンカーを使って車線変更を知らせることも有効だ"
+      },
+      {
+        "type": "h3",
+        "en": "● You can only change course to defend your position once",
+        "jp": "●順位を守る進路変更は1回だけ"
+      },
+      {
+        "type": "p",
+        "en": "If a rival car is closing in from behind, you can change your course in order to protect your position—but only once. Repeatedly changing course in order to prevent them from overtaking is a violation, and will incur a penalty.",
+        "jp": "タイム的に接近している相手が背後に迫ってきたとき、ポジションを守るために進路を変える行為は、1回に限り認められる。ただし、追い抜かれないように何度も進路変更を繰り返すのは違反で、ペナルティの対象となる。"
+      },
+      {
+        "type": "p",
+        "en": "When returning to the racing line after changing course, be sure to leave one car's width of space between you and the side of the track. This is to allow rival cars the opportunity to overtake.",
+        "jp": "また進路変更を行った後、ベストな走行ラインに戻るときは、自車とコース脇の間に1台分の余裕を空けよう。これは追い越そうとするクルマの進路を確保するための配慮だ。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i157nK9eEpSdsSH.jpg",
+        "jp": "/images/c/i157nK9eEpSdsSH.jpg"
+      },
+      {
+        "type": "p",
+        "en": "You can only change your line to block cars coming up behind you once.",
+        "jp": "ポジションを守るために相手をブロックするような車線変更は1回に限り認められる"
+      },
+      {
+        "type": "h3",
+        "en": "● Running other cars off the track is forbidden",
+        "jp": "●他車を押し出すような幅寄せは厳禁"
+      },
+      {
+        "type": "p",
+        "en": "Out-in-out is the fundamental principle of cornering, but there are times when it isn't appropriate. For example, if you're overtaking a rival car on the outside on a corner. Moving to the inside of the corner at the apex would block off the rival car, driving them off the track. As such, you must leave one car's width of space between you and the inside of the corner when performing such a maneuver.",
+        "jp": "コーナーは「アウト・イン・アウト」で走るのが原則だが、それがふさわしくない場合もある。たとえばライバルを追い抜こうと、コーナーにアウト側から飛び込んだ場合。コーナーの頂点でインに付いてしまったら、内側にいるライバルの進路がなくなり、コースアウトしてしまう。こんなときはイン側に1台分の余裕を空けたラインを走ろう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1KC42ECOcFkQC.jpg",
+        "jp": "/images/c/i1KC42ECOcFkQC.jpg"
+      },
+      {
+        "type": "p",
+        "en": "If there's a rival car on your inside at a the corner, driving close to the inner edge of the corner so as to force them off the track is bad etiquette. Be sure to always leave one car's width of space.",
+        "jp": "コーナー内側に他車がいるとき、イン側ギリギリを走るのはマナー違反。1台分のスペースを空けてあげよう"
+      },
+      {
+        "type": "h3",
+        "en": "● Following the line when entering and exiting the pit lane",
+        "jp": "●ピットへの出入りはラインに沿って"
+      },
+      {
+        "type": "p",
+        "en": "Be aware that entering and exiting the pit lane while racing can get in the way of other cars. Suddenly swerving into the pit lane at the last minute, or driving straight out of the pit lane and into the main racing line, will incur a penalty.",
+        "jp": "レース中のピットインとピットアウトでは、本線を走るクルマと進路が交錯するため注意が必要だ。本線から急にピットレーンに飛び込んだり、ピットレーン出口からいきなり本線を横切ったりすることは、ペナルティの対象となる。"
+      },
+      {
+        "type": "p",
+        "en": "There are white lines on the track to guide you in and out of the pit lane. Be sure to follow these lines when taking a pit stop.",
+        "jp": "ピットレーンの入り口と出口には、車両を誘導するための白線が引いてある。ピットインとピットアウトはこの白線に沿って行おう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1hNyV83tvrPnuB.jpg",
+        "jp": "/images/c/i1gmu9h1H8tLORH.jpg"
+      },
+      {
+        "type": "p",
+        "en": "Suddenly swerving into the pit lane is very dangerous. Follow the white lines on the track which guide you into the pit lane.",
+        "jp": "本線から急にピットインするのはとても危険。路面にひかれたピットへの誘導ラインに従おう"
+      },
+      {
+        "type": "h3",
+        "en": "● Pay attention to yellow and blue flags",
+        "jp": "●イエローフラッグとブルーフラッグに注意"
+      },
+      {
+        "type": "p",
+        "en": "In motorsports, flags are used to communicate things to drivers, such as the fact that there are hazards on the track. There are various types of flags, but the most important ones for beginners are the yellow and blue flags.",
+        "jp": "モータースポーツでは、ドライバーにコース上の危険や指示を伝えるため、フラッグを使用する。フラッグにはさまざまな種類があるが、ビギナーのうちは特にイエローとブルーに注意しよう。"
+      },
+      {
+        "type": "p",
+        "en": "The yellow flag indicates that there is a hazard on the track, and is waved at the post immediately before the hazard. Drivers must slow down in the sector where the flag is waved, and overtaking is forbidden. Inadvertently overtaking rival cars that have slowed down incurs a penalty, so be careful. A green flag is used to indicate that the track is clear and that the restrictions are no longer in place.",
+        "jp": "イエローフラッグは、コース上に危険が存在するとき、その危険の手前にあるポストで振られる。このフラッグが降られている区間はスローダウンが義務付けられ、追い越しもできない。速度を落とした他車をうっかり追い抜いてしまうと、ペナルティの対象となるので注意しよう。なおイエローフラッグの規制は、「コースクリア」を意味するグリーンフラッグが降られる場所で解除となる。"
+      },
+      {
+        "type": "p",
+        "en": "The blue flag is used to inform a driver that a faster car is coming up behind them, and is used to indicate to cars that they're about to be lapped. When you see the blue flag, try to let the faster car pass you as smoothly as possible. If you continually refuse to yield, you will incur a penalty.",
+        "jp": "ブルーフラッグは、背後から速い車両に迫られているクルマに対して降られるが、決勝レースでは周回遅れにされようとしているクルマに対しても降られる。このフラッグを振られた場合は、できる限りすみやかに、速いクルマを先に行かせなければならない。いつまでも進路を譲らないとペナルティの対象となるので注意しよう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i17ai4I5arkleSB.jpg",
+        "jp": "/images/c/i17ai4I5arkleSB.jpg"
+      },
+      {
+        "type": "p",
+        "en": "A yellow flag is being waved on the post on the right. You must reduce your speed immediately and refrain from overtaking. A green flag indicates that these restrictions have been lifted.",
+        "jp": "右側のポストでイエローフラッグが振られている。すぐさまスピードを落とし追い越しもあきらめよう。グリーンフラッグで制限は解除される"
+      }
+    ]
+  },
+  "how_to_get_started__using_driver_assistance__01": {
+    "h1_en": "Using Driver Assist ① - Braking",
+    "h1_jp": "ドライビングアシストを使いこなそう①／ブレーキ",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "Knowing when to brake and adjust your speed",
+        "jp": "ブレーキングのタイミングや加減がわかる"
+      },
+      {
+        "type": "p",
+        "en": "Gran Turismo 7 includes Driver Assist functions designed to help beginners get comfortable behind the wheel. We recommend making full use of these features, as they can be the quickest way to build confidence and improve your driving skills. Let’s begin by looking at the assist functions related to braking.",
+        "jp": "『グランツーリスモ７』には、ビギナーの運転を助ける仕組み「ドライビングアシスト」が備わっています。この機能をフル活用することが上達の早道になるので、ぜひ役立ててください。まずブレーキ関連のアシスト機能の活用法を説明しましょう。"
+      },
+      {
+        "type": "p",
+        "en": "\"Driver Assist\" will be enabled for players who select the \"Beginner\" or \"Intermediate\" assist preset when starting the game for the first time. The available functions and level of assistance will vary depending on the preset selected. You can change this setting from the \"Driving Assistant\" option in the \"Quick Menu\" that appears before each race.",
+        "jp": "なおドライビングアシストは、ゲームの初回起動時に選択する「アシストプリセット」で「初級者向け」あるいは「中級者向け」を選ぶと機能しますが、機能する項目や強さが異なります。これを変更したい場合は、レース前に表示される［クイックメニュー］＞［ドライビングアシスト］から行ってください。"
+      },
+      {
+        "type": "h3",
+        "en": "● Braking area",
+        "jp": "●ブレーキングエリア"
+      },
+      {
+        "type": "p",
+        "en": "Drivers who brake too early will slow down more than necessary, while those who brake too late may have trouble getting through corners cleanly. As mentioned earlier, setting braking markers can help, even if it feels difficult at first.",
+        "jp": "ブレーキをかけるタイミングは、早すぎるとクルマが必要以上に減速してしまいますし、遅すぎるとコーナーを曲がり切れません。そのために目印を作ろうというお話をしましたが、はじめのうちは難しいですよね。"
+      },
+      {
+        "type": "p",
+        "en": "To help with this, we recommend using the \"Braking Area\" assist. This feature shows where you should begin braking by displaying a red line on the road. Once your car enters the \"Braking Area,\" apply the brakes.",
+        "jp": "そこで利用してほしいのがブレーキングエリアです。ブレーキングエリアは、強いブレーキが必要な場所に、路面を横切る赤い帯として表示されます。このエリアにクルマが載ったらブレーキを踏んでください。"
+      },
+      {
+        "type": "p",
+        "en": "As your speed drops such that you can clear the corner, the red line will start to fade. From then on, you'll need to be careful with your acceleration. Try to maintain your speed until the end of the corner is in sight. Let off the throttle if you feel that you're going off-track.",
+        "jp": "コーナーを曲がれる速度までスピードが落ちると、赤い色が薄くなります。ただしそこからのアクセルは慎重に。コーナーの終わりが見えるまでは速度を維持する感覚で走りましょう。もしコースを飛び出しそうになったら、アクセルを緩めてください。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i182XCWU68d7JSH.jpg",
+        "jp": "/images/c/i1XabffuHYDZ97E.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The braking area is a series of red lines across the track which indicate the point at which you should apply the brake.",
+        "jp": "ブレーキングエリアはコースを横切る赤い帯でブレーキを踏むポイントを知らせてくれます"
+      },
+      {
+        "type": "h3",
+        "en": "● Braking indicator",
+        "jp": "●ブレーキングインジケーター"
+      },
+      {
+        "type": "p",
+        "en": "There is another method for learning when to brake. This involves using the 'Braking Indicator' meter.",
+        "jp": "ブレーキのタイミングをつかむ方法はもうひとつあります。メーターの表示で知らせるブレーキングインジケーターがそれです。"
+      },
+      {
+        "type": "p",
+        "en": "As you approach a braking point, the center of the meter will turn red. Be ready to brake as soon as the meter begins flashing. Like the \"Braking Area,\" the \"Braking Indicator\" shows when you need to slow down, so choose the method that works best for you.",
+        "jp": "ブレーキをかけるポイントが近づくと、メーターの中央部分が徐々に赤くなります。そこでブレーキをかける心構えをして、点滅した瞬間、ブレーキをかけましょう。タイミング自体はブレーキエリアと同じなので、使いやすいほうを選べばいいでしょう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i16sSUB4dPfwEC.jpg",
+        "jp": "/images/c/i1AK0sLggchvg.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The center of the meter will turn red to indicate when it's time to brake.",
+        "jp": "メーターの中央部分が赤くなってブレーキングポイントを知らせるブレーキングインジケーター"
+      },
+      {
+        "type": "h3",
+        "en": "● Suggested gear",
+        "jp": "●サジェステッドギア"
+      },
+      {
+        "type": "p",
+        "en": "Most beginners use automatic transmission, so they do not need to worry about shifting gears. Even so, there is one assist function worth considering: \"Suggested Gear.\"",
+        "jp": "ビギナーの場合はAT（オートマチック・トランスミッション）を選択することが多いので、シフトチェンジについては心配する必要はありませんが、それでも知っておきたい機能があります。それがサジェステッドギアです。"
+      },
+      {
+        "type": "p",
+        "en": "Located next to your current gear, the suggested gear is the gear you should be in for an upcoming corner. This will give you a general idea of the speed needed to clear the corner depending on the gear you're in, and will serve as a guide for how much you need to slow down. Keep it in mind.",
+        "jp": "メーター内の現在のギアの横に、次のコーナーの目標となるギアを表示してくれるものなのですが、たとえば3速か2速かによってコーナーのおおまかな通過速度がわかるので、どのくらい減速するかの参考になります。気に留めるようにしてください。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1VPmHSmcR9Xk.jpg",
+        "jp": "/images/c/i13Xmk1b0BTyEuB.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The section of the meter surrounded by the red square shows the suggested gear. Fourth gear is currently engaged, but it's suggested that the driver switches to third gear ahead of the corner.",
+        "jp": "画面下部のメーター部分、赤く囲ったのがサジェステッドギア。現在4速で走っていて、次のコーナーでは3速に落とすことを表しています"
+      },
+      {
+        "type": "h3",
+        "en": "● Auto-brake / auto-drive",
+        "jp": "●オートブレーキ／オートステア"
+      },
+      {
+        "type": "p",
+        "en": "These functions are designed to support players who are still developing their braking and cornering skills. \"Auto-Brake\" assists with deceleration, while \"Auto-Drive\" helps with steering through corners, giving beginners a feel for what a smooth driving line should be. Of course, these functions will not do everything for you, so try not to become too dependent on them. Always remember that you are the driver, and you are the one in control behind the wheel.",
+        "jp": "「狙った場所でブレーキを踏めない」「じょうずにコーナーを曲がれない」という人をサポートしてくれる機能です。オートブレーキは減速を、オートステアはコーナーでのステアリング操作をアシストしてくれるので、ビギナーでもスムーズな走行が可能になります。とはいえすべての操作を行ってくれるわけではないので過信は禁物。運転の主体は自分にあることを忘れないでください。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1MYMBK5dzeflSB.jpg",
+        "jp": "/images/c/i1nqAlCIZXjby.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The Auto-Brake and Auto-Drive assists will help you with your braking and steering. These features can be adjusted from the Quick Menu.",
+        "jp": "ブレーキやステアリング操作を助けてくれるオートブレーキ／オートステア。レースのクイックメニュー内「アシストセッティング」から設定できます"
+      }
+    ]
+  },
+  "how_to_get_started__using_driver_assistance__02": {
+    "h1_en": "Using Driver Assist ② - Car Control",
+    "h1_jp": "ドライビングアシストを使いこなそう②／車体制御",
+    "blocks": [
+      {
+        "type": "h3",
+        "en": "Protect against spinning out and going off-track",
+        "jp": "スピンやコースアウトを防いでくれる"
+      },
+      {
+        "type": "p",
+        "en": "\"Driver Assistance\" also includes functions that help stabilize your car and prevent spins or other unintended movements. Let’s take a look at some of these features.",
+        "jp": "ドライビングアシストには、車両の動きをコントロールして、不意のスピンなどを防いでくれるものもあります。ここではそれらの機能について説明しましょう。"
+      },
+      {
+        "type": "h3",
+        "en": "● Traction control system (TCS)",
+        "jp": "●TCS（トラクション・コントロール）"
+      },
+      {
+        "type": "p",
+        "en": "\"Traction Control\" monitors the tires and helps prevent wheelspin. For example, if you accelerate too aggressively out of a corner in a powerful car, the wheels may begin to spin and upset the car’s balance. In that situation, \"Traction Control\" reduces engine power to help keep the car stable.",
+        "jp": "タイヤの回転を監視して、空転を防いでくれるのがTCSです。たとえばコーナー出口で急にアクセルを踏んだ場合、パワーのあるクルマだと駆動輪が空転して姿勢を乱してしまいます。そんなときエンジンパワーを絞り、空転を止めてくれるのがTCSというわけです。"
+      },
+      {
+        "type": "p",
+        "en": "However, it will not always work in your favor. Tire grip is often strongest when there is a small amount of slip between the tire and the road surface. Because \"Traction Control\" works to reduce that slip, it can sometimes intervene too much, cutting engine power and slowing your acceleration out of a corner.",
+        "jp": "ただし、いい効果だけではありません。実はタイヤのグリップ力は、路面との間にわずかな「滑り」があるときにもっとも高いのですが、TCSはその滑りを止めてしまうため、効かせすぎると失速の原因になってしまうためです。"
+      },
+      {
+        "type": "p",
+        "en": "Gran Turismo 7 offers six levels of \"Traction Control.\" Beginners should start at \"3,\" then adjust the setting as they become more comfortable with the car.",
+        "jp": "『グランツーリスモ７』ではTCSの効き具合を6段階に調整できます。ビギナーの場合はまず『3』でスタートし、状況によって調整するのがいいでしょう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1cWLoE6iWBAmb.jpg",
+        "jp": "/images/c/i151sGfc4ItunuH.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The TCS Settings Screen. Increasing the value will make the car more stable but will have a detrimental effect on its acceleration.",
+        "jp": "TCSの設定画面。数値を上げるほどクルマが安定しますが加速が鈍る弊害も生みます"
+      },
+      {
+        "type": "h3",
+        "en": "● Counter-steering assistance",
+        "jp": "●カウンターステアアシスト"
+      },
+      {
+        "type": "p",
+        "en": "When a rear-wheel vehicle enters a corner too fast, the back wheels can sometimes lose grip, resulting in a (sideways) slide (or a 'drift' when performed intentionally.) In order to control the extent to which their car slides, drivers may employ a technique called 'counter-steering', though there is also a \"Driver Assistance\" function that does this automatically.",
+        "jp": "FRなど後輪駆動のクルマは、コーナーで急にアクセルを踏むと後輪がグリップを失い、車体のスライド（横滑り）を起こすことがあります（それを積極的に使った走り方がドリフトです）。そのスライドを抑え込むテクニックが、「カウンターステア」というハンドル操作なのですが、そのカウンターステアを自動で行ってくれる機能がカウンターステアアシストです。"
+      },
+      {
+        "type": "p",
+        "en": "\"Counter-steering assistance\" controls your car's slide, making it harder to spin out. However, the act of sliding tends to waste time, so you should rather think of it as a safeguard for spinning out.",
+        "jp": "カウンターステアアシストが機能していると、クルマの横滑りが抑えられ、スピンしにくくなります。ただしスライド自体がタイムロスの原因となるため、カウンターステアアシストはあくまでスピンを回避するための機能と考えるのがいいでしょう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1GuOHUZCfDcNEc.jpg",
+        "jp": "/images/c/i1wZGtamFRTLjC.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The Counter-Steering Assistance Screen. Counter-steering assistance will help stabilize your cars on corners.",
+        "jp": "カウンターステアアシストの設定画面。コーナーでのクルマの動きが安定します"
+      },
+      {
+        "type": "h3",
+        "en": "● Anti-lock braking system (ABS)",
+        "jp": "●ABS（アンチロック・ブレーキ）"
+      },
+      {
+        "type": "p",
+        "en": "ABS prevents your tires from locking up (i.e. from being dragged without spinning) when you make a hard brake, thereby extending your braking distance. The moment the system detects your tires locking up, it reduces the brake force to restore control to your vehicle.",
+        "jp": "強いブレーキをかけたとき、タイヤがロック（回転せずに路面に引きずられてしまう現象）すると、制動距離が延びてしまいます。それを防ぐのがABSです。ロックを検知すると一瞬だけ制動力を緩め、制動力を回復させるわけです。"
+      },
+      {
+        "type": "p",
+        "en": "All cars in Gran Turismo 7 are equipped with ABS and offer three settings: \"Off,\" \"Weak\" and \"Default.\" Because brake control takes some practice to master, beginners should start with the \"Default\" setting.",
+        "jp": "『グランツーリスモ７』に収録されたクルマには、すべてABSが装備されていて、効き具合をOFF/弱い/標準の3段階に調整できます。ブレーキ・コントロールを自分で行うことは難しいので、ビギナーの場合は「標準」に設定するのがいいでしょう。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i19Cb2vDNkmKFO.jpg",
+        "jp": "/images/c/i1RzJhtylqxcxuH.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The ABS Settings Screen. The moment the system detects your tires locking up, it reduces the brake force to restore control to your vehicle.",
+        "jp": "ABSの設定画面。タイヤのロックを検知して制動距離が延びることを防ぎます"
+      },
+      {
+        "type": "h3",
+        "en": "● Active stability management (ASM)",
+        "jp": "●ASM（スタビリティマネジメント）"
+      },
+      {
+        "type": "p",
+        "en": "The phenomena of unintentionally veering outwards or inwards when cornering are known as understeering and oversteering. The ASM function is intended to control these characteristics with braking.",
+        "jp": "コーナリング中のクルマが外に膨らんだり、内側に巻き込んだりする動きを、それぞれアンダーステア、オーバーステアといいますが、そういった動きをブレーキで抑えようという仕組みがASMです。"
+      },
+      {
+        "type": "p",
+        "en": "If your car is veering outwards due to understeering, ASM will apply a brake to the inside rear wheel, creating a force that pulls the car inwards, thereby offsetting the tendency. Conversely, if your car is veering inwards due to oversteering, AMS will apply a brake to the outside front wheel, creating a force that pushes the car outwards, thereby correcting your car.",
+        "jp": "外に膨らむアンダーステアの場合は、コーナー内側の後輪にブレーキをかけてクルマが内側に巻き込む力を作り、動きを相殺します。内側に巻き込むオーバーステアの場合は、コーナー外側の前輪にブレーキをかけて外に膨らむ力を作り、両者を相殺するというわけです。"
+      },
+      {
+        "type": "p",
+        "en": "Keep in mind that ASM is a part of the ABS, and will not function when your ABS is turned off.",
+        "jp": "ASMはABSを使った技術なのでABSをOFFにすると機能しなくなることも覚えておいてください。"
+      },
+      {
+        "type": "img",
+        "en": "/images/c/i1ry8m077oF7OTB.jpg",
+        "jp": "/images/c/i16VdcSuHvjpcO.jpg"
+      },
+      {
+        "type": "p",
+        "en": "The ASM Settings Screen. The system monitors for oversteering and understeering, ensuring that the car remains stable when cornering.",
+        "jp": "ASMの設定画面。アンダーステア、オーバーステアを監視して安定したコーナリングを可能にします"
+      },
+      {
+        "type": "h3",
+        "en": "● Reset to track",
+        "jp": "●置き直し"
+      },
+      {
+        "type": "p",
+        "en": "This assistance function will return your car to the course if you happen to go off-track due to spinning out, driving in the wrong direction, or colliding with another car. Although resetting your car to the track will result in a loss of time, it will allow for a smoother experience.",
+        "jp": "やむなく、コース外に出てしまったクルマを、コース上に戻してくれるアシスト機能です。レース中にスピンしたりすると進行方向と逆に走り出してしまったり、他のクルマとぶつかってしまうこともあります。一定時間をロスすることにはなりますが、トラブルを回避したい場合は活用しましょう。"
+      },
+      {
+        "type": "p",
+        "en": "Feeling more confident? I hope you've enjoyed my advice for beginners of Gran Turismo. Remember that even the world's best players were once beginners like yourselves. And so I look forward to seeing you all at the Gran Turismo World Series one day. Happy racing!",
+        "jp": "いかがだったでしょうか。『グランツーリスモ』ビギナーに向けた僕のアドバイスはこれで終わりです。世界の頂点に立つトッププレイヤーも、はじめは皆さんと同じビギナーでした。いつの日か、グランツーリスモ ワールドシリーズの会場で、皆さんとお会いできることを楽しみにしています。Be a good race!"
+      }
+    ]
+  }
+}

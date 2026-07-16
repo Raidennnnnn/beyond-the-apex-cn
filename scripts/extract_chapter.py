@@ -57,18 +57,42 @@ def page_key_from_file(name: str) -> str:
     return name.replace(".html", "")
 
 
+def align_blocks(us_blocks: list[dict], jp_blocks: list[dict]) -> list[dict]:
+    """Pair US/JP blocks; skip JP-only captions after images when US has none."""
+    aligned: list[dict] = []
+    j = 0
+    for i, ub in enumerate(us_blocks):
+        while j < len(jp_blocks) and ub["type"] != jp_blocks[j]["type"]:
+            prev_us = us_blocks[i - 1] if i > 0 else None
+            if (
+                prev_us
+                and prev_us["type"] == "img"
+                and jp_blocks[j]["type"] == "p"
+            ):
+                j += 1
+                continue
+            raise ValueError(
+                f"Block type mismatch at US[{i}]={ub['type']}: "
+                f"JP[{j}]={jp_blocks[j]['type']}"
+            )
+        aligned.append(
+            {"type": ub["type"], "en": ub["text"], "jp": jp_blocks[j]["text"]}
+        )
+        j += 1
+    while j < len(jp_blocks):
+        if aligned and aligned[-1]["type"] == "img" and jp_blocks[j]["type"] == "p":
+            j += 1
+            continue
+        raise ValueError(
+            f"Unpaired JP blocks remain: US={len(us_blocks)} JP={len(jp_blocks)}"
+        )
+    return aligned
+
+
 def extract_page(us_html: str, jp_html: str) -> dict:
     us_blocks = parse_body_blocks(us_html)
     jp_blocks = parse_body_blocks(jp_html)
-    if len(us_blocks) != len(jp_blocks):
-        raise ValueError(
-            f"Block count mismatch: US={len(us_blocks)} JP={len(jp_blocks)}"
-        )
-    blocks = []
-    for ub, jb in zip(us_blocks, jp_blocks):
-        if ub["type"] != jb["type"]:
-            raise ValueError(f"Block type mismatch: {ub['type']} vs {jb['type']}")
-        blocks.append({"type": ub["type"], "en": ub["text"], "jp": jb["text"]})
+    blocks = align_blocks(us_blocks, jp_blocks)
     return {
         "h1_en": parse_h1(us_html),
         "h1_jp": parse_h1(jp_html),
