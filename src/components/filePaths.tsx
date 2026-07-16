@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import PlaceholderPage from "@/components/beyond the apex/PlaceholderPage";
 import AutomotiveEngineering from "@/components/beyond the apex/AutomotiveEngineering";
 import EffectOfDampingForce from "@/components/beyond the apex/EffectOfDampingForce";
 import FrequencyResponse from "@/components/beyond the apex/FrequencyResponse";
@@ -86,6 +85,13 @@ import InGameGeneralPrinciples from "@/components/beyond the apex/InGameGeneralP
 import InGameSuspension from "@/components/beyond the apex/InGameSuspension";
 import InGameAerodynamicsGearRatios from "@/components/beyond the apex/InGameAerodynamicsGearRatios";
 import EnsuringSafeAndEnjoyableRaces from "@/components/beyond the apex/EnsuringSafeAndEnjoyableRaces";
+import TheAngle from "@/components/beyond the apex/TheAngle";
+import Lighting from "@/components/beyond the apex/Lighting";
+import DepthOfField from "@/components/beyond the apex/DepthOfField";
+import Lenses from "@/components/beyond the apex/Lenses";
+import ColorTemperature from "@/components/beyond the apex/ColorTemperature";
+import Exposure from "@/components/beyond the apex/Exposure";
+import TakingBetterPhotos from "@/components/beyond the apex/TakingBetterPhotos";
 
 export interface TocPage {
   name: string;
@@ -836,43 +842,43 @@ export const tocChapters: TocChapter[] = [
             name: "The Angle",
             path: "01",
             routePath: "photographing_cars/scapes/01",
-            component: <PlaceholderPage title="The Angle" />,
+            component: <TheAngle />,
           },
           {
             name: "Lighting",
             path: "02",
             routePath: "photographing_cars/scapes/02",
-            component: <PlaceholderPage title="Lighting" />,
+            component: <Lighting />,
           },
           {
             name: "Depth of Field",
             path: "03",
             routePath: "photographing_cars/scapes/03",
-            component: <PlaceholderPage title="Depth of Field" />,
+            component: <DepthOfField />,
           },
           {
             name: "Lenses",
             path: "04",
             routePath: "photographing_cars/scapes/04",
-            component: <PlaceholderPage title="Lenses" />,
+            component: <Lenses />,
           },
           {
             name: "Color Temperature",
             path: "05",
             routePath: "photographing_cars/scapes/05",
-            component: <PlaceholderPage title="Color Temperature" />,
+            component: <ColorTemperature />,
           },
           {
             name: "Exposure",
             path: "06",
             routePath: "photographing_cars/scapes/06",
-            component: <PlaceholderPage title="Exposure" />,
+            component: <Exposure />,
           },
           {
             name: "Taking Better Photos",
             path: "07",
             routePath: "photographing_cars/scapes/07",
-            component: <PlaceholderPage title="Taking Better Photos" />,
+            component: <TakingBetterPhotos />,
           },
         ],
       },

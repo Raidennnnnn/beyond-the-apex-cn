@@ -29,6 +29,28 @@ def parse_body_blocks(html: str) -> list[dict]:
     if not m:
         raise ValueError("No body found")
     body = m.group(1)
+
+    def expand_images(match: re.Match[str]) -> str:
+        div = match.group(0)
+        out: list[str] = []
+        for dl in re.finditer(
+            r'<dl class="image_list">(.*?)</dl>', div, flags=re.DOTALL
+        ):
+            content = dl.group(1)
+            im = re.search(r'<img src="([^"]+)"', content)
+            cap = re.search(r'<dd class="caption">(.*?)</dd>', content, flags=re.DOTALL)
+            if im:
+                out.append(f'<p class="image"><img src="{im.group(1)}" alt="" /></p>')
+            if cap:
+                out.append(f'<p class="caption">{cap.group(1)}</p>')
+        return "".join(out)
+
+    body = re.sub(
+        r'<div class="images">.*?</div>\s*',
+        expand_images,
+        body,
+        flags=re.DOTALL,
+    )
     blocks: list[dict] = []
     parts = re.split(
         r"(<h[123][^>]*>.*?</h[123]>|<p[^>]*>.*?</p>)",
@@ -89,10 +111,36 @@ def align_blocks(us_blocks: list[dict], jp_blocks: list[dict]) -> list[dict]:
     return aligned
 
 
-def extract_page(us_html: str, jp_html: str) -> dict:
+def pair_blocks_manual(
+    us_blocks: list[dict], jp_blocks: list[dict], jp_indices: list[int | None]
+) -> list[dict]:
+    """Pair US blocks to JP blocks by explicit JP index (None = US-only)."""
+    if len(jp_indices) != len(us_blocks):
+        raise ValueError("jp_indices length must match US blocks")
+    aligned: list[dict] = []
+    for ub, ji in zip(us_blocks, jp_indices):
+        jp_text = jp_blocks[ji]["text"] if ji is not None else ""
+        aligned.append({"type": ub["type"], "en": ub["text"], "jp": jp_text})
+    return aligned
+
+
+CH5_JP_MAP: dict[str, list[int | None]] = {
+    # US-only 7:3 paragraph at index 11
+    "photographing_cars__scapes__02": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, None, 11, 12],
+    # Skip JP-only scapes note before comparison images; skip JP-only closing line
+    "photographing_cars__scapes__05": [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    # US-only closing comparison images for white car
+    "photographing_cars__scapes__06": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, None, None],
+}
+
+
+def extract_page(us_html: str, jp_html: str, page_key: str | None = None) -> dict:
     us_blocks = parse_body_blocks(us_html)
     jp_blocks = parse_body_blocks(jp_html)
-    blocks = align_blocks(us_blocks, jp_blocks)
+    if page_key and page_key in CH5_JP_MAP:
+        blocks = pair_blocks_manual(us_blocks, jp_blocks, CH5_JP_MAP[page_key])
+    else:
+        blocks = align_blocks(us_blocks, jp_blocks)
     return {
         "h1_en": parse_h1(us_html),
         "h1_jp": parse_h1(jp_html),
@@ -118,6 +166,7 @@ def main() -> None:
         pages[key] = extract_page(
             us_file.read_text(encoding="utf-8"),
             jp_file.read_text(encoding="utf-8"),
+            page_key=key,
         )
         print(f"  {key}: {len(pages[key]['blocks'])} blocks")
 
