@@ -1,58 +1,30 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router";
 import { LocationSibilingsContext } from "./app-location-sibilings-context";
-import { FilePath, filePaths } from "./filePaths";
+import { flatTocPages, TocPage } from "./filePaths";
 
 export default function LocationSibilingsProvider(
   { children }: { children: React.ReactNode }
 ) {
   const { pathname } = useLocation();
-  
-  const [, parentPath, path] = pathname.split('/');
-  const [previous, setPrevious] = useState<FilePath | null>(null);
-  const [next, setNext] = useState<FilePath | null>(null);
+  const routePath = pathname.replace(/^\//, "");
+  const [previous, setPrevious] = useState<TocPage | null>(null);
+  const [next, setNext] = useState<TocPage | null>(null);
 
   useEffect(() => {
-    const currentParentIndex = filePaths.findIndex(item => item.path === parentPath);
-    const currentParent = filePaths[currentParentIndex];
-
-    if (!currentParent) {
+    const index = flatTocPages.findIndex((p) => p.routePath === routePath);
+    if (index === -1) {
       setPrevious(null);
       setNext(null);
       return;
-    };
-
-    const currentIndex = currentParent.files.findIndex(item => item.path === path);
-
-    if (currentIndex > 0 && currentIndex < currentParent.files.length - 1) {
-      setPrevious({ ...currentParent, files: [currentParent.files[currentIndex - 1]] });
-      setNext({ ...currentParent, files: [currentParent.files[currentIndex + 1]] });
     }
+    setPrevious(index > 0 ? flatTocPages[index - 1] : null);
+    setNext(index < flatTocPages.length - 1 ? flatTocPages[index + 1] : null);
+  }, [routePath]);
 
-    if (currentIndex === 0) {
-      setNext({ ...currentParent, files: [currentParent.files[1]] });
-
-      if (currentParentIndex > 0) {
-        const previousParent = filePaths[currentParentIndex - 1];
-        setPrevious({ ...previousParent, files: [previousParent.files[previousParent.files.length - 1]] });
-      } else {
-        setPrevious(null);
-      }
-    }
-
-    if (currentIndex === currentParent.files.length - 1) {
-      setPrevious({ ...currentParent, files: [currentParent.files[currentParent.files.length - 2]] });
-
-      if (currentParentIndex < filePaths.length - 1) {
-        const nextParent = filePaths[currentParentIndex + 1];
-        setNext({ ...nextParent, files: [nextParent.files[0]] });
-      } else {
-        setNext(null);
-      }
-    }
-  }, [parentPath, path]);
-
-  return <LocationSibilingsContext.Provider value={{ previous, next }}>
-    {children}
-  </LocationSibilingsContext.Provider>
+  return (
+    <LocationSibilingsContext.Provider value={{ previous, next }}>
+      {children}
+    </LocationSibilingsContext.Provider>
+  );
 }

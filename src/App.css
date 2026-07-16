@@ -55,6 +55,19 @@
     .image:has(+ .caption) {
       @apply mb-2;
     }
+
+    .bilingual {
+      @apply mb-6;
+
+      p[lang="en"] {
+        @apply mb-2 font-sans;
+      }
+
+      p[lang="zh"] {
+        @apply text-muted-foreground mb-0;
+        font-family: var(--font-cjk);
+      }
+    }
     
     .images {
       @apply grid grid-cols-1 md:grid-cols-2 gap-4 my-4;

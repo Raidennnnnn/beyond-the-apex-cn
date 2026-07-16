@@ -1,0 +1,59 @@
+
+
+<div class="manual_detail">
+	<div class="content_header">
+		<h1>5-1 : The World of CFD</h1>
+		<h2>CFD, a world of discretisation</h2>
+	</div>
+	<div class="body">
+
+<p>
+The previous section’s introduction to aerodynamics should have made it clear that a full understanding of flow fields requires solving fluid equations such as the Navier–Stokes Equations. In the latter part of the 20th century, advances in computing made it possible to solve these equations numerically.<br><br>This field is known as Computational Fluid Dynamics (CFD), or numerical fluid dynamics. CFD has become an essential tool in automotive development, although it is not widely known outside the field. To understand the basics of how CFD works, we briefly examine the underlying theoretical concepts.</p>
+
+
+<h3 id="$_count">● Approximation</h3>
+
+
+<p>
+The real world can be viewed as a continuous (analog) system, in which physical quantities vary smoothly in space and time. In fluid dynamics, fluids are typically modeled as continuous media with properties defined at every point in this continuum. Computers, however, operate digitally and can only handle discrete values with finite resolution. As a result, CFD represents the continuous flow field by dividing space and time into small, discrete elements. Despite this discretization, the objective of CFD is to approximate the behavior of the continuous real world as accurately as possible. To achieve this, physical processes that cannot be directly resolved must be modeled and incorporated through appropriate assumptions and approximations.<br></p>
+
+
+
+	<p class="image"><img src="/images/c/i1nArCjPg11myb.jpg" alt="" /></p>
+<p class="caption">Fig. 5-1-1: 
+The difference between the real world and the world of CFD.</p>
+
+
+<p>
+How, then, is the missing information represented? One approach is to connect known data points with straight lines and assume that the values between them vary linearly. Alternatively, higher-order models can be used, where the variation between points is represented by smooth curves.This process of representing unknown values based on known data while preserving the essential behavior is called approximation, and the resulting value is referred to as an approximate value. In CFD, these approximation methods are implemented through numerical schemes.<br></p>
+
+
+
+	<p class="image"><img src="/images/c/i15lXiPnf3Pp9EE.jpg" alt="" /></p>
+<p class="caption">Fig. 5-1-2: 
+Complement missing data from computers</p>
+
+
+<h3 id="$_count">● The Lax Equivalence Theorem</h3>
+
+
+<p>
+Since computers cannot represent every point in space and time, CFD results are inherently approximate. However, if the difference from the true value is sufficiently small, it is acceptable in practice. For example, if the average flow velocity is 30 m/s, a difference on the order of 0.000001 m/s is negligible. In the same way, small numerical differences in simulation results are not a concern as long as they remain within an acceptable tolerance. In technical terms, a simulation is considered acceptable when the solution has converged.<br><br>An important concept related to this is the Lax Equivalence Theorem, demonstrated by Peter Lax. This theorem states that for a well-posed linear initial value problem, a numerical scheme converges if, and only if, it is both consistent and stable. In other words, the relationship between consistency and stability determines convergence. Refer to Fig. 5-1-4 for the definitions of consistency, stability and convergence.</p>
+
+
+
+	<p class="image"><img src="/images/c/i11zaMR6StyOC.jpg" alt="" /></p>
+<p class="caption">Fig. 5-1-3</p>
+
+
+
+	<p class="image"><img src="/images/c/i1Dvk8qAorWpkuB.jpg" alt="" /></p>
+<p class="caption">Fig. 5-1-4
+Conformability and stability. The “true value” referred to here is the solution obtained from an analytical solution of the governing partial differential equations of fluid flow.</p>
+
+
+<p>
+The Lax Equivalence Theorem states that for a well-posed linear initial value problem, a numerical scheme converges if and only if it is both stable and consistent. In other words, when a scheme satisfies these two conditions, the numerical (difference) solution approaches the exact solution of the original differential equation as the grid spacing becomes sufficiently small.</p>
+
+	</div>
+</div>

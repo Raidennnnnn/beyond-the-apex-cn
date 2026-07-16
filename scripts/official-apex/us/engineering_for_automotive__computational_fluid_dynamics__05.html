@@ -1,0 +1,65 @@
+
+
+<div class="manual_detail">
+	<div class="content_header">
+		<h1>5-5 : Solving Turbulence</h1>
+		<h2>Method of reducing computational complexity</h2>
+	</div>
+	<div class="body">
+
+<h3 id="$_count">● Solving vortexes</h3>
+
+
+<p>
+When a vehicle is in motion, turbulence is generated around it. Turbulence consists of a wide range of vortices, from large energy-containing structures to very small dissipative ones. To resolve even a simple vortex numerically, multiple grid elements are required, as illustrated in Fig. 5-5-1. Therefore, directly resolving all vortical structures in a turbulent flow demands an extremely large number of elements.<br><br>For example, attempting to directly compute all turbulent scales around a vehicle traveling at 100 km/h would require on the order of 10¹³ grid elements—approximately ten trillion. While such calculations may be theoretically possible with advanced supercomputers, they are generally impractical for real-world automotive engineering applications.</p>
+
+
+
+	<p class="image"><img src="/images/c/i1ZBZFXSnAxQidB.jpg" alt="" /></p>
+<p class="caption">Fig. 5-5-1
+To resolve two-dimensional vortexes, a minimum of nine lattice elements will be necessary</p>
+
+
+
+	<p class="image"><img src="/images/c/i1O1mnTLXb0nW.jpg" alt="" /></p>
+<p class="caption">Fig. 5-5-2
+The relationship between turbulence and air vortexes</p>
+
+
+<h3 id="$_count">● Turbulence model</h3>
+
+
+<p>
+In fluid mechanics, modeling the characteristics of turbulence has been essential to advancing our understanding of its behavior. While turbulent motion is governed by the Navier–Stokes Equations, obtaining a complete, exact solution for all scales of turbulence is not feasible in practice. As a result, efforts have focused on modeling key features of turbulence, with considerable success. In practical CFD applications, these simplified turbulence models are introduced to avoid resolving every vortex, both large and small, thereby significantly reducing computational cost. Two of the most widely used approaches are the Reynolds-Averaged Navier-Stokes (RANS) method and the Large Eddy Simulation (LES) method.</p>
+
+
+<p>
+Not using a turbulence model and instead directly solving the governing fluid equations is called Direct Numerical Simulation (DNS). In DNS, all scales of turbulence—from the largest eddies to the smallest dissipative structures—are fully resolved. However, as noted earlier, achieving this requires extremely fine spatial resolution. In addition, time must also be discretized with very small time steps to accurately capture the evolution of these flow structures. As a result, the computational cost becomes extraordinarily high.</p>
+
+
+<h3 id="$_count">● RANS (Reynolds Averaged Navier-Stokes)</h3>
+
+
+<p>
+RANS is a turbulence modeling approach that represents the flow using time-averaged quantities. In this formulation, the flow variables are decomposed into a mean component and a fluctuating component, and the effects of turbulence are modeled through additional terms (Reynolds stresses). Because RANS solves only the averaged flow, its computational cost is relatively low, making it the most widely used approach in engineering applications. However, it has limitations, including difficulty in accurately predicting complex flow phenomena such as separation, strong unsteadiness, and certain turbulent structures.<br></p>
+
+
+
+	<p class="image"><img src="/images/c/i1Mo4GRTkubKpSH.jpg" alt="" /></p>
+<p class="caption">Fig. 5-5-3
+RANS</p>
+
+
+<h3 id="$_count">● LES (Large Eddy Simulation)</h3>
+
+
+<p>
+In turbulent flow, the larger vortices carry most of the energy and have the greatest influence on the overall flow field, while smaller vortices play a more dissipative role. If the large vortices are resolved directly and the smaller ones are modeled, this approach is known as LES. LES explicitly calculates the large-scale turbulent structures, while modeling the effects of the smaller scales (subgrid scales). Because of this, LES can capture unsteady and complex flow features with much higher accuracy than RANS. However, this increased fidelity comes at the cost of significantly greater computational requirements.</p>
+
+
+
+	<p class="image"><img src="/images/c/i16ai9QsP29Jo.jpg" alt="" /></p>
+<p class="caption">Fig. 5-5-4</p>
+
+	</div>
+</div>

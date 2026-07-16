@@ -1,14 +1,16 @@
-import { filePaths } from "@/components/filePaths";
+import { tocChapters } from "@/components/filePaths";
 import { Sidebar, SidebarMenu } from "./ui/sidebar";
 import { SidebarContent } from "./ui/sidebar";
 import CollapsibleSidebarMenuItem from "./app-sidebar-menu-item";
 
-export default function AppSidebar() {  
+export default function AppSidebar() {
   return (
     <Sidebar>
       <SidebarContent>
         <SidebarMenu className="p-2">
-          {filePaths.map((folder, index) => <CollapsibleSidebarMenuItem key={index} folder={folder} />)}
+          {tocChapters.map((chapter) => (
+            <CollapsibleSidebarMenuItem key={chapter.path} chapter={chapter} />
+          ))}
         </SidebarMenu>
       </SidebarContent>
     </Sidebar>

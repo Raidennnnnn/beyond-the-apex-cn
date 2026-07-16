@@ -1,0 +1,52 @@
+
+
+<div class="manual_detail">
+	<div class="content_header">
+		<h1>5-4 : Compatibility of First-Order Approximation and High-Order Approximation</h1>
+		<h2>How to make both first-order approximation and high-order approximation compatible</h2>
+	</div>
+	<div class="body">
+
+<p>
+According to Godunov's Theorem, it is not possible for a linear scheme to be both high-order accurate and strictly monotonic. In other words, some degree of oscillation cannot be completely eliminated in such schemes. Therefore, instead of trying to remove oscillations entirely, alternative approaches are used to control them while maintaining as much accuracy as possible.</p>
+
+
+<h3 id="$_count">■ TVD</h3>
+
+
+<p>
+First-order approximation schemes are diffusive and less accurate, but they preserve monotonicity and do not produce oscillations. In contrast, higher-order schemes provide greater accuracy in smooth regions, but can generate non-physical oscillations when applied to flows with abrupt changes, such as discontinuities. Each approach therefore has its own advantages and disadvantages. A natural idea is to combine the strengths of both methods, using higher-order accuracy in smooth regions while preserving monotonicity near discontinuities. This concept led to the development of TVD (Total Variation Diminishing).<br><br>TVD (Total Variation Diminishing) combines first-order and higher-order approximations. It is designed to prevent an increase in the total variation of the solution, thereby avoiding non-physical oscillations. In smooth regions of the flow, TVD uses higher-order approximations to achieve greater accuracy. In regions with sharp gradients or discontinuities, it switches to first-order behavior to preserve monotonicity. In this way, TVD adapts to the local flow conditions, maintaining stability while retaining as much accuracy as possible.</p>
+
+
+
+	<p class="image"><img src="/images/c/i1kBp6hCiyjm47c.jpg" alt="" /></p>
+<p class="caption">Fig. 5-4-1
+TVD</p>
+
+
+<p>
+There are other techniques, in addition to TVD, that are used to reduce oscillations arising from high-order approximation schemes. One approach is to introduce artificial (numerical) viscosity, which stabilizes the solution by damping non-physical oscillations. Another widely used method is MUSCL (Monotonic Upstream-Centered Schemes for Conservation Laws), which improves accuracy while maintaining stability.</p>
+
+
+<p>
+Schemes such as TVD, which maintain high-order accuracy in smooth regions while capturing sharp changes in discontinuous regions without introducing non-physical oscillations, are commonly referred to as high-resolution schemes.</p>
+
+
+
+	<p class="image"><img src="/images/c/i1RMOVZ6f1mmD.jpg" alt="" /></p>
+<p class="caption">Fig. 5-4-2: 
+The results obtained are much closer to the true value when using TVD</p>
+
+
+<h3 id="$_count">■ Evaluation of TVD</h3>
+
+
+<p>
+Diagram 5-4-2 compares results obtained using a TVD scheme with those from first-order and higher-order approximation schemes. Unlike higher-order schemes, TVD avoids non-physical oscillations such as overshoot and undershoot. At the same time, compared with first-order schemes, it reduces excessive numerical diffusion, resulting in a more accurate representation of sharp gradients. In particular, the TVD solution remains closer to the true (exact) solution than the other schemes.<br><br>However, because TVD schemes require additional calculations to adapt to local flow conditions, they generally incur a higher computational cost and longer computation time.</p>
+
+
+<p>
+TVD is effective for handling discontinuities, such as shock waves, and are widely used in simulations of compressible flows.</p>
+
+	</div>
+</div>

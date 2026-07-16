@@ -7,37 +7,35 @@ export function useScreenSwipe() {
   const navigate = useNavigate();
   const { previous, next } = useLocationSibilings();
 
-  return  useSwipeable({
+  return useSwipeable({
     onSwipedRight: () => {
-      if (previous) {
-        const destination = `${previous.path}/${previous.files[0].path}`;
-        localStorage.setItem('currentAt', destination);
+      if (!previous) return;
+      const destination = previous.routePath;
+      localStorage.setItem("currentAt", destination);
 
-        if (!document.startViewTransition) {
-          navigate(destination);
-          return;
-        }
-        document.startViewTransition(() => {
-          flushSync(() => {
-            navigate(destination);
-          });
-        });
+      if (!document.startViewTransition) {
+        navigate(destination);
+        return;
       }
+      document.startViewTransition(() => {
+        flushSync(() => {
+          navigate(destination);
+        });
+      });
     },
     onSwipedLeft: () => {
-      if (next) {
-        const destination = `${next.path}/${next.files[0].path}`;
-        localStorage.setItem('currentAt', destination);
-        if (!document.startViewTransition) {
-          navigate(destination);
-          return;
-        }
-        document.startViewTransition(() => {
-          flushSync(() => {
-            navigate(destination);
-          });
-        });
+      if (!next) return;
+      const destination = next.routePath;
+      localStorage.setItem("currentAt", destination);
+      if (!document.startViewTransition) {
+        navigate(destination);
+        return;
       }
+      document.startViewTransition(() => {
+        flushSync(() => {
+          navigate(destination);
+        });
+      });
     },
   });
 }

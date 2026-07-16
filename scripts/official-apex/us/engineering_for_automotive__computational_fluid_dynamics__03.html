@@ -1,0 +1,59 @@
+
+
+<div class="manual_detail">
+	<div class="content_header">
+		<h1>5-3 : Features of Scheme</h1>
+		<h2>Monotonicity and high accuracy cannot be compatible</h2>
+	</div>
+	<div class="body">
+
+<p>
+There are several ways to define the numerical flux, and the practitioner must choose an appropriate scheme. This choice is not arbitrary, as different schemes have different levels of accuracy and stability, which directly affect the quality of the simulation. As stated by the Lax Equivalence Theorem, a scheme must be both consistent and stable to ensure convergence. If an inappropriate scheme is used, errors can grow and the solution may diverge. Let us now briefly examine how differences in numerical schemes can affect the results.<br></p>
+
+
+<h3 id="$_count">● The scheme of primary approximation</h3>
+
+
+<p>
+To complement missing information in a computer, the simplest approach is to approximate changes in physical quantities using a straight line. When a linear function is used for this purpose, the scheme is said to have first-order (primary) accuracy. First-order schemes have the advantage of preserving monotonicity, meaning they do not introduce non-physical oscillations. However, they also have the disadvantage of introducing numerical diffusion, which tends to smear or smooth sharp gradients in the solution.<br></p>
+
+
+
+	<p class="image"><img src="/images/c/i1vZ6190jRFeNdB.jpg" alt="" /></p>
+<p class="caption">Fig. 5-3-1: 
+Calculation example of wave propagation and the first-order approximation scheme. The solution diffuses because the scheme of first-order approximation can’t resolve the high frequency waves.</p>
+
+
+<h3 id="$_count">● The scheme of high-order accuracy</h3>
+
+
+<p>
+It is natural to assume that greater accuracy can be achieved by using information from more lattice elements and approximating with higher-order curves rather than simple linear expressions. In practice, higher-order schemes do provide more accurate solutions than standard first-order schemes. However, increasing the order also increases computational complexity, as more neighboring elements must be considered in the calculation. In addition, some high-order schemes can introduce non-physical oscillations (often referred to as numerical oscillations), which may reduce overall accuracy, especially near sharp gradients or discontinuities.<br></p>
+
+
+
+	<p class="image"><img src="/images/c/i1EJDxWhnuntS.jpg" alt="" /></p>
+<p class="caption">Fig. 5-3-2: 
+A calculation example of a second-order approximation scheme and wave propagation (flow). The wave form is broken because the high-order accuracy wave is different from the speed (phase) of the wave propagation from the frequency.</p>
+
+
+<h3 id="$_count">● Godunov’s Theorem</h3>
+
+
+<p>
+A higher-order approximation scheme generally provides more accurate results over much of the flow field. However, it also has important drawbacks. In regions where the flow changes abruptly—such as across discontinuities—high-order schemes can produce non-physical oscillations, leading to instability and unrealistic values. In such cases, first-order schemes, which preserve monotonicity, often provide more reliable results.<br><br>This raises a natural question: why not construct a scheme that is both highly accurate and free of oscillations? The answer lies in Godunov's Theorem. This theorem states that linear numerical schemes that preserve monotonicity cannot be higher than first-order accurate. In other words, it is not possible to achieve both high-order accuracy and strict monotonicity at the same time. As a result, all practical schemes involve a trade-off between accuracy and stability.<br></p>
+
+
+
+	<p class="image"><img src="/images/c/i1tq8jF6qqGz3uB.jpg" alt="" /></p>
+<p class="caption">Fig. 5-3-3: 
+According to Godunov's Theorem, any linear scheme with higher-order accuracy cannot preserve the monotonicity of the solution for problems such as the linear wave equation. For this reason, non-linear schemes were developed to overcome this limitation. One such approach is the TVD (Total Variation Diminishing) scheme (described in 5-4).</p>
+
+
+
+	<p class="image"><img src="/images/c/i1o5XBWlYYhjiG.jpg" alt="" /></p>
+<p class="caption">Fig. 5-3-4: 
+The accuracy for dramatic changes in flow, such as a surface of discontinuity.</p>
+
+	</div>
+</div>
