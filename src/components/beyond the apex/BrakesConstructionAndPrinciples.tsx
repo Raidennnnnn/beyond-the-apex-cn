@@ -6,7 +6,7 @@ const BrakesConstructionAndPrinciples = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Construction and Principles / 结构与原理</h1>
+        <h1 className="bilingual-title"><span lang="en">Construction and Principles</span><span className="bilingual-sep"> / </span><span lang="zh">结构与原理</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -67,9 +67,7 @@ const BrakesConstructionAndPrinciples = () => (
           <img alt="" src={i1VbXznOMkQRe8E} />
         </p>
 
-        <h3>
-          Disc Brakes / 盘式制动
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Disc Brakes</span><span className="bilingual-sep"> / </span><span lang="zh">盘式制动</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -84,9 +82,7 @@ const BrakesConstructionAndPrinciples = () => (
           <img alt="" src={i10rb8tdrkj0KSH} />
         </p>
 
-        <h3>
-          Drum Brakes / 鼓式制动
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Drum Brakes</span><span className="bilingual-sep"> / </span><span lang="zh">鼓式制动</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -101,13 +97,9 @@ const BrakesConstructionAndPrinciples = () => (
           <img alt="" src={i1faoE51MtQotW} />
         </p>
 
-        <h3 className="section-header">
-          ● Braking Problems Caused by Excessive Heat / ● 摩擦热导致的制动故障
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Braking Problems Caused by Excessive Heat</span><span className="bilingual-sep"> / </span><span lang="zh">● 摩擦热导致的制动故障</span></h3>
 
-        <h3>
-          Fade / 热衰退（Fade）
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Fade</span><span className="bilingual-sep"> / </span><span lang="zh">热衰退（Fade）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -118,9 +110,7 @@ const BrakesConstructionAndPrinciples = () => (
           </p>
         </div>
 
-        <h3>
-          Vapor Lock / 气阻（Vapor Lock）
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Vapor Lock</span><span className="bilingual-sep"> / </span><span lang="zh">气阻（Vapor Lock）</span></h3>
 
         <div className="bilingual">
           <p lang="en">

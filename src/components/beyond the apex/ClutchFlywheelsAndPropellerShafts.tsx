@@ -8,12 +8,10 @@ const ClutchFlywheelsAndPropellerShafts = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Clutch, Flywheels and Propeller Shafts / 离合器、飞轮与传动轴</h1>
+        <h1 className="bilingual-title"><span lang="en">Clutch, Flywheels and Propeller Shafts</span><span className="bilingual-sep"> / </span><span lang="zh">离合器、飞轮与传动轴</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Clutch / ● 离合器
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Clutch</span><span className="bilingual-sep"> / </span><span lang="zh">● 离合器</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -28,9 +26,7 @@ const ClutchFlywheelsAndPropellerShafts = () => (
           <img alt="" src={i1ZwDlqcOOx6mTH} />
         </p>
 
-        <h3>
-          Disc & Cover / 摩擦片与压盘
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Disc & Cover</span><span className="bilingual-sep"> / </span><span lang="zh">摩擦片与压盘</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -45,9 +41,7 @@ const ClutchFlywheelsAndPropellerShafts = () => (
           <img alt="" src={i1J3FCjzlyx0HO} />
         </p>
 
-        <h3>
-          Multi-Plate Clutches / 多片离合器
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Multi-Plate Clutches</span><span className="bilingual-sep"> / </span><span lang="zh">多片离合器</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -62,9 +56,7 @@ const ClutchFlywheelsAndPropellerShafts = () => (
           <img alt="" src={i1811o0BiMeNNEc} />
         </p>
 
-        <h3 className="section-header">
-          ● Flywheels and Propeller Shafts / ● 飞轮与传动轴
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Flywheels and Propeller Shafts</span><span className="bilingual-sep"> / </span><span lang="zh">● 飞轮与传动轴</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -75,9 +67,7 @@ const ClutchFlywheelsAndPropellerShafts = () => (
           </p>
         </div>
 
-        <h3>
-          Lightweight Flywheels / 轻量化飞轮
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Lightweight Flywheels</span><span className="bilingual-sep"> / </span><span lang="zh">轻量化飞轮</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -92,9 +82,7 @@ const ClutchFlywheelsAndPropellerShafts = () => (
           <img alt="" src={i1LKgWkpZY1Rhb} />
         </p>
 
-        <h3>
-          Lightweight Propeller Shafts / 轻量化传动轴
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Lightweight Propeller Shafts</span><span className="bilingual-sep"> / </span><span lang="zh">轻量化传动轴</span></h3>
 
         <div className="bilingual">
           <p lang="en">

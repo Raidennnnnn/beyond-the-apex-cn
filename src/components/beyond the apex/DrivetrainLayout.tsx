@@ -8,7 +8,7 @@ const DrivetrainLayout = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Drivetrain Layout / 驱动布局</h1>
+        <h1 className="bilingual-title"><span lang="en">Drivetrain Layout</span><span className="bilingual-sep"> / </span><span lang="zh">驱动布局</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">

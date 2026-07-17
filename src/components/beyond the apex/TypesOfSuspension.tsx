@@ -8,7 +8,7 @@ const TypesOfSuspension = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Types of Suspension / 悬架类型</h1>
+        <h1 className="bilingual-title"><span lang="en">Types of Suspension</span><span className="bilingual-sep"> / </span><span lang="zh">悬架类型</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -29,9 +29,7 @@ const TypesOfSuspension = () => (
           </p>
         </div>
 
-        <h3>
-          Rigid Axle / 非独立（刚性）车轴
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Rigid Axle</span><span className="bilingual-sep"> / </span><span lang="zh">非独立（刚性）车轴</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -46,9 +44,7 @@ const TypesOfSuspension = () => (
           <img alt="" src={i1EYd8bCAKtON} />
         </p>
 
-        <h3>
-          Independent Suspension / 独立悬架
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Independent Suspension</span><span className="bilingual-sep"> / </span><span lang="zh">独立悬架</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -63,13 +59,9 @@ const TypesOfSuspension = () => (
           <img alt="" src={i1iotopPPMdWKcE} />
         </p>
 
-        <h3 className="section-header">
-          ● Independent Suspension – The System of Choice for Most Sports Cars / ● 独立悬架——多数运动车首选
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Independent Suspension – The System of Choice for Most Sports Cars</span><span className="bilingual-sep"> / </span><span lang="zh">● 独立悬架——多数运动车首选</span></h3>
 
-        <h3>
-          MacPherson Strut / 麦弗逊支柱
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">MacPherson Strut</span><span className="bilingual-sep"> / </span><span lang="zh">麦弗逊支柱</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -84,9 +76,7 @@ const TypesOfSuspension = () => (
           <img alt="" src={i1GkJdRoNg13rb} />
         </p>
 
-        <h3>
-          Double Wishbone / 双叉臂
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Double Wishbone</span><span className="bilingual-sep"> / </span><span lang="zh">双叉臂</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -101,9 +91,7 @@ const TypesOfSuspension = () => (
           <img alt="" src={i1H1V4Qp2mfp0EE} />
         </p>
 
-        <h3>
-          Multi-Link / 多连杆
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Multi-Link</span><span className="bilingual-sep"> / </span><span lang="zh">多连杆</span></h3>
 
         <div className="bilingual">
           <p lang="en">

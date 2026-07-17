@@ -7,7 +7,7 @@ const WheelAlignment = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Wheel Alignment / 车轮定位</h1>
+        <h1 className="bilingual-title"><span lang="en">Wheel Alignment</span><span className="bilingual-sep"> / </span><span lang="zh">车轮定位</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -55,9 +55,7 @@ const WheelAlignment = () => (
           </p>
         </div>
 
-        <h3>
-          Toe Angle / 前束角
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Toe Angle</span><span className="bilingual-sep"> / </span><span lang="zh">前束角</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -72,9 +70,7 @@ const WheelAlignment = () => (
           <img alt="" src={i1aUxscvrkyoaz} />
         </p>
 
-        <h3>
-          Caster Angle / 主销后倾角
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Caster Angle</span><span className="bilingual-sep"> / </span><span lang="zh">主销后倾角</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -89,9 +85,7 @@ const WheelAlignment = () => (
           <img alt="" src={i1Qr0l29AKF8eSH} />
         </p>
 
-        <h3>
-          Camber Angle / 外倾角
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Camber Angle</span><span className="bilingual-sep"> / </span><span lang="zh">外倾角</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -106,9 +100,7 @@ const WheelAlignment = () => (
           <img alt="" src={i1et0s6cgOfwg} />
         </p>
 
-        <h3>
-          Kingpin Inclination / 主销内倾角
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Kingpin Inclination</span><span className="bilingual-sep"> / </span><span lang="zh">主销内倾角</span></h3>
 
         <div className="bilingual">
           <p lang="en">

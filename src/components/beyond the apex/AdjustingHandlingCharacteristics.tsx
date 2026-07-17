@@ -8,7 +8,7 @@ const AdjustingHandlingCharacteristics = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Adjusting Handling Characteristics / 调整操控特性</h1>
+        <h1 className="bilingual-title"><span lang="en">Adjusting Handling Characteristics</span><span className="bilingual-sep"> / </span><span lang="zh">调整操控特性</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -20,9 +20,7 @@ const AdjustingHandlingCharacteristics = () => (
           </p>
         </div>
 
-        <h3>
-          Shock Absorbers / 减振器
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Shock Absorbers</span><span className="bilingual-sep"> / </span><span lang="zh">减振器</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -37,9 +35,7 @@ const AdjustingHandlingCharacteristics = () => (
           <img alt="" src={i1DJn8OiLmePEuH} />
         </p>
 
-        <h3>
-          Springs / 弹簧
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Springs</span><span className="bilingual-sep"> / </span><span lang="zh">弹簧</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -54,9 +50,7 @@ const AdjustingHandlingCharacteristics = () => (
           <img alt="" src={i1TWaFFYwdJqjC} />
         </p>
 
-        <h3>
-          Height-Adjustable Suspension / 车高可调悬架
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Height-Adjustable Suspension</span><span className="bilingual-sep"> / </span><span lang="zh">车高可调悬架</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -71,9 +65,7 @@ const AdjustingHandlingCharacteristics = () => (
           <img alt="" src={i1tzkKBVLm4rSEc} />
         </p>
 
-        <h3>
-          Anti-roll Bars / 防倾杆
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Anti-roll Bars</span><span className="bilingual-sep"> / </span><span lang="zh">防倾杆</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -88,9 +80,7 @@ const AdjustingHandlingCharacteristics = () => (
           <img alt="" src={i1U5GHArBUglmz} />
         </p>
 
-        <h3>
-          Bushings / 衬套
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Bushings</span><span className="bilingual-sep"> / </span><span lang="zh">衬套</span></h3>
 
         <div className="bilingual">
           <p lang="en">

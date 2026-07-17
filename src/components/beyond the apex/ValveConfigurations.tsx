@@ -6,7 +6,7 @@ const ValveConfigurations = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Valve Configurations / 气门布置</h1>
+        <h1 className="bilingual-title"><span lang="en">Valve Configurations</span><span className="bilingual-sep"> / </span><span lang="zh">气门布置</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -36,13 +36,9 @@ const ValveConfigurations = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Types of Valve Configuration / ● 气门驱动方式种类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of Valve Configuration</span><span className="bilingual-sep"> / </span><span lang="zh">● 气门驱动方式种类</span></h3>
 
-        <h3>
-          DOHC   [Double Overhead Camshaft] / DOHC［双顶置凸轮轴］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">DOHC [Double Overhead Camshaft]</span><span className="bilingual-sep"> / </span><span lang="zh">DOHC［双顶置凸轮轴］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -57,9 +53,7 @@ const ValveConfigurations = () => (
           <img alt="" src={i1BJQRHL5WdKz7E} />
         </p>
 
-        <h3>
-          SOHC   [Single Overhead Camshaft] / SOHC［单顶置凸轮轴］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">SOHC [Single Overhead Camshaft]</span><span className="bilingual-sep"> / </span><span lang="zh">SOHC［单顶置凸轮轴］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -74,9 +68,7 @@ const ValveConfigurations = () => (
           <img alt="" src={i1kF9sb4fjxzz} />
         </p>
 
-        <h3>
-          OHV   [Overhead Valve] / OHV［顶置气门］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">OHV [Overhead Valve]</span><span className="bilingual-sep"> / </span><span lang="zh">OHV［顶置气门］</span></h3>
 
         <div className="bilingual">
           <p lang="en">

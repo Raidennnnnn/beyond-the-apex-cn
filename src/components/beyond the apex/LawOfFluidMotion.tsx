@@ -7,16 +7,11 @@ const LawOfFluidMotion = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>4-2 : Law of Fluid Motion / 流体运动定律</h1>
-        <h2>
-          The meaning of the equation of fluid motion / 流体运动方程的含义
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">4-2 : Law of Fluid Motion</span><span className="bilingual-sep"> / </span><span lang="zh">流体运动定律</span></h1>
+        <h2 className="bilingual-title"><span lang="en">The meaning of the equation of fluid motion</span><span className="bilingual-sep"> / </span><span lang="zh">流体运动方程的含义</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Euler Equation—without considering viscosity /
-          欧拉方程——不考虑黏性
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Euler Equation—without considering viscosity</span><span className="bilingual-sep"> / </span><span lang="zh">欧拉方程——不考虑黏性</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -94,10 +89,7 @@ const LawOfFluidMotion = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Navier-Stokes Equation—with consideration to viscosity /
-          纳维–斯托克斯方程——考虑黏性
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Navier-Stokes Equation—with consideration to viscosity</span><span className="bilingual-sep"> / </span><span lang="zh">纳维–斯托克斯方程——考虑黏性</span></h3>
 
         <div className="bilingual">
           <p lang="en">

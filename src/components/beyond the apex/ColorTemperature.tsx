@@ -7,12 +7,10 @@ const ColorTemperature = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Color Temperature / 色温</h1>
+        <h1 className="bilingual-title"><span lang="en">Color Temperature</span><span className="bilingual-sep"> / </span><span lang="zh">色温</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Recreate the Colors of Sunrise and Sunset as You Please / 再现自己感受到的黎明与日落色温
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Recreate the Colors of Sunrise and Sunset as You Please</span><span className="bilingual-sep"> / </span><span lang="zh">再现自己感受到的黎明与日落色温</span></h3>
 
         <p className="image">
           <img alt="" src={i1CfnnrYO5uKY} />

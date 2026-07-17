@@ -4,7 +4,7 @@ const LimitedSlipDifferentialTuning = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Limited Slip Differential / 限滑差速器</h1>
+        <h1 className="bilingual-title"><span lang="en">Limited Slip Differential</span><span className="bilingual-sep"> / </span><span lang="zh">限滑差速器</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -29,9 +29,7 @@ const LimitedSlipDifferentialTuning = () => (
           </p>
         </div>
 
-        <h3>
-          Locking Factor / 锁定率
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Locking Factor</span><span className="bilingual-sep"> / </span><span lang="zh">锁定率</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -42,9 +40,7 @@ const LimitedSlipDifferentialTuning = () => (
           </p>
         </div>
 
-        <h3>
-          Initial Torque / 初始扭矩
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Initial Torque</span><span className="bilingual-sep"> / </span><span lang="zh">初始扭矩</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -55,9 +51,7 @@ const LimitedSlipDifferentialTuning = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Types of Mechanical LSD / ● 机械式 LSD 的种类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of Mechanical LSD</span><span className="bilingual-sep"> / </span><span lang="zh">● 机械式 LSD 的种类</span></h3>
 
         <h3>
           1-WAY / 1WAY

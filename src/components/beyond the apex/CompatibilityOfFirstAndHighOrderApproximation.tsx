@@ -5,12 +5,8 @@ const CompatibilityOfFirstAndHighOrderApproximation = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          5-4 : Compatibility of First-Order Approximation and High-Order Approximation / 一阶近似与高阶近似的兼容
-        </h1>
-        <h2>
-          How to make both first-order approximation and high-order approximation compatible / 如何兼顾一阶近似与高阶近似
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">5-4 : Compatibility of First-Order Approximation and High-Order Approximation</span><span className="bilingual-sep"> / </span><span lang="zh">一阶近似与高阶近似的兼容</span></h1>
+        <h2 className="bilingual-title"><span lang="en">How to make both first-order approximation and high-order approximation compatible</span><span className="bilingual-sep"> / </span><span lang="zh">如何兼顾一阶近似与高阶近似</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -84,7 +80,7 @@ const CompatibilityOfFirstAndHighOrderApproximation = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● Evaluation of TVD / TVD 的评价</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Evaluation of TVD</span><span className="bilingual-sep"> / </span><span lang="zh">TVD 的评价</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -8,16 +8,11 @@ const CarnotsConclusion = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>3-3 : Carnot’s Conclusion / 卡诺的结论</h1>
-        <h2>
-          Surprising abstraction of the heat engine / 热机惊人的抽象化
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">3-3 : Carnot’s Conclusion</span><span className="bilingual-sep"> / </span><span lang="zh">卡诺的结论</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Surprising abstraction of the heat engine</span><span className="bilingual-sep"> / </span><span lang="zh">热机惊人的抽象化</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Only two temperatures of the heat reservoir determines efficiency /
-          效率仅由两个热源温度决定
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Only two temperatures of the heat reservoir determines efficiency</span><span className="bilingual-sep"> / </span><span lang="zh">效率仅由两个热源温度决定</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -56,9 +51,7 @@ const CarnotsConclusion = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● The ultimate abstraction of the heat engine / 热机的终极抽象
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The ultimate abstraction of the heat engine</span><span className="bilingual-sep"> / </span><span lang="zh">热机的终极抽象</span></h3>
 
         <div className="bilingual">
           <p lang="en">

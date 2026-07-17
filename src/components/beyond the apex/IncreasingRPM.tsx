@@ -7,7 +7,7 @@ const IncreasingRPM = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Increasing RPM / 提高转速</h1>
+        <h1 className="bilingual-title"><span lang="en">Increasing RPM</span><span className="bilingual-sep"> / </span><span lang="zh">提高转速</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -32,9 +32,7 @@ const IncreasingRPM = () => (
           </p>
         </div>
 
-        <h3>
-          Ports / 气道
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Ports</span><span className="bilingual-sep"> / </span><span lang="zh">气道</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -49,9 +47,7 @@ const IncreasingRPM = () => (
           <img alt="" src={i1opnFRwSEVAxO} />
         </p>
 
-        <h3>
-          Camshaft / 凸轮轴
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Camshaft</span><span className="bilingual-sep"> / </span><span lang="zh">凸轮轴</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -75,9 +71,7 @@ const IncreasingRPM = () => (
           </p>
         </div>
 
-        <h3>
-          Valves / 气门
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Valves</span><span className="bilingual-sep"> / </span><span lang="zh">气门</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -88,9 +82,7 @@ const IncreasingRPM = () => (
           </p>
         </div>
 
-        <h3>
-          Valve Spring / 气门弹簧
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Valve Spring</span><span className="bilingual-sep"> / </span><span lang="zh">气门弹簧</span></h3>
 
         <div className="bilingual">
           <p lang="en">

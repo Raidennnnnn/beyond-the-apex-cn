@@ -5,12 +5,10 @@ const InGameSuspension = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>In-Game: Suspension / 游戏内设置：悬架</h1>
+        <h1 className="bilingual-title"><span lang="en">In-Game: Suspension</span><span className="bilingual-sep"> / </span><span lang="zh">游戏内设置：悬架</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Body height and natural frequency / 车高与固有振动数的调整
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Body height and natural frequency</span><span className="bilingual-sep"> / </span><span lang="zh">车高与固有振动数的调整</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -21,9 +19,7 @@ const InGameSuspension = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Body height / ● 车高
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Body height</span><span className="bilingual-sep"> / </span><span lang="zh">● 车高</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -56,9 +52,7 @@ const InGameSuspension = () => (
           <img alt="" src={i1EBYKny3oMRTEE} />
         </p>
 
-        <h3 className="section-header">
-          ● Natural Frequency (Spring Rate) / ● 固有振动数（弹簧刚度）
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Natural Frequency (Spring Rate)</span><span className="bilingual-sep"> / </span><span lang="zh">● 固有振动数（弹簧刚度）</span></h3>
 
         <div className="bilingual">
           <p lang="en">

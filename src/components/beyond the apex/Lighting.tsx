@@ -6,12 +6,10 @@ const Lighting = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Lighting / 光线</h1>
+        <h1 className="bilingual-title"><span lang="en">Lighting</span><span className="bilingual-sep"> / </span><span lang="zh">光线</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Use Reflections to Cast Shadows on the Body of the Car / 利用映像反光在车身塑造明暗
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Use Reflections to Cast Shadows on the Body of the Car</span><span className="bilingual-sep"> / </span><span lang="zh">利用映像反光在车身塑造明暗</span></h3>
 
         <div className="bilingual">
           <p lang="en">

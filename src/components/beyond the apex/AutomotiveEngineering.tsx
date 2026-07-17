@@ -2,8 +2,8 @@ const AutomotiveEngineering = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Automotive Engineering / 汽车工程学</h1>
-        <h2>Chapter 1 · Preface / 第1章 · 序文</h2>
+        <h1 className="bilingual-title"><span lang="en">Automotive Engineering</span><span className="bilingual-sep"> / </span><span lang="zh">汽车工程学</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Chapter 1 · Preface</span><span className="bilingual-sep"> / </span><span lang="zh">第1章 · 序文</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">

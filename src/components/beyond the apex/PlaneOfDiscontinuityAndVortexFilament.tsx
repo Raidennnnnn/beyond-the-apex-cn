@@ -8,13 +8,8 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          4-3 : Plane of Discontinuity and Vortex Filament / 不连续面与涡丝
-        </h1>
-        <h2>
-          Avoidance strategy of equation of fluid motion /
-          绕开流体运动方程的策略
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">4-3 : Plane of Discontinuity and Vortex Filament</span><span className="bilingual-sep"> / </span><span lang="zh">不连续面与涡丝</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Avoidance strategy of equation of fluid motion</span><span className="bilingual-sep"> / </span><span lang="zh">绕开流体运动方程的策略</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -30,9 +25,7 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● D&apos;Alembert&apos;s Paradox / 达朗贝尔悖论
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● D&apos;Alembert&apos;s Paradox</span><span className="bilingual-sep"> / </span><span lang="zh">达朗贝尔悖论</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -109,10 +102,7 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● The concept of vortex filament and the plane of discontinuity /
-          涡丝与不连续面的概念
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The concept of vortex filament and the plane of discontinuity</span><span className="bilingual-sep"> / </span><span lang="zh">涡丝与不连续面的概念</span></h3>
 
         <div className="bilingual">
           <p lang="en">

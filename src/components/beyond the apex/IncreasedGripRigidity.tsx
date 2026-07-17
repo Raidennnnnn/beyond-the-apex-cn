@@ -5,7 +5,7 @@ const IncreasedGripRigidity = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Increased Grip/Rigidity / 提高抓地／刚性</h1>
+        <h1 className="bilingual-title"><span lang="en">Increased Grip/Rigidity</span><span className="bilingual-sep"> / </span><span lang="zh">提高抓地／刚性</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -26,9 +26,7 @@ const IncreasedGripRigidity = () => (
           </p>
         </div>
 
-        <h3>
-          Width / 加宽
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Width</span><span className="bilingual-sep"> / </span><span lang="zh">加宽</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -43,9 +41,7 @@ const IncreasedGripRigidity = () => (
           <img alt="" src={i17A7gD0xmOuScE} />
         </p>
 
-        <h3>
-          Low-Profile / 英寸升级
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Low-Profile</span><span className="bilingual-sep"> / </span><span lang="zh">英寸升级</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -60,9 +56,7 @@ const IncreasedGripRigidity = () => (
           <img alt="" src={i1ab0tbkKu0Te} />
         </p>
 
-        <h3>
-          Compound / 配方
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Compound</span><span className="bilingual-sep"> / </span><span lang="zh">配方</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -73,9 +67,7 @@ const IncreasedGripRigidity = () => (
           </p>
         </div>
 
-        <h3>
-          Tread Pattern / 花纹沟
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Tread Pattern</span><span className="bilingual-sep"> / </span><span lang="zh">花纹沟</span></h3>
 
         <div className="bilingual">
           <p lang="en">

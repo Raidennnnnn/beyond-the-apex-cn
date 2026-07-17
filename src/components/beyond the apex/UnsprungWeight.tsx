@@ -8,7 +8,7 @@ const UnsprungWeight = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Unsprung Weight / 簧下质量</h1>
+        <h1 className="bilingual-title"><span lang="en">Unsprung Weight</span><span className="bilingual-sep"> / </span><span lang="zh">簧下质量</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -91,13 +91,9 @@ const UnsprungWeight = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Types of Lightweight Wheels / ● 结构
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of Lightweight Wheels</span><span className="bilingual-sep"> / </span><span lang="zh">● 结构</span></h3>
 
-        <h3>
-          One-Piece / 单片式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">One-Piece</span><span className="bilingual-sep"> / </span><span lang="zh">单片式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -112,9 +108,7 @@ const UnsprungWeight = () => (
           <img alt="" src={i1Kx0PqNJkrLQSB} />
         </p>
 
-        <h3>
-          Two-Piece / 两片式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Two-Piece</span><span className="bilingual-sep"> / </span><span lang="zh">两片式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -129,9 +123,7 @@ const UnsprungWeight = () => (
           <img alt="" src={i1QTArcWtOMm4} />
         </p>
 
-        <h3>
-          Three-Piece / 三片式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Three-Piece</span><span className="bilingual-sep"> / </span><span lang="zh">三片式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -146,13 +138,9 @@ const UnsprungWeight = () => (
           <img alt="" src={i1dvybpzM9rPAuH} />
         </p>
 
-        <h3 className="section-header">
-          ● Manufacturing Methods / ● 制法
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Manufacturing Methods</span><span className="bilingual-sep"> / </span><span lang="zh">● 制法</span></h3>
 
-        <h3>
-          Casting / 铸造
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Casting</span><span className="bilingual-sep"> / </span><span lang="zh">铸造</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -163,9 +151,7 @@ const UnsprungWeight = () => (
           </p>
         </div>
 
-        <h3>
-          Forging / 锻造
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Forging</span><span className="bilingual-sep"> / </span><span lang="zh">锻造</span></h3>
 
         <div className="bilingual">
           <p lang="en">

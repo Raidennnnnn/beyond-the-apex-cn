@@ -76,6 +76,12 @@
         @apply mb-4;
       }
     }
+
+    .bilingual-title {
+      [lang="zh"] {
+        font-family: var(--font-cjk);
+      }
+    }
     
     .images {
       @apply grid grid-cols-1 md:grid-cols-2 gap-4 my-4;
@@ -92,5 +98,73 @@
         }
       }
     }
+  }
+
+  .bilingual-title {
+    [lang="zh"] {
+      font-family: var(--font-cjk);
+    }
+  }
+}
+
+/* --- Language modes (html[data-lang] / html[data-lang-order]) --- */
+
+html[data-lang="en"] .manual_detail [lang="zh"],
+html[data-lang="en"] .manual_detail .bilingual-sep {
+  display: none !important;
+}
+
+html[data-lang="zh"] .manual_detail [lang="en"],
+html[data-lang="zh"] .manual_detail .bilingual-sep {
+  display: none !important;
+}
+
+html[data-lang="zh"] .manual_detail .bilingual p[lang="zh"] {
+  @apply text-primary mb-0;
+  font-family: var(--font-cjk);
+}
+
+html[data-lang="zh"] .manual_detail .bilingual p.caption[lang="zh"] {
+  @apply text-muted-foreground mb-4;
+}
+
+html[data-lang="bilingual"][data-lang-order="zh-first"] .manual_detail .bilingual {
+  display: flex;
+  flex-direction: column-reverse;
+
+  p[lang="en"] {
+    @apply mb-0 text-muted-foreground font-sans;
+  }
+
+  p[lang="zh"] {
+    @apply mb-2 text-primary;
+    font-family: var(--font-cjk);
+  }
+
+  p.caption[lang="zh"] {
+    @apply mb-1 text-muted-foreground;
+  }
+
+  p.caption[lang="en"] {
+    @apply mb-4 text-muted-foreground;
+  }
+}
+
+html[data-lang="bilingual"][data-lang-order="zh-first"] .manual_detail .bilingual-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.35em;
+
+  [lang="en"] {
+    order: 3;
+  }
+
+  .bilingual-sep {
+    order: 2;
+  }
+
+  [lang="zh"] {
+    order: 1;
   }
 }

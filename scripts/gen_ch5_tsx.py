@@ -51,14 +51,24 @@ def img_var(src: str) -> str:
     return Path(src).stem
 
 
+def bilingual_heading(tag: str, en: str, zh: str, class_name: str | None = None) -> str:
+    classes = ["bilingual-title"]
+    if class_name:
+        classes.insert(0, class_name)
+    cls = f' className="{" ".join(classes)}"'
+    return (
+        f"<{tag}{cls}>"
+        f'<span lang="en">{en}</span>'
+        f'<span className="bilingual-sep"> / </span>'
+        f'<span lang="zh">{zh}</span>'
+        f"</{tag}>"
+    )
+
+
 def render_h3(en: str, zh: str) -> str:
     if en.startswith("●") or en.startswith("■"):
-        return f"""        <h3 className="section-header">
-          {esc(en)} / {esc(zh)}
-        </h3>"""
-    return f"""        <h3>
-          {esc(en)} / {esc(zh)}
-        </h3>"""
+        return "        " + bilingual_heading("h3", en, zh, "section-header")
+    return "        " + bilingual_heading("h3", en, zh)
 
 
 def render_paragraph(en: str, zh: str) -> str:
@@ -118,7 +128,7 @@ def generate_component(page_key: str, data: dict, zh_blocks: dict[str, str]) -> 
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>{esc(h1_en)} / {esc(h1_zh)}</h1>
+        {bilingual_heading('h1', esc(h1_en), esc(h1_zh))}
       </div>
       <div className="body">
 {body}

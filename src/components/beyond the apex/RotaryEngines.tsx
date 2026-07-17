@@ -4,7 +4,7 @@ const RotaryEngines = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Rotary Engines / 转子发动机</h1>
+        <h1 className="bilingual-title"><span lang="en">Rotary Engines</span><span className="bilingual-sep"> / </span><span lang="zh">转子发动机</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">

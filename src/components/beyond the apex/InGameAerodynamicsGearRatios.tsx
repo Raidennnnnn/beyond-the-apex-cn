@@ -5,12 +5,10 @@ const InGameAerodynamicsGearRatios = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>In-Game: Aerodynamics / Gear Ratios / 游戏内设置：空气动力学/齿轮比</h1>
+        <h1 className="bilingual-title"><span lang="en">In-Game: Aerodynamics / Gear Ratios</span><span className="bilingual-sep"> / </span><span lang="zh">游戏内设置：空气动力学/齿轮比</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Adjusting aerodynamics and gear ratios / 空气动力学与齿轮比的调整
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Adjusting aerodynamics and gear ratios</span><span className="bilingual-sep"> / </span><span lang="zh">空气动力学与齿轮比的调整</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -21,9 +19,7 @@ const InGameAerodynamicsGearRatios = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Aerodynamics / ● 空气动力学
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Aerodynamics</span><span className="bilingual-sep"> / </span><span lang="zh">● 空气动力学</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -87,9 +83,7 @@ const InGameAerodynamicsGearRatios = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Gear ratios / ● 齿轮比
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Gear ratios</span><span className="bilingual-sep"> / </span><span lang="zh">● 齿轮比</span></h3>
 
         <div className="bilingual">
           <p lang="en">

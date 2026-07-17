@@ -7,7 +7,7 @@ const SuspensionsConstructionAndPrinciples = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Construction and Principles / 结构与原理</h1>
+        <h1 className="bilingual-title"><span lang="en">Construction and Principles</span><span className="bilingual-sep"> / </span><span lang="zh">结构与原理</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -59,9 +59,7 @@ const SuspensionsConstructionAndPrinciples = () => (
           </p>
         </div>
 
-        <h3>
-          Springs / 弹簧
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Springs</span><span className="bilingual-sep"> / </span><span lang="zh">弹簧</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -76,9 +74,7 @@ const SuspensionsConstructionAndPrinciples = () => (
           <img alt="" src={i1jbETgqfSdN9SH} />
         </p>
 
-        <h3>
-          Shock Absorbers / 减振器
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Shock Absorbers</span><span className="bilingual-sep"> / </span><span lang="zh">减振器</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -93,9 +89,7 @@ const SuspensionsConstructionAndPrinciples = () => (
           <img alt="" src={i1GZ2tQPAZkgN} />
         </p>
 
-        <h3>
-          Suspension Arms / 悬架臂
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Suspension Arms</span><span className="bilingual-sep"> / </span><span lang="zh">悬架臂</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -106,9 +100,7 @@ const SuspensionsConstructionAndPrinciples = () => (
           </p>
         </div>
 
-        <h3>
-          Suspension Bushings / 悬架衬套
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Suspension Bushings</span><span className="bilingual-sep"> / </span><span lang="zh">悬架衬套</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -119,9 +111,7 @@ const SuspensionsConstructionAndPrinciples = () => (
           </p>
         </div>
 
-        <h3>
-          Sway Bars/Stabilizers / 防倾杆
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Sway Bars/Stabilizers</span><span className="bilingual-sep"> / </span><span lang="zh">防倾杆</span></h3>
 
         <div className="bilingual">
           <p lang="en">

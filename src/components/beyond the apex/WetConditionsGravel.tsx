@@ -5,16 +5,12 @@ const WetConditionsGravel = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Wet Conditions, Gravel / 湿地、砂石</h1>
+        <h1 className="bilingual-title"><span lang="en">Wet Conditions, Gravel</span><span className="bilingual-sep"> / </span><span lang="zh">湿地、砂石</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Wet Conditions / ● 湿地
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Wet Conditions</span><span className="bilingual-sep"> / </span><span lang="zh">● 湿地</span></h3>
 
-        <h3>
-          Get the Best Out of Your Tires / 发挥轮胎性能
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Get the Best Out of Your Tires</span><span className="bilingual-sep"> / </span><span lang="zh">发挥轮胎性能</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -52,21 +48,15 @@ const WetConditionsGravel = () => (
           </p>
         </div>
 
-        <h3>
-          Suggested Suspension Settings / 悬架设定参考
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Suggested Suspension Settings</span><span className="bilingual-sep"> / </span><span lang="zh">悬架设定参考</span></h3>
 
         <p className="image">
           <img alt="" src={i1wOyrjys9MMcuB} />
         </p>
 
-        <h3 className="section-header">
-          ● Gravel / ● 砂石
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Gravel</span><span className="bilingual-sep"> / </span><span lang="zh">● 砂石</span></h3>
 
-        <h3>
-          Improving Control / 提高举动控制性能
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Improving Control</span><span className="bilingual-sep"> / </span><span lang="zh">提高举动控制性能</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -104,9 +94,7 @@ const WetConditionsGravel = () => (
           </p>
         </div>
 
-        <h3>
-          Suggested Suspension Settings / 悬架设定参考
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Suggested Suspension Settings</span><span className="bilingual-sep"> / </span><span lang="zh">悬架设定参考</span></h3>
 
         <p className="image">
           <img alt="" src={i11svyRXsDZo4} />

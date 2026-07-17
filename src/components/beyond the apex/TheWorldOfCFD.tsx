@@ -7,10 +7,8 @@ const TheWorldOfCFD = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>5-1 : The World of CFD / CFD的世界</h1>
-        <h2>
-          CFD, a world of discretisation / CFD，离散化的世界
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">5-1 : The World of CFD</span><span className="bilingual-sep"> / </span><span lang="zh">CFD的世界</span></h1>
+        <h2 className="bilingual-title"><span lang="en">CFD, a world of discretisation</span><span className="bilingual-sep"> / </span><span lang="zh">CFD，离散化的世界</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -31,7 +29,7 @@ const TheWorldOfCFD = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● Approximation / 近似</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Approximation</span><span className="bilingual-sep"> / </span><span lang="zh">近似</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -75,7 +73,7 @@ const TheWorldOfCFD = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● The Lax Equivalence Theorem / Lax 等价定理</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The Lax Equivalence Theorem</span><span className="bilingual-sep"> / </span><span lang="zh">Lax 等价定理</span></h3>
 
         <div className="bilingual">
           <p lang="en">

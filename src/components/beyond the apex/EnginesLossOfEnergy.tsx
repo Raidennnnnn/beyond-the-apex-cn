@@ -7,11 +7,8 @@ const EnginesLossOfEnergy = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>3-7 : Engine&apos;s Loss of Energy / 发动机的能量损失</h1>
-        <h2>
-          The loss of energy is due to irreversible change /
-          能量损失源于不可逆变化
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">3-7 : Engine&apos;s Loss of Energy</span><span className="bilingual-sep"> / </span><span lang="zh">发动机的能量损失</span></h1>
+        <h2 className="bilingual-title"><span lang="en">The loss of energy is due to irreversible change</span><span className="bilingual-sep"> / </span><span lang="zh">能量损失源于不可逆变化</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -27,9 +24,7 @@ const EnginesLossOfEnergy = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Loss of energy in engines / 发动机中的能量损失
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Loss of energy in engines</span><span className="bilingual-sep"> / </span><span lang="zh">发动机中的能量损失</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -89,9 +84,7 @@ const EnginesLossOfEnergy = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Mechanical energy loss / 机械能量损失
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Mechanical energy loss</span><span className="bilingual-sep"> / </span><span lang="zh">机械能量损失</span></h3>
 
         <div className="bilingual">
           <p lang="en">

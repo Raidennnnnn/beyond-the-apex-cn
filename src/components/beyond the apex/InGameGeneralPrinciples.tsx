@@ -4,12 +4,10 @@ const InGameGeneralPrinciples = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>In-Game: General Principles / 游戏内设置：基本原则</h1>
+        <h1 className="bilingual-title"><span lang="en">In-Game: General Principles</span><span className="bilingual-sep"> / </span><span lang="zh">游戏内设置：基本原则</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Keeping the accelerator depressed for as long as possible / 调校出能更长时间踩油门的车辆
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Keeping the accelerator depressed for as long as possible</span><span className="bilingual-sep"> / </span><span lang="zh">调校出能更长时间踩油门的车辆</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -38,9 +36,7 @@ const InGameGeneralPrinciples = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Pay attention to your performance points / ● 关注性能点数
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Pay attention to your performance points</span><span className="bilingual-sep"> / </span><span lang="zh">● 关注性能点数</span></h3>
 
         <div className="bilingual">
           <p lang="en">

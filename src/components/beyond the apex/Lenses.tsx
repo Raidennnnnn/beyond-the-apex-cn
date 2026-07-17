@@ -6,12 +6,10 @@ const Lenses = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Lenses / 镜头</h1>
+        <h1 className="bilingual-title"><span lang="en">Lenses</span><span className="bilingual-sep"> / </span><span lang="zh">镜头</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Avoid Making Cars Look Unnaturally Distorted When Using Wide Lenses / 使用广角镜头时注意避免汽车不自然变形
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Avoid Making Cars Look Unnaturally Distorted When Using Wide Lenses</span><span className="bilingual-sep"> / </span><span lang="zh">使用广角镜头时注意避免汽车不自然变形</span></h3>
 
         <p className="image">
           <img alt="" src={i1ozBOKvZZwTdb} />

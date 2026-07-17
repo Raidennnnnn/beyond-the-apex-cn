@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { TocPage } from "./filePaths";
 import { flushSync } from "react-dom";
+import { usePreferZhToc, useTocLabel } from "@/hooks/use-toc-label";
 
 export default function QuickNavButton({
   type,
@@ -14,6 +15,8 @@ export default function QuickNavButton({
   className?: string;
 }) {
   const navigate = useNavigate();
+  const label = useTocLabel();
+  const preferZh = usePreferZhToc();
 
   return (
     <Button
@@ -26,9 +29,10 @@ export default function QuickNavButton({
       {navigateTo ? (
         <div>
           <div
+            lang={preferZh ? "zh" : "en"}
             className={`text-sm md:text-base text-primary ${type === "back" ? "text-left" : "text-right"}`}
           >
-            {navigateTo.name}
+            {label(navigateTo.name, navigateTo.nameZh)}
           </div>
         </div>
       ) : (

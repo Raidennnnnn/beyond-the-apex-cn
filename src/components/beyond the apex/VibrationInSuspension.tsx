@@ -6,10 +6,8 @@ const VibrationInSuspension = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-8 : Vibration in Suspension / 悬架上产生的振动</h1>
-        <h2>
-          Vibration in a multi-degree freedom system / 多自由度系统的振动
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">1-8 : Vibration in Suspension</span><span className="bilingual-sep"> / </span><span lang="zh">悬架上产生的振动</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Vibration in a multi-degree freedom system</span><span className="bilingual-sep"> / </span><span lang="zh">多自由度系统的振动</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -21,9 +19,7 @@ const VibrationInSuspension = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Vibration characteristics of the suspension / 悬架的振动特性
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Vibration characteristics of the suspension</span><span className="bilingual-sep"> / </span><span lang="zh">悬架的振动特性</span></h3>
 
         <div className="bilingual">
           <p lang="en">

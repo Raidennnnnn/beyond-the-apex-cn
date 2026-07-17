@@ -6,7 +6,7 @@ const BodyPerformanceRequirements = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Body Performance Requirements / 车身性能要求</h1>
+        <h1 className="bilingual-title"><span lang="en">Body Performance Requirements</span><span className="bilingual-sep"> / </span><span lang="zh">车身性能要求</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -67,9 +67,7 @@ const BodyPerformanceRequirements = () => (
           <img alt="" src={i1xvvR7kIj0nW} />
         </p>
 
-        <h3>
-          Body-on-Frame / 非承载式车身
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Body-on-Frame</span><span className="bilingual-sep"> / </span><span lang="zh">非承载式车身</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -84,9 +82,7 @@ const BodyPerformanceRequirements = () => (
           <img alt="" src={i1VvM4F1iVMc9uH} />
         </p>
 
-        <h3>
-          Monocoque Body / 承载式车身（单体壳）
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Monocoque Body</span><span className="bilingual-sep"> / </span><span lang="zh">承载式车身（单体壳）</span></h3>
 
         <div className="bilingual">
           <p lang="en">

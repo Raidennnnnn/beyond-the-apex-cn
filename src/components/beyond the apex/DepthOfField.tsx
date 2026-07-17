@@ -7,12 +7,10 @@ const DepthOfField = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Depth of Field / 景深</h1>
+        <h1 className="bilingual-title"><span lang="en">Depth of Field</span><span className="bilingual-sep"> / </span><span lang="zh">景深</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Shallow Depths of Field are Perfect for Close-ups / 浅景深适合特写
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Shallow Depths of Field are Perfect for Close-ups</span><span className="bilingual-sep"> / </span><span lang="zh">浅景深适合特写</span></h3>
 
         <div className="bilingual">
           <p lang="en">

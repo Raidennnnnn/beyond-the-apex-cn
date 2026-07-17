@@ -8,7 +8,7 @@ const OverhaulingTheEngine = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Overhauling the Engine / 发动机大修</h1>
+        <h1 className="bilingual-title"><span lang="en">Overhauling the Engine</span><span className="bilingual-sep"> / </span><span lang="zh">发动机大修</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -33,9 +33,7 @@ const OverhaulingTheEngine = () => (
           </p>
         </div>
 
-        <h3>
-          Increasing Displacement / 增大排量
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Increasing Displacement</span><span className="bilingual-sep"> / </span><span lang="zh">增大排量</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -59,9 +57,7 @@ const OverhaulingTheEngine = () => (
           </p>
         </div>
 
-        <h3>
-          Balancing / 平衡
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Balancing</span><span className="bilingual-sep"> / </span><span lang="zh">平衡</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -111,9 +107,7 @@ const OverhaulingTheEngine = () => (
           </p>
         </div>
 
-        <h3>
-          Reducing Weight / 轻量化
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Reducing Weight</span><span className="bilingual-sep"> / </span><span lang="zh">轻量化</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -124,9 +118,7 @@ const OverhaulingTheEngine = () => (
           </p>
         </div>
 
-        <h3>
-          Reinforcement / 强化
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Reinforcement</span><span className="bilingual-sep"> / </span><span lang="zh">强化</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -7,13 +7,11 @@ const SolvingTurbulence = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>5-5 : Solving Turbulence / 求解湍流</h1>
-        <h2>
-          Method of reducing computational complexity / 降低计算复杂度的方法
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">5-5 : Solving Turbulence</span><span className="bilingual-sep"> / </span><span lang="zh">求解湍流</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Method of reducing computational complexity</span><span className="bilingual-sep"> / </span><span lang="zh">降低计算复杂度的方法</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">● Solving vortexes / 求解涡旋</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Solving vortexes</span><span className="bilingual-sep"> / </span><span lang="zh">求解涡旋</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -57,7 +55,7 @@ const SolvingTurbulence = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● Turbulence model / 湍流模型</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Turbulence model</span><span className="bilingual-sep"> / </span><span lang="zh">湍流模型</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -77,7 +75,7 @@ const SolvingTurbulence = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● RANS (Reynolds Averaged Navier-Stokes) / RANS（Reynolds Averaged Navier-Stokes，雷诺平均 Navier–Stokes）</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● RANS (Reynolds Averaged Navier-Stokes)</span><span className="bilingual-sep"> / </span><span lang="zh">RANS（Reynolds Averaged Navier-Stokes，雷诺平均 Navier–Stokes）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -100,7 +98,7 @@ const SolvingTurbulence = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● LES (Large Eddy Simulation) / LES（Large Eddy Simulation，大涡模拟）</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● LES (Large Eddy Simulation)</span><span className="bilingual-sep"> / </span><span lang="zh">LES（Large Eddy Simulation，大涡模拟）</span></h3>
 
         <div className="bilingual">
           <p lang="en">

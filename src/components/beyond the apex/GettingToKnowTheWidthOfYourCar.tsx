@@ -6,12 +6,10 @@ const GettingToKnowTheWidthOfYourCar = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Getting to Know the Width of Your Car / 了解车身宽度</h1>
+        <h1 className="bilingual-title"><span lang="en">Getting to Know the Width of Your Car</span><span className="bilingual-sep"> / </span><span lang="zh">了解车身宽度</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Learning to use the full width of the track / 充分利用赛道宽度
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Learning to use the full width of the track</span><span className="bilingual-sep"> / </span><span lang="zh">充分利用赛道宽度</span></h3>
 
         <div className="bilingual">
           <p lang="en">

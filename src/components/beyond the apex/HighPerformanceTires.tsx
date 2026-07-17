@@ -7,7 +7,7 @@ const HighPerformanceTires = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>High-Performance Sub / 高性能轮胎的条件</h1>
+        <h1 className="bilingual-title"><span lang="en">High-Performance Sub</span><span className="bilingual-sep"> / </span><span lang="zh">高性能轮胎的条件</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -59,9 +59,7 @@ const HighPerformanceTires = () => (
           <img alt="" src={i1DXnsUgcTw9bz} />
         </p>
 
-        <h3>
-          Tread Compound / 胎面配方
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Tread Compound</span><span className="bilingual-sep"> / </span><span lang="zh">胎面配方</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -76,9 +74,7 @@ const HighPerformanceTires = () => (
           <img alt="" src={i190YtIVZ6QExSH} />
         </p>
 
-        <h3>
-          Tread Pattern / 胎面花纹
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Tread Pattern</span><span className="bilingual-sep"> / </span><span lang="zh">胎面花纹</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -93,9 +89,7 @@ const HighPerformanceTires = () => (
           <img alt="" src={i1YkD5E2T0MkHb} />
         </p>
 
-        <h3>
-          Casing Rigidity / 胎体刚性
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Casing Rigidity</span><span className="bilingual-sep"> / </span><span lang="zh">胎体刚性</span></h3>
 
         <div className="bilingual">
           <p lang="en">

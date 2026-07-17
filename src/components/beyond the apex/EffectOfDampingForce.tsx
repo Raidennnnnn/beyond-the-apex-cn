@@ -6,11 +6,8 @@ const EffectOfDampingForce = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-5 : Effect of Damping Force / 阻尼力的作用</h1>
-        <h2>
-          The state of vibration varies with damping force /
-          振动状态随阻尼力而变化
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">1-5 : Effect of Damping Force</span><span className="bilingual-sep"> / </span><span lang="zh">阻尼力的作用</span></h1>
+        <h2 className="bilingual-title"><span lang="en">The state of vibration varies with damping force</span><span className="bilingual-sep"> / </span><span lang="zh">振动状态随阻尼力而变化</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -31,10 +28,7 @@ const EffectOfDampingForce = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Free vibration with a differing damping ratio /
-          不同阻尼比下的自由振动
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Free vibration with a differing damping ratio</span><span className="bilingual-sep"> / </span><span lang="zh">不同阻尼比下的自由振动</span></h3>
 
         <div className="bilingual">
           <p lang="en">

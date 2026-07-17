@@ -8,7 +8,7 @@ const IncreasingCompression = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Increasing Compression / 提高压缩比</h1>
+        <h1 className="bilingual-title"><span lang="en">Increasing Compression</span><span className="bilingual-sep"> / </span><span lang="zh">提高压缩比</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -33,9 +33,7 @@ const IncreasingCompression = () => (
           </p>
         </div>
 
-        <h3>
-          Pistons / 活塞
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Pistons</span><span className="bilingual-sep"> / </span><span lang="zh">活塞</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -50,9 +48,7 @@ const IncreasingCompression = () => (
           <img alt="" src={i1gpf004z5uXY} />
         </p>
 
-        <h3>
-          Combustion Chamber / 燃烧室
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Combustion Chamber</span><span className="bilingual-sep"> / </span><span lang="zh">燃烧室</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -67,9 +63,7 @@ const IncreasingCompression = () => (
           <img alt="" src={i1EFmatFzcui3RB} />
         </p>
 
-        <h3>
-          Cylinder Head / 气缸盖
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Cylinder Head</span><span className="bilingual-sep"> / </span><span lang="zh">气缸盖</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -84,9 +78,7 @@ const IncreasingCompression = () => (
           <img alt="" src={i13mSW0TqruTHC} />
         </p>
 
-        <h3>
-          Head Gasket / 缸垫
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Head Gasket</span><span className="bilingual-sep"> / </span><span lang="zh">缸垫</span></h3>
 
         <div className="bilingual">
           <p lang="en">

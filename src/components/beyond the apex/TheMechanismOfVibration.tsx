@@ -6,11 +6,8 @@ const TheMechanismOfVibration = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-3 : The Mechanism of Vibration / 振动的机制</h1>
-        <h2>
-          Vibration is related to the mass and elasticity of an object /
-          振动与物体的质量与弹性相关
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">1-3 : The Mechanism of Vibration</span><span className="bilingual-sep"> / </span><span lang="zh">振动的机制</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Vibration is related to the mass and elasticity of an object</span><span className="bilingual-sep"> / </span><span lang="zh">振动与物体的质量与弹性相关</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -22,9 +19,7 @@ const TheMechanismOfVibration = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Vibration viewed from the aspect of force / 从力的角度看振动
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Vibration viewed from the aspect of force</span><span className="bilingual-sep"> / </span><span lang="zh">从力的角度看振动</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -47,9 +42,7 @@ const TheMechanismOfVibration = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Vibration seen from the aspect of energy / 从能量的角度看振动
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Vibration seen from the aspect of energy</span><span className="bilingual-sep"> / </span><span lang="zh">从能量的角度看振动</span></h3>
 
         <div className="bilingual">
           <p lang="en">

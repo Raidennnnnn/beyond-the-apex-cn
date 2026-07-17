@@ -7,7 +7,7 @@ const PerformanceKeywords = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Performance Keywords / 性能关键词</h1>
+        <h1 className="bilingual-title"><span lang="en">Performance Keywords</span><span className="bilingual-sep"> / </span><span lang="zh">性能关键词</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -28,9 +28,7 @@ const PerformanceKeywords = () => (
           </p>
         </div>
 
-        <h3>
-          Horsepower / 马力［Horsepower］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Horsepower</span><span className="bilingual-sep"> / </span><span lang="zh">马力［Horsepower］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -45,9 +43,7 @@ const PerformanceKeywords = () => (
           <img alt="" src={i1rgDyadTehRo8c} />
         </p>
 
-        <h3>
-          Torque / 转矩［Torque］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Torque</span><span className="bilingual-sep"> / </span><span lang="zh">转矩［Torque］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -71,9 +67,7 @@ const PerformanceKeywords = () => (
           <img alt="" src={i1tb08Jl09RclEE} />
         </p>
 
-        <h3>
-          Displacement/Number of Cylinders / 排量／气缸数
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Displacement/Number of Cylinders</span><span className="bilingual-sep"> / </span><span lang="zh">排量／气缸数</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -102,9 +96,7 @@ const PerformanceKeywords = () => (
           </p>
         </div>
 
-        <h3>
-          Bore/Stroke Ratio / 缸径行程比
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Bore/Stroke Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">缸径行程比</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -128,9 +120,7 @@ const PerformanceKeywords = () => (
           <img alt="" src={i1a52v6VnXF8eSH} />
         </p>
 
-        <h3>
-          Compression Ratio / 压缩比
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Compression Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">压缩比</span></h3>
 
         <div className="bilingual">
           <p lang="en">

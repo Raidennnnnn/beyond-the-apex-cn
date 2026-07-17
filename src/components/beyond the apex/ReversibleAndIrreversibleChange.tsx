@@ -6,11 +6,8 @@ const ReversibleAndIrreversibleChange = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          3-5 : Reversible Change and Irreversible Change /
-          可逆变化与不可逆变化
-        </h1>
-        <h2>Natural change has a direction / 自然变化有方向</h2>
+        <h1 className="bilingual-title"><span lang="en">3-5 : Reversible Change and Irreversible Change</span><span className="bilingual-sep"> / </span><span lang="zh">可逆变化与不可逆变化</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Natural change has a direction</span><span className="bilingual-sep"> / </span><span lang="zh">自然变化有方向</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -25,10 +22,7 @@ const ReversibleAndIrreversibleChange = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Nature changes from order to disorder /
-          自然从「秩序」走向「无序」
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Nature changes from order to disorder</span><span className="bilingual-sep"> / </span><span lang="zh">自然从「秩序」走向「无序」</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -76,10 +70,7 @@ const ReversibleAndIrreversibleChange = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● No changes occur between &quot;disorder&quot; and
-          &quot;order&quot; / 「无序」不会自发变为「秩序」
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● No changes occur between &quot;disorder&quot; and &quot;order&quot;</span><span className="bilingual-sep"> / </span><span lang="zh">「无序」不会自发变为「秩序」</span></h3>
 
         <div className="bilingual">
           <p lang="en">

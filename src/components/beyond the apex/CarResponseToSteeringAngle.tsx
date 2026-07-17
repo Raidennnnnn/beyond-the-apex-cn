@@ -6,17 +6,11 @@ const CarResponseToSteeringAngle = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          2-3 : A Car&apos;s Response to Changes in Steering Angle /
-          舵角变化时的车辆响应
-        </h1>
-        <h2>
-          Automotive motion is an oscillation phenomenon /
-          车辆运动也是一种振动现象
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">2-3 : A Car&apos;s Response to Changes in Steering Angle</span><span className="bilingual-sep"> / </span><span lang="zh">舵角变化时的车辆响应</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Automotive motion is an oscillation phenomenon</span><span className="bilingual-sep"> / </span><span lang="zh">车辆运动也是一种振动现象</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">● Turn-in mechanism / 入弯机制</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Turn-in mechanism</span><span className="bilingual-sep"> / </span><span lang="zh">入弯机制</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -57,10 +51,7 @@ const CarResponseToSteeringAngle = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Steering characteristics and car response /
-          转向特性与车辆响应
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Steering characteristics and car response</span><span className="bilingual-sep"> / </span><span lang="zh">转向特性与车辆响应</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -104,10 +95,7 @@ const CarResponseToSteeringAngle = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Applying oscillation theory to vehicle motion /
-          将振动理论应用于车辆运动
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Applying oscillation theory to vehicle motion</span><span className="bilingual-sep"> / </span><span lang="zh">将振动理论应用于车辆运动</span></h3>
 
         <div className="bilingual">
           <p lang="en">

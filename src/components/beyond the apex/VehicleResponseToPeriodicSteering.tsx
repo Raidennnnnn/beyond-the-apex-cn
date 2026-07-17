@@ -5,20 +5,11 @@ const VehicleResponseToPeriodicSteering = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          2-4 : Vehicle Response to Periodic Steering Motion /
-          周期性转向时的车辆响应
-        </h1>
-        <h2>
-          Understanding vehicle characteristic from the Bode Plot /
-          通过波特图了解车辆特性
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">2-4 : Vehicle Response to Periodic Steering Motion</span><span className="bilingual-sep"> / </span><span lang="zh">周期性转向时的车辆响应</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Understanding vehicle characteristic from the Bode Plot</span><span className="bilingual-sep"> / </span><span lang="zh">通过波特图了解车辆特性</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Steering characteristics and response to periodic steering /
-          转向特性与对周期性转向的响应
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Steering characteristics and response to periodic steering</span><span className="bilingual-sep"> / </span><span lang="zh">转向特性与对周期性转向的响应</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -59,10 +50,7 @@ const VehicleResponseToPeriodicSteering = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Four points to be noted from the Bode Plot /
-          波特图上应注意的四点
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Four points to be noted from the Bode Plot</span><span className="bilingual-sep"> / </span><span lang="zh">波特图上应注意的四点</span></h3>
 
         <div className="bilingual">
           <p lang="en">

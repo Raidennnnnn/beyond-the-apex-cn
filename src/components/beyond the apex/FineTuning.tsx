@@ -7,7 +7,7 @@ const FineTuning = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Fine-Tuning / 精细调校</h1>
+        <h1 className="bilingual-title"><span lang="en">Fine-Tuning</span><span className="bilingual-sep"> / </span><span lang="zh">精细调校</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -19,9 +19,7 @@ const FineTuning = () => (
           </p>
         </div>
 
-        <h3>
-          Engine Control Unit (ECU) / 电脑（ECU）
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Engine Control Unit (ECU)</span><span className="bilingual-sep"> / </span><span lang="zh">电脑（ECU）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -36,9 +34,7 @@ const FineTuning = () => (
           <img alt="" src={i1luHsu1YOOuucE} />
         </p>
 
-        <h3>
-          Spark Plugs / 火花塞
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Spark Plugs</span><span className="bilingual-sep"> / </span><span lang="zh">火花塞</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -53,9 +49,7 @@ const FineTuning = () => (
           <img alt="" src={i1oTSLSlHrOGOz} />
         </p>
 
-        <h3>
-          Air Filter / 空气滤清器
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Air Filter</span><span className="bilingual-sep"> / </span><span lang="zh">空气滤清器</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -70,9 +64,7 @@ const FineTuning = () => (
           <img alt="" src={i11jEI0SEJaNU8E} />
         </p>
 
-        <h3>
-          Exhaust System / 排气系统
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Exhaust System</span><span className="bilingual-sep"> / </span><span lang="zh">排气系统</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -87,9 +79,7 @@ const FineTuning = () => (
           <img alt="" src={i1vcM7H1D6yAY} />
         </p>
 
-        <h3>
-          Engine Oil / 发动机机油
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Engine Oil</span><span className="bilingual-sep"> / </span><span lang="zh">发动机机油</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -11,17 +11,11 @@ const TheoreticalEfficiencyOfCarEngines = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          3-4 : Theoretical Efficiency of Car Engines /
-          汽车发动机的理论效率
-        </h1>
-        <h2>
-          Investigating the theoretical efficiencies of the Otto Cycle and
-          Diesel Cycle / 考察奥托循环与柴油循环的理论效率
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">3-4 : Theoretical Efficiency of Car Engines</span><span className="bilingual-sep"> / </span><span lang="zh">汽车发动机的理论效率</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Investigating the theoretical efficiencies of the Otto Cycle and Diesel Cycle</span><span className="bilingual-sep"> / </span><span lang="zh">考察奥托循环与柴油循环的理论效率</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">● Otto Cycle / 奥托循环</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Otto Cycle</span><span className="bilingual-sep"> / </span><span lang="zh">奥托循环</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -133,9 +127,7 @@ const TheoreticalEfficiencyOfCarEngines = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Theoretical efficiency of the Diesel Cycle / 柴油循环的理论效率
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Theoretical efficiency of the Diesel Cycle</span><span className="bilingual-sep"> / </span><span lang="zh">柴油循环的理论效率</span></h3>
 
         <div className="bilingual">
           <p lang="en">

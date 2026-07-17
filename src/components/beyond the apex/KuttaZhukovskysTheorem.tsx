@@ -6,10 +6,8 @@ const KuttaZhukovskysTheorem = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          4-4 : Kutta–Zhukovsky&apos;s Theorem / 库塔–茹科夫斯基定理
-        </h1>
-        <h2>Circulation theory of lift / 升力的环量理论</h2>
+        <h1 className="bilingual-title"><span lang="en">4-4 : Kutta–Zhukovsky&apos;s Theorem</span><span className="bilingual-sep"> / </span><span lang="zh">库塔–茹科夫斯基定理</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Circulation theory of lift</span><span className="bilingual-sep"> / </span><span lang="zh">升力的环量理论</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -27,9 +25,7 @@ const KuttaZhukovskysTheorem = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Kutta–Zhukovsky&apos;s Theorem / 库塔–茹科夫斯基定理
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Kutta–Zhukovsky&apos;s Theorem</span><span className="bilingual-sep"> / </span><span lang="zh">库塔–茹科夫斯基定理</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -130,9 +126,7 @@ const KuttaZhukovskysTheorem = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Kutta&apos;s Condition / 库塔条件
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Kutta&apos;s Condition</span><span className="bilingual-sep"> / </span><span lang="zh">库塔条件</span></h3>
 
         <div className="bilingual">
           <p lang="en">

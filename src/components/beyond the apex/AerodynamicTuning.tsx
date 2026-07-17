@@ -8,7 +8,7 @@ const AerodynamicTuning = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Aerodynamic Tuning / 空气动力学调校</h1>
+        <h1 className="bilingual-title"><span lang="en">Aerodynamic Tuning</span><span className="bilingual-sep"> / </span><span lang="zh">空气动力学调校</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -20,9 +20,7 @@ const AerodynamicTuning = () => (
           </p>
         </div>
 
-        <h3>
-          Front Spoiler / 前扰流板
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Front Spoiler</span><span className="bilingual-sep"> / </span><span lang="zh">前扰流板</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -37,9 +35,7 @@ const AerodynamicTuning = () => (
           <img alt="" src={i16xDdiIScrECTH} />
         </p>
 
-        <h3>
-          Rear Bumper Spoiler / 后保险杠扰流
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Rear Bumper Spoiler</span><span className="bilingual-sep"> / </span><span lang="zh">后保险杠扰流</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -54,9 +50,7 @@ const AerodynamicTuning = () => (
           <img alt="" src={i1PE93sKsGeGNb} />
         </p>
 
-        <h3>
-          Side Spoiler / 侧裙
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Side Spoiler</span><span className="bilingual-sep"> / </span><span lang="zh">侧裙</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -71,9 +65,7 @@ const AerodynamicTuning = () => (
           <img alt="" src={i1UoGnYMFM90Sz} />
         </p>
 
-        <h3>
-          Rear Wing / 尾翼
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Rear Wing</span><span className="bilingual-sep"> / </span><span lang="zh">尾翼</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -88,9 +80,7 @@ const AerodynamicTuning = () => (
           <img alt="" src={i1Cf1luD0oa5scc} />
         </p>
 
-        <h3>
-          Rear Diffuser / 尾部扩散器
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Rear Diffuser</span><span className="bilingual-sep"> / </span><span lang="zh">尾部扩散器</span></h3>
 
         <div className="bilingual">
           <p lang="en">

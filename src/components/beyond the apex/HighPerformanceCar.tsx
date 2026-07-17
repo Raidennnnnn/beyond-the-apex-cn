@@ -6,20 +6,11 @@ const HighPerformanceCar = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          2-7 : What Constitutes a High-Performance Car? /
-          什么是运动性能好的车辆？
-        </h1>
-        <h2>
-          Vehicle performance is in the rear wheels /
-          车辆运动性能的关键在后轮
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">2-7 : What Constitutes a High-Performance Car?</span><span className="bilingual-sep"> / </span><span lang="zh">什么是运动性能好的车辆？</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Vehicle performance is in the rear wheels</span><span className="bilingual-sep"> / </span><span lang="zh">车辆运动性能的关键在后轮</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Resonance frequency of yaw rate and steering characteristic /
-          横摆角速度共振频率与转向特性
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Resonance frequency of yaw rate and steering characteristic</span><span className="bilingual-sep"> / </span><span lang="zh">横摆角速度共振频率与转向特性</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -69,9 +60,7 @@ const HighPerformanceCar = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Categorizing vehicle responsiveness / 车辆响应性的分类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Categorizing vehicle responsiveness</span><span className="bilingual-sep"> / </span><span lang="zh">车辆响应性的分类</span></h3>
 
         <div className="bilingual">
           <p lang="en">

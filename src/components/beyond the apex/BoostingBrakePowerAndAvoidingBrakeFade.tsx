@@ -6,7 +6,7 @@ const BoostingBrakePowerAndAvoidingBrakeFade = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Boosting Brake Power and Avoiding Brake Fade / 提升制动力与避免热衰退</h1>
+        <h1 className="bilingual-title"><span lang="en">Boosting Brake Power and Avoiding Brake Fade</span><span className="bilingual-sep"> / </span><span lang="zh">提升制动力与避免热衰退</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -18,9 +18,7 @@ const BoostingBrakePowerAndAvoidingBrakeFade = () => (
           </p>
         </div>
 
-        <h3>
-          Brake Pads / 刹车片
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Brake Pads</span><span className="bilingual-sep"> / </span><span lang="zh">刹车片</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -35,9 +33,7 @@ const BoostingBrakePowerAndAvoidingBrakeFade = () => (
           <img alt="" src={i1ymmMcoJkrNxuH} />
         </p>
 
-        <h3>
-          Brake Fluid / 制动液
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Brake Fluid</span><span className="bilingual-sep"> / </span><span lang="zh">制动液</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -48,9 +44,7 @@ const BoostingBrakePowerAndAvoidingBrakeFade = () => (
           </p>
         </div>
 
-        <h3>
-          Brake Hoses / 制动软管
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Brake Hoses</span><span className="bilingual-sep"> / </span><span lang="zh">制动软管</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -65,9 +59,7 @@ const BoostingBrakePowerAndAvoidingBrakeFade = () => (
           <img alt="" src={i1pbfDMrKDhzEb} />
         </p>
 
-        <h3>
-          Brake Discs / 制动盘
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Brake Discs</span><span className="bilingual-sep"> / </span><span lang="zh">制动盘</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -78,9 +70,7 @@ const BoostingBrakePowerAndAvoidingBrakeFade = () => (
           </p>
         </div>
 
-        <h3>
-          Calipers / 卡钳
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Calipers</span><span className="bilingual-sep"> / </span><span lang="zh">卡钳</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -6,7 +6,7 @@ const GettingUsedToYourController = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Getting Used to Your Controller / 熟悉控制器</h1>
+        <h1 className="bilingual-title"><span lang="en">Getting Used to Your Controller</span><span className="bilingual-sep"> / </span><span lang="zh">熟悉控制器</span></h1>
       </div>
       <div className="body">
         <p className="image">
@@ -26,9 +26,7 @@ const GettingUsedToYourController = () => (
           </p>
         </div>
 
-        <h3>
-          Becoming one with your car / 与车辆融为一体的感觉
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Becoming one with your car</span><span className="bilingual-sep"> / </span><span lang="zh">与车辆融为一体的感觉</span></h3>
 
         <div className="bilingual">
           <p lang="en">

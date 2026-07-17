@@ -10,10 +10,14 @@ import {
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
 import { Link, useLocation } from "react-router";
 import { TocChapter } from "@/components/filePaths";
+import { usePreferZhToc, useTocLabel } from "@/hooks/use-toc-label";
 
 export default function CollapsibleSidebarMenuItem({ chapter }: { chapter: TocChapter }) {
   const { pathname } = useLocation();
   const { toggleSidebar, isMobile } = useSidebar();
+  const label = useTocLabel();
+  const preferZh = usePreferZhToc();
+  const lang = preferZh ? "zh" : "en";
   const chapterActive = chapter.sections.some((s) =>
     s.pages.some((p) => `/${p.routePath}` === pathname)
   );
@@ -24,8 +28,8 @@ export default function CollapsibleSidebarMenuItem({ chapter }: { chapter: TocCh
         {/* Trigger asChild → Button (shadcn pattern). The reverse merges two button
             onClicks and can toggle open→close in a single click. */}
         <CollapsibleTrigger asChild>
-          <SidebarMenuButton className="h-fit">
-            {chapter.name}
+          <SidebarMenuButton className="h-fit" lang={lang}>
+            {label(chapter.name, chapter.nameZh)}
             <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
           </SidebarMenuButton>
         </CollapsibleTrigger>
@@ -45,9 +49,12 @@ export default function CollapsibleSidebarMenuItem({ chapter }: { chapter: TocCh
                     <CollapsibleTrigger asChild>
                       <SidebarMenuButton
                         className="h-fit py-1 font-medium w-full"
+                        lang={lang}
                         onClick={(e) => e.stopPropagation()}
                       >
-                        <span className="truncate text-left">{section.name}</span>
+                        <span className="truncate text-left">
+                          {label(section.name, section.nameZh)}
+                        </span>
                         <ChevronDown className="ml-auto size-4 shrink-0 transition-transform group-data-[state=open]/section:rotate-180" />
                       </SidebarMenuButton>
                     </CollapsibleTrigger>
@@ -63,13 +70,14 @@ export default function CollapsibleSidebarMenuItem({ chapter }: { chapter: TocCh
                               <Link
                                 viewTransition
                                 to={`/${page.routePath}`}
+                                lang={lang}
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   localStorage.setItem("currentAt", page.routePath);
                                   if (isMobile) toggleSidebar();
                                 }}
                               >
-                                {page.name}
+                                {label(page.name, page.nameZh)}
                               </Link>
                             </SidebarMenuSubButton>
                           </SidebarMenuSubItem>

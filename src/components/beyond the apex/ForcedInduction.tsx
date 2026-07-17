@@ -5,7 +5,7 @@ const ForcedInduction = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Forced Induction / 强制进气</h1>
+        <h1 className="bilingual-title"><span lang="en">Forced Induction</span><span className="bilingual-sep"> / </span><span lang="zh">强制进气</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -71,9 +71,7 @@ const ForcedInduction = () => (
           </p>
         </div>
 
-        <h3>
-          Superchargers / 机械增压器
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Superchargers</span><span className="bilingual-sep"> / </span><span lang="zh">机械增压器</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -88,9 +86,7 @@ const ForcedInduction = () => (
           <img alt="" src={i1pajaNoJhZbu} />
         </p>
 
-        <h3>
-          Turbochargers / 涡轮增压器
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Turbochargers</span><span className="bilingual-sep"> / </span><span lang="zh">涡轮增压器</span></h3>
 
         <div className="bilingual">
           <p lang="en">

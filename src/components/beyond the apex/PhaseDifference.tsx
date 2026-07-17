@@ -6,11 +6,8 @@ const PhaseDifference = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-6 : Phase Difference / 相位差</h1>
-        <h2>
-          Phase difference is the difference in the rhythm of the vibration /
-          相位差是振动节奏的差异
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">1-6 : Phase Difference</span><span className="bilingual-sep"> / </span><span lang="zh">相位差</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Phase difference is the difference in the rhythm of the vibration</span><span className="bilingual-sep"> / </span><span lang="zh">相位差是振动节奏的差异</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -55,9 +52,7 @@ const PhaseDifference = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Difference of the rhythm of vibration / 振动节奏的差异
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Difference of the rhythm of vibration</span><span className="bilingual-sep"> / </span><span lang="zh">振动节奏的差异</span></h3>
 
         <div className="bilingual">
           <p lang="en">

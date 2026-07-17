@@ -7,14 +7,11 @@ const TireDynamics = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>2-1 : Tire Dynamics / 轮胎的力学</h1>
-        <h2>
-          Understanding the forces created by the tire /
-          首先理解轮胎所产生的力
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">2-1 : Tire Dynamics</span><span className="bilingual-sep"> / </span><span lang="zh">轮胎的力学</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Understanding the forces created by the tire</span><span className="bilingual-sep"> / </span><span lang="zh">首先理解轮胎所产生的力</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">● Cornering force / 侧偏力</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Cornering force</span><span className="bilingual-sep"> / </span><span lang="zh">侧偏力</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -67,10 +64,7 @@ const TireDynamics = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Relation between cornering force and slip angle /
-          侧偏力与侧偏角的关系
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Relation between cornering force and slip angle</span><span className="bilingual-sep"> / </span><span lang="zh">侧偏力与侧偏角的关系</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -93,9 +87,7 @@ const TireDynamics = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Air pressure and cornering power / 气压与侧偏刚度
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Air pressure and cornering power</span><span className="bilingual-sep"> / </span><span lang="zh">气压与侧偏刚度</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -106,10 +98,7 @@ const TireDynamics = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Lateral force of the tire associated with driving and braking /
-          伴随驱动与制动的轮胎横向力
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Lateral force of the tire associated with driving and braking</span><span className="bilingual-sep"> / </span><span lang="zh">伴随驱动与制动的轮胎横向力</span></h3>
 
         <div className="bilingual">
           <p lang="en">

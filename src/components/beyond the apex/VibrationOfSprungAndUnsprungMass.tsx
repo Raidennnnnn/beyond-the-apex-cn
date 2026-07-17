@@ -7,14 +7,8 @@ const VibrationOfSprungAndUnsprungMass = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          2-6 : Vibration of Sprung Mass and Unsprung Mass /
-          簧上质量与簧下质量的振动
-        </h1>
-        <h2>
-          A theory not to be ignored in suspension tuning /
-          悬架调校中不可忽视的理论
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">2-6 : Vibration of Sprung Mass and Unsprung Mass</span><span className="bilingual-sep"> / </span><span lang="zh">簧上质量与簧下质量的振动</span></h1>
+        <h2 className="bilingual-title"><span lang="en">A theory not to be ignored in suspension tuning</span><span className="bilingual-sep"> / </span><span lang="zh">悬架调校中不可忽视的理论</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -26,7 +20,7 @@ const VibrationOfSprungAndUnsprungMass = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● Mode of vibration / 振动模态</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Mode of vibration</span><span className="bilingual-sep"> / </span><span lang="zh">振动模态</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -70,10 +64,7 @@ const VibrationOfSprungAndUnsprungMass = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Suspension tuning and its effects on the mode of vibration /
-          悬架调校对振动模态的影响
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Suspension tuning and its effects on the mode of vibration</span><span className="bilingual-sep"> / </span><span lang="zh">悬架调校对振动模态的影响</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -157,7 +148,7 @@ const VibrationOfSprungAndUnsprungMass = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● Pitching control / 俯仰控制</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Pitching control</span><span className="bilingual-sep"> / </span><span lang="zh">俯仰控制</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -8,7 +8,7 @@ const MechanismAndPrinciples = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Mechanism and Principles / 结构与原理</h1>
+        <h1 className="bilingual-title"><span lang="en">Mechanism and Principles</span><span className="bilingual-sep"> / </span><span lang="zh">结构与原理</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -60,13 +60,9 @@ const MechanismAndPrinciples = () => (
           <img alt="" src={i1txPgKMrUU4L} />
         </p>
 
-        <h3 className="section-header">
-          ● Types of Cylinder Configurations / ● 气缸布置种类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of Cylinder Configurations</span><span className="bilingual-sep"> / </span><span lang="zh">● 气缸布置种类</span></h3>
 
-        <h3>
-          Inline Engine / 直列型
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Inline Engine</span><span className="bilingual-sep"> / </span><span lang="zh">直列型</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -81,9 +77,7 @@ const MechanismAndPrinciples = () => (
           <img alt="" src={i1e5B8j7TUfhoG} />
         </p>
 
-        <h3>
-          V Engine / V型
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">V Engine</span><span className="bilingual-sep"> / </span><span lang="zh">V型</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -98,9 +92,7 @@ const MechanismAndPrinciples = () => (
           <img alt="" src={i1V3Onn5dBvN78E} />
         </p>
 
-        <h3>
-          Flat Engine / 水平对向型
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Flat Engine</span><span className="bilingual-sep"> / </span><span lang="zh">水平对向型</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -115,9 +107,7 @@ const MechanismAndPrinciples = () => (
           <img alt="" src={i1XKWmA5ALmCVW} />
         </p>
 
-        <h3>
-          W Engine / W型
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">W Engine</span><span className="bilingual-sep"> / </span><span lang="zh">W型</span></h3>
 
         <div className="bilingual">
           <p lang="en">

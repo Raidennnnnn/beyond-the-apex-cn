@@ -7,12 +7,10 @@ const UsingDriverAssistBraking = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Using Driver Assist ① - Braking / 驾驶辅助 ① - 制动</h1>
+        <h1 className="bilingual-title"><span lang="en">Using Driver Assist ① - Braking</span><span className="bilingual-sep"> / </span><span lang="zh">驾驶辅助 ① - 制动</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Knowing when to brake and adjust your speed / 掌握制动时机与力度
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Knowing when to brake and adjust your speed</span><span className="bilingual-sep"> / </span><span lang="zh">掌握制动时机与力度</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -32,9 +30,7 @@ const UsingDriverAssistBraking = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Braking area / ● 制动区域
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Braking area</span><span className="bilingual-sep"> / </span><span lang="zh">● 制动区域</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -76,9 +72,7 @@ const UsingDriverAssistBraking = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Braking indicator / ● 制动指示器
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Braking indicator</span><span className="bilingual-sep"> / </span><span lang="zh">● 制动指示器</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -111,9 +105,7 @@ const UsingDriverAssistBraking = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Suggested gear / ● 建议挡位
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Suggested gear</span><span className="bilingual-sep"> / </span><span lang="zh">● 建议挡位</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -146,9 +138,7 @@ const UsingDriverAssistBraking = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Auto-brake / auto-drive / ● 自动制动 / 自动转向
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Auto-brake / auto-drive</span><span className="bilingual-sep"> / </span><span lang="zh">● 自动制动 / 自动转向</span></h3>
 
         <div className="bilingual">
           <p lang="en">

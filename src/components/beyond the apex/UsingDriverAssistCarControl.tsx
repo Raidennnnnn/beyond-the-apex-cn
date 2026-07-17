@@ -7,12 +7,10 @@ const UsingDriverAssistCarControl = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Using Driver Assist ② - Car Control / 驾驶辅助 ② - 车身控制</h1>
+        <h1 className="bilingual-title"><span lang="en">Using Driver Assist ② - Car Control</span><span className="bilingual-sep"> / </span><span lang="zh">驾驶辅助 ② - 车身控制</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Protect against spinning out and going off-track / 防止打滑与冲出赛道
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Protect against spinning out and going off-track</span><span className="bilingual-sep"> / </span><span lang="zh">防止打滑与冲出赛道</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -23,9 +21,7 @@ const UsingDriverAssistCarControl = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Traction control system (TCS) / ● 牵引力控制系统（TCS）
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Traction control system (TCS)</span><span className="bilingual-sep"> / </span><span lang="zh">● 牵引力控制系统（TCS）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -67,9 +63,7 @@ const UsingDriverAssistCarControl = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Counter-steering assistance / ● 反打方向辅助
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Counter-steering assistance</span><span className="bilingual-sep"> / </span><span lang="zh">● 反打方向辅助</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -102,9 +96,7 @@ const UsingDriverAssistCarControl = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Anti-lock braking system (ABS) / ● 防抱死制动系统（ABS）
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Anti-lock braking system (ABS)</span><span className="bilingual-sep"> / </span><span lang="zh">● 防抱死制动系统（ABS）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -137,9 +129,7 @@ const UsingDriverAssistCarControl = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Active stability management (ASM) / ● 主动稳定管理（ASM）
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Active stability management (ASM)</span><span className="bilingual-sep"> / </span><span lang="zh">● 主动稳定管理（ASM）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -181,9 +171,7 @@ const UsingDriverAssistCarControl = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Reset to track / ● 复位
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Reset to track</span><span className="bilingual-sep"> / </span><span lang="zh">● 复位</span></h3>
 
         <div className="bilingual">
           <p lang="en">

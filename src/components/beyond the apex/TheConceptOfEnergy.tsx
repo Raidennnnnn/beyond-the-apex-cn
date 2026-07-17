@@ -6,13 +6,11 @@ const TheConceptOfEnergy = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-2 : The Concept of Energy / 能量的概念</h1>
-        <h2>Understanding conservation of energy / 理解能量守恒定律</h2>
+        <h1 className="bilingual-title"><span lang="en">1-2 : The Concept of Energy</span><span className="bilingual-sep"> / </span><span lang="zh">能量的概念</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Understanding conservation of energy</span><span className="bilingual-sep"> / </span><span lang="zh">理解能量守恒定律</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● The Law of Conservation of Energy / 能量守恒定律
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The Law of Conservation of Energy</span><span className="bilingual-sep"> / </span><span lang="zh">能量守恒定律</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -35,9 +33,7 @@ const TheConceptOfEnergy = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Engine cylinder conservation / 发动机气缸内的守恒
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Engine cylinder conservation</span><span className="bilingual-sep"> / </span><span lang="zh">发动机气缸内的守恒</span></h3>
 
         <div className="bilingual">
           <p lang="en">

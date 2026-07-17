@@ -8,12 +8,10 @@ const TheDifferentialAndLSD = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>The Differential and LSD / 差速器与限滑差速器</h1>
+        <h1 className="bilingual-title"><span lang="en">The Differential and LSD</span><span className="bilingual-sep"> / </span><span lang="zh">差速器与限滑差速器</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Differential / ● 差速器
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Differential</span><span className="bilingual-sep"> / </span><span lang="zh">● 差速器</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -81,9 +79,7 @@ const TheDifferentialAndLSD = () => (
           <img alt="" src={i1GYIArBtn1MycE} />
         </p>
 
-        <h3 className="section-header">
-          ● Limited-Slip Differential / ● 限滑差速器（LSD）
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Limited-Slip Differential</span><span className="bilingual-sep"> / </span><span lang="zh">● 限滑差速器（LSD）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -120,13 +116,9 @@ const TheDifferentialAndLSD = () => (
           <img alt="" src={i1a2lI6y1YtRXSB} />
         </p>
 
-        <h3 className="section-header">
-          ● Types of LSD / ● LSD 种类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of LSD</span><span className="bilingual-sep"> / </span><span lang="zh">● LSD 种类</span></h3>
 
-        <h3>
-          Torque-Sensitive Type / 转矩感应式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Torque-Sensitive Type</span><span className="bilingual-sep"> / </span><span lang="zh">转矩感应式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -137,9 +129,7 @@ const TheDifferentialAndLSD = () => (
           </p>
         </div>
 
-        <h3>
-          Speed-Sensitive Type / 转速感应式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Speed-Sensitive Type</span><span className="bilingual-sep"> / </span><span lang="zh">转速感应式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -150,9 +140,7 @@ const TheDifferentialAndLSD = () => (
           </p>
         </div>
 
-        <h3>
-          Active-Control Type / 主动控制式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Active-Control Type</span><span className="bilingual-sep"> / </span><span lang="zh">主动控制式</span></h3>
 
         <div className="bilingual">
           <p lang="en">

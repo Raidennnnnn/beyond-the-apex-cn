@@ -7,7 +7,7 @@ const Dimensions = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Dimensions / 尺寸</h1>
+        <h1 className="bilingual-title"><span lang="en">Dimensions</span><span className="bilingual-sep"> / </span><span lang="zh">尺寸</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -19,9 +19,7 @@ const Dimensions = () => (
           </p>
         </div>
 
-        <h3>
-          Wheelbase / 轴距
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Wheelbase</span><span className="bilingual-sep"> / </span><span lang="zh">轴距</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -36,9 +34,7 @@ const Dimensions = () => (
           <img alt="" src={i1Eyjv4Mbqp56Ec} />
         </p>
 
-        <h3>
-          Overhang / 前后悬
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Overhang</span><span className="bilingual-sep"> / </span><span lang="zh">前后悬</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -53,9 +49,7 @@ const Dimensions = () => (
           <img alt="" src={i1I1P1Ans2QOMb} />
         </p>
 
-        <h3>
-          Track Width / 轮距
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Track Width</span><span className="bilingual-sep"> / </span><span lang="zh">轮距</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -79,9 +73,7 @@ const Dimensions = () => (
           <img alt="" src={i1broYi9aVmTycE} />
         </p>
 
-        <h3>
-          Height / 车高
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Height</span><span className="bilingual-sep"> / </span><span lang="zh">车高</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -96,9 +88,7 @@ const Dimensions = () => (
           <img alt="" src={i1dAq9XSAdj4O} />
         </p>
 
-        <h3>
-          Weight / 车重
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Weight</span><span className="bilingual-sep"> / </span><span lang="zh">车重</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -4,12 +4,10 @@ const LearningHowToBePrecise = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Learning How to Be Precise / 学习精准驾驶</h1>
+        <h1 className="bilingual-title"><span lang="en">Learning How to Be Precise</span><span className="bilingual-sep"> / </span><span lang="zh">学习精准驾驶</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Reacting to where your racing marker is on screen / 确定「标记出现在屏幕何处时操作」
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Reacting to where your racing marker is on screen</span><span className="bilingual-sep"> / </span><span lang="zh">确定「标记出现在屏幕何处时操作」</span></h3>
 
         <div className="bilingual">
           <p lang="en">

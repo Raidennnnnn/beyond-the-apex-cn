@@ -2,16 +2,12 @@ const SuspensionSettings2 = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Suspension ② / 悬架 ②</h1>
+        <h1 className="bilingual-title"><span lang="en">Suspension ②</span><span className="bilingual-sep"> / </span><span lang="zh">悬架 ②</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Wheel Alignment: Camber Angle / ● 车轮定位·外倾角
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Wheel Alignment: Camber Angle</span><span className="bilingual-sep"> / </span><span lang="zh">● 车轮定位·外倾角</span></h3>
 
-        <h3>
-          The Positive Effect of Negative Camber / 对旋回有效的负外倾
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">The Positive Effect of Negative Camber</span><span className="bilingual-sep"> / </span><span lang="zh">对旋回有效的负外倾</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -58,13 +54,9 @@ const SuspensionSettings2 = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Wheel Alignment/Toe Angle / ● 车轮定位·前束角
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Wheel Alignment/Toe Angle</span><span className="bilingual-sep"> / </span><span lang="zh">● 车轮定位·前束角</span></h3>
 
-        <h3>
-          A Shallow Angle with a Deep Effect on Stability / 左右稳定性的细微角度
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">A Shallow Angle with a Deep Effect on Stability</span><span className="bilingual-sep"> / </span><span lang="zh">左右稳定性的细微角度</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -93,13 +85,9 @@ const SuspensionSettings2 = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Anti-Roll Bar/Stabilizer Stiffness / ● 防倾杆刚度
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Anti-Roll Bar/Stabilizer Stiffness</span><span className="bilingual-sep"> / </span><span lang="zh">● 防倾杆刚度</span></h3>
 
-        <h3>
-          A Final Tweak / 调整仅作最后调味
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">A Final Tweak</span><span className="bilingual-sep"> / </span><span lang="zh">调整仅作最后调味</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -7,7 +7,7 @@ const TuningRotaryEngines = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Rotary Engines / 转子发动机</h1>
+        <h1 className="bilingual-title"><span lang="en">Rotary Engines</span><span className="bilingual-sep"> / </span><span lang="zh">转子发动机</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -32,9 +32,7 @@ const TuningRotaryEngines = () => (
           </p>
         </div>
 
-        <h3>
-          Balancing / 平衡
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Balancing</span><span className="bilingual-sep"> / </span><span lang="zh">平衡</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -45,9 +43,7 @@ const TuningRotaryEngines = () => (
           </p>
         </div>
 
-        <h3>
-          Side Porting / 侧面进气
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Side Porting</span><span className="bilingual-sep"> / </span><span lang="zh">侧面进气</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -62,9 +58,7 @@ const TuningRotaryEngines = () => (
           <img alt="" src={i1aIlIZWpcha8SB} />
         </p>
 
-        <h3>
-          Bridge Porting / 桥式端口
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Bridge Porting</span><span className="bilingual-sep"> / </span><span lang="zh">桥式端口</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -88,9 +82,7 @@ const TuningRotaryEngines = () => (
           <img alt="" src={i1FbRH5Rwc47Ib} />
         </p>
 
-        <h3>
-          Peripheral Porting / 周边进气
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Peripheral Porting</span><span className="bilingual-sep"> / </span><span lang="zh">周边进气</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -105,9 +97,7 @@ const TuningRotaryEngines = () => (
           <img alt="" src={i11lGz57fmSsfC} />
         </p>
 
-        <h3>
-          Combination Porting / 组合端口
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Combination Porting</span><span className="bilingual-sep"> / </span><span lang="zh">组合端口</span></h3>
 
         <div className="bilingual">
           <p lang="en">

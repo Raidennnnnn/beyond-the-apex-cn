@@ -9,12 +9,8 @@ const PrandtlsLiftingLineTheory = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          4-6 : Prandtl&apos;s Lifting Line Theory / 普朗特升力线理论
-        </h1>
-        <h2>
-          Wingtip vortex generation on finite wings / 有限翼展上的翼尖涡生成
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">4-6 : Prandtl&apos;s Lifting Line Theory</span><span className="bilingual-sep"> / </span><span lang="zh">普朗特升力线理论</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Wingtip vortex generation on finite wings</span><span className="bilingual-sep"> / </span><span lang="zh">有限翼展上的翼尖涡生成</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -32,9 +28,7 @@ const PrandtlsLiftingLineTheory = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Flow around a limited wingspan / 有限翼展周围的流动
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Flow around a limited wingspan</span><span className="bilingual-sep"> / </span><span lang="zh">有限翼展周围的流动</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -102,9 +96,7 @@ const PrandtlsLiftingLineTheory = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Prandtl&apos;s Lifting Line Theory / 普朗特升力线理论
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Prandtl&apos;s Lifting Line Theory</span><span className="bilingual-sep"> / </span><span lang="zh">普朗特升力线理论</span></h3>
 
         <div className="bilingual">
           <p lang="en">

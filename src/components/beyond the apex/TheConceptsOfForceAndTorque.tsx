@@ -7,8 +7,8 @@ const TheConceptsOfForceAndTorque = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-1 : The Concepts of Force and Torque / 力与力矩的概念</h1>
-        <h2>The definitions and differences between the two / 两者的定义与区别</h2>
+        <h1 className="bilingual-title"><span lang="en">1-1 : The Concepts of Force and Torque</span><span className="bilingual-sep"> / </span><span lang="zh">力与力矩的概念</span></h1>
+        <h2 className="bilingual-title"><span lang="en">The definitions and differences between the two</span><span className="bilingual-sep"> / </span><span lang="zh">两者的定义与区别</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -20,7 +20,7 @@ const TheConceptsOfForceAndTorque = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● The definition of force / 力的定义</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The definition of force</span><span className="bilingual-sep"> / </span><span lang="zh">力的定义</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -90,7 +90,7 @@ const TheConceptsOfForceAndTorque = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● The definition of torque / 力矩的定义</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The definition of torque</span><span className="bilingual-sep"> / </span><span lang="zh">力矩的定义</span></h3>
 
         <div className="bilingual">
           <p lang="en">

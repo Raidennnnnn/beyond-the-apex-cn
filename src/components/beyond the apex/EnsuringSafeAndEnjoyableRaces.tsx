@@ -10,7 +10,7 @@ const EnsuringSafeAndEnjoyableRaces = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Ensuring safe and enjoyable races / 确保安全愉快的比赛</h1>
+        <h1 className="bilingual-title"><span lang="en">Ensuring safe and enjoyable races</span><span className="bilingual-sep"> / </span><span lang="zh">确保安全愉快的比赛</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -31,9 +31,7 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Don't drive off the track / ● 不要驶离赛道
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Don't drive off the track</span><span className="bilingual-sep"> / </span><span lang="zh">● 不要驶离赛道</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -70,9 +68,7 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Don't block other cars when returning to the track / ● 返回赛道时不要阻挡其他车辆
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Don't block other cars when returning to the track</span><span className="bilingual-sep"> / </span><span lang="zh">● 返回赛道时不要阻挡其他车辆</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -109,9 +105,7 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Smoothly yield the racing line / ● 让出走线时要平顺
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Smoothly yield the racing line</span><span className="bilingual-sep"> / </span><span lang="zh">● 让出走线时要平顺</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -148,9 +142,7 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● You can only change course to defend your position once / ● 为守位变线仅允许一次
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● You can only change course to defend your position once</span><span className="bilingual-sep"> / </span><span lang="zh">● 为守位变线仅允许一次</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -187,9 +179,7 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Running other cars off the track is forbidden / ● 严禁将其他车辆挤出赛道
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Running other cars off the track is forbidden</span><span className="bilingual-sep"> / </span><span lang="zh">● 严禁将其他车辆挤出赛道</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -217,9 +207,7 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Following the line when entering and exiting the pit lane / ● 进出维修区应沿引导线
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Following the line when entering and exiting the pit lane</span><span className="bilingual-sep"> / </span><span lang="zh">● 进出维修区应沿引导线</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -256,9 +244,7 @@ const EnsuringSafeAndEnjoyableRaces = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Pay attention to yellow and blue flags / ● 注意黄旗与蓝旗
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Pay attention to yellow and blue flags</span><span className="bilingual-sep"> / </span><span lang="zh">● 注意黄旗与蓝旗</span></h3>
 
         <div className="bilingual">
           <p lang="en">

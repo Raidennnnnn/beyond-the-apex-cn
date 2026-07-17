@@ -7,16 +7,12 @@ const AerodynamicsSettings = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Aerodynamics / 空气动力学</h1>
+        <h1 className="bilingual-title"><span lang="en">Aerodynamics</span><span className="bilingual-sep"> / </span><span lang="zh">空气动力学</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Downforce / ● 下压力
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Downforce</span><span className="bilingual-sep"> / </span><span lang="zh">● 下压力</span></h3>
 
-        <h3>
-          Improving High-Speed Performance / 决定高速行驶性能的关键
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Improving High-Speed Performance</span><span className="bilingual-sep"> / </span><span lang="zh">决定高速行驶性能的关键</span></h3>
 
         <div className="bilingual">
           <p lang="en">

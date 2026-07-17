@@ -5,16 +5,12 @@ const CounteringUndersteerOversteer = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Countering Understeer, Countering Oversteer / 抑制转向不足与转向过度</h1>
+        <h1 className="bilingual-title"><span lang="en">Countering Understeer, Countering Oversteer</span><span className="bilingual-sep"> / </span><span lang="zh">抑制转向不足与转向过度</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Countering Understeer / ● 抑制转向不足
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Countering Understeer</span><span className="bilingual-sep"> / </span><span lang="zh">● 抑制转向不足</span></h3>
 
-        <h3>
-          Understanding Why the Car Refuses to Turn / 弄清在何处转不过去
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Understanding Why the Car Refuses to Turn</span><span className="bilingual-sep"> / </span><span lang="zh">弄清在何处转不过去</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -61,21 +57,15 @@ const CounteringUndersteerOversteer = () => (
           </p>
         </div>
 
-        <h3>
-          Suggested Suspension Settings / 悬架设定参考
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Suggested Suspension Settings</span><span className="bilingual-sep"> / </span><span lang="zh">悬架设定参考</span></h3>
 
         <p className="image">
           <img alt="" src={i1XKKLjPmfJfsSH} />
         </p>
 
-        <h3 className="section-header">
-          ● Countering Oversteer / ● 抑制转向过度
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Countering Oversteer</span><span className="bilingual-sep"> / </span><span lang="zh">● 抑制转向过度</span></h3>
 
-        <h3>
-          The Trouble With Rear-Wheel Drives / 后驱车固有的烦恼
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">The Trouble With Rear-Wheel Drives</span><span className="bilingual-sep"> / </span><span lang="zh">后驱车固有的烦恼</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -122,9 +112,7 @@ const CounteringUndersteerOversteer = () => (
           </p>
         </div>
 
-        <h3>
-          Suggested Suspension Settings / 悬架设定参考
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Suggested Suspension Settings</span><span className="bilingual-sep"> / </span><span lang="zh">悬架设定参考</span></h3>
 
         <p className="image">
           <img alt="" src={i18becgRGmvXk} />

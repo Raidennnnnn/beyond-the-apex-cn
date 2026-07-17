@@ -4,12 +4,10 @@ const TakingCorners = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Taking Corners / 过弯技巧</h1>
+        <h1 className="bilingual-title"><span lang="en">Taking Corners</span><span className="bilingual-sep"> / </span><span lang="zh">过弯技巧</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Pay attention to when you start turning / 注意开始打方向的时机
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Pay attention to when you start turning</span><span className="bilingual-sep"> / </span><span lang="zh">注意开始打方向的时机</span></h3>
 
         <div className="bilingual">
           <p lang="en">

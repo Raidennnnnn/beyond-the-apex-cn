@@ -2,16 +2,14 @@ const DrivetrainSettings = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Drivetrain / 传动系统</h1>
+        <h1 className="bilingual-title"><span lang="en">Drivetrain</span><span className="bilingual-sep"> / </span><span lang="zh">传动系统</span></h1>
       </div>
       <div className="body">
         <h3 className="section-header">
           ● LSD / ● LSD
         </h3>
 
-        <h3>
-          Changing the Limit Changes Maneuverability / 作用方式也会改变操控性
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Changing the Limit Changes Maneuverability</span><span className="bilingual-sep"> / </span><span lang="zh">作用方式也会改变操控性</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -49,13 +47,9 @@ const DrivetrainSettings = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Gear Ratio / ● 齿比
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Gear Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">● 齿比</span></h3>
 
-        <h3>
-          Maintaining Power with a Close Ratio / 密齿比利于维持功率带
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Maintaining Power with a Close Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">密齿比利于维持功率带</span></h3>
 
         <div className="bilingual">
           <p lang="en">

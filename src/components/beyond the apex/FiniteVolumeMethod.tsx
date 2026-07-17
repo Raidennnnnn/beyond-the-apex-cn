@@ -6,10 +6,8 @@ const FiniteVolumeMethod = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>5-2 : Finite Volume Method / 有限体积法</h1>
-        <h2>
-          The most widely used fluid simulation technique / 应用最为广泛的流体仿真技术
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">5-2 : Finite Volume Method</span><span className="bilingual-sep"> / </span><span lang="zh">有限体积法</span></h1>
+        <h2 className="bilingual-title"><span lang="en">The most widely used fluid simulation technique</span><span className="bilingual-sep"> / </span><span lang="zh">应用最为广泛的流体仿真技术</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -21,7 +19,7 @@ const FiniteVolumeMethod = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● Concept of the finite volume method / 有限体积法的概念</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Concept of the finite volume method</span><span className="bilingual-sep"> / </span><span lang="zh">有限体积法的概念</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -71,7 +69,7 @@ const FiniteVolumeMethod = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● Numerical flux / 数值流束</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Numerical flux</span><span className="bilingual-sep"> / </span><span lang="zh">数值流束</span></h3>
 
         <div className="bilingual">
           <p lang="en">

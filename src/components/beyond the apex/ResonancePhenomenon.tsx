@@ -7,11 +7,8 @@ const ResonancePhenomenon = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-4 : Resonance Phenomenon / 共振现象</h1>
-        <h2>
-          Resonance is a state of becoming non-resistant against external
-          excitation / 共振是对外部激励变为无抵抗的状态
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">1-4 : Resonance Phenomenon</span><span className="bilingual-sep"> / </span><span lang="zh">共振现象</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Resonance is a state of becoming non-resistant against external excitation</span><span className="bilingual-sep"> / </span><span lang="zh">共振是对外部激励变为无抵抗的状态</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -35,9 +32,7 @@ const ResonancePhenomenon = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Free vibration and natural frequency / 自由振动与固有频率
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Free vibration and natural frequency</span><span className="bilingual-sep"> / </span><span lang="zh">自由振动与固有频率</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -60,9 +55,7 @@ const ResonancePhenomenon = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Forced vibration and resonance / 强迫振动与共振
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Forced vibration and resonance</span><span className="bilingual-sep"> / </span><span lang="zh">强迫振动与共振</span></h3>
 
         <div className="bilingual">
           <p lang="en">

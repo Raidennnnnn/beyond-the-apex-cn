@@ -5,16 +5,12 @@ const HighSpeedCircuitsTechnicalCourses = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>High-Speed Circuits, Technical Courses / 高速赛道、技术型赛道</h1>
+        <h1 className="bilingual-title"><span lang="en">High-Speed Circuits, Technical Courses</span><span className="bilingual-sep"> / </span><span lang="zh">高速赛道、技术型赛道</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● High-Speed Circuits / ● 高速赛道
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● High-Speed Circuits</span><span className="bilingual-sep"> / </span><span lang="zh">● 高速赛道</span></h3>
 
-        <h3>
-          Improving Top Speed / 提高极速
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Improving Top Speed</span><span className="bilingual-sep"> / </span><span lang="zh">提高极速</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -43,21 +39,15 @@ const HighSpeedCircuitsTechnicalCourses = () => (
           </p>
         </div>
 
-        <h3>
-          Suggested Suspension Settings / 悬架设定参考
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Suggested Suspension Settings</span><span className="bilingual-sep"> / </span><span lang="zh">悬架设定参考</span></h3>
 
         <p className="image">
           <img alt="" src={i165jip6SQb47C} />
         </p>
 
-        <h3 className="section-header">
-          ● Technical Courses / ● 技术型赛道
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Technical Courses</span><span className="bilingual-sep"> / </span><span lang="zh">● 技术型赛道</span></h3>
 
-        <h3>
-          Efficiently Transfering Power to the Road / 高效把动力传到路面
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Efficiently Transfering Power to the Road</span><span className="bilingual-sep"> / </span><span lang="zh">高效把动力传到路面</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -95,9 +85,7 @@ const HighSpeedCircuitsTechnicalCourses = () => (
           </p>
         </div>
 
-        <h3>
-          Suggested Suspension Settings / 悬架设定参考
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Suggested Suspension Settings</span><span className="bilingual-sep"> / </span><span lang="zh">悬架设定参考</span></h3>
 
         <p className="image">
           <img alt="" src={i1NxrWAbhbpeSz} />

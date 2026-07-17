@@ -12,7 +12,7 @@ const HybridSystems = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Hybrid Systems / 混合动力系统</h1>
+        <h1 className="bilingual-title"><span lang="en">Hybrid Systems</span><span className="bilingual-sep"> / </span><span lang="zh">混合动力系统</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -51,21 +51,15 @@ const HybridSystems = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● The Toyota Prius / ● 丰田普锐斯工作概要
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The Toyota Prius</span><span className="bilingual-sep"> / </span><span lang="zh">● 丰田普锐斯工作概要</span></h3>
 
-        <h3>
-          System Overview / 系统整体图
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">System Overview</span><span className="bilingual-sep"> / </span><span lang="zh">系统整体图</span></h3>
 
         <p className="image">
           <img alt="" src={i1iwJv10edZzS} />
         </p>
 
-        <h3>
-          When Accelerating from Standstill or At Low/Medium Speeds / 起步·低中速行驶
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">When Accelerating from Standstill or At Low/Medium Speeds</span><span className="bilingual-sep"> / </span><span lang="zh">起步·低中速行驶</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -80,9 +74,7 @@ const HybridSystems = () => (
           <img alt="" src={i1Ml89Y7ythnh} />
         </p>
 
-        <h3>
-          Normal Driving / 通常行驶
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Normal Driving</span><span className="bilingual-sep"> / </span><span lang="zh">通常行驶</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -97,9 +89,7 @@ const HybridSystems = () => (
           <img alt="" src={i1WStbKytF0LhhH} />
         </p>
 
-        <h3>
-          Rapid Acceleration / 急加速
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Rapid Acceleration</span><span className="bilingual-sep"> / </span><span lang="zh">急加速</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -114,9 +104,7 @@ const HybridSystems = () => (
           <img alt="" src={i1GXrVhiFggA9W} />
         </p>
 
-        <h3>
-          Deceleration and Braking / 减速与制动
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Deceleration and Braking</span><span className="bilingual-sep"> / </span><span lang="zh">减速与制动</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -131,9 +119,7 @@ const HybridSystems = () => (
           <img alt="" src={i1aP944GCETqW8E} />
         </p>
 
-        <h3>
-          Battery charging / 电池充电
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Battery charging</span><span className="bilingual-sep"> / </span><span lang="zh">电池充电</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -148,13 +134,9 @@ const HybridSystems = () => (
           <img alt="" src={i1f0sCzsznQDtW} />
         </p>
 
-        <h3 className="section-header">
-          ● Types of Hybrid System / ● 混合动力系统种类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of Hybrid System</span><span className="bilingual-sep"> / </span><span lang="zh">● 混合动力系统种类</span></h3>
 
-        <h3>
-          Series Hybrid / 串联式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Series Hybrid</span><span className="bilingual-sep"> / </span><span lang="zh">串联式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -169,9 +151,7 @@ const HybridSystems = () => (
           <img alt="" src={i1ojuijzvKVCL} />
         </p>
 
-        <h3>
-          Parallel Hybrid / 并联式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Parallel Hybrid</span><span className="bilingual-sep"> / </span><span lang="zh">并联式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -186,9 +166,7 @@ const HybridSystems = () => (
           <img alt="" src={i1zALVvHBUel2EE} />
         </p>
 
-        <h3>
-          Series-Parallel Hybrid / 混联式（动力分割式）
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Series-Parallel Hybrid</span><span className="bilingual-sep"> / </span><span lang="zh">混联式（动力分割式）</span></h3>
 
         <div className="bilingual">
           <p lang="en">

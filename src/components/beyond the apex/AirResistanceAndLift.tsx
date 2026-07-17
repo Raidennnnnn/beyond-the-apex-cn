@@ -7,7 +7,7 @@ const AirResistanceAndLift = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Air Resistance and Lift / 空气阻力与升力</h1>
+        <h1 className="bilingual-title"><span lang="en">Air Resistance and Lift</span><span className="bilingual-sep"> / </span><span lang="zh">空气阻力与升力</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -55,9 +55,7 @@ const AirResistanceAndLift = () => (
           </p>
         </div>
 
-        <h3>
-          Frontal Surface Area   [Frontal Area] / 迎风面积
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Frontal Surface Area [Frontal Area]</span><span className="bilingual-sep"> / </span><span lang="zh">迎风面积</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -72,9 +70,7 @@ const AirResistanceAndLift = () => (
           <img alt="" src={i1MaCF17fZj7JuB} />
         </p>
 
-        <h3>
-          Cd – Drag Coefficient   [Constant Drag] / Cd——空气阻力系数
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Cd – Drag Coefficient [Constant Drag]</span><span className="bilingual-sep"> / </span><span lang="zh">Cd——空气阻力系数</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -89,9 +85,7 @@ const AirResistanceAndLift = () => (
           <img alt="" src={i15rJZ9jJZ4l3b} />
         </p>
 
-        <h3>
-          Cl – Lift Coefficient / Cl——升力系数
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Cl – Lift Coefficient</span><span className="bilingual-sep"> / </span><span lang="zh">Cl——升力系数</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -106,9 +100,7 @@ const AirResistanceAndLift = () => (
           <img alt="" src={i13kfAkmJz4BX7c} />
         </p>
 
-        <h3>
-          CYM – Coefficient of Yawing Moment / CYM——横摆力矩系数
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">CYM – Coefficient of Yawing Moment</span><span className="bilingual-sep"> / </span><span lang="zh">CYM——横摆力矩系数</span></h3>
 
         <div className="bilingual">
           <p lang="en">

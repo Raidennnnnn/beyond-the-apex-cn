@@ -7,12 +7,10 @@ const Exposure = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Exposure / 曝光</h1>
+        <h1 className="bilingual-title"><span lang="en">Exposure</span><span className="bilingual-sep"> / </span><span lang="zh">曝光</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Overexposure is Effective for Darker Cars, Underexposure is Effective for Lighter Cars / 深色车身宜过曝，浅色车身宜欠曝
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Overexposure is Effective for Darker Cars, Underexposure is Effective for Lighter Cars</span><span className="bilingual-sep"> / </span><span lang="zh">深色车身宜过曝，浅色车身宜欠曝</span></h3>
 
         <div className="bilingual">
           <p lang="en">

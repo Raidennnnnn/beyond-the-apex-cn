@@ -7,12 +7,10 @@ const TheAngle = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>The Angle / 角度</h1>
+        <h1 className="bilingual-title"><span lang="en">The Angle</span><span className="bilingual-sep"> / </span><span lang="zh">角度</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Eye-level is Often the Best Viewing Angle / 以「目高」作为观赏汽车的标准
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Eye-level is Often the Best Viewing Angle</span><span className="bilingual-sep"> / </span><span lang="zh">以「目高」作为观赏汽车的标准</span></h3>
 
         <p className="image">
           <img alt="" src={i1Zt0zoZ88OKIz} />

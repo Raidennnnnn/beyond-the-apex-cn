@@ -8,7 +8,7 @@ const DrivetrainsAndWeightDistribution = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Drivetrains and Weight Distribution / 驱动形式与重量分配</h1>
+        <h1 className="bilingual-title"><span lang="en">Drivetrains and Weight Distribution</span><span className="bilingual-sep"> / </span><span lang="zh">驱动形式与重量分配</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -56,13 +56,9 @@ const DrivetrainsAndWeightDistribution = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Types of Drivetrains / ● 驱动形式种类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of Drivetrains</span><span className="bilingual-sep"> / </span><span lang="zh">● 驱动形式种类</span></h3>
 
-        <h3>
-          FR [Front-Engine, Rear-Wheel Drive] / FR［前置发动机、后轮驱动］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">FR [Front-Engine, Rear-Wheel Drive]</span><span className="bilingual-sep"> / </span><span lang="zh">FR［前置发动机、后轮驱动］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -77,9 +73,7 @@ const DrivetrainsAndWeightDistribution = () => (
           <img alt="" src={i1EApAeIvqC82cc} />
         </p>
 
-        <h3>
-          FF [Front-Engine, Front-Wheel Drive] / FF［前置发动机、前轮驱动］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">FF [Front-Engine, Front-Wheel Drive]</span><span className="bilingual-sep"> / </span><span lang="zh">FF［前置发动机、前轮驱动］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -94,9 +88,7 @@ const DrivetrainsAndWeightDistribution = () => (
           <img alt="" src={i1yCrqoh3eHJYb} />
         </p>
 
-        <h3>
-          MR [Mid-Engine, Rear-Wheel Drive] / MR［中置发动机、后轮驱动］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">MR [Mid-Engine, Rear-Wheel Drive]</span><span className="bilingual-sep"> / </span><span lang="zh">MR［中置发动机、后轮驱动］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -111,9 +103,7 @@ const DrivetrainsAndWeightDistribution = () => (
           <img alt="" src={i1PN7KZ1AwVKRhH} />
         </p>
 
-        <h3>
-          RR [Rear-Engine, Rear-Wheel Drive] / RR［后置发动机、后轮驱动］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">RR [Rear-Engine, Rear-Wheel Drive]</span><span className="bilingual-sep"> / </span><span lang="zh">RR［后置发动机、后轮驱动］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -128,9 +118,7 @@ const DrivetrainsAndWeightDistribution = () => (
           <img alt="" src={i1WPcdNkMutoC} />
         </p>
 
-        <h3>
-          4WD [Four-Wheel Drive] / 4WD［四轮驱动］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">4WD [Four-Wheel Drive]</span><span className="bilingual-sep"> / </span><span lang="zh">4WD［四轮驱动］</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -7,7 +7,7 @@ const ForcedInductionDevices = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Forced Induction Devices / 强制进气装置</h1>
+        <h1 className="bilingual-title"><span lang="en">Forced Induction Devices</span><span className="bilingual-sep"> / </span><span lang="zh">强制进气装置</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -19,9 +19,7 @@ const ForcedInductionDevices = () => (
           </p>
         </div>
 
-        <h3>
-          Boost Pressure / 涡轮增压压力
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Boost Pressure</span><span className="bilingual-sep"> / </span><span lang="zh">涡轮增压压力</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -32,9 +30,7 @@ const ForcedInductionDevices = () => (
           </p>
         </div>
 
-        <h3>
-          High-Flow Turbine / 高流量涡轮
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">High-Flow Turbine</span><span className="bilingual-sep"> / </span><span lang="zh">高流量涡轮</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -49,9 +45,7 @@ const ForcedInductionDevices = () => (
           <img alt="" src={i1eMPSB3scycCTB} />
         </p>
 
-        <h3>
-          Increasing Turbine Size / 大容量涡轮
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Increasing Turbine Size</span><span className="bilingual-sep"> / </span><span lang="zh">大容量涡轮</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -66,9 +60,7 @@ const ForcedInductionDevices = () => (
           <img alt="" src={i1tpMyCCVciLob} />
         </p>
 
-        <h3>
-          Supercharger / 机械增压器
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Supercharger</span><span className="bilingual-sep"> / </span><span lang="zh">机械增压器</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -83,9 +75,7 @@ const ForcedInductionDevices = () => (
           <img alt="" src={i1eh9zHkOkBQdz} />
         </p>
 
-        <h3>
-          Intercooler / 中冷器
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Intercooler</span><span className="bilingual-sep"> / </span><span lang="zh">中冷器</span></h3>
 
         <div className="bilingual">
           <p lang="en">

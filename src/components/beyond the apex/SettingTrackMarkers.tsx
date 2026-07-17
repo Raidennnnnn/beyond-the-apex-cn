@@ -4,12 +4,10 @@ const SettingTrackMarkers = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Setting Track Markers / 设置赛道标记</h1>
+        <h1 className="bilingual-title"><span lang="en">Setting Track Markers</span><span className="bilingual-sep"> / </span><span lang="zh">设置赛道标记</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Trackside signs and curbs can serve as track markers / 路侧标志与路缘石可作标记
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Trackside signs and curbs can serve as track markers</span><span className="bilingual-sep"> / </span><span lang="zh">路侧标志与路缘石可作标记</span></h3>
 
         <div className="bilingual">
           <p lang="en">

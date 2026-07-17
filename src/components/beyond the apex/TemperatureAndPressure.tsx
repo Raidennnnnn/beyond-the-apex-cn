@@ -7,11 +7,8 @@ const TemperatureAndPressure = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>3-1 : Temperature and Pressure / 温度与压力</h1>
-        <h2>
-          Molecular motion causes temperature and pressure /
-          温度与压力的本质是分子运动
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">3-1 : Temperature and Pressure</span><span className="bilingual-sep"> / </span><span lang="zh">温度与压力</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Molecular motion causes temperature and pressure</span><span className="bilingual-sep"> / </span><span lang="zh">温度与压力的本质是分子运动</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -33,10 +30,7 @@ const TemperatureAndPressure = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Erratic molecular activity in an enclosed space /
-          密闭空间中无序运动的分子
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Erratic molecular activity in an enclosed space</span><span className="bilingual-sep"> / </span><span lang="zh">密闭空间中无序运动的分子</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -66,10 +60,7 @@ const TemperatureAndPressure = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Temperature is a numeric measure of the average kinetic energy of
-          each molecule / 温度是每个分子平均动能的数值度量
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Temperature is a numeric measure of the average kinetic energy of each molecule</span><span className="bilingual-sep"> / </span><span lang="zh">温度是每个分子平均动能的数值度量</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -121,10 +112,7 @@ const TemperatureAndPressure = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Pressure is the average value of force from moving molecules /
-          压力是运动分子冲击力的平均值
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Pressure is the average value of force from moving molecules</span><span className="bilingual-sep"> / </span><span lang="zh">压力是运动分子冲击力的平均值</span></h3>
 
         <div className="bilingual">
           <p lang="en">

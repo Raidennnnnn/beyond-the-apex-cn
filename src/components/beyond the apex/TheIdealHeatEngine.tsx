@@ -7,11 +7,8 @@ const TheIdealHeatEngine = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>3-2 : The Ideal Heat Engine / 理想的热机</h1>
-        <h2>
-          Eliminating wasteful thermal transfer: The Carnot Cycle /
-          杜绝无用热传递：卡诺循环
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">3-2 : The Ideal Heat Engine</span><span className="bilingual-sep"> / </span><span lang="zh">理想的热机</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Eliminating wasteful thermal transfer: The Carnot Cycle</span><span className="bilingual-sep"> / </span><span lang="zh">杜绝无用热传递：卡诺循环</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -42,9 +39,7 @@ const TheIdealHeatEngine = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Carnot’s two properties / 卡诺关注的两个性质
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Carnot’s two properties</span><span className="bilingual-sep"> / </span><span lang="zh">卡诺关注的两个性质</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -79,7 +74,7 @@ const TheIdealHeatEngine = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● Carnot Cycle / 卡诺循环</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Carnot Cycle</span><span className="bilingual-sep"> / </span><span lang="zh">卡诺循环</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -6,13 +6,8 @@ const PrandtlsBoundaryLayerTheory = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>
-          4-5 : Prandtl&apos;s Boundary Layer Theory / 普朗特边界层理论
-        </h1>
-        <h2>
-          Friction only affects the vicinity of an object&apos;s surface /
-          摩擦仅作用于物体表面附近
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">4-5 : Prandtl&apos;s Boundary Layer Theory</span><span className="bilingual-sep"> / </span><span lang="zh">普朗特边界层理论</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Friction only affects the vicinity of an object&apos;s surface</span><span className="bilingual-sep"> / </span><span lang="zh">摩擦仅作用于物体表面附近</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -27,9 +22,7 @@ const PrandtlsBoundaryLayerTheory = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Prandtl&apos;s Boundary Layer Theory / 普朗特边界层理论
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Prandtl&apos;s Boundary Layer Theory</span><span className="bilingual-sep"> / </span><span lang="zh">普朗特边界层理论</span></h3>
 
         <div className="bilingual">
           <p lang="en">

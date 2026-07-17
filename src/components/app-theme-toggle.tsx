@@ -26,12 +26,14 @@ export default function ThemeToggle() {
       ref={ref}
       size="sm"
       variant="outline"
-      className="transition-all w-8 md:w-auto px-1"
+      className="relative shrink-0 gap-1.5 px-2"
       onClick={toggleTheme}
-    > 
-      <Sun className="absolute md:left-2 h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-      <Moon className="absolute md:left-2 h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-      <div className="hidden md:flex ml-6 px-2 py-0.5 items-center gap-0.5 border-border rounded-sm bg-muted ">
+    >
+      <span className="relative size-4 shrink-0">
+        <Sun className="absolute inset-0 size-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+        <Moon className="absolute inset-0 size-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+      </span>
+      <div className="hidden md:flex px-1.5 py-0.5 items-center gap-0.5 rounded-sm bg-muted">
         <span className="text-xs leading-none">⌘</span>
         <span className="text-xs">M</span>
       </div>

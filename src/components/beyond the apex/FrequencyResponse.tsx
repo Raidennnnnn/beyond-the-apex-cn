@@ -6,17 +6,11 @@ const FrequencyResponse = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>1-7 : Frequency Response / 频率响应</h1>
-        <h2>
-          For the analysis of vehicle motion and suspension /
-          用于车辆运动与悬架分析
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">1-7 : Frequency Response</span><span className="bilingual-sep"> / </span><span lang="zh">频率响应</span></h1>
+        <h2 className="bilingual-title"><span lang="en">For the analysis of vehicle motion and suspension</span><span className="bilingual-sep"> / </span><span lang="zh">用于车辆运动与悬架分析</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Grasping the difference in response to frequency excitation /
-          把握对频率激励的响应差异
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Grasping the difference in response to frequency excitation</span><span className="bilingual-sep"> / </span><span lang="zh">把握对频率激励的响应差异</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -57,10 +51,7 @@ const FrequencyResponse = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Capturing the damping system’s vibration through the Bode Plot /
-          用波特图把握阻尼系统的振动
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Capturing the damping system’s vibration through the Bode Plot</span><span className="bilingual-sep"> / </span><span lang="zh">用波特图把握阻尼系统的振动</span></h3>
 
         <div className="bilingual">
           <p lang="en">

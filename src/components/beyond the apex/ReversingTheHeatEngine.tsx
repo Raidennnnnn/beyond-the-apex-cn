@@ -6,11 +6,8 @@ const ReversingTheHeatEngine = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>3-6 : Reversing the Heat Engine / 让热机反向运转</h1>
-        <h2>
-          Differences in reversible and irreversible cycles /
-          可逆循环与不可逆循环的差异
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">3-6 : Reversing the Heat Engine</span><span className="bilingual-sep"> / </span><span lang="zh">让热机反向运转</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Differences in reversible and irreversible cycles</span><span className="bilingual-sep"> / </span><span lang="zh">可逆循环与不可逆循环的差异</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -29,10 +26,7 @@ const ReversingTheHeatEngine = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● The reversible process of the Carnot Cycle /
-          卡诺循环的可逆过程
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The reversible process of the Carnot Cycle</span><span className="bilingual-sep"> / </span><span lang="zh">卡诺循环的可逆过程</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -83,10 +77,7 @@ const ReversingTheHeatEngine = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Reversed cycle of car engines is irreversible /
-          汽车发动机的逆向循环不可逆
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Reversed cycle of car engines is irreversible</span><span className="bilingual-sep"> / </span><span lang="zh">汽车发动机的逆向循环不可逆</span></h3>
 
         <div className="bilingual">
           <p lang="en">

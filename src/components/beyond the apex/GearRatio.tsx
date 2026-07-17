@@ -7,12 +7,10 @@ const GearRatio = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Gear Ratio / 齿轮比</h1>
+        <h1 className="bilingual-title"><span lang="en">Gear Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">齿轮比</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Final Gear Ratio / ● 主减速比
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Final Gear Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">● 主减速比</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -23,9 +21,7 @@ const GearRatio = () => (
           </p>
         </div>
 
-        <h3>
-          Long Gear Ratio / 高齿化（长齿比）
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Long Gear Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">高齿化（长齿比）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -40,9 +36,7 @@ const GearRatio = () => (
           <img alt="" src={i1cd2JuFzcMQ37c} />
         </p>
 
-        <h3>
-          Short Gear Ratio / 低齿化（短齿比）
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Short Gear Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">低齿化（短齿比）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -57,9 +51,7 @@ const GearRatio = () => (
           <img alt="" src={i1b0kiG2R0akHz} />
         </p>
 
-        <h3 className="section-header">
-          ● Transmission Gear Ratio / ● 变速箱齿比
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Transmission Gear Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">● 变速箱齿比</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -70,9 +62,7 @@ const GearRatio = () => (
           </p>
         </div>
 
-        <h3>
-          Close Ratio / 密齿比
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Close Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">密齿比</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -87,9 +77,7 @@ const GearRatio = () => (
           <img alt="" src={i1aR4c0ERxMNU8c} />
         </p>
 
-        <h3>
-          Wide Ratio / 宽齿比
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Wide Ratio</span><span className="bilingual-sep"> / </span><span lang="zh">宽齿比</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -7,7 +7,7 @@ const WeightReductionAndRigidity = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Weight Reduction and Rigidity / 减重与刚性</h1>
+        <h1 className="bilingual-title"><span lang="en">Weight Reduction and Rigidity</span><span className="bilingual-sep"> / </span><span lang="zh">减重与刚性</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -19,9 +19,7 @@ const WeightReductionAndRigidity = () => (
           </p>
         </div>
 
-        <h3>
-          Spot-Welding / 点焊
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Spot-Welding</span><span className="bilingual-sep"> / </span><span lang="zh">点焊</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -36,9 +34,7 @@ const WeightReductionAndRigidity = () => (
           <img alt="" src={i1wT3CWzrXS6QSH} />
         </p>
 
-        <h3>
-          Strut Bar / 顶吧
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Strut Bar</span><span className="bilingual-sep"> / </span><span lang="zh">顶吧</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -53,9 +49,7 @@ const WeightReductionAndRigidity = () => (
           <img alt="" src={i1zStmG0cOT0w} />
         </p>
 
-        <h3>
-          Roll Cage / 防滚架
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Roll Cage</span><span className="bilingual-sep"> / </span><span lang="zh">防滚架</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -70,9 +64,7 @@ const WeightReductionAndRigidity = () => (
           <img alt="" src={i1ATelpChDkQVSB} />
         </p>
 
-        <h3>
-          Member Brace / 底盘拉杆
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Member Brace</span><span className="bilingual-sep"> / </span><span lang="zh">底盘拉杆</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -87,9 +79,7 @@ const WeightReductionAndRigidity = () => (
           <img alt="" src={i1w5UTIv9Ca1Pz} />
         </p>
 
-        <h3>
-          Reducing Weight / 轻量化
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Reducing Weight</span><span className="bilingual-sep"> / </span><span lang="zh">轻量化</span></h3>
 
         <div className="bilingual">
           <p lang="en">

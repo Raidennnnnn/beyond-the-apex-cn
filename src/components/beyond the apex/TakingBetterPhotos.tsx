@@ -11,12 +11,10 @@ const TakingBetterPhotos = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Taking Better Photos / 拍出更好的照片</h1>
+        <h1 className="bilingual-title"><span lang="en">Taking Better Photos</span><span className="bilingual-sep"> / </span><span lang="zh">拍出更好的照片</span></h1>
       </div>
       <div className="body">
-        <h3>
-          Looking at Photos You’ve Taken is the Best Way to Learn / 回看自己的作品是最佳学习途径
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Looking at Photos You’ve Taken is the Best Way to Learn</span><span className="bilingual-sep"> / </span><span lang="zh">回看自己的作品是最佳学习途径</span></h3>
 
         <p className="image">
           <img alt="" src={i1VGJH81hNG0VuB} />

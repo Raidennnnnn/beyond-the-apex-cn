@@ -5,7 +5,7 @@ const Transmission = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Transmission / 变速箱</h1>
+        <h1 className="bilingual-title"><span lang="en">Transmission</span><span className="bilingual-sep"> / </span><span lang="zh">变速箱</span></h1>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -57,9 +57,7 @@ const Transmission = () => (
           <img alt="" src={i13fFsB1COd3pEE} />
         </p>
 
-        <h3 className="section-header">
-          ● The Final Drive / ● 主减速器（终传）
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The Final Drive</span><span className="bilingual-sep"> / </span><span lang="zh">● 主减速器（终传）</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -83,13 +81,9 @@ const Transmission = () => (
           <img alt="" src={i1c25GFw42u3i} />
         </p>
 
-        <h3 className="section-header">
-          ● Types of Two-Pedal Transmission / ● 两脚板变速箱种类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of Two-Pedal Transmission</span><span className="bilingual-sep"> / </span><span lang="zh">● 两脚板变速箱种类</span></h3>
 
-        <h3>
-          AT   [Automatic Transmission] / AT［自动变速器］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">AT [Automatic Transmission]</span><span className="bilingual-sep"> / </span><span lang="zh">AT［自动变速器］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -100,9 +94,7 @@ const Transmission = () => (
           </p>
         </div>
 
-        <h3>
-          CVT   [Continuously Variable Transmission] / CVT［无级变速器］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">CVT [Continuously Variable Transmission]</span><span className="bilingual-sep"> / </span><span lang="zh">CVT［无级变速器］</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -113,9 +105,7 @@ const Transmission = () => (
           </p>
         </div>
 
-        <h3>
-          DCT   [Dual Clutch Transmission] / DCT［双离合变速器］
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">DCT [Dual Clutch Transmission]</span><span className="bilingual-sep"> / </span><span lang="zh">DCT［双离合变速器］</span></h3>
 
         <div className="bilingual">
           <p lang="en">

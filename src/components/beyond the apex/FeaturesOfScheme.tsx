@@ -7,10 +7,8 @@ const FeaturesOfScheme = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>5-3 : Features of Scheme / 数值格式的特征</h1>
-        <h2>
-          Monotonicity and high accuracy cannot be compatible / 单调性与高精度无法兼得
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">5-3 : Features of Scheme</span><span className="bilingual-sep"> / </span><span lang="zh">数值格式的特征</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Monotonicity and high accuracy cannot be compatible</span><span className="bilingual-sep"> / </span><span lang="zh">单调性与高精度无法兼得</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -22,7 +20,7 @@ const FeaturesOfScheme = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● The scheme of primary approximation / 一阶近似格式</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The scheme of primary approximation</span><span className="bilingual-sep"> / </span><span lang="zh">一阶近似格式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -45,7 +43,7 @@ const FeaturesOfScheme = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● The scheme of high-order accuracy / 高阶精度格式</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● The scheme of high-order accuracy</span><span className="bilingual-sep"> / </span><span lang="zh">高阶精度格式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -68,7 +66,7 @@ const FeaturesOfScheme = () => (
           </p>
         </div>
 
-        <h3 className="section-header">● Godunov&apos;s Theorem / 戈杜诺夫定理</h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Godunov&apos;s Theorem</span><span className="bilingual-sep"> / </span><span lang="zh">戈杜诺夫定理</span></h3>
 
         <div className="bilingual">
           <p lang="en">

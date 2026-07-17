@@ -8,16 +8,11 @@ const SteadyStateCircularDriving = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>2-2 : Steady-state Circular Driving / 车辆的定常圆周行驶</h1>
-        <h2>
-          Cornering depends on the moment balance of the front and rear tires /
-          车辆的转向取决于前后轮力矩的平衡
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">2-2 : Steady-state Circular Driving</span><span className="bilingual-sep"> / </span><span lang="zh">车辆的定常圆周行驶</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Cornering depends on the moment balance of the front and rear tires</span><span className="bilingual-sep"> / </span><span lang="zh">车辆的转向取决于前后轮力矩的平衡</span></h2>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Definition of steering balance / 转向特性的定义
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Definition of steering balance</span><span className="bilingual-sep"> / </span><span lang="zh">转向特性的定义</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -82,10 +77,7 @@ const SteadyStateCircularDriving = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Relation of steering characteristics and slip angle /
-          转向特性与侧偏角的关系
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Relation of steering characteristics and slip angle</span><span className="bilingual-sep"> / </span><span lang="zh">转向特性与侧偏角的关系</span></h3>
 
         <div className="bilingual">
           <p lang="en">

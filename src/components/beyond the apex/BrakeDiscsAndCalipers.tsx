@@ -9,16 +9,12 @@ const BrakeDiscsAndCalipers = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Brake Discs and Calipers / 制动盘与卡钳</h1>
+        <h1 className="bilingual-title"><span lang="en">Brake Discs and Calipers</span><span className="bilingual-sep"> / </span><span lang="zh">制动盘与卡钳</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Types of Brake Disc / ● 制动盘种类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of Brake Disc</span><span className="bilingual-sep"> / </span><span lang="zh">● 制动盘种类</span></h3>
 
-        <h3>
-          Solid Discs / 实心盘
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Solid Discs</span><span className="bilingual-sep"> / </span><span lang="zh">实心盘</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -33,9 +29,7 @@ const BrakeDiscsAndCalipers = () => (
           <img alt="" src={i1levrqKKhYbS} />
         </p>
 
-        <h3>
-          Ventilated Discs / 通风盘
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Ventilated Discs</span><span className="bilingual-sep"> / </span><span lang="zh">通风盘</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -50,13 +44,9 @@ const BrakeDiscsAndCalipers = () => (
           <img alt="" src={i1ywTaoHE2VXRhH} />
         </p>
 
-        <h3 className="section-header">
-          ● Advanced Ventilated Disc Types / ● 进阶通风盘
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Advanced Ventilated Disc Types</span><span className="bilingual-sep"> / </span><span lang="zh">● 进阶通风盘</span></h3>
 
-        <h3>
-          Cross Drilled Discs / 打孔盘
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Cross Drilled Discs</span><span className="bilingual-sep"> / </span><span lang="zh">打孔盘</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -71,9 +61,7 @@ const BrakeDiscsAndCalipers = () => (
           <img alt="" src={i1Kt16BYbUaYDW} />
         </p>
 
-        <h3>
-          Spiral Fin Discs / 螺旋筋通风盘
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Spiral Fin Discs</span><span className="bilingual-sep"> / </span><span lang="zh">螺旋筋通风盘</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -88,13 +76,9 @@ const BrakeDiscsAndCalipers = () => (
           <img alt="" src={i17ZykRu8HOq87c} />
         </p>
 
-        <h3 className="section-header">
-          ● Types of Calipers / ● 卡钳种类
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Types of Calipers</span><span className="bilingual-sep"> / </span><span lang="zh">● 卡钳种类</span></h3>
 
-        <h3>
-          Floating / 浮动式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Floating</span><span className="bilingual-sep"> / </span><span lang="zh">浮动式</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -109,9 +93,7 @@ const BrakeDiscsAndCalipers = () => (
           <img alt="" src={i1UXmp2j7tuOdG} />
         </p>
 
-        <h3>
-          Opposing Piston / 对向活塞式
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Opposing Piston</span><span className="bilingual-sep"> / </span><span lang="zh">对向活塞式</span></h3>
 
         <div className="bilingual">
           <p lang="en">

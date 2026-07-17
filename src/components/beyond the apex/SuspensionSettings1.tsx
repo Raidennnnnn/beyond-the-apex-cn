@@ -5,16 +5,12 @@ const SuspensionSettings1 = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>Suspension ① / 悬架 ①</h1>
+        <h1 className="bilingual-title"><span lang="en">Suspension ①</span><span className="bilingual-sep"> / </span><span lang="zh">悬架 ①</span></h1>
       </div>
       <div className="body">
-        <h3 className="section-header">
-          ● Ride Height/Spring Rate / ● 车高调节／弹簧刚度
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Ride Height/Spring Rate</span><span className="bilingual-sep"> / </span><span lang="zh">● 车高调节／弹簧刚度</span></h3>
 
-        <h3>
-          Changing Your Car’s Behavior / 可自由改变车辆性格
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Changing Your Car’s Behavior</span><span className="bilingual-sep"> / </span><span lang="zh">可自由改变车辆性格</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -56,13 +52,9 @@ const SuspensionSettings1 = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Damping Force / ● 减振器衰减力
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Damping Force</span><span className="bilingual-sep"> / </span><span lang="zh">● 减振器衰减力</span></h3>
 
-        <h3>
-          Controlling Spring Compression and Extension / 压缩侧、回弹侧灵活设定
-        </h3>
+        <h3 className="bilingual-title"><span lang="en">Controlling Spring Compression and Extension</span><span className="bilingual-sep"> / </span><span lang="zh">压缩侧、回弹侧灵活设定</span></h3>
 
         <div className="bilingual">
           <p lang="en">

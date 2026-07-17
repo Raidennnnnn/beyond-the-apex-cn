@@ -2,6 +2,7 @@ import './App.css';
 import { Outlet } from 'react-router';
 import AppSidebar from './components/app-sidebar';
 import ThemeToggle from './components/app-theme-toggle';
+import LangToggle from './components/app-lang-toggle';
 import QuickNav from './components/app-quick-nav';
 import { AppTools } from './components/app-tools';
 import { AppSidebarTrigger } from './components/app-siderbar-trigger';
@@ -16,6 +17,7 @@ export default function App() {
       <div className="flex flex-col flex-1 relative w-full">
         <AppTools>
           <AppSidebarTrigger />
+          <LangToggle />
           <ThemeToggle />
         </AppTools>
         <div {...handlers} className="w-full h-full">

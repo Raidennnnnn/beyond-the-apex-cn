@@ -8,10 +8,8 @@ const BernoullisTheory = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>4-1 : Bernoulli&apos;s Theory / 伯努利定理</h1>
-        <h2>
-          Relativity of fluid pressure and speed / 流体压力与速度的相对关系
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">4-1 : Bernoulli&apos;s Theory</span><span className="bilingual-sep"> / </span><span lang="zh">伯努利定理</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Relativity of fluid pressure and speed</span><span className="bilingual-sep"> / </span><span lang="zh">流体压力与速度的相对关系</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -26,10 +24,7 @@ const BernoullisTheory = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Molecular movement in the presence of flow (current) /
-          有流动时分子的运动
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Molecular movement in the presence of flow (current)</span><span className="bilingual-sep"> / </span><span lang="zh">有流动时分子的运动</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -102,9 +97,7 @@ const BernoullisTheory = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Bernoulli&apos;s Theory / 伯努利定理
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Bernoulli&apos;s Theory</span><span className="bilingual-sep"> / </span><span lang="zh">伯努利定理</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -152,9 +145,7 @@ const BernoullisTheory = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Lift-generating mechanism / 升力产生机制
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Lift-generating mechanism</span><span className="bilingual-sep"> / </span><span lang="zh">升力产生机制</span></h3>
 
         <div className="bilingual">
           <p lang="en">

@@ -10,11 +10,8 @@ const BodyRollAndVehicleMotion = () => (
   <>
     <div className="manual_detail">
       <div className="content_header">
-        <h1>2-5 : Body Roll and Vehicle Motion / 车身侧倾与车辆运动</h1>
-        <h2>
-          Utilizing body roll to adjust steering characteristic /
-          利用侧倾运动调整转向特性
-        </h2>
+        <h1 className="bilingual-title"><span lang="en">2-5 : Body Roll and Vehicle Motion</span><span className="bilingual-sep"> / </span><span lang="zh">车身侧倾与车辆运动</span></h1>
+        <h2 className="bilingual-title"><span lang="en">Utilizing body roll to adjust steering characteristic</span><span className="bilingual-sep"> / </span><span lang="zh">利用侧倾运动调整转向特性</span></h2>
       </div>
       <div className="body">
         <div className="bilingual">
@@ -38,10 +35,7 @@ const BodyRollAndVehicleMotion = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Effects of body roll on steering characteristic /
-          侧倾对转向特性的影响
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Effects of body roll on steering characteristic</span><span className="bilingual-sep"> / </span><span lang="zh">侧倾对转向特性的影响</span></h3>
 
         <div className="bilingual">
           <p lang="en">
@@ -76,10 +70,7 @@ const BodyRollAndVehicleMotion = () => (
           </p>
         </div>
 
-        <h3 className="section-header">
-          ● Steering characteristics when the load transfer differs between front
-          and rear / 前后载荷转移不同时的转向特性
-        </h3>
+        <h3 className="section-header bilingual-title"><span lang="en">● Steering characteristics when the load transfer differs between front and rear</span><span className="bilingual-sep"> / </span><span lang="zh">前后载荷转移不同时的转向特性</span></h3>
 
         <div className="bilingual">
           <p lang="en">
