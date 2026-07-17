@@ -1,5 +1,5 @@
 import { ChevronDown } from "lucide-react";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useRef } from "react";
 import {
   SidebarMenuItem,
   SidebarMenuButton,
@@ -12,32 +12,30 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collap
 import { Link, useLocation } from "react-router";
 import { TocChapter, TocSection } from "@/components/filePaths";
 import { usePreferZhToc, useTocLabel } from "@/hooks/use-toc-label";
+import { useSidebarNavAccordion } from "./sidebar-nav-accordion";
 
 const TOGGLE_DEBOUNCE_MS = 250;
 
-function useDebouncedCollapsible(initialOpen: boolean) {
-  const [open, setOpen] = useState(initialOpen);
+function useDebouncedOpenChange(onOpenChange: (next: boolean) => void) {
   const lastToggleRef = useRef(0);
 
-  useEffect(() => {
-    if (initialOpen) setOpen(true);
-  }, [initialOpen]);
+  return useCallback(
+    (next: boolean) => {
+      const now = Date.now();
+      const elapsed = lastToggleRef.current ? now - lastToggleRef.current : TOGGLE_DEBOUNCE_MS;
 
-  const onOpenChange = useCallback((next: boolean) => {
-    const now = Date.now();
-    const elapsed = lastToggleRef.current ? now - lastToggleRef.current : TOGGLE_DEBOUNCE_MS;
+      if (elapsed < TOGGLE_DEBOUNCE_MS) return;
 
-    if (elapsed < TOGGLE_DEBOUNCE_MS) return;
-
-    lastToggleRef.current = now;
-    setOpen(next);
-  }, []);
-
-  return [open, onOpenChange] as const;
+      lastToggleRef.current = now;
+      onOpenChange(next);
+    },
+    [onOpenChange]
+  );
 }
 
 function SectionCollapsibleMenuItem({
   section,
+  chapterPath,
   pathname,
   label,
   lang,
@@ -45,14 +43,18 @@ function SectionCollapsibleMenuItem({
   setOpenMobile,
 }: {
   section: TocSection;
+  chapterPath: string;
   pathname: string;
   label: (name: string, nameZh: string) => string;
   lang: string;
   isMobile: boolean;
   setOpenMobile: (open: boolean) => void;
 }) {
-  const sectionActive = section.pages.some((p) => `/${p.routePath}` === pathname);
-  const [sectionOpen, onSectionOpenChange] = useDebouncedCollapsible(sectionActive);
+  const { openSectionPath, setOpenSection } = useSidebarNavAccordion();
+  const sectionOpen = openSectionPath === section.path;
+  const onSectionOpenChange = useDebouncedOpenChange((next) => {
+    setOpenSection(next ? section.path : null, chapterPath);
+  });
 
   return (
     <Collapsible open={sectionOpen} onOpenChange={onSectionOpenChange} className="group/section">
@@ -106,10 +108,11 @@ export default function CollapsibleSidebarMenuItem({ chapter }: { chapter: TocCh
   const label = useTocLabel();
   const preferZh = usePreferZhToc();
   const lang = preferZh ? "zh" : "en";
-  const chapterActive = chapter.sections.some((s) =>
-    s.pages.some((p) => `/${p.routePath}` === pathname)
-  );
-  const [chapterOpen, onChapterOpenChange] = useDebouncedCollapsible(chapterActive);
+  const { openChapterPath, setOpenChapter } = useSidebarNavAccordion();
+  const chapterOpen = openChapterPath === chapter.path;
+  const onChapterOpenChange = useDebouncedOpenChange((next) => {
+    setOpenChapter(next ? chapter.path : null);
+  });
 
   return (
     <Collapsible open={chapterOpen} onOpenChange={onChapterOpenChange} className="group/collapsible">
@@ -128,6 +131,7 @@ export default function CollapsibleSidebarMenuItem({ chapter }: { chapter: TocCh
               <SectionCollapsibleMenuItem
                 key={section.path}
                 section={section}
+                chapterPath={chapter.path}
                 pathname={pathname}
                 label={label}
                 lang={lang}
