@@ -6,37 +6,7 @@ export default {
     enabled: true,
   },
   workbox: {
-    globPatterns: ['**/*.{js,css,html,svg,ico,webp}'],
-    runtimeCaching: [
-      {
-        urlPattern: /^https:\/\/chinese-fonts-cdn\.deno\.dev\/.*/i,
-        handler: 'CacheFirst',
-        options: {
-          cacheName: 'chinese-fonts-cdn',
-          expiration: { 
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 365,
-          },
-          cacheableResponse: {
-            statuses: [0, 200],
-          },
-        },
-      },
-      {
-        urlPattern: /^https:\/\/ik\.imagekit\.io\/.*/i,
-        handler: 'CacheFirst',
-        options: {
-          cacheName: 'imagekit',
-          expiration: { 
-            maxEntries: 10,
-            maxAgeSeconds: 60 * 60 * 24 * 365,
-          },
-          cacheableResponse: {
-            statuses: [0, 200],
-          },
-        },
-      },
-    ],
+    globPatterns: ['**/*.{js,css,html,svg,ico,webp,woff2}'],
   },
   includeAssets: ['apple-touch-icon-180x180.png'],
   manifest: {
