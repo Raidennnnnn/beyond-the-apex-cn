@@ -25,7 +25,7 @@ export default function ThemeToggle() {
     <Button
       ref={ref}
       size="sm"
-      variant="outline"
+      variant="secondary"
       className="transition-all w-8 md:w-auto px-1"
       onClick={toggleTheme}
     > 
