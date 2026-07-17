@@ -14,7 +14,7 @@ import { usePreferZhToc, useTocLabel } from "@/hooks/use-toc-label";
 
 export default function CollapsibleSidebarMenuItem({ chapter }: { chapter: TocChapter }) {
   const { pathname } = useLocation();
-  const { toggleSidebar, isMobile } = useSidebar();
+  const { setOpenMobile, isMobile } = useSidebar();
   const label = useTocLabel();
   const preferZh = usePreferZhToc();
   const lang = preferZh ? "zh" : "en";
@@ -74,7 +74,7 @@ export default function CollapsibleSidebarMenuItem({ chapter }: { chapter: TocCh
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   localStorage.setItem("currentAt", page.routePath);
-                                  if (isMobile) toggleSidebar();
+                                  if (isMobile) setOpenMobile(false);
                                 }}
                               >
                                 {label(page.name, page.nameZh)}

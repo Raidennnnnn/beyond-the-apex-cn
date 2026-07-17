@@ -66,7 +66,20 @@ const SidebarProvider = React.forwardRef<
         ref
       ) => {
         const isMobile = useIsMobile()
-        const [openMobile, setOpenMobile] = React.useState(false)
+        const [openMobile, _setOpenMobile] = React.useState(false)
+        const suppressCloseUntilRef = React.useRef(0)
+        const setOpenMobile = React.useCallback((value: boolean | ((prev: boolean) => boolean)) => {
+          _setOpenMobile((prev) => {
+            const next = typeof value === "function" ? value(prev) : value
+            if (!next && prev && Date.now() < suppressCloseUntilRef.current) {
+              return prev
+            }
+            if (next && !prev) {
+              suppressCloseUntilRef.current = Date.now() + 400
+            }
+            return next
+          })
+        }, [])
 
         // This is the internal state of the sidebar.
         // We use openProp and setOpenProp for control from outside the component.
@@ -93,8 +106,6 @@ const SidebarProvider = React.forwardRef<
             ? setOpenMobile((open) => !open)
             : setOpen((open) => !open)
         }, [isMobile, setOpen, setOpenMobile])
-
-        // Adds a keyboard shortcut to toggle the sidebar.
         React.useEffect(() => {
           const handleKeyDown = (event: KeyboardEvent) => {
             if (
@@ -203,6 +214,13 @@ const Sidebar = React.forwardRef<
               } as React.CSSProperties
             }
             side={side}
+            onOpenAutoFocus={(e) => e.preventDefault()}
+            onCloseAutoFocus={(e) => e.preventDefault()}
+            onPointerDownOutside={(e) => {
+              if ((e.target as HTMLElement).closest('[data-sidebar="trigger"]')) {
+                e.preventDefault()
+              }
+            }}
           >
             <div className="flex h-full w-full flex-col">{children}</div>
           </SheetContent>
