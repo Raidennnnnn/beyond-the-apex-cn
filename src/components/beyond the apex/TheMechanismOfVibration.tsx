@@ -1,5 +1,5 @@
-import i1tHERFfXLR0rb from "../../assets/images/i1tHERFfXLR0rb.webp";
-import i11PlNEwfIbXRhH from "../../assets/images/i11PlNEwfIbXRhH.webp";
+import i1izMB3rNdbTKSB from "../../assets/images/i1izMB3rNdbTKSB.webp";
+import i1UGZVr0iGo9AG from "../../assets/images/i1UGZVr0iGo9AG.webp";
 import i15H6tpyCeFoC from "../../assets/images/i15H6tpyCeFoC.webp";
 
 const TheMechanismOfVibration = () => (
@@ -31,7 +31,7 @@ const TheMechanismOfVibration = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1tHERFfXLR0rb} />
+          <img alt="" src={i1izMB3rNdbTKSB} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">
@@ -63,7 +63,7 @@ const TheMechanismOfVibration = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i11PlNEwfIbXRhH} />
+          <img alt="" src={i1UGZVr0iGo9AG} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">

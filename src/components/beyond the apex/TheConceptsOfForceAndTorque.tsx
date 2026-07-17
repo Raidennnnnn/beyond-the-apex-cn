@@ -1,6 +1,6 @@
-import i1QBv4PtsGeGNb from "../../assets/images/i1QBv4PtsGeGNb.webp";
-import i1oAx5mRwrCELEc from "../../assets/images/i1oAx5mRwrCELEc.webp";
-import i1ICYWgMIbJfsuB from "../../assets/images/i1ICYWgMIbJfsuB.webp";
+import i1Mo3CnTS4uXY from "../../assets/images/i1Mo3CnTS4uXY.webp";
+import i1mYo4BIT5QExSB from "../../assets/images/i1mYo4BIT5QExSB.webp";
+import i1Sm6dCz0r9sjC from "../../assets/images/i1Sm6dCz0r9sjC.webp";
 import i1eHrk2MZMRpFz from "../../assets/images/i1eHrk2MZMRpFz.webp";
 
 const TheConceptsOfForceAndTorque = () => (
@@ -50,7 +50,7 @@ const TheConceptsOfForceAndTorque = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1QBv4PtsGeGNb} />
+          <img alt="" src={i1Mo3CnTS4uXY} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">
@@ -62,7 +62,7 @@ const TheConceptsOfForceAndTorque = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1oAx5mRwrCELEc} />
+          <img alt="" src={i1mYo4BIT5QExSB} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">
@@ -111,7 +111,7 @@ const TheConceptsOfForceAndTorque = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1ICYWgMIbJfsuB} />
+          <img alt="" src={i1Sm6dCz0r9sjC} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">

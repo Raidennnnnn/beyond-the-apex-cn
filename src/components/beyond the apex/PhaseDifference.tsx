@@ -1,6 +1,6 @@
 import i1ZXUwqf4A9N2EE from "../../assets/images/i1ZXUwqf4A9N2EE.webp";
 import i1PvElN7ftPwaz from "../../assets/images/i1PvElN7ftPwaz.webp";
-import i16pruiYxfxYBz from "../../assets/images/i16pruiYxfxYBz.webp";
+import i1LtCNJO5MfUb from "../../assets/images/i1LtCNJO5MfUb.webp";
 
 const PhaseDifference = () => (
   <>
@@ -82,7 +82,7 @@ const PhaseDifference = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i16pruiYxfxYBz} />
+          <img alt="" src={i1LtCNJO5MfUb} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">

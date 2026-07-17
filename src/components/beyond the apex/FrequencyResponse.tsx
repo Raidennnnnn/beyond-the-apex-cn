@@ -1,5 +1,5 @@
-import i190ba9ypQPN0SB from "../../assets/images/i190ba9ypQPN0SB.webp";
-import i1GtJC1fZ13n4b from "../../assets/images/i1GtJC1fZ13n4b.webp";
+import i1yCvU55RLJJrz from "../../assets/images/i1yCvU55RLJJrz.webp";
+import i1NNF8UyR0fqShB from "../../assets/images/i1NNF8UyR0fqShB.webp";
 import i1HqXPrzbTtXXcc from "../../assets/images/i1HqXPrzbTtXXcc.webp";
 
 const FrequencyResponse = () => (
@@ -40,7 +40,7 @@ const FrequencyResponse = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i190ba9ypQPN0SB} />
+          <img alt="" src={i1yCvU55RLJJrz} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">
@@ -63,7 +63,7 @@ const FrequencyResponse = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1GtJC1fZ13n4b} />
+          <img alt="" src={i1NNF8UyR0fqShB} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">

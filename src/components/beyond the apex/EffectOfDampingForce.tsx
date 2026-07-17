@@ -1,6 +1,6 @@
-import i1RmR4R8cwux0Ec from "../../assets/images/i1RmR4R8cwux0Ec.webp";
+import i1YBnAGkTDbZj from "../../assets/images/i1YBnAGkTDbZj.webp";
 import i1Yht9Z5JIwWvG from "../../assets/images/i1Yht9Z5JIwWvG.webp";
-import i1FGFwDxJ4w277c from "../../assets/images/i1FGFwDxJ4w277c.webp";
+import i1mnuEcEPVbCN from "../../assets/images/i1mnuEcEPVbCN.webp";
 
 const EffectOfDampingForce = () => (
   <>
@@ -47,7 +47,7 @@ const EffectOfDampingForce = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1RmR4R8cwux0Ec} />
+          <img alt="" src={i1YBnAGkTDbZj} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">
@@ -121,7 +121,7 @@ const EffectOfDampingForce = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1FGFwDxJ4w277c} />
+          <img alt="" src={i1mnuEcEPVbCN} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">

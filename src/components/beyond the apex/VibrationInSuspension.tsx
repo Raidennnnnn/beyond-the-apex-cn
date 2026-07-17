@@ -1,5 +1,5 @@
-import i1OojegqfGw3tW from "../../assets/images/i1OojegqfGw3tW.webp";
-import i1uBlw5PgA0L2cc from "../../assets/images/i1uBlw5PgA0L2cc.webp";
+import i1RFW6QLvGZT8SH from "../../assets/images/i1RFW6QLvGZT8SH.webp";
+import i1j1dvHo7ujFiG from "../../assets/images/i1j1dvHo7ujFiG.webp";
 import i1yh5Pio2Jztu from "../../assets/images/i1yh5Pio2Jztu.webp";
 
 const VibrationInSuspension = () => (
@@ -31,7 +31,7 @@ const VibrationInSuspension = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1OojegqfGw3tW} />
+          <img alt="" src={i1RFW6QLvGZT8SH} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">
@@ -52,7 +52,7 @@ const VibrationInSuspension = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1uBlw5PgA0L2cc} />
+          <img alt="" src={i1j1dvHo7ujFiG} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">

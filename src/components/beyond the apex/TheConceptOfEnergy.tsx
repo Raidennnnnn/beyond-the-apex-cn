@@ -1,6 +1,6 @@
-import i1p6Wka11wrGAEc from "../../assets/images/i1p6Wka11wrGAEc.webp";
-import i18YJVtWuja1Rz from "../../assets/images/i18YJVtWuja1Rz.webp";
-import i1WJE9mNNP9bBz from "../../assets/images/i1WJE9mNNP9bBz.webp";
+import i1amUDP5b9PCg from "../../assets/images/i1amUDP5b9PCg.webp";
+import i1hpOvC6LNh9m8E from "../../assets/images/i1hpOvC6LNh9m8E.webp";
+import i1oSxIdGilCEX7E from "../../assets/images/i1oSxIdGilCEX7E.webp";
 
 const TheConceptOfEnergy = () => (
   <>
@@ -22,7 +22,7 @@ const TheConceptOfEnergy = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1p6Wka11wrGAEc} />
+          <img alt="" src={i1amUDP5b9PCg} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">
@@ -45,7 +45,7 @@ const TheConceptOfEnergy = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i18YJVtWuja1Rz} />
+          <img alt="" src={i1hpOvC6LNh9m8E} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">
@@ -57,7 +57,7 @@ const TheConceptOfEnergy = () => (
         </div>
 
         <p className="image">
-          <img alt="" src={i1WJE9mNNP9bBz} />
+          <img alt="" src={i1oSxIdGilCEX7E} />
         </p>
         <div className="bilingual">
           <p className="caption" lang="en">
