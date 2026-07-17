@@ -27,7 +27,7 @@ const LawOfFluidMotion = () => (
             known as the Euler Equation and is shown below.
           </p>
           <p lang="zh">
-            最早推导流体运动方程的是莱昂哈德·欧拉，他也给出了伯努利定理的数学框架。这一发展对流体力学的进步具有根本意义。他所导出的运动方程称为欧拉方程，如下所示。
+            最早导出流体运动方程的，是正确定式化伯努利定理的欧拉。这对流体力学进步的意义远大于伯努利定理本身——因为解出运动方程就能算出流场。欧拉导出的流体运动方程称为欧拉方程，如下式。
           </p>
         </div>
 
@@ -42,8 +42,14 @@ const LawOfFluidMotion = () => (
             motion within the flow field. The right-hand side represents the
             pressure gradient, which drives the flow. In simple terms, the Euler
             equation states that fluid motion is governed by pressure gradients.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            左侧表达液体流动（加速）的效应；右侧称为压力项，表达压力梯度。概括地说，欧拉方程陈述的是：「流体运动由压力梯度支配」。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             A familiar example of a pressure gradient is a meteorological
             pressure distribution chart. During the winter season in Japan,
             cold, dry air flows in from the Eurasian continent because the
@@ -55,10 +61,7 @@ const LawOfFluidMotion = () => (
             mathematical form.
           </p>
           <p lang="zh">
-            方程左侧表示流体的对流（平流）加速度，描述流场中运动的影响。右侧表示驱动流动的压力梯度。简言之，欧拉方程表明：流体运动由压力梯度支配。
-            <br />
-            <br />
-            熟悉的压力梯度例子是气象气压分布图。日本冬季，西高东低的气压使干冷空气从欧亚大陆流入。等压线（等压力线）间距密时，压力梯度陡、风力强；间距疏时，梯度缓、风力弱。欧拉方程正是把这种对流动的直观理解写成数学形式。
+            压力梯度与当场流动流体的关系，好比斜面与在其上滚动的球：斜面相当于压力梯度，球相当于流体。斜面陡处球加速，斜面反向则减速；同样，液体在压力梯度陡处加速，在逆压力梯度处减速。欧拉方程不过是把人人都能直觉理解的流体性质写成数学；看似复杂的流动，其实也受它所揭示的简单法则支配。
           </p>
         </div>
 
@@ -70,7 +73,7 @@ const LawOfFluidMotion = () => (
             Fig. 4-2-1: Pressure gradient.
           </p>
           <p className="caption" lang="zh">
-            图4-2-1：压力梯度。
+            图4-2-1：压力梯度与流体的关系，类似斜面与球的关系。
           </p>
         </div>
 
@@ -86,8 +89,8 @@ const LawOfFluidMotion = () => (
             quantitative analysis of fluid flow.
           </p>
           <p lang="zh">
-            莱昂哈德·欧拉对空气动力学（流体动力学）贡献卓著。其最重要成就之一，是把伯努利定理定性描述的流体行为纳入严格的物理与数学框架。尤其是连续性方程与欧拉方程，被公认为流体动力学的基本成果。它们在 18
-            世纪中叶建立，为流体流动的定量分析奠定了基础。
+            欧拉对空气力学（流体力学）贡献巨大。其重大功绩是把此前已知的流体性质（如伯努利定理）按物理原理正确定式化；尤其导出「连续性方程」与「欧拉方程」，是他在流体力学上最出色的业绩。他在 1753
+            年论文中发表了这两式，由此打开了流体力学诸问题定量分析之路。
           </p>
         </div>
 
@@ -106,8 +109,8 @@ const LawOfFluidMotion = () => (
             Navier–Stokes Equation and is expressed as follows.
           </p>
           <p lang="zh">
-            欧拉方程表达流体运动与压力的关系，但未计入真实流体的重要性质——黏性。包含黏性效应的运动方程由克劳德–路易·纳维与乔治·加布里埃尔·斯托克斯在
-            19 世纪建立，称为纳维–斯托克斯方程，表达如下。
+            欧拉方程为流体速度与压力关系给出了数学表达，但不含真实流体的黏性效应。计入黏性的运动方程由路易·纳维与乔治·斯托克斯在
+            19 世纪中叶导出，称为纳维–斯托克斯方程，如下式。
           </p>
         </div>
 
@@ -129,7 +132,7 @@ const LawOfFluidMotion = () => (
             density.
           </p>
           <p lang="zh">
-            与欧拉方程相同，左侧表示流体的对流（平流）加速度。右侧第一项为压力项，表达压力梯度；额外一项为黏性（扩散）项，表示黏性效应。简言之，纳维–斯托克斯方程表明：流体运动由压力梯度驱动，黏性影响动量输运。此处所述形式适用于不可压缩流动，不考虑密度变化。
+            与欧拉方程相同，左侧是液体流动（加速）效应；右侧第一项为压力项，表达压力梯度；新加入的第二项称为黏性项或扩散项，表达黏性特性。概括地说：流体运动大体由压力梯度支配，但黏性也会影响运动。上式是不考虑密度变化的不可压缩纳维–斯托克斯方程。
           </p>
         </div>
 
@@ -150,8 +153,9 @@ const LawOfFluidMotion = () => (
             conditions.
           </p>
           <p lang="zh">
-            对欧拉方程与纳维–斯托克斯方程而言，除少数情形外，一般解析解并不存在。它们仅能对特定、简化的流动精确求解。要分析一般流场，需要数值方法与计算机仿真。纳维–斯托克斯方程不仅是流体动力学的核心，也是数学中的重要问题，尤其关乎非线性偏微分方程。2000
-            年，克莱数学研究所公布千年大奖问题，每道未解问题悬赏百万美元。其中之一便是纳维–斯托克斯方程的存在性与光滑性问题，即在一般条件下解是否总存在且性态良好。
+            欧拉方程与纳维–斯托克斯方程至今都未发现一般解，因而只能直接适用于非常特殊、有限的流动。要从这些方程了解一般流场，目前只能用计算机数值求解。顺便一提，纳维–斯托克斯方程不仅是流体力学核心，也是非线性偏微分方程的典型数学问题。2000
+            年美国克莱数学研究所为 7
+            个未解数学问题各悬赏百万美元，称为千年大奖问题；其中之一便是证明纳维–斯托克斯方程解的存在与光滑性。
           </p>
         </div>
 
@@ -163,7 +167,7 @@ const LawOfFluidMotion = () => (
             Computer-generated solution to the Navier-Stokes Equation.
           </p>
           <p className="caption" lang="zh">
-            纳维–斯托克斯方程的计算机生成解。
+            用计算机求解的纳维–斯托克斯方程。
           </p>
         </div>
       </div>

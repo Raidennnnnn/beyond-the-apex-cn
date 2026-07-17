@@ -134,8 +134,14 @@ const TemperatureAndPressure = () => (
             perpendicular to the surface, while others collide at an angle. As a
             result, each molecule transfers a different amount of momentum to
             the wall with each collision.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            再看图 3-1-1：容器壁上不断有气体分子碰撞。有的速度快，有的慢；有的近乎垂直撞壁，有的斜向碰撞。因此，每一个分子的冲击力都不相同。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             However, when we measure pressure, we are effectively determining
             the average effect of countless molecular collisions with the
             container walls. In an equilibrium state, this average force per
@@ -145,10 +151,7 @@ const TemperatureAndPressure = () => (
             macroscopic perspective.
           </p>
           <p lang="zh">
-            再看图 3-1-1：气体分子不断撞击容器壁。有的速度快，有的慢；有的近乎垂直撞击壁面，有的斜向碰撞。因此，每次碰撞传给壁面的动量各不相同。
-            <br />
-            <br />
-            但我们测得的压力，实质上是无数分子撞击容器壁所产生冲击力的平均值。在平衡状态下，这种单位面积上的平均力在各方向、各位置都相同。换言之，尽管分子以不同速度无序运动，从宏观看压力却均匀分布。
+            但我们作为压力观测到的，其实是无数分子无序运动所产生冲击力的平均值。须把握的是：在平衡状态下，这一平均值无论从哪个方向测量都相同，不会因测量方向而改变。也就是说，容器内无数气体分子尽管完全无序飞舞，从宏观看，冲击力最终在各个方向上均匀分配。
           </p>
         </div>
 

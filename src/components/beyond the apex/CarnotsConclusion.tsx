@@ -34,7 +34,7 @@ const CarnotsConclusion = () => (
             physicist William Thomson as follows:
           </p>
           <p lang="zh">
-            一般认为，在两个温度之间工作的热机中，卡诺循环代表了可能达到的最高效率。卡诺的关键洞见是：在理想循环中，热传递只发生在温度相同的物体之间，从而避免因温度差造成的损失。因此，卡诺循环成为理想发动机的基准。另一个重要结论是：该循环的效率仅取决于高温与低温热源的温度。萨迪·卡诺本人未将其写成数学形式，后由英国物理学家威廉·汤姆森表述如下：
+            卡诺循环是实现热机最高效率的热循环，这一点凭直觉也能理解。但卡诺卓越之处在于：他用巧妙论证逻辑地证明了——气缸内完全不存在有温度差的物体相互接触的这一他所构想的热循环，就是最高效率的热机，不存在能超越它的热机。更令人惊讶的是，他还断定该热循环的理论效率仅由高温热源与低温热源的温度决定。卡诺本人未做定式化，后由英国的威廉·汤姆森给出如下数学表达：
           </p>
         </div>
 
@@ -52,7 +52,7 @@ const CarnotsConclusion = () => (
             real engine, and provides an abstract model of a heat engine.
           </p>
           <p className="caption" lang="zh">
-            图3-3-1：卡诺热机从真实发动机的诸多复杂性中抽出热传递与做功的本质过程，给出热机的抽象模型。
+            图3-3-1：卡诺从由众多要素组成的复杂热机中，准确抽出与热和动力相关的本质部分，对热机做了抽象。
           </p>
         </div>
 
@@ -72,8 +72,14 @@ const CarnotsConclusion = () => (
             other substance. In other words, the Carnot Cycle is governed by
             fundamental thermodynamic limits rather than by the specific design
             of an engine.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            虽已得出卡诺循环理论效率仅由热源温度决定，但这一结论还揭示了更划时代的一点：如上式所示，理论效率只取决于高温与低温热源的温度，与机构具体构造、以及空气或蒸汽等工作物质的特性完全无关。也就是说，卡诺循环的理论效率与该机构如何制造无关，而是由自然本身的性质决定——这一惊人事实由此显现。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The Carnot heat engine isolates the essential processes of heat
             transfer and work from the many complexities of a real engine,
             thereby providing an abstract model of a heat engine. It captures
@@ -82,10 +88,7 @@ const CarnotsConclusion = () => (
             highly refined abstraction.
           </p>
           <p lang="zh">
-            卡诺循环理论效率与热源温度的关系已确立，但卡诺的结论还揭示了一条重要的工程洞见。如上式所示，卡诺循环的理论效率只取决于高温与低温热源的温度，与发动机结构无关，也与工作介质是空气、蒸汽还是其他物质无关。换言之，卡诺循环受基本热力学极限支配，而非某一具体发动机设计。
-            <br />
-            <br />
-            卡诺热机从真实发动机的诸多复杂性中抽出热传递与做功的本质过程，从而给出热机的抽象模型。它抓住了描述理想性能所需的全部要素，没有多余细节。就此而言，它是完备而高度精炼的抽象。
+            如上所述，卡诺从由众多要素组成的复杂机械装置中，准确抽出与热和动力相关的本质部分并对热机加以抽象，这一点值得特书：其中没有多余之物，也没有漏掉任何不可或缺者，可谓终极的抽象化。
           </p>
         </div>
 
@@ -95,8 +98,14 @@ const CarnotsConclusion = () => (
             on the &quot;Motive Power of Fire,&quot; in which he presented the
             concept of the Carnot Cycle. His aim was to encourage improvements
             in steam engines from an engineering perspective.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            1824 年，卡诺发表题为《关于火的动力的省察》的技术论文，并在其中论述卡诺循环。他撰写此文的动机，在于蒸汽机改良这一工程课题。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             At the time, steam engines were widely used and undergoing rapid
             development. Steamships had already crossed the Atlantic only a few
             years before Carnot’s work. However, little attention had been given
@@ -105,34 +114,36 @@ const CarnotsConclusion = () => (
             empirical judgment. Carnot set out to examine the relationship
             between heat engines and fundamental physical principles, rather
             than focusing solely on engine structure or mechanical design.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            当时蒸汽机已广泛使用并不断改良；该论文发表五年前，蒸汽船横渡大西洋业已成功。但对蒸汽机的科学理论几乎无人思考，改良尝试多半依赖工匠的经验与直觉。于是卡诺转而探求与机构结构、机制、工作物质无关、扎根于自然本性的热机特性是什么。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The importance of Carnot’s work was not immediately recognized. In
             1832, during a cholera outbreak, he contracted the disease and died
             at the age of 36. At the time, it was common practice to destroy the
             belongings of those who had died from cholera, and many of Carnot’s
             papers were lost.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            然而这样发表的《省察》，其重要性并未立刻被人察觉。更不幸的是，1832
+            年他在研究霍乱流行时自己染上霍乱，数小时内便以 36
+            岁的年轻去世。按当时对霍乱死者的通常处置，他的研究成果与书籍大半随本人去世而被销毁。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             After his death, his ideas were further developed and promoted by
             Benoît Paul Émile Clapeyron. This led to wider recognition of
             Carnot’s theories and established him as a pioneer of
             thermodynamics.
           </p>
           <p lang="zh">
-            1824
-            年，萨迪·卡诺发表技术论文《关于火的动力的思考》，提出卡诺循环概念。其动机是从工程角度推动蒸汽机改良。
-            <br />
-            <br />
-            当时蒸汽机已广泛使用并迅速发展；卡诺著作问世数年前，蒸汽船已成功横渡大西洋。但对发动机运转背后的科学原理关注甚少，改良多依赖实践经验与经验判断。卡诺着意考察热机与基本物理原理的关系，而非仅关注结构或机械设计。
-            <br />
-            <br />
-            卡诺工作的重要性并未立刻被认识。1832
-            年霍乱流行期间，他染病去世，年仅 36
-            岁。当时惯例会销毁霍乱死者的物品，卡诺许多手稿因而佚失。
-            <br />
-            <br />
-            他去世后，贝努瓦·保罗·埃米尔·克拉佩龙进一步发展并推广其思想，使卡诺理论获得更广认可，并确立他热力学先驱的地位。
+            但他去世后，经综合理工学院时代同学克拉佩龙补充，《省察》得以流传，并最终对热力学与统计力学等物理学新领域的开拓与构建做出巨大贡献。
           </p>
         </div>
 
@@ -143,7 +154,7 @@ const CarnotsConclusion = () => (
             concept of absolute temperature through this derivation.
           </p>
           <p lang="zh">
-            补充一点：将卡诺循环理论效率写成数学形式的威廉·汤姆森，也正是在这一推导过程中确立了绝对温度的概念。
+            从理论上定义绝对温度的，正是把卡诺循环理论效率定式化的汤姆森；实际上，他是在导出该理论效率的过程中从理论上定义了绝对温度。
           </p>
         </div>
 

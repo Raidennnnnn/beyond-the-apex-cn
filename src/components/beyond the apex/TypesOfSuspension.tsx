@@ -14,12 +14,18 @@ const TypesOfSuspension = () => (
         <div className="bilingual">
           <p lang="en">
             While all suspension systems serve the same basic functions—supporting the vehicle and absorbing bumps and load changes—each type has its own characteristics. These differences affect performance in areas such as cornering, controllability and ride comfort.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            保持车高、承受行驶负荷与冲击等基本功能相同，但类型不同，性能与特性各异，从而决定过弯等行驶性能、关乎安全的操控性能，以及乘坐舒适性。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Suspension design continues to evolve, but complexity does not always mean better performance. The need to respond quickly to road irregularities and maintain consistent tire contact has led to increasingly sophisticated solutions.
           </p>
           <p lang="zh">
-            各类悬架基本功能相同——支撑车身、吸收冲击、控制车轮——但结构不同，特性各异。
+            悬架日新月异，复杂未必等于高性能；为实现「瞬间跟随路面起伏、使轮胎始终正确接地」这一理想，各种手法仍在不断探索。
           </p>
         </div>
 
@@ -32,7 +38,7 @@ const TypesOfSuspension = () => (
             In a rigid axle suspension, the left and right wheels are connected by a single axle, so movement on one side affects the other, which can reduce tire contact with the road. The axle and housing are heavy, increasing unsprung mass. However, because it is simple, strong and inexpensive to produce, rigid axle suspension is often used for the rear suspension of rear-wheel-drive vehicles.
           </p>
           <p lang="zh">
-            左右轮由一根刚性车轴连接，一侧运动会影响另一侧。结构简单成本低，多用于卡车与部分越野车；弯道左右轮相互牵制，操控精度较低。
+            左右轮胎由车轴相连，一侧运动会传到对侧，接地性易受损；车轴与壳体本身较重，簧下质量也不利。但成本低、强度高，廉价后驱车的后悬架仍常用。
           </p>
         </div>
 
@@ -49,7 +55,7 @@ const TypesOfSuspension = () => (
             Independent suspension allows the left and right wheels to move up and down individually, making it well suited to handling bumps and uneven road surfaces. In rear-wheel-drive cars, it also helps maintain consistent tire contact, improving traction at each wheel. The result is a balance of stability and ride comfort.
           </p>
           <p lang="zh">
-            左右轮可独立上下运动，互少干扰，弯道接地与舒适性更好，现代乘用车主流。
+            左右轮可独立上下运动，对凹凸与起伏的跟随性好。后驱车更能把动力高效传到左右轮，并可减轻运动部件重量，操控稳定与舒适性兼顾度高。
           </p>
         </div>
 
@@ -70,7 +76,7 @@ const TypesOfSuspension = () => (
             This is a simple suspension layout consisting of a spring, damper and lower control arm. The “strut” refers to the damper assembly, which also serves as a structural member. The upper section mounts to the body through a rubber insulator, while the lower portion connects to the suspension arm. With fewer components, it is compact and space-efficient, and its long stroke allows it to absorb a wide range of road inputs. The system was developed by Earle S. MacPherson, for whom it is named.
           </p>
           <p lang="zh">
-            弹簧、减振器与下控制臂组成的简单布局。成本低、占空间小，广泛用于前悬架。
+            基本由弹簧、减振器与下控制臂构成的简洁结构。「支柱」指兼受力的减振器总成：上端经安装橡胶支承于车身，下部由下控制臂支承。零件少、重量可控，行程易做长，能大范围吸收路面振动；亦常称麦弗逊支柱。
           </p>
         </div>
 
@@ -87,7 +93,7 @@ const TypesOfSuspension = () => (
             This is a design that supports the wheels with upper and lower control arms. The arms are typically shaped like a V, resembling a bird’s wishbone. Depending on their geometry and the car’s layout, they can effectively control changes in wheel alignment during acceleration and cornering. This allows for precise handling, making it a popular choice for sports cars that prioritize control and stability. However, it is more complex, uses more components, and requires more space.
           </p>
           <p lang="zh">
-            上下控制臂支撑车轮，几何设计自由度高，运动性能好，跑车与高性能车常见。
+            以上下成对的控制臂悬挂车轮；臂多为 V 形，似鸟的锁骨（wishbone）。依臂形与布局，可较自由地控制加减速姿态与定位变化，刚性也易做高，重视操控与稳定的运动车常用。但零件多、结构复杂，需要较大安装空间。
           </p>
         </div>
 
@@ -104,7 +110,7 @@ const TypesOfSuspension = () => (
             This is an advanced layout that uses three to five separate arms to control wheel position. Because each link operates independently, the system allows a high degree of tuning freedom and precise control of wheel alignment. The additional links help manage forces in multiple directions, improving tire contact with the road. This type of suspension is often used for the rear of high-performance front-wheel-drive cars to enhance stability at speed, and in high-output rear-wheel-drive cars to improve traction.
           </p>
           <p lang="zh">
-            用3～5根连杆精细控制车轮运动，调校自由度最高，舒适与操控可兼顾，高端车常见。
+            亦可视为双叉臂的进化：不用上下两臂，而以 3～5 根连杆定位车桥。各臂分离，布置与细调自由度大，几何变化管理更严，轮胎接地更好。高性能前驱车后悬常为保高速稳定，高输出后驱车则多为保牵引力而采用。
           </p>
         </div>
 

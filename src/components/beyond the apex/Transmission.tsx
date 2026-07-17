@@ -11,33 +11,45 @@ const Transmission = () => (
         <div className="bilingual">
           <p lang="en">
             An engine operates at anywhere from several hundred to several thousand revolutions per minute. This is too fast to drive the wheels directly, so an intermediate mechanism is required. That role is handled by the transmission, which uses different gear ratios to deliver the appropriate balance of speed and torque to the wheels for any given situation.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            发动机每分钟数百至数千转，直接驱动车轮过快，需中间变速装置。通过齿轮组合按情况取出速度与力，即变速箱（变速器）。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             To understand this, consider how gears interact. When a small gear drives a larger gear, the larger gear turns more slowly but with increased torque. Conversely, when a larger gear drives a smaller gear, the smaller gear spins faster but with reduced torque.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            齿轮原理：小齿轮带大齿轮则大齿轮转得慢、力大；大齿轮带小齿轮则小齿轮转得快、力小。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The transmission applies these principles to match the appropriate gear to the situation. A car requires the most torque when accelerating from a standstill, and far less to maintain a steady speed. As a result, initial acceleration uses a low gear ratio, which provides higher torque at the wheels to get the car moving.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            车辆最需要大力的是起步；匀速高速只需小功率。起步用大减速比产生大转矩。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             A lower gear ratio multiplies torque but limits speed. In first gear, even at high rpm, vehicle speed is limited to only several tens of kilometers per hour. As the driver shifts up, gear ratios become progressively taller, allowing higher speeds with less torque multiplication. This range of gears lets the driver select the right balance for any driving condition.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            大减速比转矩大但车速受限，故一挡全油门时速仅数十公里。变速箱用多组齿轮逐渐减小减速比，按路况调节速度与力。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             In a production car, the transmission’s gear ratios are combined with a final drive gear located between the transmission and the drive wheels. This final drive determines the overall gear ratio. Gear ratios have a significant effect on a car’s performance, and in circuit racing, selecting ratios suited to the course can be critical to improving lap times.
           </p>
           <p lang="zh">
-            åå¨æºæ¯åéæ°ç¾è³æ°åè½¬ï¼ç´æ¥é©±å¨è½¦è½®è¿å¿«ï¼éä¸­é´åéè£ç½®ãéè¿é½¿è½®ç»åææåµååºéåº¦ä¸åï¼å³åéç®±ï¼åéå¨ï¼ã
-            <br />
-            <br />
-            é½¿è½®åçï¼å¤§é½¿è½®å¸¦å°é½¿è½®åå°é½¿è½®è½¬å¾å¿«ãåå°ï¼å°é½¿è½®å¸¦å¤§é½¿è½®åå¤§é½¿è½®è½¬å¾æ¢ãåå¤§ã
-            <br />
-            <br />
-            è½¦è¾æéè¦å¤§åçæ¯èµ·æ­¥ï¼åéé«éåªéå°åçãèµ·æ­¥ç¨å¤§åéæ¯äº§çå¤§è½¬ç©ã
-            <br />
-            <br />
-            å¤§é½¿è½®è½¬ç©å¤§ä½è½¬éæ¢ï¼æä¸æ¡å¨æ²¹é¨æ¶éä»æ°åå¬éãåéç®±ç¨å¤ç»é½¿è½®éæ¸åå°åéæ¯ï¼æè·¯åµè°èéåº¦ä¸åã
-            <br />
-            <br />
-            å®è½¦å°åéç®±ä¸é©±å¨è½®åçä¸»åéå¨ï¼ç»ä¼ ï¼ç»åææ»ä¼ å¨æ¯ãä¼ å¨æ¯å¯¹ç¹æ§å½±åå¤§ï¼èµééåéé½¿æ¯æ¯æååéçå³é®ã
+            实车将变速箱与驱动轮前的主减速器（终传）组合成总传动比。传动比对特性影响大，赛道选合适齿比是提升圈速的关键。
           </p>
         </div>
 
@@ -52,12 +64,18 @@ const Transmission = () => (
         <div className="bilingual">
           <p lang="en">
             The gear that provides the final stage of power transfer to the drive wheels is known as the final drive. It is the last step in reducing engine speed to a usable level at the wheels, and in longitudinal layouts, it also redirects the flow of power by 90 degrees.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            发动机与驱动轮之间最后一级减速齿轮即主减速器，再次降低转速传给轮胎；纵置发动机还负责将动力转向90°。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The final drive operates independently of the transmission gear selection, and changing its ratio is an effective way to alter a car’s behavior. In performance cars, a numerically higher final drive ratio is often used to improve acceleration, while a lower ratio can reduce engine speed and improve fuel economy.
           </p>
           <p lang="zh">
-            发动机与驱动轮之间最后一级减速齿轮即主减速器，再次降低转速传给轮胎；纵置发动机还负责将动力转向90°。与变速箱独立，更换较易，是改变车辆特性的重要手段。运动车常增大齿比提加速（最高速降）；重视油耗则减小齿比降转速。
+            与变速箱独立，更换较易，是改变车辆特性的重要手段。运动车常增大齿比提加速（最高速降）；重视油耗则减小齿比降转速。
           </p>
         </div>
 

@@ -8,7 +8,7 @@ export function AppSidebarTrigger() {
   return (
     <Button
       size="sm"
-      variant="secondary"
+      variant="outline"
       className="md:hidden transition-all w-8 md:w-auto px-1"
       onClick={toggleSidebar}
     > 

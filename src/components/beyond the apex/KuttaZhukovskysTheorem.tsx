@@ -23,7 +23,7 @@ const KuttaZhukovskysTheorem = () => (
             theory, which will be discussed in the following sections.
           </p>
           <p lang="zh">
-            古斯塔夫·基尔霍夫与约翰·威廉·斯特拉特假定，锐角等尖锐几何附近会形成不连续面。然而，此类不连续更一般地可来自体表流动，物体表面可视为覆盖着涡层（或涡片）。就此而言，升力的产生与环量理论密切相关，将在后续各节讨论。
+            基尔霍夫与瑞利假定不连续面在物体锐角部形成。其实这类不连续面可从物体表面任意处发生，也可把物体表面看作被涡层覆盖。实际上，这种想法与称为升力环量理论的升力理论密切相关。
           </p>
         </div>
 
@@ -42,8 +42,14 @@ const KuttaZhukovskysTheorem = () => (
             idealized components: a uniform flow (freestream) and a circulation
             flow. From a mathematical standpoint, circulation is defined as the
             line integral of velocity along a closed curve surrounding the body.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            物体表面因黏性使流速发生大变化，因而涡丝可从表面任意处产生并构成覆盖物体的涡层。此时，覆盖物体的涡层整体强度称为「环量」。如此一来，绕体流动可分离为均匀流与环量流两类（环量的定义是沿任意平面曲线对流速作线积分所得的量）。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             As discussed above, consider a flow in which uniform flow and
             circulation are superimposed. On the upper side of the body, the
             circulation flow moves in the same direction as the freestream,
@@ -53,10 +59,7 @@ const KuttaZhukovskysTheorem = () => (
             higher pressure below, producing an upward lift force (Fig. 4-4-1).
           </p>
           <p lang="zh">
-            由于黏性，物体表面附近流速迅速变化，形成强烈速度梯度。它们可用涡丝表示，并沿表面共同构成涡层（或涡片）。该涡层的强度以环量表征。据此，绕体流动可表达为两个理想化分量的叠加：均匀流（来流）与环量流。从数学上，环量定义为沿包围物体的闭合曲线对速度的线积分。
-            <br />
-            <br />
-            如上所述，考虑均匀流与环量叠加的流动。在物体上侧，环量流与来流方向相同，增大当地速度；在下侧，环量流与来流相反，减小当地速度。根据伯努利定理，上侧压力降低、下侧压力升高，从而产生向上的升力（图4-4-1）。
+            基于以上考察，假定存在均匀流与环量流并加以叠加：环量流上侧与均匀流方向相同，上侧流速增大；下侧两者方向相反，叠加后流速减小。于是由伯努利定理，环量流上部压力降低、下部升高，产生向上升力。（图4-4-1）
           </p>
         </div>
 
@@ -84,7 +87,7 @@ const KuttaZhukovskysTheorem = () => (
             as:
           </p>
           <p lang="zh">
-            该模型与翼型周围流场十分相似。翼型几何使上表面流速增大、压力降低，而下表面流速减小、压力升高。流场可理解为均匀流与环量的叠加。存在环量时，升力可表示为：
+            这样的流场正与翼型周围流场类似：上面流速高、压力降，下面流速低、压力升。实际上翼型周围流场可作为均匀流与环量流的叠加来处理；一旦求得环量，便可按下式算出升力。（图4-4-2）
           </p>
         </div>
 
@@ -97,7 +100,7 @@ const KuttaZhukovskysTheorem = () => (
             combination of uniform flow and circulation flow.
           </p>
           <p className="caption" lang="zh">
-            图4-4-2：翼型周围流场可视为均匀流与环量流的组合。
+            图4-4-2：翼型周围流场也可视为均匀流与环量流的组合。
           </p>
         </div>
 
@@ -110,7 +113,7 @@ const KuttaZhukovskysTheorem = () => (
           </p>
           <p lang="zh">
             <b>
-              升力 = 流体密度 × 均匀流速度 × 涡环量（L=ρVΓ）
+              升力 = 流体密度 × 均匀流流速 × 涡的环量（L = ρVΓ）
             </b>
           </p>
         </div>
@@ -123,7 +126,7 @@ const KuttaZhukovskysTheorem = () => (
             determined by the circulation around it.
           </p>
           <p lang="zh">
-            该理论由马丁·威廉·库塔与尼古拉·茹科夫斯基各自独立提出，故称库塔–茹科夫斯基定理。它表明流动中物体产生的升力由绕体环量决定。
+            这一理论由威廉·库塔与尼古拉·茹科夫斯基各自独立提出，称为库塔–茹科夫斯基定理。由该定理可知：无论物体形状如何，只要求得环量，该物体产生的升力便可求出。
           </p>
         </div>
 
@@ -139,29 +142,35 @@ const KuttaZhukovskysTheorem = () => (
             Fluid motion is generally treated as smooth, but special
             consideration is required when the geometry includes sharp edges or
             when the flow could otherwise become discontinuous.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            由库塔–茹科夫斯基定理可知，若知绕体环量，便可计算作用在物体上的升力。但将该定理应用于翼型时须注意一点：流体方程基本上是在「流动光滑」的前提下导出的，对尖锐形状或不连续流动通常需要特别考虑。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             For an airfoil, the trailing edge is typically sharp. Unless the
             flows over the upper and lower surfaces meet smoothly at this
             trailing edge, the Kutta–Zhukovsky Theory cannot be applied
             directly. This requirement is known as the Kutta Condition. By
             enforcing the Kutta Condition, a unique value of circulation is
             established, allowing the lift to be calculated.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            以翼型为例，后缘形状尖锐。因此除非给定「翼型上、下面流动在后缘平滑合流」这一条件，否则不能把库塔–茹科夫斯基定理应用于翼型。后缘上、下流动平滑合流这一条件称为库塔条件。给出库塔条件后，才能确定环量，从而在数学上求得升力。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             When an airfoil is set at an angle of attack relative to the flow,
             the required circulation increases to satisfy the Kutta Condition.
             As the angle of attack increases, circulation increases
             accordingly, leading to greater lift.
           </p>
           <p lang="zh">
-            由库塔–茹科夫斯基理论，若已知绕体环量，便可确定升力。但将该理论应用于翼型时，还需满足额外条件。流体运动通常按光滑处理，但当几何含锐缘、或流动否则可能变得不连续时，需特别考虑。
-            <br />
-            <br />
-            对翼型而言，后缘通常尖锐。除非上下表面流动在此后缘平滑汇合，否则不能直接应用库塔–茹科夫斯基理论。这一要求称为库塔条件。施加库塔条件后，环量取唯一值，从而可计算升力。
-            <br />
-            <br />
-            当翼型相对来流有迎角时，为满足库塔条件所需的环量增大。迎角增大，环量随之增大，升力也更大。
+            顺便一提：相对来流给翼加上迎角时，迎角越大，为满足库塔条件所需的环量越大；环量自然增大，结果产生更大升力——这就是加大迎角升力增大的机制。
           </p>
         </div>
 

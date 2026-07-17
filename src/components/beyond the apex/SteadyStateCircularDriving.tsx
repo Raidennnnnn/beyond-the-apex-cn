@@ -22,20 +22,26 @@ const SteadyStateCircularDriving = () => (
         <div className="bilingual">
           <p lang="en">
             When a car is driven at a constant steering angle and speed, it will trace a circular path with a fixed radius. This condition is known as steady-state circular driving and is commonly used in vehicle dynamics. Observing a car under steady-state conditions can reveal the fundamental properties of its motion.
-            <br />
-            <br />
-            For example, imagine a car in steady-state circular driving as the speed is gradually increased. If the front tires generate relatively less cornering effect as the car accelerates, the turning radius will increase with speed (the driving line expands). As a result, the steering angle must be increased to maintain the original circular path.
-            <br />
-            <br />
-            Conversely, if the front tires generate relatively more cornering effect as the car accelerates, the turning radius will decrease (the driving line contracts), so the steering angle must be reduced to maintain the original path. Requiring additional steering input as speed increases is called understeer (US), while requiring less steering input is called oversteer (OS). When the turning radius can be maintained without influence from changes in speed, the condition is referred to as neutral steer (NS). These behaviors are known as the steering characteristics of the vehicle. It should be noted that a vehicle exhibiting oversteer can reach a turning radius of zero at a certain speed (Fig. 2-2-2). A zero turning radius corresponds to a spin, and the speed at which this occurs is called the critical stability speed.
           </p>
           <p lang="zh">
             以一定舵角与一定速度行驶的车辆，会描出固定半径的圆。这一状态称为定常圆周行驶，是车辆动力学中常用的条件。观察定常状态下的车辆运动，有助于把握其基本运动特性。
-            <br />
-            <br />
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
+            For example, imagine a car in steady-state circular driving as the speed is gradually increased. If the front tires generate relatively less cornering effect as the car accelerates, the turning radius will increase with speed (the driving line expands). As a result, the steering angle must be increased to maintain the original circular path.
+          </p>
+          <p lang="zh">
             例如，设想车辆已在定常圆周行驶，再逐渐提高车速。若加速时前轮产生的转向效果相对变弱，转弯半径会随车速增大（行驶轨迹外扩），要保持原圆就必须加大舵角。
-            <br />
-            <br />
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
+            Conversely, if the front tires generate relatively more cornering effect as the car accelerates, the turning radius will decrease (the driving line contracts), so the steering angle must be reduced to maintain the original path. Requiring additional steering input as speed increases is called understeer (US), while requiring less steering input is called oversteer (OS). When the turning radius can be maintained without influence from changes in speed, the condition is referred to as neutral steer (NS). These behaviors are known as the steering characteristics of the vehicle. It should be noted that a vehicle exhibiting oversteer can reach a turning radius of zero at a certain speed (Fig. 2-2-2). A zero turning radius corresponds to a spin, and the speed at which this occurs is called the critical stability speed.
+          </p>
+          <p lang="zh">
             反之，若前轮转向效果相对增强，转弯半径会随车速减小（轨迹内收），就必须减小舵角才能保持原路径。车速升高时需要追加转向输入的特性称为不足转向（US）；需要减少转向输入的称为过度转向（OS）；转弯半径基本不受车速增减影响而保持一定的称为中性转向（NS）。这些统称为车辆的转向特性。需要注意：过度转向车辆在某一车速下转弯半径可变为零（图 2-2-2）。半径为零对应自旋，到达该状态的车速称为稳定极限速度。
           </p>
         </div>

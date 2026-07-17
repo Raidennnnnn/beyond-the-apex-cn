@@ -12,39 +12,54 @@ const BodyPerformanceRequirements = () => (
         <div className="bilingual">
           <p lang="en">
             Along with the engine and suspension, the body forms the framework that dictates how a car behaves. The most desirable qualities are rigidity and strength, followed by low weight once those are achieved. Rigidity and strength can be understood as resistance to deformation and resistance to failure, respectively.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            车身与发动机、悬架并列，决定车辆性格。车身需要“刚性”“强度”，并在实现后追求“轻量”。刚性是抗变形，强度是抗破坏。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Rigidity has a particularly strong influence on driving performance. When loads increase or shift over bumps or during cornering, a rigid structure resists flex and maintains its shape.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            刚性对行驶性能影响尤大：过坎、过弯加载时，刚性高则不易弯扭，保持形状。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Even when the body is subjected to load, it should return to its original shape quickly so the suspension can operate as intended and the tires can maintain grip. The more rigid the structure, the more effectively power is transmitted to the road, the more predictable the car’s behavior, and the easier it is to control. Conversely, if the body flexes easily, power delivery becomes less efficient and handling suffers.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            即使变形也应迅速恢复，悬架才能正确工作、轮胎接地更好。刚性高则动力更易传至路面，行为稳定、易控；易变形则动力传递差、操控受损。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The forces acting on a car’s body vary. Some build gradually, while others are sudden and severe. Manufacturers often refer to rigidity under cornering or torsion, but this typically reflects resistance to slower-applied loads. A well-engineered structure must also withstand rapid, high-impact forces without excessive deformation.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            载荷有缓有急，目录中的弯曲/扭转刚性多指慢速输入；真正高刚性还应承受剧烈冲击。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Strength can be thought of as a car’s toughness. If a structure lacks strength, it will suffer greater damage in an impact. However, minimizing damage alone is not enough—a well-designed body must also manage impact forces so they are not transmitted directly to the occupants.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            强度可理解为“硬度”。强度低碰撞损伤大，但过高则冲击直接传乘员，须平衡吸能。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Ideally, a car’s structure balances rigidity and strength. Increasing both often requires reinforcement, which adds weight. This is why convertibles, despite lacking a fixed roof, are often heavier than equivalent coupes, as additional structural reinforcement is built into the floor and chassis.
           </p>
           <p lang="zh">
-            è½¦èº«ä¸åå¨æºãæ¬æ¶å¹¶åï¼å³å®è½¦è¾æ§æ ¼ãè½¦èº«éè¦âåæ§ââå¼ºåº¦âï¼å¹¶å¨å®ç°åè¿½æ±âè½»éâãåæ§æ¯æåå½¢ï¼å¼ºåº¦æ¯æç ´åã
-            <br />
-            <br />
-            åæ§å¯¹è¡é©¶æ§è½å½±åå°¤å¤§ï¼è¿åãè¿å¼¯å è½½æ¶ï¼åæ§é«åä¸æå¼¯æ­ï¼ä¿æå½¢ç¶ã
-            <br />
-            <br />
-            å³ä½¿åå½¢ä¹åºè¿éæ¢å¤ï¼æ¬æ¶æè½æ­£ç¡®å·¥ä½ãè½®èæ¥å°æ´å¥½ãåæ§é«åå¨åæ´æä¼ è³è·¯é¢ï¼è¡ä¸ºç¨³å®ãææ§ï¼æåå½¢åå¨åä¼ éå·®ãææ§åæã
-            <br />
-            <br />
-            è½½è·æç¼ææ¥ï¼ç®å½ä¸­çå¼¯æ²/æ­è½¬åæ§å¤ææ¢éè¾å¥ï¼çæ­£é«åæ§è¿åºæ¿åå§çå²å»ã
-            <br />
-            <br />
-            å¼ºåº¦å¯çè§£ä¸ºâç¡¬åº¦âãå¼ºåº¦ä½ç¢°ææä¼¤å¤§ï¼ä½è¿é«åå²å»ç´æ¥ä¼ ä¹åï¼é¡»å¹³è¡¡å¸è½ã
-            <br />
-            <br />
-            çæ³è½¦èº«å¨é«ç»´åº¦å¹³è¡¡åæ§ä¸å¼ºåº¦ï¼è¡¥å¼ºå¢éé¾é¿ï¼æç¯·è½¦å¸¸å å°æ¿è¡¥å¼ºèæ¯ç¡¬é¡¶æ´éã
+            理想车身在高维度平衡刚性与强度；补强增重难避，敞篷车常因地板补强而比硬顶更重。
           </p>
         </div>
 

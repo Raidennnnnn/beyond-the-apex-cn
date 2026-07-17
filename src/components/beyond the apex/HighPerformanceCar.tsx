@@ -24,21 +24,27 @@ const HighPerformanceCar = () => (
         <div className="bilingual">
           <p lang="en">
             In general, a higher yaw rate resonance frequency is associated with quicker vehicle responses and is often characteristic of a high-performance vehicle. Increasing the rear tire cornering power or reducing vehicle mass are examples of ways to raise the yaw response frequency.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            一般认为，车辆横摆角速度共振频率越高，动作越敏捷、运动性能越好。提高该共振频率的手段包括：提升后轮侧偏刚度、减轻车重、缩小横摆惯性半径等。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Fig. 2-7-1 illustrates how front and rear tire grip affect overall vehicle behavior. From this diagram, increasing rear tire grip tends to increase understeer and raise the yaw response frequency. Conversely, increasing front tire grip tends to promote oversteer and reduce the yaw response frequency. Also, increasing rear tire grip reduces phase lag, while increasing front tire grip increases phase lag.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            图 2-7-1 定性表示前后轮抓地对车辆运动性能的影响。由图可见：增大后轮抓地会使不足转向增强、横摆角速度共振频率升高；增大前轮抓地则使过度转向增强、共振频率降低。另一方面，后轮抓地越大相位滞后越小；前轮抓地越大相位滞后越大。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             As previously illustrated, the grip level of the rear tires has a significant influence on overall vehicle performance. When modifying the suspension system, it is important to first ensure sufficient rear tire grip. Next, the balance between front and rear tire grip should be optimized. These steps are fundamental to improving vehicle performance.
           </p>
           <p lang="zh">
-            一般而言，横摆角速度共振频率越高，车辆响应越敏捷，也常被视为高性能车辆的特征。提高后轮侧偏刚度、减轻车重等，都是抬高横摆响应频率的手段。
-            <br />
-            <br />
-            图 2-7-1 定性说明前后轮抓地对整体车辆行为的影响：增大后轮抓地，往往增强不足转向并提高横摆响应频率；增大前轮抓地，则倾向过度转向并降低横摆响应频率。相位方面，后轮抓地增大使相位滞后减小；前轮抓地增大使相位滞后增大。
-            <br />
-            <br />
-            由此可见，后轮抓地水平对整体运动性能影响很大。调校悬架时，应先保证后轮抓地充足，再优化前后抓地平衡——这是提升车辆运动性能的基本思路。
+            由此可见，后轮抓地水平对车辆运动性能至关重要。因此调校悬架时，应在充分确保后轮抓地的前提下，再把前后轮抓地水平调到适当——这是提升车辆运动性能的基本思路。
           </p>
         </div>
 
@@ -50,7 +56,7 @@ const HighPerformanceCar = () => (
             Fig. 2-7-1: Correlation of tire grip, steering response and steering characteristic.
           </p>
           <p className="caption" lang="zh">
-            图2-7-1：轮胎抓地、转向响应与转向特性的关系。
+            图2-7-1：前后轮抓地水平与转向响应性、转向特性的关系。
           </p>
         </div>
 
@@ -70,15 +76,18 @@ const HighPerformanceCar = () => (
         <div className="bilingual">
           <p lang="en">
             Vehicle responsiveness is a complex subject, but by describing vehicle motion using the equation of motion (as discussed in Section 1-1), we can begin to gain a clearer understanding. Also, the concepts of lateral acceleration and steering frequency can be used to categorize vehicle motion characteristics, as shown in Fig. 2-7-2.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            车辆运动性能可讨论的范围很广。但车辆运动本身可用运动方程（1-1 中的 F=ma）作数学处理，因此如前文所见，也较容易通过理论整理成体系。若沿横向加速度与转向频率对车辆运动特性分类整理，则如图 2-7-2。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Up to this point, we have focused on responsiveness based on (2) normal turn characteristics within the (3) linear range. In this context, the linear range refers to an idealized condition in which cornering power remains stable and proportional to slip angle. In contrast, responsiveness in the (4) non-linear range describes conditions in which cornering force begins to saturate. This range is particularly important in race car operation. Even within the non-linear range, however, the fundamental characteristics observed in the linear range still apply. By carefully considering the balance of cornering forces and moments between the front and rear wheels, the behavior can often be understood as an extension of the linear case. In addition, it is desirable for the (5) limit characteristic range to be positioned as far from the initial operating region as possible.
           </p>
           <p lang="zh">
-            车辆响应性议题很广，但用运动方程（见 1-1）描述车辆运动，可开始形成清晰认识。也可按横向加速度与转向频率对运动特性分类，如图 2-7-2。
-            <br />
-            <br />
-            此前我们主要关注 (2) 定常转弯特性在 (3) 线性范围内的响应。此处线性范围指侧偏刚度大致稳定、与侧偏角成正比的理想化条件。(4) 非线性范围的响应则指侧偏力开始饱和的工况，对赛车尤为重要。即便在非线性范围，线性范围的基本特性仍适用；仔细考察前后侧偏力与力矩平衡，往往可作线性情形的延伸来理解。此外，(5) 极限特性区域宜尽量远离初始工作区。
+            本稿主要围绕 (2) 定常转弯性与 (3) 线性范围内的响应性展开。这里所谓线性范围，可理解为在各种行驶状态中都假定侧偏刚度基本恒定来考察的情形。(4) 非线性范围内的响应性，主要指侧偏刚度进入饱和区的行驶，对赛车尤其重要。不过即便称为非线性范围，基础仍在前述线性特性；若恰当考察前后侧偏力平衡与前后力矩平衡，多数情况下可作为线性范围的应用来处理。此外，(5) 极限特性区域当然离原点越远越好。
           </p>
         </div>
 
@@ -97,15 +106,18 @@ const HighPerformanceCar = () => (
         <div className="bilingual">
           <p lang="en">
             A common example of vehicle behavior in the non-linear range is reverse steering. As discussed in Section 1-2, steering characteristics can be determined from the relationship between slip angles during normal cornering. Here, we examine reverse steering using a vehicle with the characteristics shown in Fig. 2-7-3.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            非线性范围内车辆运动的典型例子是反向转向（reverse steering）。2-2 中说过，定常圆周行驶时可由前后侧偏角大小关系判断转向特性；这里用图 2-7-3 所示特性的车辆来考察反向转向是什么。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             When vehicles with similar characteristics are in normal cornering at low lateral acceleration, the front tire slip angle is larger than that of the rear, and the vehicle exhibits understeer. As lateral acceleration increases, the tires must generate greater force to balance it, causing slip angles to increase and the cornering force to enter the saturation region. At higher lateral acceleration, the rear tire slip angle can increase more rapidly, and beyond a certain point it may exceed that of the front, leading the vehicle to exhibit oversteer and reduced stability. This condition, in which the steering characteristic changes with lateral acceleration, is referred to as reverse steering.
           </p>
           <p lang="zh">
-            非线性范围内的典型例子是反向转向（reverse steering）。如 2-2 所述，定常转弯中可由前后侧偏角大小关系判断转向特性。这里用图 2-7-3 所示特性的车辆来考察反向转向。
-            <br />
-            <br />
-            此类车辆在低横向加速度定常转弯时，前轮侧偏角大于后轮，表现为不足转向。横向加速度升高后，轮胎需产生更大的力来平衡，侧偏角增大，侧偏力进入饱和区。横向加速度更高时，后轮侧偏角可更快增大，超过某点后可能超过前轮，车辆转为过度转向并稳定性下降。这种随横向加速度而转向特性反转的现象，称为反向转向。
+            此类车辆做定常圆周行驶时，横向加速度较低时前轮侧偏角更大，表现为不足转向。随着横向加速度增大，轮胎必须产生更大的力来平衡，侧偏角增大并进入侧偏力饱和区。到一定横向加速度后，后轮侧偏角反而更大，车辆转为过度转向，行驶表现变得不稳定。像这样随横向加速度而转向特性反转的现象，有时称为反向转向。
           </p>
         </div>
 

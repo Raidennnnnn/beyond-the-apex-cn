@@ -18,36 +18,54 @@ const TheDifferentialAndLSD = () => (
         <div className="bilingual">
           <p lang="en">
             A differential is essential in vehicles with driven wheels on both the left and right sides. If a car only traveled in a straight line, it wouldn’t be necessary, but as soon as it turns, its role becomes clear.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            左右均有驱动轮的车辆必需差速器（差动齿轮）。纯直线不必需，转弯时作用显著，日语亦称差动齿轮机构。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             When cornering, the outside wheel travels a greater distance than the inside wheel. If both drive wheels were forced to rotate at the same speed, the inner wheel would resist and slip, making the car difficult to turn. The differential, a gearset integrated with the final drive and located between the drive wheels, allows them to rotate at different speeds to solve this problem.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            转弯时外轮比内轮路程长，须允许转速差，否则内轮阻滞、车难转向。差速器在左右驱动轮之间、与主减速器一体，吸收这一差异。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             As shown in the diagram, engine power is transmitted through the final drive to the ring gear. The ring gear carries small pinion gears, which mesh with the side gears and transfer power to the left and right wheels.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            发动机动力经主减速器到从动齿轮（齿圈），小行星齿轮与两侧半轴齿轮啮合传至左右轮。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             When the car is moving in a straight line, the rotation of the final drive turns the ring gear, and the pinion gears do not rotate on their own axes. Instead, they act as a unit, transmitting equal torque to both side gears. In this condition, the left and right wheels rotate at the same speed.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            直线时行星齿轮随从动齿轮公转而不自转，左右等速、等转矩。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             However, when cornering, the inside wheel encounters greater resistance, and this is transmitted to the corresponding side gear. As a result, the pinion gears, which were rotating with the carrier without spinning on their axes, begin to rotate, allowing a difference in speed between the left and right wheels.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            转弯时内轮阻力经半轴传到半轴齿轮，行星齿轮除公转还自转，调节左右转速差。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             In this condition, torque is still distributed through the differential, but the mechanism allows each wheel to rotate at the speed required to negotiate the corner smoothly.
           </p>
           <p lang="zh">
-            å·¦å³åæé©±å¨è½®çè½¦è¾å¿éå·®éå¨ï¼å·®å¨é½¿è½®ï¼ãçº¯ç´çº¿ä¸å¿éï¼è½¬å¼¯æ¶ä½ç¨æ¾èï¼æ¥è¯­äº¦ç§°å·®å¨é½¿è½®æºæã
-            <br />
-            <br />
-            è½¬å¼¯æ¶å¤è½®æ¯åè½®è·¯ç¨é¿ï¼é¡»åè®¸è½¬éå·®ï¼å¦ååè½®é»æ»ãè½¦é¾è½¬åãå·®éå¨å¨å·¦å³é©±å¨è½®ä¹é´ãä¸ä¸»åéå¨ä¸ä½ï¼å¸æ¶è¿ä¸å·®å¼ã
-            <br />
-            <br />
-            åå¨æºå¨åç»ä¸»åéå¨å°ä»å¨é½¿è½®ï¼å°è¡æé½¿è½®ä¸ä¸¤ä¾§åè½´é½¿è½®å®åä¼ è³å·¦å³è½®ã
-            <br />
-            <br />
-            ç´çº¿æ¶è¡æé½¿è½®éä»å¨é½¿è½®å¬è½¬ï¼å·¦å³ç­éãç­è½¬ç©ã
-            <br />
-            <br />
-            è½¬å¼¯æ¶åè½®é»åç»åè½´ä¼ å°åè½´é½¿è½®ï¼è¡æé½¿è½®é¤å¬è½¬è¿èªè½¬ï¼è°èå·¦å³è½¬éå·®ï¼å°æ´å¤å¨ååç»å¤è½®ã
+            由此内侧分配较少、外侧较多，使各轮以所需转速顺利过弯。
           </p>
         </div>
 
@@ -70,18 +88,27 @@ const TheDifferentialAndLSD = () => (
         <div className="bilingual">
           <p lang="en">
             When cornering, a conventional differential has a drawback. If one drive wheel loses traction completely, the other wheel receives little usable drive force, and the wheel with no grip spins freely. This occurs because the differential allows the path of least resistance to dominate, sending torque to the slipping wheel. The same effect can be seen on ice or snow, where a loss of traction at one wheel causes it to spin while the other remains stationary.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            普通差速器在单侧失去附着力时，会把动力送给空转轮，另一侧几乎无驱动力，泥泞雪地常见。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             A limited-slip differential (LSD) is designed to limit this behavior when there is a significant difference in rotational speed between the left and right wheels. By restricting the speed difference between the side gears, it helps distribute torque more effectively. This can be achieved through several methods, including clutch-type systems, electronically controlled systems, and viscous fluid-based designs.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            LSD在左右转速差超过一定值时限制差速，使两侧都能获得驱动力。方式有多片离合器、电子控制、齿轮啮合轴向力、粘性流体剪阻力等。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             In performance cars, LSDs are used not only to improve traction in low-grip conditions, but also to make better use of available power and enhance handling.
           </p>
           <p lang="zh">
-            æ®éå·®éå¨å¨åä¾§å¤±å»éçåæ¶ï¼ä¼æå¨åéç»ç©ºè½¬è½®ï¼å¦ä¸ä¾§å ä¹æ é©±å¨åï¼æ³¥æ³éªå°å¸¸è§ãLSDå¨å·¦å³è½¬éå·®è¶è¿ä¸å®å¼æ¶éå¶å·®éï¼ä½¿ä¸¤ä¾§é½è½è·å¾é©±å¨åãæ¹å¼æå¤çç¦»åå¨ãçµå­æ§å¶ãé½¿è½®å®åè½´ååãç²æ§æµä½åªé»åç­ã
-            <br />
-            <br />
-            è¿å¨è½¦åæ´å¤ä¸ºä¿é©±å¨åä¸æ¹åææ§èç¨ LSDï¼èéä»ä¸ºè±å°ã
+            运动车型更多为保驱动力与改善操控而用 LSD，而非仅为脱困。
           </p>
         </div>
 
@@ -106,7 +133,7 @@ const TheDifferentialAndLSD = () => (
             This type of limited-slip differential uses specially designed gears. When a difference in torque arises between the left and right wheels, internal resistance increases, limiting the amount of slip. Because these systems can tightly control differences in wheel speed, they are effective in demanding conditions such as circuit driving, and their response is very quick. Common types include torque-sensitive designs such as Torsen and helical differentials, as well as clutch-type multi-plate systems.
           </p>
           <p lang="zh">
-            特殊齿轮组合：左右转矩差增大时齿面阻力增加，限制打滑。限滑力强，适合赛道等高负荷，响应快。含多片离合器、Torsen、 helical 等。
+            特殊齿轮组合：左右转矩差增大时齿面阻力增加，限制打滑。限滑力强，适合赛道等高负荷，响应快。含多片离合器、Torsen、螺旋齿轮（Helical）等。
           </p>
         </div>
 

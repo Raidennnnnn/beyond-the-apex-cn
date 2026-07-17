@@ -118,7 +118,7 @@ const TheConceptsOfForceAndTorque = () => (
             Fig. 1-1-3: Relationship between front and rear tire forces and the vehicle’s rotational motion. A car begins to turn when the forces acting on the front and rear tires create a net rotational effect about the center of gravity.
           </p>
           <p className="caption" lang="zh">
-            图1-1-3：前后轮胎力与车辆旋转运动的关系。当前后轮胎上的力对重心产生净旋转效应时，汽车开始转弯。
+            图1-1-3：前后轮力矩与车辆旋转运动的关系。若前轮力矩大于后轮力矩，汽车即可开始过弯。
           </p>
         </div>
 

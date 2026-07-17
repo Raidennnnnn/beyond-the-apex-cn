@@ -11,45 +11,63 @@ const ForcedInduction = () => (
         <div className="bilingual">
           <p lang="en">
             An increase in the amount of air flowing into an engine will result in an increase in power. The simplest way to achieve this is by increasing engine displacement.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            发动机吸入空气越多，功率提升空间越大。最直接方法是增大排量。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             However, a similar effect can be achieved without increasing displacement through a process known as forced induction. This involves compressing more air into the engine, allowing a greater mass of air—and therefore fuel—to enter the combustion chamber. Devices that perform this function are generally classified into two types: superchargers and turbochargers.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            但不改变排量也可获得类似效果，即强制进气：将更多空气压入发动机，使更多空气（及燃油）进入燃烧室。装置大致分机械增压与涡轮增压两类。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The amount of pressure added when the intake air is compressed is known as “boost,” and increasing boost generally increases power. One unit of atmospheric pressure is approximately one bar (about 1 kg/cm²). If the boost pressure is 1 bar (gauge), the total intake pressure becomes about 2 bar absolute—one bar of atmospheric pressure plus one bar of boost—effectively doubling the air density entering the engine under ideal conditions.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            压缩进气时的附加压力称增压压力（boost）。大气压约1 bar（约1 kg/cm²）。增压1 bar时，绝对进气压力约2 bar，理想条件下进入发动机的空气约加倍。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The drawback of forced induction is that as boost pressure increases, cylinder pressure and thermal stress on engine components rise accordingly. For this reason, engines equipped with turbochargers or superchargers are typically reinforced, and the compression ratio is often lowered to reduce the risk of abnormal combustion such as knock.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            增压越高，缸压与部件热负荷越大，故增压发动机常强化内部件并降低压缩比以抑制爆震。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             When air is compressed, its temperature increases, which reduces its density and limits the amount of oxygen entering the engine. This effect becomes more pronounced under heavy load or in hot conditions, reducing potential power output. As a result, intercoolers are commonly used to cool the compressed air and restore density, improving performance and efficiency.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            空气压缩会升温、密度下降，高负荷或夏季更明显，限制输出。亦有「进气温度每升1度约损失约1ps」之说，故中冷器冷却增压空气已成常规。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Turbochargers take time to build boost, as they are driven by exhaust energy and there is a delay before sufficient pressure is generated. On the other hand, superchargers, which are driven directly by the engine’s crankshaft, do not suffer from this delay, but they consume some engine power because of this mechanical drive.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            涡轮增压靠排气驱动，建立增压有滞后（涡轮迟滞）；机械增压由曲轴驱动，无迟滞但消耗部分发动机功率。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Engines that combine the advantages of both systems—using a supercharger at low engine speeds and a turbocharger at higher speeds—have recently attracted attention.
           </p>
           <p lang="zh">
-            åå¨æºå¸å¥ç©ºæ°è¶å¤ï¼åçæåç©ºé´è¶å¤§ãæç´æ¥æ¹æ³æ¯å¢å¤§æéã
-            <br />
-            <br />
-            ä½ä¸æ¹åæéä¹å¯è·å¾ç±»ä¼¼ææï¼å³å¼ºå¶è¿æ°ï¼å°æ´å¤ç©ºæ°åå¥åå¨æºï¼ä½¿æ´å¤ç©ºæ°ï¼åçæ²¹ï¼è¿å¥çç§å®¤ãè£ç½®å¤§è´åæºæ¢°å¢åä¸æ¶¡è½®å¢åä¸¤ç±»ã
-            <br />
-            <br />
-            åç¼©è¿æ°æ¶çéå ååç§°å¢åååï¼boostï¼ãå¤§æ°åçº¦1 barï¼çº¦1 kg/cmÂ²ï¼ãå¢å1 baræ¶ï¼ç»å¯¹è¿æ°ååçº¦2 barï¼çæ³æ¡ä»¶ä¸è¿å¥åå¨æºçç©ºæ°çº¦å åã
-            <br />
-            <br />
-            å¢åè¶é«ï¼ç¼¸åä¸é¨ä»¶ç­è´è·è¶å¤§ï¼æå¢ååå¨æºå¸¸å¼ºååé¨ä»¶å¹¶éä½åç¼©æ¯ä»¥æå¶çéã
-            <br />
-            <br />
-            ç©ºæ°åç¼©ä¼åæ¸©ãå¯åº¦ä¸éï¼é«è´è·æå¤å­£æ´ææ¾ï¼éå¶è¾åºãæä¸­å·å¨å·å´å¢åç©ºæ°å·²æå¸¸è§ã
-            <br />
-            <br />
-            æ¶¡è½®å¢åé ææ°é©±å¨ï¼å»ºç«å¢åææ»åï¼æ¶¡è½®è¿æ»ï¼ï¼æºæ¢°å¢åç±æ²è½´é©±å¨ï¼æ è¿æ»ä½æ¶èé¨ååå¨æºåçã
-            <br />
-            <br />
-            è¿å¹´ä¹æä½è½¬éç¨æºæ¢°å¢åãé«è½¬éç¨æ¶¡è½®ï¼å¼é¡¾ä¸¤èä¼ç¹çå¢ååå¨æºã
+            近年也有低转速用机械增压、高转速用涡轮，兼顾两者优点的增压发动机。
           </p>
         </div>
 

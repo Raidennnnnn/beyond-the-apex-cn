@@ -21,7 +21,7 @@ const ReversibleAndIrreversibleChange = () => (
             law of nature.
           </p>
           <p lang="zh">
-            从这里开始，我们将基于前几节的原理，考察发动机中不可避免的能量损失。在此之前，有必要先介绍一条重要的自然基本定律。
+            从这里开始，基于迄今讨论，考察实际发动机终究会发生的能量损失。不过在进入具体话题之前，先解说一条重要的自然法则。
           </p>
         </div>
 
@@ -39,8 +39,14 @@ const ReversibleAndIrreversibleChange = () => (
             lower-temperature one. If left undisturbed, both will eventually
             reach an intermediate temperature, at which point heat transfer
             ceases and the system reaches an equilibrium state.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            再次考察封闭在容器中的气体分子运动。这次准备装有高温气体与低温气体的两个容器。温度不同的容器接触后，热从高温容器移向低温容器。若任其放置，两容器最终温度相同，热移动消失，落入平衡状态。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             From a microscopic perspective, the container at higher temperature
             initially contains a greater proportion of fast-moving molecules,
             while the lower-temperature container contains fewer. When the two
@@ -53,10 +59,7 @@ const ReversibleAndIrreversibleChange = () => (
             system is in equilibrium.
           </p>
           <p lang="zh">
-            再次考察容器中的气体分子，这次准备两个容器：一个装高温气体，一个装低温气体。两容器接触后，热从高温侧流向低温侧。若任其发展，两者最终会达到某一中间温度，传热停止，系统进入平衡状态。
-            <br />
-            <br />
-            从微观看，高温容器起初含有较多快速运动的分子，低温容器则较少。两容器接触后，能量通过分子相互作用从高温气体传向低温气体，提高较冷容器中分子的平均动能。这一过程持续到两侧平均动能（温度）相等，净热能传递消失，系统达到平衡。
+            从微观看，初始时高温容器中剧烈飞舞的分子相对较多，低温容器中相对较少。容器接触时，高温容器内分子的动能传向低温容器，使低温侧分子动能增大。当两侧每个分子的平均动能（即温度）相等时，动能（热能）的移动便停止。
           </p>
         </div>
 
@@ -69,7 +72,7 @@ const ReversibleAndIrreversibleChange = () => (
             temperatures.
           </p>
           <p className="caption" lang="zh">
-            图3-5-1：温度不同的两个容器接触。
+            图3-5-1：温度不同的两个容器的接触。
           </p>
         </div>
 
@@ -88,8 +91,14 @@ const ReversibleAndIrreversibleChange = () => (
             as the two containers approach equilibrium, this distinction
             disappears. The molecular energies become more uniformly
             distributed, and the system transitions to a more disordered state.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            再换个角度看。此例中，起初高动能与低动能分子分在不同容器里，高温与低温容器内的分子运动可以区分——不妨说其中存在可辨认差异的「秩序」，以及足以区分差异的整理过的信息。但达到平衡后，能辨别两者差异的信息消失，进入所谓「无序」状态。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             In nature, systems tend to evolve from &quot;order&quot; to
             &quot;disorder.&quot; The reverse transformation does not occur
             spontaneously. For example, when a high-temperature container is
@@ -105,10 +114,7 @@ const ReversibleAndIrreversibleChange = () => (
             its surroundings.
           </p>
           <p lang="zh">
-            同一例子也可换个角度理解。一个容器中分子平均动能较高，另一个较低，分子运动差异可被分辨——就此而言，系统含有可识别的状态信息。但随着两容器趋向平衡，这种差异消失，分子能量分布更均匀，系统转入更无序的状态。
-            <br />
-            <br />
-            在自然界中，系统倾向于从「秩序」走向「无序」，反向转变不会自发发生。例如，高温容器与低温容器接触时，热从热侧流向冷侧直至平衡；相反的过程——热在无外功输入下从冷体流向热体——不会自然发生。系统一旦达到平衡，若不借助外部干预，就无法回到完全相同的初始状态。无法完全恢复原状的过程称为不可逆过程；相对地，原则上可逆且不在系统或其周围留下任何变化的过程，称为可逆过程。
+            像这样从「秩序」到「无序」的变化，对自然而言是自然的变化；反过来从「无序」到「秩序」则不会自然发生。例如高温与低温容器接触时，高温侧变冷、低温侧变热是自然变化；相反，接触后高温侧进一步升温、低温侧进一步降温的现象绝不会发生。而且无论人用何种方法，一旦两容器已处于平衡，都无法在不留下任何痕迹的情况下，把它们「完全原样」恢复到原先的高温与低温状态。无法完全恢复原状的过程称为不可逆过程；相对地，原则上可逆且不在系统或其周围留下任何变化的过程，称为可逆过程。
           </p>
         </div>
 
@@ -120,7 +126,7 @@ const ReversibleAndIrreversibleChange = () => (
             Fig. 3-5-2: A natural direction of change in nature.
           </p>
           <p className="caption" lang="zh">
-            图3-5-2：自然变化的自然方向。
+            图3-5-2：对自然而言自然的变化方向。
           </p>
         </div>
 
@@ -137,7 +143,7 @@ const ReversibleAndIrreversibleChange = () => (
             and cannot be fully reversed, making it irreversible.
           </p>
           <p className="caption" lang="zh">
-            图3-5-3：热不会自发从低温物体流向高温物体。微观涨落虽可能短暂允许此类行为，概率可忽略。若借助外功强制使热从冷流向热，过程会影响周围环境且无法完全逆转，因而不可逆。
+            图3-5-3：热不会自然从低温流向高温。（严格说概率并非绝对为零，但极端接近零，现实中人绝不会观测到。）若人为使热从低温移向高温，必定留下某种痕迹，因而无法「完全原样」回到原先的高温与低温状态。
           </p>
         </div>
       </div>

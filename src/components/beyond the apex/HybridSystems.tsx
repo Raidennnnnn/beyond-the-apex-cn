@@ -18,30 +18,36 @@ const HybridSystems = () => (
         <div className="bilingual">
           <p lang="en">
             The purpose of a hybrid system is to improve fuel economy by combining an internal combustion engine with an electric motor. Japan has led the development of hybrid vehicles, and while these systems have been known primarily for their environmental benefits, European manufacturers have also begun to develop hybrids aimed at high-performance applications.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            混合动力系统的目的是结合内燃机与电动机提高能量效率、改善油耗。日本长期领跑混动开发；欧洲运动车厂商加入后，混动正成为下一代动力单元核心。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The weakness of an internal combustion engine lies in its relatively low efficiency during idling and at low engine speeds. In contrast, an electric motor can produce maximum torque at near-zero speed, and its high efficiency allows it to compensate for the engine’s limitations at low RPM. At higher speeds, however, the combustion engine operates more efficiently, so overall efficiency is achieved by combining the strengths of both systems.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            发动机弱点在怠速与低速效率差；电动机近零转速即可最大转矩、效率高，可弥补发动机低转速区。速度升高后发动机效率提高，电动机输出下降、效率变差。混动即组合两者长处，大幅提高整体效率。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Another advantage of combining an electric motor with a battery is the ability to recover energy. When decelerating—either by lifting off the accelerator or by braking—the motor acts as a generator driven by the rotation of the wheels, recharging the battery. This recovered energy can then be reused to power the motor. In this way, energy that would normally be lost as heat during braking is partially converted into electrical energy instead.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            电动机与电池还可回收能量（再生）：收油或制动时，车轮带动发电机充电，储存的电能再驱动电机，将原本以热形式浪费的制动能量部分转为电能。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             A further benefit is that the motor can assist the engine in a manner similar to a supercharger. Many hybrids developed by European manufacturers emphasize this advantage, using electric motors to provide additional torque and achieve the performance feel of a larger-displacement engine without increasing engine size. Hybrid systems vary depending on how the motor and engine are integrated, and several types are already in commercial use. As development continues, new configurations are likely to emerge, including advanced hybrid systems for high-performance and supercar applications.
           </p>
           <p lang="zh">
-            æ··åå¨åç³»ç»çç®çæ¯ç»ååçæºä¸çµå¨æºæé«è½éæçãæ¹åæ²¹èãæ¥æ¬é¿æé¢è·æ··å¨å¼åï¼æ¬§æ´²è¿å¨è½¦ååå å¥åï¼æ··å¨æ­£æä¸ºä¸ä¸ä»£å¨åååæ ¸å¿ã
-            <br />
-            <br />
-            åå¨æºå¼±ç¹å¨æ éä¸ä½éæçå·®ï¼çµå¨æºè¿é¶è½¬éå³å¯æå¤§è½¬ç©ãæçé«ï¼å¯å¼¥è¡¥åå¨æºä½è½¬éåºãéåº¦åé«ååå¨æºæçæé«ï¼çµå¨æºè¾åºä¸éãæçåå·®ãæ··å¨å³ç»åä¸¤èé¿å¤ï¼å¤§å¹æé«æ´ä½æçã
-            <br />
-            <br />
-            çµå¨æºä¸çµæ± è¿å¯åæ¶è½éï¼åçï¼ï¼æ¶æ²¹æå¶å¨æ¶ï¼è½¦è½®å¸¦å¨åçµæºåçµï¼å¨å­ççµè½åé©±å¨çµæºï¼å°åæ¬ä»¥ç­å½¢å¼æµªè´¹çå¶å¨è½éé¨åè½¬ä¸ºçµè½ã
-            <br />
-            <br />
-            å¦ä¸ä¼å¿æ¯çµæºå¯åå¢åå¨ä¸æ ·è¾å©åå¨æºï¼æ¬§æ´²æ··å¨å¤å¼ºè°æ­¤ç¹ï¼ç¨çµæºå®ç°å¤§æéè½¦çå¨åæåèæ éå¢å¤§æéã
-            <br />
-            <br />
-            çµæºä¸åå¨æºç»åæ¹å¼ä¸åï¼æ··å¨æ§å¶èå´ä¸æé¿é¢ååå¼ãå¤ç§ç³»ç»å·²å®ç¨åï¼è¶è·æ··å¨ç³»ç»è¾åºå¯è¾¾1000 PSã
+            另一优势是电机可像增压器一样辅助发动机；欧洲混动多强调此点，用电机实现大排量车的动力感受而无需增大排量。电机与发动机组合方式不同，混动控制范围与擅长领域各异。多种系统已实用化，超跑混动系统输出可达1000 PS。
           </p>
         </div>
 

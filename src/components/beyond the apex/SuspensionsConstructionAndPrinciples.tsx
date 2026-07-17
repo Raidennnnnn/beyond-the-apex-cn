@@ -13,26 +13,35 @@ const SuspensionsConstructionAndPrinciples = () => (
         <div className="bilingual">
           <p lang="en">
             The suspension is the system between the body and the wheels that absorbs shocks from the road while supporting the vehicle. It also plays a key role in handling, making it a critical part of a car’s design.
-            <br />
-            <br />
-            Suspension systems are broadly classified as dependent or independent. In a dependent system, movement of one wheel affects the other on the same axle. In an independent system, the left and right wheels move separately. Dependent layouts include beam or live axles, while independent designs include strut-type and double wishbone suspension.
-            <br />
-            <br />
-            The suspension is made up of springs, dampers and linkages. The springs absorb impacts from the road, while the dampers control spring motion to maintain ride comfort and stability. The linkages guide wheel movement, helping the tires maintain consistent contact with the road. Together, the system supports the vehicle and manages how forces are transmitted through the tires.
-            <br />
-            <br />
-            The illustration shows a strut-type suspension. First developed by Earle S. MacPherson, it has become one of the most widely used suspension layouts in production cars. In this design, the strut assembly serves a structural role, effectively replacing the upper control arm found in a double wishbone setup. This reduces component count and helps free up space in the engine bay.
           </p>
           <p lang="zh">
             悬架是支承车身、吸收轮胎所受冲击的机构，对操控稳定性也有重大影响，是关键的行驶机构。
-            <br />
-            <br />
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
+            Suspension systems are broadly classified as dependent or independent. In a dependent system, movement of one wheel affects the other on the same axle. In an independent system, the left and right wheels move separately. Dependent layouts include beam or live axles, while independent designs include strut-type and double wishbone suspension.
+          </p>
+          <p lang="zh">
             悬架大致分为固定式（一侧车轮运动会影响另一侧）与独立式（左右车轮独立运动）。固定式代表有车轴式、连杆式、扭力梁式等；独立式有麦弗逊支柱式、双叉臂式等。
-            <br />
-            <br />
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
+            The suspension is made up of springs, dampers and linkages. The springs absorb impacts from the road, while the dampers control spring motion to maintain ride comfort and stability. The linkages guide wheel movement, helping the tires maintain consistent contact with the road. Together, the system supports the vehicle and manages how forces are transmitted through the tires.
+          </p>
+          <p lang="zh">
             悬架由弹簧、减振器与连杆（臂）组成。弹簧缓和路面冲击，减振器抑制弹簧振动以改善舒适与稳定，连杆约束车轮运动使轮胎最佳接地。悬架还以弹簧反力将轮胎压向路面并决定其位置，作用重大。
-            <br />
-            <br />
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
+            The illustration shows a strut-type suspension. First developed by Earle S. MacPherson, it has become one of the most widely used suspension layouts in production cars. In this design, the strut assembly serves a structural role, effectively replacing the upper control arm found in a double wishbone setup. This reduces component count and helps free up space in the engine bay.
+          </p>
+          <p lang="zh">
             图示为麦弗逊支柱式悬架，是大量车型采用的典型形式。支柱壳体兼作双叉臂的上控制臂，零件少，发动机舱空间更大。
           </p>
         </div>
@@ -42,10 +51,10 @@ const SuspensionsConstructionAndPrinciples = () => (
         </p>
 
         <div className="bilingual">
-          <p lang="en">
+          <p className="caption" lang="en">
             Example of strut-type suspension
           </p>
-          <p lang="zh">
+          <p className="caption" lang="zh">
             【麦弗逊支柱式悬架示例】
           </p>
         </div>

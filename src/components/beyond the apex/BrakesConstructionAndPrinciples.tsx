@@ -12,36 +12,54 @@ const BrakesConstructionAndPrinciples = () => (
         <div className="bilingual">
           <p lang="en">
             A car’s brakes convert kinetic energy into heat to slow the vehicle, and they also hold the car in place when parked.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            制动将动能转为热以降低车速，也负责驻车。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             A brake system consists of a control input from the driver, a hydraulic system that transmits that input, and the braking mechanism at the wheels. Modern systems enhance this with power assist to amplify pedal effort and anti-lock braking systems (ABS) that help prevent wheel lockup.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            基本构成：驾驶员输入、液压传递、轮端制动装置；现多带助力与 ABS。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The brake pedal is connected to the braking system through a hydraulic circuit. Based on Pascal’s principle, pressure applied at the master cylinder is transmitted through the fluid to the calipers or wheel cylinders. This pressure acts on the brake pads or shoes, which are made from high-friction materials. When pressed against the brake disc or drum, kinetic energy is converted into heat, slowing the car.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            踏板经液压回路连接轮端。帕斯卡原理使主缸压力经制动液传至卡钳或轮缸，高摩擦衬块压盘或鼓，动能变热。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The fluid in this system is not conventional oil, but a specialized brake fluid. It must resist boiling under high temperatures, and different types are available with varying boiling points.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            制动液非普通机油，须耐高温沸点，分多种规格。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             As higher-speed driving became more common, most road cars moved from drum to disc brakes at the front. In a disc brake system, braking force is applied to both sides of the disc by pads held in a caliper.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            高速化使乘用车前轮由鼓式主流转向盘式：卡钳夹盘两侧。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Disc brakes have evolved alongside other vehicle technologies, with ventilated discs improving cooling performance. Caliper design has also advanced, although floating calipers remain widely used, while opposed-piston calipers are typically found in high-performance applications.
           </p>
           <p lang="zh">
-            å¶å¨å°å¨è½è½¬ä¸ºç­ä»¥éä½è½¦éï¼ä¹è´è´£é©»è½¦ã
-            <br />
-            <br />
-            åºæ¬ææï¼é©¾é©¶åè¾å¥ãæ¶²åä¼ éãè½®ç«¯å¶å¨è£ç½®ï¼ç°å¤å¸¦å©åä¸ ABSã
-            <br />
-            <br />
-            è¸æ¿ç»æ¶²ååè·¯è¿æ¥è½®ç«¯ãå¸æ¯å¡åçä½¿ä¸»ç¼¸ååç»å¶å¨æ¶²ä¼ è³å¡é³æè½®ç¼¸ï¼é«æ©æ¦è¡¬ååçæé¼ï¼å¨è½åç­ã
-            <br />
-            <br />
-            å¶å¨æ¶²éæ®éæºæ²¹ï¼é¡»èé«æ¸©æ²¸ç¹ï¼åå¤ç§è§æ ¼ãé«éåä½¿ä¹ç¨è½¦åè½®ç±é¼å¼ä¸»æµè½¬åçå¼ï¼å¡é³å¤¹çä¸¤ä¾§ã
-            <br />
-            <br />
-            çå¼éæ§è½åå±åºéé£çæ¹åæ£ç­ï¼å¡é³ç±æµ®å¨å¼è¿åå°å¯¹åå¤æ´»å¡é«æ§è½åã
+            盘式随性能发展出通风盘改善散热；卡钳由浮动式进化到对向多活塞高性能型。
           </p>
         </div>
 

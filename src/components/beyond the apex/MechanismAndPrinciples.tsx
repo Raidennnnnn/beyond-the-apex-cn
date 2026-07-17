@@ -14,33 +14,45 @@ const MechanismAndPrinciples = () => (
         <div className="bilingual">
           <p lang="en">
             Most cars are equipped with a four-stroke-cycle reciprocating engine. Reciprocating engines consist of cylinders in which pistons move back and forth to generate power. The four strokes of the engine are intake, compression, power, and exhaust.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            绝大多数汽油车搭载四冲程往复式发动机。往复式发动机有气缸，活塞在气缸内往复运动产生动力。四冲程是指这一往复运动分为进气、压缩、燃烧、排气四个行程。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Let’s take a closer look at these four strokes of the cycle. In the intake stroke, the intake valve opens just before the piston reaches “top dead centre”—the position where the piston is at the top of the cylinder. As the piston moves downward, an air-fuel mixture is drawn in through the open valve. When the piston reaches the bottom of the cylinder, the intake stroke is complete, and the compression stroke begins. During this phase, all valves are closed, and the rising piston compresses the air-fuel mixture in the cylinder.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            说明四冲程发动机的行程：活塞到达上止点前片刻，进气门开启。活塞从上止点开始下行时，气缸内压力降低，混合气经开启的进气门被吸入。活塞到达最下端时进气行程结束，进入压缩行程。所有气门关闭，活塞压缩混合气。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Just after the piston reaches the top of the cylinder, compressing the air-fuel mixture, the spark plug ignites the mixture, causing combustion. This is the power stroke, during which the temperature inside the cylinder can reach up to about 2000°C, and pressure can rise to around 200 atmospheres. This high-temperature, high-pressure combustion pushes the piston downward, turning the crankshaft and converting thermal energy into mechanical (rotational) energy.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            混合气被压缩后，活塞刚过顶点时火花塞点火，即燃烧。此时汽油发动机气缸内温度可达约2000℃、压力约200个大气压。这一高温高压能量推动活塞下行，转动曲轴，产生旋转能量。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             When the piston reaches the bottom again, the exhaust stroke begins, and the exhaust valves open so that the remaining gases can be discharged. At the moment the exhaust valves open, residual pressure in the cylinder helps initiate the outflow, but as the piston moves upward it becomes the primary force expelling the gases through the valves. Once the piston reaches the top again, the intake valves open, and the cycle begins anew.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            活塞到达下端后排气门开启，进入排气行程。排气更多依靠高温高压气体自身从排气门喷出，而非仅靠活塞推出。活塞再次到达顶点后进气门开启，回到进气行程。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             A reciprocating engine runs through these four-stroke cycles and turns the crankshaft several hundred times per minute at idle, and several thousand times per minute at higher speeds, to continuously produce power for the car.
           </p>
           <p lang="zh">
-            ç»å¤§å¤æ°æ±½æ²¹è½¦æ­è½½åå²ç¨å¾å¤å¼åå¨æºãå¾å¤å¼åå¨æºææ°ç¼¸ï¼æ´»å¡å¨æ°ç¼¸åå¾å¤è¿å¨äº§çå¨åãåå²ç¨æ¯æè¿ä¸å¾å¤è¿å¨åä¸ºè¿æ°ãåç¼©ãçç§ãææ°åä¸ªè¡ç¨ã
-            <br />
-            <br />
-            è¯´æåå²ç¨åå¨æºçè¡ç¨ï¼æ´»å¡å°è¾¾ä¸æ­¢ç¹åçå»ï¼è¿æ°é¨å¼å¯ãæ´»å¡ä»ä¸æ­¢ç¹å¼å§ä¸è¡æ¶ï¼æ°ç¼¸åååéä½ï¼æ··åæ°ç»å¼å¯çè¿æ°é¨è¢«å¸å¥ãæ´»å¡å°è¾¾æä¸ç«¯æ¶è¿æ°è¡ç¨ç»æï¼è¿å¥åç¼©è¡ç¨ãæææ°é¨å³é­ï¼æ´»å¡åç¼©æ··åæ°ã
-            <br />
-            <br />
-            æ··åæ°è¢«åç¼©åï¼æ´»å¡åè¿é¡¶ç¹æ¶ç«è±å¡ç¹ç«ï¼å³çç§ãæ­¤æ¶æ±½æ²¹åå¨æºæ°ç¼¸åæ¸©åº¦å¯è¾¾çº¦2000âãååçº¦200ä¸ªå¤§æ°åãè¿ä¸é«æ¸©é«åè½éæ¨å¨æ´»å¡ä¸è¡ï¼è½¬å¨æ²è½´ï¼äº§çæè½¬è½éã
-            <br />
-            <br />
-            æ´»å¡å°è¾¾ä¸ç«¯åææ°é¨å¼å¯ï¼è¿å¥ææ°è¡ç¨ãææ°æ´å¤ä¾é é«æ¸©é«åæ°ä½èªèº«ä»ææ°é¨å·åºï¼èéä»é æ´»å¡æ¨åºãæ´»å¡åæ¬¡å°è¾¾é¡¶ç¹åè¿æ°é¨å¼å¯ï¼åå°è¿æ°è¡ç¨ã
-            <br />
-            <br />
-            åå²ç¨åå¨æºå¨æ éæ¶æ¯åéæ²è½´è½¬å¨æ°ç¾æ¬¡ï¼å¨æ²¹é¨æ¶è¾¾æ°åæ¬¡ï¼æç»­äº§çå¨åã
+            四冲程发动机在怠速时每分钟曲轴转动数百次，全油门时达数千次，持续产生动力。
           </p>
         </div>
 

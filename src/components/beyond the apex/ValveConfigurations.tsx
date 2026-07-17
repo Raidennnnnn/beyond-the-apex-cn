@@ -12,21 +12,27 @@ const ValveConfigurations = () => (
         <div className="bilingual">
           <p lang="en">
             In a four-stroke engine, there are two types of valves: intake valves, which open during the intake stroke to allow the air-fuel mixture into the cylinder, and exhaust valves, which open during the exhaust stroke to release waste gases. These valves are located in the cylinder head and play an important role in sealing and controlling access to the combustion chamber.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            四冲程发动机有进气门（进气行程开启，引入混合气）和排气门（排气行程开启，排出废气）。气门设在气缸盖上，按时开闭燃烧室与外部。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Modern engines typically place the camshaft at the top of the engine (overhead cam), allowing more precise and reliable valve operation. Most modern engines use four valves per cylinder—two intake and two exhaust—to improve airflow. However, engines designed for efficiency at lower engine speeds may use two valves per cylinder, with one intake and one exhaust valve.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            现代发动机通常将凸轮轴置于顶部（顶置凸轮），气门控制更精确。多数为每缸四气门（进气两、排气两）；追求低转速燃烧效率的仍有两气门（进、排各一）。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             The latest trend is toward variable valve timing. Early systems allowed valves to operate with two discrete timing profiles—one for low engine speeds and one for high engine speeds—but more recent developments enable valve timing and lift to be varied continuously to match engine conditions. In advanced systems such as Valvetronic, power is regulated primarily by controlling valve lift rather than relying on a conventional throttle valve, improving efficiency.
           </p>
           <p lang="zh">
-            åå²ç¨åå¨æºæè¿æ°é¨ï¼è¿æ°è¡ç¨å¼å¯ï¼å¼å¥æ··åæ°ï¼åææ°é¨ï¼ææ°è¡ç¨å¼å¯ï¼æåºåºæ°ï¼ãæ°é¨è®¾å¨æ°ç¼¸çä¸ï¼ææ¶å¼é­çç§å®¤ä¸å¤é¨ã
-            <br />
-            <br />
-            ç°ä»£åå¨æºéå¸¸å°å¸è½®è½´ç½®äºé¡¶é¨ï¼é¡¶ç½®å¸è½®ï¼ï¼æ°é¨æ§å¶æ´ç²¾ç¡®ãå¤æ°ä¸ºæ¯ç¼¸åæ°é¨ï¼è¿æ°ä¸¤ãææ°ä¸¤ï¼ï¼è¿½æ±ä½è½¬éçç§æççä»æä¸¤æ°é¨ï¼è¿ãæåä¸ï¼ã
-            <br />
-            <br />
-            è¿å¹´è¶å¿æ¯å¯åæ°é¨æ­£æ¶ãæåå¨ä½ãé«è½¬éåºåæ¢æ­£æ¶ï¼ååå±ä¸ºéè½¬éè¿ç»­æ¹åæ­£æ¶ä¸åç¨ãBMW Valvetronic ç­ææ°æºæçè³ä¸ç¨èæ°é¨è°èè¾åºï¼è¿ä¸æ­¥æé«æçã
+            近年趋势是可变气门正时。最初在低、高转速区切换正时，后发展为随转速连续改变正时与升程。BMW Valvetronic 等最新机构甚至不用节气门调节输出，进一步提高效率。
           </p>
         </div>
 

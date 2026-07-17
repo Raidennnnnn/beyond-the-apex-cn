@@ -26,7 +26,7 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             without relying on exact solutions of these equations.
           </p>
           <p lang="zh">
-            尽管欧拉方程与纳维–斯托克斯方程正确描述流体运动，其数学复杂性使直接解析求解对多数真实流动不切实际。因此，人们发展了不依赖这些方程精确解的替代方法来分析流体行为。
+            欧拉方程与纳维–斯托克斯方程虽准确表达流体运动，但因数学难度，对实际流动几乎无法直接应用，局面陷入僵局。于是出现了不依赖这些方程、另寻路径解析流动的动向。这里介绍达朗贝尔悖论与克服它的尝试。
           </p>
         </div>
 
@@ -44,16 +44,31 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             calculations, and others who repeated the analysis arrived at the
             same result. This contradiction became known as D&apos;Alembert&apos;s
             Paradox.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            与伯努利、欧拉有交流的达朗贝尔，求出了置于二维定常流中圆柱的阻力（与流速平行、方向相反的力）理论解，结果却是阻力为
+            0。实际流动中阻力绝不会为 0；但他的计算本身找不到错误，谁重算多少次结果仍是阻力为
+            0。此后约 160 年间，这成为流体力学上的重大问题，称为达朗贝尔悖论。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             With modern understanding, it is clear that his result was
             consistent with the assumptions used. Because viscosity was not
             considered, the flow around the cylinder is perfectly symmetric
             under steady, inviscid conditions. As a result, the pressure
             distribution in front of and behind the cylinder is also symmetric,
             and the forces cancel, yielding zero drag.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            以现代知识看，他的计算本身并无错误，而是未计入黏性所必然得到的结果。不考虑黏性的定常流动中，圆柱前后流动对称，压力也前后对称，彼此抵消，阻力便为
+            0。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             At the time, the effects of viscosity were not yet fully understood.
             The paradox was resolved in 1904 by Ludwig Prandtl through the
             introduction of the boundary layer concept, which showed how viscous
@@ -61,13 +76,8 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             of drag.
           </p>
           <p lang="zh">
-            与丹尼尔·伯努利和莱昂哈德·欧拉都相识的让·勒朗·达朗贝尔，试图求出置于二维均匀流中的圆柱的理论阻力。然而他得到的结果为零，尽管现实中阻力绝不为零。其计算并无错误，他人重复分析也得到相同结果。这一矛盾被称为达朗贝尔悖论。
-            <br />
-            <br />
-            以现代理解看，该结果与所用假设一致。因未计入黏性，在定常、无黏条件下圆柱周围流动完全对称。于是前后压力分布亦对称，力相互抵消，阻力为零。
-            <br />
-            <br />
-            当时黏性效应尚未被充分理解。1904 年，路德维希·普朗特通过引入边界层概念解决了该悖论，说明表面附近的黏性效应如何导致流动分离并产生阻力。
+            当时尚无纳维–斯托克斯方程，黏性效应的处理方法也还不甚明了。达朗贝尔悖论彻底消解，是在
+            1904 年普朗特提出边界层概念之时（4-5 将进一步详述）。
           </p>
         </div>
 
@@ -95,7 +105,7 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             necessarily correspond to a visible spiral form.
           </p>
           <p lang="zh">
-            涡丝与不连续面的概念催生了若干关键升力理论，包括环量理论、边界层理论与升力线理论，将在后续各节讨论。在流体力学中，「涡」不同于常见的简单螺旋形象。涡被定义为流体的旋转运动，以局部旋转（涡量）为特征，并不一定对应可见的螺旋形态。
+            涡丝与不连续面的概念，此后将发展为升力环量理论、边界层理论、升力线理论。另须说明：流体力学中定义的「涡」，与一般人想象的漩涡不同——它指流体的刚体式旋转运动，是一种「运动形态」。
           </p>
         </div>
 
@@ -113,7 +123,7 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             developments in fluid dynamics.
           </p>
           <p lang="zh">
-            赫尔曼·冯·亥姆霍兹是最早将流体运动研究置于严格数学基础之上的人之一。通过发展涡理论，他加深了对流动行为的理解，并确立了影响后来流体动力学发展的原则。
+            不直接求解流体运动方程、却为数学处理流体运动开辟道路的，首先是德国的赫尔曼·亥姆霍兹。他发展涡的概念，提出了新的流动概念。
           </p>
         </div>
 
@@ -128,7 +138,7 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             infinitesimal.
           </p>
           <p className="caption" lang="zh">
-            图4-3-2：涡丝与涡层的概念。为便于示意，涡丝常画成有限尺寸；但理论上其截面积为无穷小。
+            图4-3-2：涡丝、涡层的概念。为便于说明，图中涡丝画成仿佛有大小，但实际涡丝截面积为无穷小。
           </p>
         </div>
 
@@ -145,8 +155,8 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             is known as a vortex layer (or vortex sheet).
           </p>
           <p lang="zh">
-            如图4-3-2 所示，考虑从左向右流动的流体微元。当微元表面受到剪切应力（导致变形的力；见
-            2-1）时，微元两侧出现速度差。于是微元开始旋转，产生涡量。若从截面观察这种旋转运动，可表示为无穷小的丝状结构，称为涡丝。许多涡丝的集合称为涡层（或涡片）。
+            如图4-3-2，考虑从左向右流动的微小流体微元。一般若微元表面受剪切应力（使物体受剪切的力；见
+            2-1），各面移动速度就会不同，微元因而趋于旋转成为涡。这样形成的截面积无穷小的概念性涡丝称为涡丝，涡丝连成的幕称为涡层。
           </p>
         </div>
 
@@ -159,7 +169,7 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             discontinuous surface.
           </p>
           <p className="caption" lang="zh">
-            图4-3-3：不连续面上高、低速侧的力差。
+            图4-3-3：上下流速不同的不连续面上产生的力。
           </p>
         </div>
 
@@ -173,8 +183,14 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             be interpreted as being composed of the rotational motion of
             infinitesimal fluid elements, allowing them to be analyzed using the
             same mathematical framework developed for vortices.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            引入涡丝概念后，如图4-3-3，速度不同的流动合流时形成的速度不连续面（连续值突然变化的面），以及物体附近流速剧烈变化的区域（边界层），便可作数学处理——这些流动可视为由微小流体微元的旋转构成，因而可与已有数学表达的涡同样对待。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             When Hermann von Helmholtz introduced the concepts of vortex
             filaments and vortex layers, it opened the possibility of resolving
             D&apos;Alembert&apos;s Paradox. Following this, Gustav Kirchhoff and
@@ -192,11 +208,8 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             more realistic understanding of drag.
           </p>
           <p lang="zh">
-            如图4-3-3
-            所示，引入涡丝概念后，速度急剧变化的流动便可用数学处理。这包括不同速度气流相遇形成的不连续面，以及表面附近流速迅速变化的边界层。此类流动可理解为由无穷小流体微元的旋转运动组成，因而可用为涡所建立的同一数学框架来分析。
-            <br />
-            <br />
-            亥姆霍兹提出涡丝与涡层概念后，解决达朗贝尔悖论成为可能。随后，古斯塔夫·基尔霍夫与约翰·威廉·斯特拉特（瑞利）试图计算平板阻力。按达朗贝尔悖论，无黏对称流动中物体阻力为零。但基尔霍夫与瑞利引入了板后形成不连续面（或尾迹）的想法。该区域内流速与周围流体不同，打破无黏流动所假定的对称性，从而允许非零阻力。然而，由于尾迹区压力分布未能正确建模，他们的方法并未给出准确结果。尽管如此，这项工作仍是重要一步：它离开了理想对称流动假定，迈向对阻力更现实的理解。
+            亥姆霍兹引入涡丝、涡层概念后，困扰一个世纪的达朗贝尔悖论忽然有了解决希望。不连续面概念发表后不久，基尔霍夫与瑞利便用它尝试计算平板阻力。按达朗贝尔悖论平板阻力应为
+            0；但若假定从前、后缘伸出不连续面，则可把平板背面视为低流速区，悖论事实上便不存在。结果他们把板后压力估得过高，抗力计算失败，但努力方向无疑是正确的。
           </p>
         </div>
 
@@ -209,7 +222,7 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             the flow velocity of the discontinuous surface.
           </p>
           <p className="caption" lang="zh">
-            图4-3-4：将涡丝（涡层）概念应用于不连续面的流速。
+            图4-3-4：将涡丝（涡层）应用于流速不连续面。
           </p>
         </div>
 
@@ -224,7 +237,7 @@ const PlaneOfDiscontinuityAndVortexFilament = () => (
             Paradox would not come into play.
           </p>
           <p className="caption" lang="zh">
-            图4-3-5：平板（表面）周围流场的概念图。若可假定平板前、后缘存在不连续面，则达朗贝尔悖论便不会成立。
+            图4-3-5：平板周围流场概念图。若假定从前、后缘伸出不连续面，则背面可视为低流速区，达朗贝尔悖论事实上便不存在。
           </p>
         </div>
       </div>

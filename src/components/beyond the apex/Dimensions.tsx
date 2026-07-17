@@ -60,12 +60,18 @@ const Dimensions = () => (
         <div className="bilingual">
           <p lang="en">
             Track width refers to the distance between the left and right wheels on an axle. Increasing track width generally improves lateral stability and grip during cornering, as it widens the base over which the vehicle’s weight is distributed. This reduces lateral load transfer and allows the tires to maintain better contact with the road surface, improving traction. Increasing the track width of the driven wheels can therefore enhance the vehicle’s ability to transmit power effectively.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            左右轮胎之间的距离称为轮距。加宽轮距可在一定程度上降低虚拟重心高度。一般而言，轮距越宽，弯道中轮胎的抓地越有利；驱动轮轮距加宽，也有利于将动力传递到路面。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             A narrower track width, on the other hand, can make a vehicle feel more responsive but typically reduces overall stability. It is also common—especially in performance and race cars—for the front and rear track widths to differ in order to fine-tune handling balance.
           </p>
           <p lang="zh">
-            左右轮胎之间的距离称为轮距。加宽轮距可在一定程度上降低虚拟重心高度。一般而言，轮距越宽，弯道中轮胎的抓地越有利；驱动轮轮距加宽，也有利于将动力传递到路面。赛车中常通过前后不同轮距来调校操控。相反，相对轴距过窄的轮距虽能使操控更灵敏，但往往会损害稳定性。
+            相反，相对轴距过窄的轮距虽能使操控更灵敏，但往往会损害稳定性。赛车中常通过前后不同轮距来调校操控。
           </p>
         </div>
 

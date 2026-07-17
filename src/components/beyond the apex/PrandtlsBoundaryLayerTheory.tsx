@@ -23,7 +23,7 @@ const PrandtlsBoundaryLayerTheory = () => (
             ultimately resolved D&apos;Alembert&apos;s Paradox.
           </p>
           <p lang="zh">
-            尽管基尔霍夫与斯特拉特的阻力计算并未成功，方向却是正确的。这里介绍最终解决达朗贝尔悖论的路德维希·普朗特边界层理论。
+            基尔霍夫与瑞利的阻力计算虽告失败，却已确实接近成功。这里介绍最终解决达朗贝尔悖论的普朗特边界层理论。
           </p>
         </div>
 
@@ -38,8 +38,15 @@ const PrandtlsBoundaryLayerTheory = () => (
             requires a clear description of the flow conditions at the surface
             of the object. A key question is how the fluid behaves at the
             surface—whether it adheres to the surface or slips over it.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            要估算阻力，压力之外如何处理摩擦力也很重要；要处理摩擦，须知道物体表面流动如何。然而进入
+            20 世纪后仍属谜团的是：表面流速是否为 0、流体是否完全粘着，抑或带着一定速度在表面滑移——这些正是算出摩擦力所必须弄清的。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Ludwig Prandtl addressed this problem by introducing the concept of
             the boundary layer. He showed that due to viscosity, the fluid
             velocity at the surface becomes zero (the no-slip condition), and
@@ -48,10 +55,8 @@ const PrandtlsBoundaryLayerTheory = () => (
             inviscid. This thin region is known as the boundary layer.
           </p>
           <p lang="zh">
-            要准确估计阻力，必须同时计入压力与摩擦力。理解摩擦需要清楚描述物体表面处的流动状态。关键问题是：流体在表面如何表现——附着于表面，还是沿表面滑移。
-            <br />
-            <br />
-            路德维希·普朗特通过引入边界层概念解决了这一问题。他表明，由于黏性，表面处流体速度变为零（无滑移条件），且黏性效应局限于表面附近的薄层。在该区域之外，流动可近似为无黏。这一薄层即称为边界层。
+            首次引入边界层概念并给出答案的，是路德维希·普朗特。他表明：因黏性影响，物体表面流速为
+            0；摩擦影响仅及表面近旁，其外部流动基本不受黏性影响，可作非黏性流体处理。这一受黏性影响的表面近旁区域，现称为边界层。
           </p>
         </div>
 
@@ -66,8 +71,8 @@ const PrandtlsBoundaryLayerTheory = () => (
             vicinity.
           </p>
           <p className="caption" lang="zh">
-            图4-5-1：翼型表面的边界层速度分布。边界层范围定义为物体表面附近外流速度的
-            99% 以内。
+            图4-5-1：翼型表面边界层的速度分布。边界层范围定义为物体表面近旁外部流速的
+            99% 以下区域。
           </p>
         </div>
 
@@ -82,8 +87,15 @@ const PrandtlsBoundaryLayerTheory = () => (
             of the Navier–Stokes Equations. These equations are far more
             tractable and enabled more accurate and practical estimation of
             drag.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            普朗特于 1904 年在题为「关于黏性极低流体的运动」的仅 8
+            页论文中首次发表边界层概念。他把纳维–斯托克斯方程只应用于边界层这一特殊流动，导出作为其简化形式的边界层方程——远比完整纳维–斯托克斯方程易处理，使理论上、有时精度也较好的阻力计算成为可能。此外，其边界层理论也在一定程度上使流动分离位置可以预测。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Boundary layer theory also made it possible to predict the point of
             flow separation (detachment). With these insights, D&apos;Alembert&apos;s
             Theory was effectively resolved by accounting for viscous effects
@@ -92,13 +104,8 @@ const PrandtlsBoundaryLayerTheory = () => (
             contributions in the field.
           </p>
           <p lang="zh">
-            1904
-            年，普朗特发表短文《Flüssigkeitsbewegung bei sehr kleiner
-            Reibung》（极小摩擦下的流体流动），提出边界层概念。他将纳维–斯托克斯方程专门应用于表面附近这一薄黏性区，从而发展出边界层方程——纳维–斯托克斯方程的简化形式。这些方程远更易处理，使阻力估计更准确、更实用。
-            <br />
-            <br />
-            边界层理论还使预测流动分离（脱离）点成为可能。有了这些认识，通过计入表面附近的黏性效应，达朗贝尔悖论得到有效解决。普朗特 1904
-            年的论文极大地拓展了流体力学的范围，现被视为该领域最重要的贡献之一。
+            这样，达朗贝尔悖论便由普朗特边界层理论彻底解决。普朗特 1904
+            年论文如此为流体力学带来新局面，被视为流体力学史上最重要的论文之一。
           </p>
         </div>
 
@@ -111,7 +118,7 @@ const PrandtlsBoundaryLayerTheory = () => (
             distribution in the boundary layer.
           </p>
           <p className="caption" lang="zh">
-            图4-5-2：翼型上的分离点与边界层内的速度分布。
+            图4-5-2：翼型的分离与分离点处边界层的速度分布。
           </p>
         </div>
 
@@ -137,7 +144,7 @@ const PrandtlsBoundaryLayerTheory = () => (
             representation of real driving conditions.
           </p>
           <p className="caption" lang="zh">
-            图4-5-3：陆地行驶的车辆在空气动力学上受地面强烈影响。真实户外条件下，相对运动车辆的空气在其下方地面上几乎不形成边界层。然而在风洞中，隧道底板会形成边界层；层内流速降低，实际上限制了车底气流，造成与真实条件显著不同的流场。对依赖车底与地面间气流产生下压力的赛车而言，这一差异至关重要。为此，风洞采用移动带系统模拟路面相对运动。移动带不仅复现轮胎旋转，还减弱隧道底板边界层效应，从而更准确地再现真实行驶条件。
+            图4-5-3：在地面上行驶的交通工具，地面对其空力影响很大。实车行驶时地面近旁不会产生边界层，但风洞实验中风洞壁上会形成边界层；边界层是流速较慢的区域，在车底实质上会阻塞流道，造成与实车周围不同的流场。对靠车体与地面之间产生下压力的赛车而言，这是很大的问题，因此风洞需要模拟地面的移动带。移动带不仅为复现轮胎旋转，也是为防止风洞壁上产生边界层。
           </p>
         </div>
 
@@ -150,7 +157,7 @@ const PrandtlsBoundaryLayerTheory = () => (
             layer,&quot; and it is this phrase that has remained in common use.
           </p>
           <p lang="zh">
-            最初，普朗特用两个词描述其概念：「边界层」与「过渡层」。事实上他更常使用后者。然而其学生与后来研究者采用了「边界层」一词，这一用语沿用至今。
+            边界层指物体近旁强烈受黏性影响的层；普朗特原本对其使用「边界层」与「过渡层」两个用语，本人更常使用后者，但学生们常用「边界层」，如今只留下「边界层」这一术语。
           </p>
         </div>
 
@@ -166,7 +173,7 @@ const PrandtlsBoundaryLayerTheory = () => (
             influential figures in the field.
           </p>
           <p lang="zh">
-            普朗特对流体力学的贡献怎么强调都不为过。除边界层理论外，他还提出升力线理论、混合长度假说与超声速激波理论，均成为现代流体动力学的基础原理。其影响也通过学生延续，包括保罗·理查德·海因里希·布拉修斯、西奥多·冯·卡门与马克斯·蒙克等，各自成为该领域极具影响的人物。
+            普朗特对流体力学发展的贡献难以估量。除边界层理论外，他还陆续导出升力线理论、湍流混合长度假说、超声速激波理论等构成现今流体力学骨架的重要理论。在他门下还涌现出布拉修斯、卡门、贝茨、蒙克等在流体力学史上留名的优秀学者。
           </p>
         </div>
       </div>

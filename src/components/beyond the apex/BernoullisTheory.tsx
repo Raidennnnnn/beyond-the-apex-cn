@@ -22,7 +22,7 @@ const BernoullisTheory = () => (
             fundamentals of aerodynamics.
           </p>
           <p lang="zh">
-            汽车周围的空气如何影响其性能？要回答这一问题，必须理解空气动力学原理。本节介绍空气动力学的基础知识。
+            汽车的空气动力学特性对油耗、加速性能与行驶稳定性等影响很大。尤其在赛车上，空力对整车运动性能的贡献比例高，往往左右胜负，因此不仅专家、赛车爱好者之间也会热议。下面开始解说汽车空气力学。
           </p>
         </div>
 
@@ -40,8 +40,14 @@ const BernoullisTheory = () => (
             kinetic energy of the molecules is evenly distributed among the
             available directions. This is referred to as the law of
             equipartition of energy (hereafter, equipartition).
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            前项 3-1 说明：平衡状态下，压力无论从哪个方向测量都相同。无数无序运动的分子，从宏观看其碰撞力在各方向均匀分配；从能量框架看，就是各方向分子动能等量分配——称为能量均分定律。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             However, when there is a net flow of molecules, this isotropic
             distribution no longer holds in the same way. More kinetic energy is
             associated with the direction of flow, while less is associated with
@@ -50,10 +56,7 @@ const BernoullisTheory = () => (
             while the pressure perpendicular to the flow is lower.
           </p>
           <p lang="zh">
-            上一节我们说明，在平衡状态下，压力在各方向上相同。从宏观角度看，无数随机运动的分子在各方向上均匀碰撞。从能量角度看，分子动能在各可用方向上平均分配。这称为能量均分定律（以下简称均分）。
-            <br />
-            <br />
-            然而，当分子存在净流动时，这种各向同性分配不再以同样方式成立。更多动能与流动方向相关，与流动垂直的方向则较少。因此，压力测量取决于方向：流动方向上的压力较高，垂直于流动方向的压力较低。
+            但有流动时，能量均分定律不再成立：分子动能更多地分配给流动方向，其他方向则相应减少。在流动中测压时，沿流动方向最高，垂直于流动方向最低。
           </p>
         </div>
 
@@ -67,7 +70,7 @@ const BernoullisTheory = () => (
             flow and lowest in the direction perpendicular to the flow.
           </p>
           <p className="caption" lang="zh">
-            图4-1-1：分子的运动。存在净流动时，压力随方向变化：流动方向最高，垂直于流动方向最低。
+            图4-1-1：分子的运动。分子运动存在流动时，流动方向压力最高，垂直于流动方向最低。
           </p>
         </div>
 
@@ -83,7 +86,7 @@ const BernoullisTheory = () => (
             motion, without changing the total amount of energy.
           </p>
           <p lang="zh">
-            需要注意的是，流动方向或速率变化时，总动能仍守恒。例如，从初始平衡状态产生流动时，一部分随机分布的热动能转化为与流动相关的有序运动。动能分布虽变，总能量不变。换言之，流动变化只是在随机运动与整体运动之间重新分配动能，并不改变能量总量。
+            须注意：流动变化前后，分子动能总和不变。例如从某一平衡状态产生流动时，平衡状态与流动中的分子总动能大小相同。
           </p>
         </div>
 
@@ -113,8 +116,7 @@ const BernoullisTheory = () => (
             and V is fluid velocity.
           </p>
           <p lang="zh">
-            丹尼尔·伯努利原理基于能量守恒，定义了流体中流速与压力的关系。在理想流动中，速度增大对应压力减小，反之亦然。其数学表达如下，其中 P
-            为压力，ρ 为流体密度，V 为流速。
+            流速变化使分子能量分配改变时，流速与压力关系如何——丹尼尔·伯努利给出的伯努利定理正说明这一点。其数学表达如下。
           </p>
         </div>
 
@@ -134,7 +136,7 @@ const BernoullisTheory = () => (
             form.
           </p>
           <p lang="zh">
-            伯努利通过「活力」（拉丁语 vis viva，意为「生命力」）这一概念认识到上述关系，它是现代动能概念的早期先驱。然而，尽管他理解速度与压力的定性关系，并未将其完全形式化为现代数学形式。后来，与他同时代的莱昂哈德·欧拉给出了严格的数学框架，使伯努利定理具备精确形式。
+            其中 P 为压力，ρ 为流体密度，V 为流速。伯努利从「活力」这一通向现今能量概念的想法意识到流速与压力的关系，但据说他本人并未准确理解压力与速度的关系。为伯努利定理给出正确数学表达的，是他青梅竹马、挚友莱昂哈德·欧拉。
           </p>
         </div>
 
@@ -158,8 +160,14 @@ const BernoullisTheory = () => (
           <p lang="en">
             This section explains the mechanism by which an airfoil generates
             lift using Bernoulli&apos;s principle.
-            <br />
-            <br />
+          </p>
+          <p lang="zh">
+            这里用伯努利定理说明翼型产生升力的机制。
+          </p>
+        </div>
+
+        <div className="bilingual">
+          <p lang="en">
             Fig. 4-1-4 illustrates the streamlines around an airfoil. A
             streamline is a curve that is tangent to the local velocity vector
             at every point, representing the direction of flow. By definition,
@@ -168,10 +176,7 @@ const BernoullisTheory = () => (
             occupied by the fluid is referred to as the flow field.
           </p>
           <p lang="zh">
-            本节用伯努利原理说明翼型产生升力的机制。
-            <br />
-            <br />
-            图4-1-4 绘出翼型周围的流线。流线是处处与当地速度矢量相切的曲线，表示流动方向。按定义，流体不穿越流线；因此，同一对流线之间的流量处处一致。流体所占据的区域称为流场。
+            图4-1-4 以流线绘出翼型周围流场。流线是以流体速度矢量为切线的曲线，亦即流动的路径。由定义可知流动不穿越流线；因此被同一对流线夹住的区域流量处处相同。流体存在的场称为流场。
           </p>
         </div>
 
@@ -203,7 +208,7 @@ const BernoullisTheory = () => (
             between the upper and lower surfaces of the airfoil produces lift.
           </p>
           <p lang="zh">
-            观察图4-1-4 的流场：翼型前方流线间距均匀，翼型上方流线则更密。由于流动不穿越流线，这表明翼型上方有效流道变窄。同一对流线之间流量不变，该区域速度必然增大。于是上表面流动加速。根据伯努利定理，流速增大伴随压力降低，故翼型上方压力减小。反之，若翼型下方流动扩张，速度降低、压力升高。上下表面的压力差便产生升力。
+            在图4-1-4 的流场中，翼型前方流线等间隔，上面流线间距变窄。流动不穿越流线，故上面可视为流道被收窄；同一对流线夹住的流量又不变，因此上面流速必须加快。于是由伯努利定理，上面压力按流速平方成比例降低。反之，若下面流线间距变宽，流速下降、压力上升。这样产生的上下压力差，就是升力的本质。
           </p>
         </div>
       </div>
